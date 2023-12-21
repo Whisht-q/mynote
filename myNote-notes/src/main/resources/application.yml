@@ -1,0 +1,5 @@
+spring:
+  application:
+    name: mynote-note
+  profiles:
+    active: '@profile.name@'

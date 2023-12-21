@@ -1,0 +1,48 @@
+2023-12-19 10:54:22,211 INFO [main][StartupInfoLogger.java:55] - Starting SystemApplication using Java 11.0.20 on zzadmin with PID 12036 (E:\workspace\java\MyNote\myNote-system\target\classes started by Administrator in E:\workspace\java\MyNote)
+2023-12-19 10:54:22,211 INFO [main][StartupInfoLogger.java:55] - Starting SystemApplication using Java 11.0.20 on zzadmin with PID 12036 (E:\workspace\java\MyNote\myNote-system\target\classes started by Administrator in E:\workspace\java\MyNote)
+2023-12-19 10:54:22,216 INFO [main][SpringApplication.java:646] - The following 1 profile is active: "dev"
+2023-12-19 10:54:22,216 INFO [main][SpringApplication.java:646] - The following 1 profile is active: "dev"
+2023-12-19 10:54:22,657 INFO [main][RepositoryConfigurationDelegate.java:262] - Multiple Spring Data modules found, entering strict repository configuration mode!
+2023-12-19 10:54:22,657 INFO [main][RepositoryConfigurationDelegate.java:262] - Multiple Spring Data modules found, entering strict repository configuration mode!
+2023-12-19 10:54:22,670 INFO [main][RepositoryConfigurationDelegate.java:132] - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-12-19 10:54:22,670 INFO [main][RepositoryConfigurationDelegate.java:132] - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-12-19 10:54:22,682 INFO [main][RepositoryConfigurationDelegate.java:201] - Finished Spring Data repository scanning in 4 ms. Found 0 Redis repository interfaces.
+2023-12-19 10:54:22,682 INFO [main][RepositoryConfigurationDelegate.java:201] - Finished Spring Data repository scanning in 4 ms. Found 0 Redis repository interfaces.
+2023-12-19 10:54:22,938 INFO [main][TomcatWebServer.java:108] - Tomcat initialized with port(s): 8001 (http)
+2023-12-19 10:54:22,938 INFO [main][TomcatWebServer.java:108] - Tomcat initialized with port(s): 8001 (http)
+2023-12-19 10:54:22,939 INFO [main][DirectJDKLog.java:173] - Loaded Apache Tomcat Native library [1.2.38] using APR version [1.7.4].
+2023-12-19 10:54:22,939 INFO [main][DirectJDKLog.java:173] - Loaded Apache Tomcat Native library [1.2.38] using APR version [1.7.4].
+2023-12-19 10:54:22,939 INFO [main][DirectJDKLog.java:173] - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+2023-12-19 10:54:22,939 INFO [main][DirectJDKLog.java:173] - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+2023-12-19 10:54:22,939 INFO [main][DirectJDKLog.java:173] - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2023-12-19 10:54:22,939 INFO [main][DirectJDKLog.java:173] - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2023-12-19 10:54:22,941 INFO [main][DirectJDKLog.java:173] - OpenSSL successfully initialized [OpenSSL 1.1.1v  1 Aug 2023]
+2023-12-19 10:54:22,941 INFO [main][DirectJDKLog.java:173] - OpenSSL successfully initialized [OpenSSL 1.1.1v  1 Aug 2023]
+2023-12-19 10:54:22,945 INFO [main][DirectJDKLog.java:173] - Initializing ProtocolHandler ["http-nio-8001"]
+2023-12-19 10:54:22,945 INFO [main][DirectJDKLog.java:173] - Initializing ProtocolHandler ["http-nio-8001"]
+2023-12-19 10:54:22,945 INFO [main][DirectJDKLog.java:173] - Starting service [Tomcat]
+2023-12-19 10:54:22,945 INFO [main][DirectJDKLog.java:173] - Starting service [Tomcat]
+2023-12-19 10:54:22,945 INFO [main][DirectJDKLog.java:173] - Starting Servlet engine: [Apache Tomcat/9.0.60]
+2023-12-19 10:54:22,945 INFO [main][DirectJDKLog.java:173] - Starting Servlet engine: [Apache Tomcat/9.0.60]
+2023-12-19 10:54:22,995 INFO [main][DirectJDKLog.java:173] - Initializing Spring embedded WebApplicationContext
+2023-12-19 10:54:22,995 INFO [main][DirectJDKLog.java:173] - Initializing Spring embedded WebApplicationContext
+2023-12-19 10:54:22,995 INFO [main][ServletWebServerApplicationContext.java:290] - Root WebApplicationContext: initialization completed in 760 ms
+2023-12-19 10:54:22,995 INFO [main][ServletWebServerApplicationContext.java:290] - Root WebApplicationContext: initialization completed in 760 ms
+2023-12-19 10:54:23,790 INFO [main][DirectJDKLog.java:173] - Starting ProtocolHandler ["http-nio-8001"]
+2023-12-19 10:54:23,790 INFO [main][DirectJDKLog.java:173] - Starting ProtocolHandler ["http-nio-8001"]
+2023-12-19 10:54:23,799 INFO [main][TomcatWebServer.java:220] - Tomcat started on port(s): 8001 (http) with context path ''
+2023-12-19 10:54:23,799 INFO [main][TomcatWebServer.java:220] - Tomcat started on port(s): 8001 (http) with context path ''
+2023-12-19 10:54:23,920 INFO [main][StartupInfoLogger.java:61] - Started SystemApplication in 1.978 seconds (JVM running for 2.516)
+2023-12-19 10:54:23,920 INFO [main][StartupInfoLogger.java:61] - Started SystemApplication in 1.978 seconds (JVM running for 2.516)
+2023-12-19 10:54:23,924 INFO [main][SystemApplication.java:34] - 
+----------------------------------------------------------
+	Application MyNote-system is running! Access URLs:
+	local: 	http://localhost:8001/doc.html
+	Swagger文档: 	http://192.168.0.147:8001/doc.html
+----------------------------------------------------------
+2023-12-19 10:54:23,924 INFO [main][SystemApplication.java:34] - 
+----------------------------------------------------------
+	Application MyNote-system is running! Access URLs:
+	local: 	http://localhost:8001/doc.html
+	Swagger文档: 	http://192.168.0.147:8001/doc.html
+----------------------------------------------------------

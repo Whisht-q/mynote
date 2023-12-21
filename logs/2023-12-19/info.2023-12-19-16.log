@@ -1,0 +1,822 @@
+2023-12-19 16:30:50,331 INFO [SpringApplicationShutdownHook][HikariDataSource.java:350] - HikariPool-1 - Shutdown initiated...
+2023-12-19 16:30:50,331 INFO [SpringApplicationShutdownHook][HikariDataSource.java:350] - HikariPool-1 - Shutdown initiated...
+2023-12-19 16:30:50,339 INFO [SpringApplicationShutdownHook][HikariDataSource.java:352] - HikariPool-1 - Shutdown completed.
+2023-12-19 16:30:50,339 INFO [SpringApplicationShutdownHook][HikariDataSource.java:352] - HikariPool-1 - Shutdown completed.
+2023-12-19 16:30:55,896 INFO [main][StartupInfoLogger.java:55] - Starting SystemApplication using Java 11.0.20 on zzadmin with PID 18680 (E:\workspace\java\MyNote\myNote-system\target\classes started by Administrator in E:\workspace\java\MyNote)
+2023-12-19 16:30:55,896 INFO [main][StartupInfoLogger.java:55] - Starting SystemApplication using Java 11.0.20 on zzadmin with PID 18680 (E:\workspace\java\MyNote\myNote-system\target\classes started by Administrator in E:\workspace\java\MyNote)
+2023-12-19 16:30:55,913 INFO [main][SpringApplication.java:646] - The following 1 profile is active: "dev"
+2023-12-19 16:30:55,913 INFO [main][SpringApplication.java:646] - The following 1 profile is active: "dev"
+2023-12-19 16:30:56,344 INFO [main][RepositoryConfigurationDelegate.java:262] - Multiple Spring Data modules found, entering strict repository configuration mode!
+2023-12-19 16:30:56,344 INFO [main][RepositoryConfigurationDelegate.java:262] - Multiple Spring Data modules found, entering strict repository configuration mode!
+2023-12-19 16:30:56,346 INFO [main][RepositoryConfigurationDelegate.java:132] - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-12-19 16:30:56,346 INFO [main][RepositoryConfigurationDelegate.java:132] - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-12-19 16:30:56,359 INFO [main][RepositoryConfigurationDelegate.java:201] - Finished Spring Data repository scanning in 5 ms. Found 0 Redis repository interfaces.
+2023-12-19 16:30:56,359 INFO [main][RepositoryConfigurationDelegate.java:201] - Finished Spring Data repository scanning in 5 ms. Found 0 Redis repository interfaces.
+2023-12-19 16:30:56,716 INFO [main][TomcatWebServer.java:108] - Tomcat initialized with port(s): 8001 (http)
+2023-12-19 16:30:56,716 INFO [main][TomcatWebServer.java:108] - Tomcat initialized with port(s): 8001 (http)
+2023-12-19 16:30:56,717 INFO [main][DirectJDKLog.java:173] - Loaded Apache Tomcat Native library [1.2.38] using APR version [1.7.4].
+2023-12-19 16:30:56,717 INFO [main][DirectJDKLog.java:173] - Loaded Apache Tomcat Native library [1.2.38] using APR version [1.7.4].
+2023-12-19 16:30:56,717 INFO [main][DirectJDKLog.java:173] - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+2023-12-19 16:30:56,717 INFO [main][DirectJDKLog.java:173] - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+2023-12-19 16:30:56,717 INFO [main][DirectJDKLog.java:173] - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2023-12-19 16:30:56,717 INFO [main][DirectJDKLog.java:173] - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2023-12-19 16:30:56,719 INFO [main][DirectJDKLog.java:173] - OpenSSL successfully initialized [OpenSSL 1.1.1v  1 Aug 2023]
+2023-12-19 16:30:56,719 INFO [main][DirectJDKLog.java:173] - OpenSSL successfully initialized [OpenSSL 1.1.1v  1 Aug 2023]
+2023-12-19 16:30:56,723 INFO [main][DirectJDKLog.java:173] - Initializing ProtocolHandler ["http-nio-8001"]
+2023-12-19 16:30:56,723 INFO [main][DirectJDKLog.java:173] - Initializing ProtocolHandler ["http-nio-8001"]
+2023-12-19 16:30:56,723 INFO [main][DirectJDKLog.java:173] - Starting service [Tomcat]
+2023-12-19 16:30:56,723 INFO [main][DirectJDKLog.java:173] - Starting service [Tomcat]
+2023-12-19 16:30:56,724 INFO [main][DirectJDKLog.java:173] - Starting Servlet engine: [Apache Tomcat/9.0.60]
+2023-12-19 16:30:56,724 INFO [main][DirectJDKLog.java:173] - Starting Servlet engine: [Apache Tomcat/9.0.60]
+2023-12-19 16:30:56,773 INFO [main][DirectJDKLog.java:173] - Initializing Spring embedded WebApplicationContext
+2023-12-19 16:30:56,773 INFO [main][DirectJDKLog.java:173] - Initializing Spring embedded WebApplicationContext
+2023-12-19 16:30:56,773 INFO [main][ServletWebServerApplicationContext.java:290] - Root WebApplicationContext: initialization completed in 842 ms
+2023-12-19 16:30:56,773 INFO [main][ServletWebServerApplicationContext.java:290] - Root WebApplicationContext: initialization completed in 842 ms
+2023-12-19 16:30:57,660 INFO [main][DirectJDKLog.java:173] - Starting ProtocolHandler ["http-nio-8001"]
+2023-12-19 16:30:57,660 INFO [main][DirectJDKLog.java:173] - Starting ProtocolHandler ["http-nio-8001"]
+2023-12-19 16:30:57,669 INFO [main][TomcatWebServer.java:220] - Tomcat started on port(s): 8001 (http) with context path ''
+2023-12-19 16:30:57,669 INFO [main][TomcatWebServer.java:220] - Tomcat started on port(s): 8001 (http) with context path ''
+2023-12-19 16:30:57,805 INFO [main][StartupInfoLogger.java:61] - Started SystemApplication in 2.131 seconds (JVM running for 2.588)
+2023-12-19 16:30:57,805 INFO [main][StartupInfoLogger.java:61] - Started SystemApplication in 2.131 seconds (JVM running for 2.588)
+2023-12-19 16:30:57,808 INFO [main][SystemApplication.java:34] - 
+----------------------------------------------------------
+	Application MyNote-system is running! Access URLs:
+	local: 	http://localhost:8001/doc.html
+	Swagger文档: 	http://192.168.0.147:8001/doc.html
+----------------------------------------------------------
+2023-12-19 16:30:57,808 INFO [main][SystemApplication.java:34] - 
+----------------------------------------------------------
+	Application MyNote-system is running! Access URLs:
+	local: 	http://localhost:8001/doc.html
+	Swagger文档: 	http://192.168.0.147:8001/doc.html
+----------------------------------------------------------
+2023-12-19 16:33:30,762 INFO [main][StartupInfoLogger.java:55] - Starting SystemApplication using Java 11.0.20 on zzadmin with PID 18404 (E:\workspace\java\MyNote\myNote-system\target\classes started by Administrator in E:\workspace\java\MyNote)
+2023-12-19 16:33:30,762 INFO [main][StartupInfoLogger.java:55] - Starting SystemApplication using Java 11.0.20 on zzadmin with PID 18404 (E:\workspace\java\MyNote\myNote-system\target\classes started by Administrator in E:\workspace\java\MyNote)
+2023-12-19 16:33:30,767 INFO [main][SpringApplication.java:646] - The following 1 profile is active: "dev"
+2023-12-19 16:33:30,767 INFO [main][SpringApplication.java:646] - The following 1 profile is active: "dev"
+2023-12-19 16:33:31,180 INFO [main][RepositoryConfigurationDelegate.java:262] - Multiple Spring Data modules found, entering strict repository configuration mode!
+2023-12-19 16:33:31,180 INFO [main][RepositoryConfigurationDelegate.java:262] - Multiple Spring Data modules found, entering strict repository configuration mode!
+2023-12-19 16:33:31,181 INFO [main][RepositoryConfigurationDelegate.java:132] - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-12-19 16:33:31,181 INFO [main][RepositoryConfigurationDelegate.java:132] - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-12-19 16:33:31,192 INFO [main][RepositoryConfigurationDelegate.java:201] - Finished Spring Data repository scanning in 4 ms. Found 0 Redis repository interfaces.
+2023-12-19 16:33:31,192 INFO [main][RepositoryConfigurationDelegate.java:201] - Finished Spring Data repository scanning in 4 ms. Found 0 Redis repository interfaces.
+2023-12-19 16:33:31,534 INFO [main][TomcatWebServer.java:108] - Tomcat initialized with port(s): 8001 (http)
+2023-12-19 16:33:31,534 INFO [main][TomcatWebServer.java:108] - Tomcat initialized with port(s): 8001 (http)
+2023-12-19 16:33:31,534 INFO [main][DirectJDKLog.java:173] - Loaded Apache Tomcat Native library [1.2.38] using APR version [1.7.4].
+2023-12-19 16:33:31,534 INFO [main][DirectJDKLog.java:173] - Loaded Apache Tomcat Native library [1.2.38] using APR version [1.7.4].
+2023-12-19 16:33:31,535 INFO [main][DirectJDKLog.java:173] - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+2023-12-19 16:33:31,535 INFO [main][DirectJDKLog.java:173] - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+2023-12-19 16:33:31,535 INFO [main][DirectJDKLog.java:173] - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2023-12-19 16:33:31,535 INFO [main][DirectJDKLog.java:173] - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2023-12-19 16:33:31,536 INFO [main][DirectJDKLog.java:173] - OpenSSL successfully initialized [OpenSSL 1.1.1v  1 Aug 2023]
+2023-12-19 16:33:31,536 INFO [main][DirectJDKLog.java:173] - OpenSSL successfully initialized [OpenSSL 1.1.1v  1 Aug 2023]
+2023-12-19 16:33:31,541 INFO [main][DirectJDKLog.java:173] - Initializing ProtocolHandler ["http-nio-8001"]
+2023-12-19 16:33:31,541 INFO [main][DirectJDKLog.java:173] - Initializing ProtocolHandler ["http-nio-8001"]
+2023-12-19 16:33:31,541 INFO [main][DirectJDKLog.java:173] - Starting service [Tomcat]
+2023-12-19 16:33:31,541 INFO [main][DirectJDKLog.java:173] - Starting service [Tomcat]
+2023-12-19 16:33:31,541 INFO [main][DirectJDKLog.java:173] - Starting Servlet engine: [Apache Tomcat/9.0.60]
+2023-12-19 16:33:31,541 INFO [main][DirectJDKLog.java:173] - Starting Servlet engine: [Apache Tomcat/9.0.60]
+2023-12-19 16:33:31,597 INFO [main][DirectJDKLog.java:173] - Initializing Spring embedded WebApplicationContext
+2023-12-19 16:33:31,597 INFO [main][DirectJDKLog.java:173] - Initializing Spring embedded WebApplicationContext
+2023-12-19 16:33:31,597 INFO [main][ServletWebServerApplicationContext.java:290] - Root WebApplicationContext: initialization completed in 812 ms
+2023-12-19 16:33:31,597 INFO [main][ServletWebServerApplicationContext.java:290] - Root WebApplicationContext: initialization completed in 812 ms
+2023-12-19 16:33:32,463 INFO [main][DirectJDKLog.java:173] - Starting ProtocolHandler ["http-nio-8001"]
+2023-12-19 16:33:32,463 INFO [main][DirectJDKLog.java:173] - Starting ProtocolHandler ["http-nio-8001"]
+2023-12-19 16:33:32,473 INFO [main][TomcatWebServer.java:220] - Tomcat started on port(s): 8001 (http) with context path ''
+2023-12-19 16:33:32,473 INFO [main][TomcatWebServer.java:220] - Tomcat started on port(s): 8001 (http) with context path ''
+2023-12-19 16:33:32,612 INFO [main][StartupInfoLogger.java:61] - Started SystemApplication in 2.08 seconds (JVM running for 2.535)
+2023-12-19 16:33:32,612 INFO [main][StartupInfoLogger.java:61] - Started SystemApplication in 2.08 seconds (JVM running for 2.535)
+2023-12-19 16:33:32,616 INFO [main][SystemApplication.java:34] - 
+----------------------------------------------------------
+	Application MyNote-system is running! Access URLs:
+	local: 	http://localhost:8001/doc.html
+	Swagger文档: 	http://192.168.0.147:8001/doc.html
+----------------------------------------------------------
+2023-12-19 16:33:32,616 INFO [main][SystemApplication.java:34] - 
+----------------------------------------------------------
+	Application MyNote-system is running! Access URLs:
+	local: 	http://localhost:8001/doc.html
+	Swagger文档: 	http://192.168.0.147:8001/doc.html
+----------------------------------------------------------
+2023-12-19 16:33:38,962 INFO [http-nio-8001-exec-1][DirectJDKLog.java:173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-12-19 16:33:38,962 INFO [http-nio-8001-exec-1][DirectJDKLog.java:173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-12-19 16:33:38,962 INFO [http-nio-8001-exec-1][FrameworkServlet.java:525] - Initializing Servlet 'dispatcherServlet'
+2023-12-19 16:33:38,962 INFO [http-nio-8001-exec-1][FrameworkServlet.java:525] - Initializing Servlet 'dispatcherServlet'
+2023-12-19 16:33:38,963 INFO [http-nio-8001-exec-1][FrameworkServlet.java:547] - Completed initialization in 1 ms
+2023-12-19 16:33:38,963 INFO [http-nio-8001-exec-1][FrameworkServlet.java:547] - Completed initialization in 1 ms
+2023-12-19 16:33:39,050 INFO [http-nio-8001-exec-1][HikariDataSource.java:110] - HikariPool-1 - Starting...
+2023-12-19 16:33:39,050 INFO [http-nio-8001-exec-1][HikariDataSource.java:110] - HikariPool-1 - Starting...
+2023-12-19 16:33:39,159 INFO [http-nio-8001-exec-1][HikariDataSource.java:123] - HikariPool-1 - Start completed.
+2023-12-19 16:33:39,159 INFO [http-nio-8001-exec-1][HikariDataSource.java:123] - HikariPool-1 - Start completed.
+2023-12-19 16:33:43,049 ERROR [http-nio-8001-exec-2][DirectJDKLog.java:175] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is NoteException{code=501, message=用户名已存在}] with root cause
+NoteException{code=501, message=用户名已存在}
+	at com.mynote.sys.controller.UserController.addUser(UserController.java:80)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1067)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:681)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at com.github.xiaoymin.knife4j.spring.filter.SecurityBasicAuthFilter.doFilter(SecurityBasicAuthFilter.java:87)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:889)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2023-12-19 16:33:43,049 ERROR [http-nio-8001-exec-2][DirectJDKLog.java:175] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is NoteException{code=501, message=用户名已存在}] with root cause
+NoteException{code=501, message=用户名已存在}
+	at com.mynote.sys.controller.UserController.addUser(UserController.java:80)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1067)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:681)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at com.github.xiaoymin.knife4j.spring.filter.SecurityBasicAuthFilter.doFilter(SecurityBasicAuthFilter.java:87)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:889)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2023-12-19 16:34:49,744 INFO [SpringApplicationShutdownHook][HikariDataSource.java:350] - HikariPool-1 - Shutdown initiated...
+2023-12-19 16:34:49,744 INFO [SpringApplicationShutdownHook][HikariDataSource.java:350] - HikariPool-1 - Shutdown initiated...
+2023-12-19 16:34:49,750 INFO [SpringApplicationShutdownHook][HikariDataSource.java:352] - HikariPool-1 - Shutdown completed.
+2023-12-19 16:34:49,750 INFO [SpringApplicationShutdownHook][HikariDataSource.java:352] - HikariPool-1 - Shutdown completed.
+2023-12-19 16:34:54,713 INFO [main][StartupInfoLogger.java:55] - Starting SystemApplication using Java 11.0.20 on zzadmin with PID 19228 (E:\workspace\java\MyNote\myNote-system\target\classes started by Administrator in E:\workspace\java\MyNote)
+2023-12-19 16:34:54,713 INFO [main][StartupInfoLogger.java:55] - Starting SystemApplication using Java 11.0.20 on zzadmin with PID 19228 (E:\workspace\java\MyNote\myNote-system\target\classes started by Administrator in E:\workspace\java\MyNote)
+2023-12-19 16:34:54,722 INFO [main][SpringApplication.java:646] - The following 1 profile is active: "dev"
+2023-12-19 16:34:54,722 INFO [main][SpringApplication.java:646] - The following 1 profile is active: "dev"
+2023-12-19 16:34:55,156 INFO [main][RepositoryConfigurationDelegate.java:262] - Multiple Spring Data modules found, entering strict repository configuration mode!
+2023-12-19 16:34:55,156 INFO [main][RepositoryConfigurationDelegate.java:262] - Multiple Spring Data modules found, entering strict repository configuration mode!
+2023-12-19 16:34:55,157 INFO [main][RepositoryConfigurationDelegate.java:132] - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-12-19 16:34:55,157 INFO [main][RepositoryConfigurationDelegate.java:132] - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-12-19 16:34:55,169 INFO [main][RepositoryConfigurationDelegate.java:201] - Finished Spring Data repository scanning in 4 ms. Found 0 Redis repository interfaces.
+2023-12-19 16:34:55,169 INFO [main][RepositoryConfigurationDelegate.java:201] - Finished Spring Data repository scanning in 4 ms. Found 0 Redis repository interfaces.
+2023-12-19 16:34:55,520 INFO [main][TomcatWebServer.java:108] - Tomcat initialized with port(s): 8001 (http)
+2023-12-19 16:34:55,520 INFO [main][TomcatWebServer.java:108] - Tomcat initialized with port(s): 8001 (http)
+2023-12-19 16:34:55,521 INFO [main][DirectJDKLog.java:173] - Loaded Apache Tomcat Native library [1.2.38] using APR version [1.7.4].
+2023-12-19 16:34:55,521 INFO [main][DirectJDKLog.java:173] - Loaded Apache Tomcat Native library [1.2.38] using APR version [1.7.4].
+2023-12-19 16:34:55,521 INFO [main][DirectJDKLog.java:173] - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+2023-12-19 16:34:55,521 INFO [main][DirectJDKLog.java:173] - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+2023-12-19 16:34:55,521 INFO [main][DirectJDKLog.java:173] - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2023-12-19 16:34:55,521 INFO [main][DirectJDKLog.java:173] - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2023-12-19 16:34:55,523 INFO [main][DirectJDKLog.java:173] - OpenSSL successfully initialized [OpenSSL 1.1.1v  1 Aug 2023]
+2023-12-19 16:34:55,523 INFO [main][DirectJDKLog.java:173] - OpenSSL successfully initialized [OpenSSL 1.1.1v  1 Aug 2023]
+2023-12-19 16:34:55,527 INFO [main][DirectJDKLog.java:173] - Initializing ProtocolHandler ["http-nio-8001"]
+2023-12-19 16:34:55,527 INFO [main][DirectJDKLog.java:173] - Initializing ProtocolHandler ["http-nio-8001"]
+2023-12-19 16:34:55,528 INFO [main][DirectJDKLog.java:173] - Starting service [Tomcat]
+2023-12-19 16:34:55,528 INFO [main][DirectJDKLog.java:173] - Starting service [Tomcat]
+2023-12-19 16:34:55,528 INFO [main][DirectJDKLog.java:173] - Starting Servlet engine: [Apache Tomcat/9.0.60]
+2023-12-19 16:34:55,528 INFO [main][DirectJDKLog.java:173] - Starting Servlet engine: [Apache Tomcat/9.0.60]
+2023-12-19 16:34:55,582 INFO [main][DirectJDKLog.java:173] - Initializing Spring embedded WebApplicationContext
+2023-12-19 16:34:55,582 INFO [main][DirectJDKLog.java:173] - Initializing Spring embedded WebApplicationContext
+2023-12-19 16:34:55,582 INFO [main][ServletWebServerApplicationContext.java:290] - Root WebApplicationContext: initialization completed in 840 ms
+2023-12-19 16:34:55,582 INFO [main][ServletWebServerApplicationContext.java:290] - Root WebApplicationContext: initialization completed in 840 ms
+2023-12-19 16:34:56,465 INFO [main][DirectJDKLog.java:173] - Starting ProtocolHandler ["http-nio-8001"]
+2023-12-19 16:34:56,465 INFO [main][DirectJDKLog.java:173] - Starting ProtocolHandler ["http-nio-8001"]
+2023-12-19 16:34:56,474 INFO [main][TomcatWebServer.java:220] - Tomcat started on port(s): 8001 (http) with context path ''
+2023-12-19 16:34:56,474 INFO [main][TomcatWebServer.java:220] - Tomcat started on port(s): 8001 (http) with context path ''
+2023-12-19 16:34:56,613 INFO [main][StartupInfoLogger.java:61] - Started SystemApplication in 2.132 seconds (JVM running for 2.592)
+2023-12-19 16:34:56,613 INFO [main][StartupInfoLogger.java:61] - Started SystemApplication in 2.132 seconds (JVM running for 2.592)
+2023-12-19 16:34:56,617 INFO [main][SystemApplication.java:34] - 
+----------------------------------------------------------
+	Application MyNote-system is running! Access URLs:
+	local: 	http://localhost:8001/doc.html
+	Swagger文档: 	http://192.168.0.147:8001/doc.html
+----------------------------------------------------------
+2023-12-19 16:34:56,617 INFO [main][SystemApplication.java:34] - 
+----------------------------------------------------------
+	Application MyNote-system is running! Access URLs:
+	local: 	http://localhost:8001/doc.html
+	Swagger文档: 	http://192.168.0.147:8001/doc.html
+----------------------------------------------------------
+2023-12-19 16:34:59,501 INFO [http-nio-8001-exec-1][DirectJDKLog.java:173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-12-19 16:34:59,501 INFO [http-nio-8001-exec-1][DirectJDKLog.java:173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-12-19 16:34:59,501 INFO [http-nio-8001-exec-1][FrameworkServlet.java:525] - Initializing Servlet 'dispatcherServlet'
+2023-12-19 16:34:59,501 INFO [http-nio-8001-exec-1][FrameworkServlet.java:525] - Initializing Servlet 'dispatcherServlet'
+2023-12-19 16:34:59,502 INFO [http-nio-8001-exec-1][FrameworkServlet.java:547] - Completed initialization in 1 ms
+2023-12-19 16:34:59,502 INFO [http-nio-8001-exec-1][FrameworkServlet.java:547] - Completed initialization in 1 ms
+2023-12-19 16:34:59,581 INFO [http-nio-8001-exec-1][HikariDataSource.java:110] - HikariPool-1 - Starting...
+2023-12-19 16:34:59,581 INFO [http-nio-8001-exec-1][HikariDataSource.java:110] - HikariPool-1 - Starting...
+2023-12-19 16:34:59,673 INFO [http-nio-8001-exec-1][HikariDataSource.java:123] - HikariPool-1 - Start completed.
+2023-12-19 16:34:59,673 INFO [http-nio-8001-exec-1][HikariDataSource.java:123] - HikariPool-1 - Start completed.
+2023-12-19 16:34:59,727 ERROR [http-nio-8001-exec-1][GlobalExceptionHandler.java:30] - com.mynote.base.exception.NoteException:用户名已存在
+2023-12-19 16:34:59,727 ERROR [http-nio-8001-exec-1][GlobalExceptionHandler.java:30] - com.mynote.base.exception.NoteException:用户名已存在
+2023-12-19 16:35:59,373 INFO [SpringApplicationShutdownHook][HikariDataSource.java:350] - HikariPool-1 - Shutdown initiated...
+2023-12-19 16:35:59,373 INFO [SpringApplicationShutdownHook][HikariDataSource.java:350] - HikariPool-1 - Shutdown initiated...
+2023-12-19 16:35:59,379 INFO [SpringApplicationShutdownHook][HikariDataSource.java:352] - HikariPool-1 - Shutdown completed.
+2023-12-19 16:35:59,379 INFO [SpringApplicationShutdownHook][HikariDataSource.java:352] - HikariPool-1 - Shutdown completed.
+2023-12-19 16:36:02,974 INFO [main][StartupInfoLogger.java:55] - Starting SystemApplication using Java 11.0.20 on zzadmin with PID 18784 (E:\workspace\java\MyNote\myNote-system\target\classes started by Administrator in E:\workspace\java\MyNote)
+2023-12-19 16:36:02,974 INFO [main][StartupInfoLogger.java:55] - Starting SystemApplication using Java 11.0.20 on zzadmin with PID 18784 (E:\workspace\java\MyNote\myNote-system\target\classes started by Administrator in E:\workspace\java\MyNote)
+2023-12-19 16:36:02,979 INFO [main][SpringApplication.java:646] - The following 1 profile is active: "dev"
+2023-12-19 16:36:02,979 INFO [main][SpringApplication.java:646] - The following 1 profile is active: "dev"
+2023-12-19 16:36:03,478 INFO [main][RepositoryConfigurationDelegate.java:262] - Multiple Spring Data modules found, entering strict repository configuration mode!
+2023-12-19 16:36:03,478 INFO [main][RepositoryConfigurationDelegate.java:262] - Multiple Spring Data modules found, entering strict repository configuration mode!
+2023-12-19 16:36:03,480 INFO [main][RepositoryConfigurationDelegate.java:132] - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-12-19 16:36:03,480 INFO [main][RepositoryConfigurationDelegate.java:132] - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-12-19 16:36:03,493 INFO [main][RepositoryConfigurationDelegate.java:201] - Finished Spring Data repository scanning in 5 ms. Found 0 Redis repository interfaces.
+2023-12-19 16:36:03,493 INFO [main][RepositoryConfigurationDelegate.java:201] - Finished Spring Data repository scanning in 5 ms. Found 0 Redis repository interfaces.
+2023-12-19 16:36:03,836 INFO [main][TomcatWebServer.java:108] - Tomcat initialized with port(s): 8001 (http)
+2023-12-19 16:36:03,836 INFO [main][TomcatWebServer.java:108] - Tomcat initialized with port(s): 8001 (http)
+2023-12-19 16:36:03,836 INFO [main][DirectJDKLog.java:173] - Loaded Apache Tomcat Native library [1.2.38] using APR version [1.7.4].
+2023-12-19 16:36:03,836 INFO [main][DirectJDKLog.java:173] - Loaded Apache Tomcat Native library [1.2.38] using APR version [1.7.4].
+2023-12-19 16:36:03,837 INFO [main][DirectJDKLog.java:173] - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+2023-12-19 16:36:03,837 INFO [main][DirectJDKLog.java:173] - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+2023-12-19 16:36:03,837 INFO [main][DirectJDKLog.java:173] - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2023-12-19 16:36:03,837 INFO [main][DirectJDKLog.java:173] - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2023-12-19 16:36:03,838 INFO [main][DirectJDKLog.java:173] - OpenSSL successfully initialized [OpenSSL 1.1.1v  1 Aug 2023]
+2023-12-19 16:36:03,838 INFO [main][DirectJDKLog.java:173] - OpenSSL successfully initialized [OpenSSL 1.1.1v  1 Aug 2023]
+2023-12-19 16:36:03,842 INFO [main][DirectJDKLog.java:173] - Initializing ProtocolHandler ["http-nio-8001"]
+2023-12-19 16:36:03,842 INFO [main][DirectJDKLog.java:173] - Initializing ProtocolHandler ["http-nio-8001"]
+2023-12-19 16:36:03,843 INFO [main][DirectJDKLog.java:173] - Starting service [Tomcat]
+2023-12-19 16:36:03,843 INFO [main][DirectJDKLog.java:173] - Starting service [Tomcat]
+2023-12-19 16:36:03,843 INFO [main][DirectJDKLog.java:173] - Starting Servlet engine: [Apache Tomcat/9.0.60]
+2023-12-19 16:36:03,843 INFO [main][DirectJDKLog.java:173] - Starting Servlet engine: [Apache Tomcat/9.0.60]
+2023-12-19 16:36:03,893 INFO [main][DirectJDKLog.java:173] - Initializing Spring embedded WebApplicationContext
+2023-12-19 16:36:03,893 INFO [main][DirectJDKLog.java:173] - Initializing Spring embedded WebApplicationContext
+2023-12-19 16:36:03,893 INFO [main][ServletWebServerApplicationContext.java:290] - Root WebApplicationContext: initialization completed in 897 ms
+2023-12-19 16:36:03,893 INFO [main][ServletWebServerApplicationContext.java:290] - Root WebApplicationContext: initialization completed in 897 ms
+2023-12-19 16:36:04,784 INFO [main][DirectJDKLog.java:173] - Starting ProtocolHandler ["http-nio-8001"]
+2023-12-19 16:36:04,784 INFO [main][DirectJDKLog.java:173] - Starting ProtocolHandler ["http-nio-8001"]
+2023-12-19 16:36:04,794 INFO [main][TomcatWebServer.java:220] - Tomcat started on port(s): 8001 (http) with context path ''
+2023-12-19 16:36:04,794 INFO [main][TomcatWebServer.java:220] - Tomcat started on port(s): 8001 (http) with context path ''
+2023-12-19 16:36:04,931 INFO [main][StartupInfoLogger.java:61] - Started SystemApplication in 2.194 seconds (JVM running for 2.675)
+2023-12-19 16:36:04,931 INFO [main][StartupInfoLogger.java:61] - Started SystemApplication in 2.194 seconds (JVM running for 2.675)
+2023-12-19 16:36:04,934 INFO [main][SystemApplication.java:34] - 
+----------------------------------------------------------
+	Application MyNote-system is running! Access URLs:
+	local: 	http://localhost:8001/doc.html
+	Swagger文档: 	http://192.168.0.147:8001/doc.html
+----------------------------------------------------------
+2023-12-19 16:36:04,934 INFO [main][SystemApplication.java:34] - 
+----------------------------------------------------------
+	Application MyNote-system is running! Access URLs:
+	local: 	http://localhost:8001/doc.html
+	Swagger文档: 	http://192.168.0.147:8001/doc.html
+----------------------------------------------------------
+2023-12-19 16:58:22,513 INFO [main][StartupInfoLogger.java:55] - Starting NoteApplication using Java 11.0.20 on zzadmin with PID 18580 (E:\workspace\java\MyNote\myNote-notes\target\classes started by Administrator in E:\workspace\java\MyNote)
+2023-12-19 16:58:22,513 INFO [main][StartupInfoLogger.java:55] - Starting NoteApplication using Java 11.0.20 on zzadmin with PID 18580 (E:\workspace\java\MyNote\myNote-notes\target\classes started by Administrator in E:\workspace\java\MyNote)
+2023-12-19 16:58:22,517 INFO [main][SpringApplication.java:646] - The following 1 profile is active: "dev"
+2023-12-19 16:58:22,517 INFO [main][SpringApplication.java:646] - The following 1 profile is active: "dev"
+2023-12-19 16:58:22,927 INFO [main][RepositoryConfigurationDelegate.java:262] - Multiple Spring Data modules found, entering strict repository configuration mode!
+2023-12-19 16:58:22,927 INFO [main][RepositoryConfigurationDelegate.java:262] - Multiple Spring Data modules found, entering strict repository configuration mode!
+2023-12-19 16:58:22,928 INFO [main][RepositoryConfigurationDelegate.java:132] - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-12-19 16:58:22,928 INFO [main][RepositoryConfigurationDelegate.java:132] - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-12-19 16:58:22,939 INFO [main][RepositoryConfigurationDelegate.java:201] - Finished Spring Data repository scanning in 4 ms. Found 0 Redis repository interfaces.
+2023-12-19 16:58:22,939 INFO [main][RepositoryConfigurationDelegate.java:201] - Finished Spring Data repository scanning in 4 ms. Found 0 Redis repository interfaces.
+2023-12-19 16:58:23,227 INFO [main][TomcatWebServer.java:108] - Tomcat initialized with port(s): 8001 (http)
+2023-12-19 16:58:23,227 INFO [main][TomcatWebServer.java:108] - Tomcat initialized with port(s): 8001 (http)
+2023-12-19 16:58:23,227 INFO [main][DirectJDKLog.java:173] - Loaded Apache Tomcat Native library [1.2.38] using APR version [1.7.4].
+2023-12-19 16:58:23,227 INFO [main][DirectJDKLog.java:173] - Loaded Apache Tomcat Native library [1.2.38] using APR version [1.7.4].
+2023-12-19 16:58:23,228 INFO [main][DirectJDKLog.java:173] - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+2023-12-19 16:58:23,228 INFO [main][DirectJDKLog.java:173] - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+2023-12-19 16:58:23,228 INFO [main][DirectJDKLog.java:173] - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2023-12-19 16:58:23,228 INFO [main][DirectJDKLog.java:173] - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2023-12-19 16:58:23,229 INFO [main][DirectJDKLog.java:173] - OpenSSL successfully initialized [OpenSSL 1.1.1v  1 Aug 2023]
+2023-12-19 16:58:23,229 INFO [main][DirectJDKLog.java:173] - OpenSSL successfully initialized [OpenSSL 1.1.1v  1 Aug 2023]
+2023-12-19 16:58:23,234 INFO [main][DirectJDKLog.java:173] - Initializing ProtocolHandler ["http-nio-8001"]
+2023-12-19 16:58:23,234 INFO [main][DirectJDKLog.java:173] - Initializing ProtocolHandler ["http-nio-8001"]
+2023-12-19 16:58:23,234 INFO [main][DirectJDKLog.java:173] - Starting service [Tomcat]
+2023-12-19 16:58:23,234 INFO [main][DirectJDKLog.java:173] - Starting service [Tomcat]
+2023-12-19 16:58:23,234 INFO [main][DirectJDKLog.java:173] - Starting Servlet engine: [Apache Tomcat/9.0.60]
+2023-12-19 16:58:23,234 INFO [main][DirectJDKLog.java:173] - Starting Servlet engine: [Apache Tomcat/9.0.60]
+2023-12-19 16:58:23,283 INFO [main][DirectJDKLog.java:173] - Initializing Spring embedded WebApplicationContext
+2023-12-19 16:58:23,283 INFO [main][DirectJDKLog.java:173] - Initializing Spring embedded WebApplicationContext
+2023-12-19 16:58:23,283 INFO [main][ServletWebServerApplicationContext.java:290] - Root WebApplicationContext: initialization completed in 748 ms
+2023-12-19 16:58:23,283 INFO [main][ServletWebServerApplicationContext.java:290] - Root WebApplicationContext: initialization completed in 748 ms
+2023-12-19 16:58:23,458 WARN [main][AbstractApplicationContext.java:591] - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'categoryController': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'categoryServiceImpl': Unsatisfied dependency expressed through field 'baseMapper'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'categoryMapper' defined in file [E:\workspace\java\MyNote\myNote-notes\target\classes\com\mynote\notes\mapper\CategoryMapper.class]: Unsatisfied dependency expressed through bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [com/baomidou/mybatisplus/autoconfigure/MybatisPlusAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is java.io.IOException: Failed to parse mapping resource: 'file [E:\workspace\java\MyNote\myNote-notes\target\classes\com\mynote\notes\mapper\xml\NoteCategoryMapper.xml]'
+2023-12-19 16:58:23,458 WARN [main][AbstractApplicationContext.java:591] - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'categoryController': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'categoryServiceImpl': Unsatisfied dependency expressed through field 'baseMapper'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'categoryMapper' defined in file [E:\workspace\java\MyNote\myNote-notes\target\classes\com\mynote\notes\mapper\CategoryMapper.class]: Unsatisfied dependency expressed through bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [com/baomidou/mybatisplus/autoconfigure/MybatisPlusAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is java.io.IOException: Failed to parse mapping resource: 'file [E:\workspace\java\MyNote\myNote-notes\target\classes\com\mynote\notes\mapper\xml\NoteCategoryMapper.xml]'
+2023-12-19 16:58:23,460 INFO [main][DirectJDKLog.java:173] - Stopping service [Tomcat]
+2023-12-19 16:58:23,460 INFO [main][DirectJDKLog.java:173] - Stopping service [Tomcat]
+2023-12-19 16:58:23,467 INFO [main][ConditionEvaluationReportLoggingListener.java:136] - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2023-12-19 16:58:23,467 INFO [main][ConditionEvaluationReportLoggingListener.java:136] - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2023-12-19 16:58:23,479 ERROR [main][SpringApplication.java:830] - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'categoryController': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'categoryServiceImpl': Unsatisfied dependency expressed through field 'baseMapper'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'categoryMapper' defined in file [E:\workspace\java\MyNote\myNote-notes\target\classes\com\mynote\notes\mapper\CategoryMapper.class]: Unsatisfied dependency expressed through bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [com/baomidou/mybatisplus/autoconfigure/MybatisPlusAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is java.io.IOException: Failed to parse mapping resource: 'file [E:\workspace\java\MyNote\myNote-notes\target\classes\com\mynote\notes\mapper\xml\NoteCategoryMapper.xml]'
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessProperties(CommonAnnotationBeanPostProcessor.java:332)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1431)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:619)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:953)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:740)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:415)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1312)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1301)
+	at com.mynote.notes.NoteApplication.main(NoteApplication.java:24)
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'categoryServiceImpl': Unsatisfied dependency expressed through field 'baseMapper'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'categoryMapper' defined in file [E:\workspace\java\MyNote\myNote-notes\target\classes\com\mynote\notes\mapper\CategoryMapper.class]: Unsatisfied dependency expressed through bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [com/baomidou/mybatisplus/autoconfigure/MybatisPlusAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is java.io.IOException: Failed to parse mapping resource: 'file [E:\workspace\java\MyNote\myNote-notes\target\classes\com\mynote\notes\mapper\xml\NoteCategoryMapper.xml]'
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:659)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:639)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1431)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:619)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1389)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1309)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.autowireResource(CommonAnnotationBeanPostProcessor.java:544)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.getResource(CommonAnnotationBeanPostProcessor.java:520)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor$ResourceElement.getResourceToInject(CommonAnnotationBeanPostProcessor.java:673)
+	at org.springframework.beans.factory.annotation.InjectionMetadata$InjectedElement.inject(InjectionMetadata.java:228)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessProperties(CommonAnnotationBeanPostProcessor.java:329)
+	... 17 more
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'categoryMapper' defined in file [E:\workspace\java\MyNote\myNote-notes\target\classes\com\mynote\notes\mapper\CategoryMapper.class]: Unsatisfied dependency expressed through bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [com/baomidou/mybatisplus/autoconfigure/MybatisPlusAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is java.io.IOException: Failed to parse mapping resource: 'file [E:\workspace\java\MyNote\myNote-notes\target\classes\com\mynote\notes\mapper\xml\NoteCategoryMapper.xml]'
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireByType(AbstractAutowireCapableBeanFactory.java:1534)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1417)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:619)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1389)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1309)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:656)
+	... 36 more
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [com/baomidou/mybatisplus/autoconfigure/MybatisPlusAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is java.io.IOException: Failed to parse mapping resource: 'file [E:\workspace\java\MyNote\myNote-notes\target\classes\com\mynote\notes\mapper\xml\NoteCategoryMapper.xml]'
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:658)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:638)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1352)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1195)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1389)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1309)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireByType(AbstractAutowireCapableBeanFactory.java:1519)
+	... 47 more
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is java.io.IOException: Failed to parse mapping resource: 'file [E:\workspace\java\MyNote\myNote-notes\target\classes\com\mynote\notes\mapper\xml\NoteCategoryMapper.xml]'
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:185)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:653)
+	... 60 more
+Caused by: java.io.IOException: Failed to parse mapping resource: 'file [E:\workspace\java\MyNote\myNote-notes\target\classes\com\mynote\notes\mapper\xml\NoteCategoryMapper.xml]'
+	at com.baomidou.mybatisplus.extension.spring.MybatisSqlSessionFactoryBean.buildSqlSessionFactory(MybatisSqlSessionFactoryBean.java:575)
+	at com.baomidou.mybatisplus.extension.spring.MybatisSqlSessionFactoryBean.afterPropertiesSet(MybatisSqlSessionFactoryBean.java:444)
+	at com.baomidou.mybatisplus.extension.spring.MybatisSqlSessionFactoryBean.getObject(MybatisSqlSessionFactoryBean.java:608)
+	at com.baomidou.mybatisplus.autoconfigure.MybatisPlusAutoConfiguration.sqlSessionFactory(MybatisPlusAutoConfiguration.java:224)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154)
+	... 61 more
+Caused by: com.baomidou.mybatisplus.core.exceptions.MybatisPlusException: @TableId can't more than one in Class: "com.mynote.notes.entity.NoteCategory".
+	at com.baomidou.mybatisplus.core.toolkit.ExceptionUtils.mpe(ExceptionUtils.java:49)
+	at com.baomidou.mybatisplus.core.metadata.TableInfoHelper.initTableFields(TableInfoHelper.java:308)
+	at com.baomidou.mybatisplus.core.metadata.TableInfoHelper.initTableInfo(TableInfoHelper.java:176)
+	at com.baomidou.mybatisplus.core.metadata.TableInfoHelper.initTableInfo(TableInfoHelper.java:153)
+	at com.baomidou.mybatisplus.core.injector.AbstractSqlInjector.inspectInject(AbstractSqlInjector.java:48)
+	at com.baomidou.mybatisplus.core.MybatisMapperAnnotationBuilder.parserInjector(MybatisMapperAnnotationBuilder.java:133)
+	at com.baomidou.mybatisplus.core.MybatisMapperAnnotationBuilder.parse(MybatisMapperAnnotationBuilder.java:123)
+	at com.baomidou.mybatisplus.core.MybatisMapperRegistry.addMapper(MybatisMapperRegistry.java:94)
+	at com.baomidou.mybatisplus.core.MybatisConfiguration.addMapper(MybatisConfiguration.java:129)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.bindMapperForNamespace(XMLMapperBuilder.java:432)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.parse(XMLMapperBuilder.java:97)
+	at com.baomidou.mybatisplus.extension.spring.MybatisSqlSessionFactoryBean.buildSqlSessionFactory(MybatisSqlSessionFactoryBean.java:573)
+	... 69 more
+2023-12-19 16:58:23,479 ERROR [main][SpringApplication.java:830] - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'categoryController': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'categoryServiceImpl': Unsatisfied dependency expressed through field 'baseMapper'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'categoryMapper' defined in file [E:\workspace\java\MyNote\myNote-notes\target\classes\com\mynote\notes\mapper\CategoryMapper.class]: Unsatisfied dependency expressed through bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [com/baomidou/mybatisplus/autoconfigure/MybatisPlusAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is java.io.IOException: Failed to parse mapping resource: 'file [E:\workspace\java\MyNote\myNote-notes\target\classes\com\mynote\notes\mapper\xml\NoteCategoryMapper.xml]'
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessProperties(CommonAnnotationBeanPostProcessor.java:332)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1431)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:619)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:953)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:740)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:415)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1312)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1301)
+	at com.mynote.notes.NoteApplication.main(NoteApplication.java:24)
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'categoryServiceImpl': Unsatisfied dependency expressed through field 'baseMapper'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'categoryMapper' defined in file [E:\workspace\java\MyNote\myNote-notes\target\classes\com\mynote\notes\mapper\CategoryMapper.class]: Unsatisfied dependency expressed through bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [com/baomidou/mybatisplus/autoconfigure/MybatisPlusAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is java.io.IOException: Failed to parse mapping resource: 'file [E:\workspace\java\MyNote\myNote-notes\target\classes\com\mynote\notes\mapper\xml\NoteCategoryMapper.xml]'
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:659)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:639)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1431)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:619)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1389)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1309)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.autowireResource(CommonAnnotationBeanPostProcessor.java:544)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.getResource(CommonAnnotationBeanPostProcessor.java:520)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor$ResourceElement.getResourceToInject(CommonAnnotationBeanPostProcessor.java:673)
+	at org.springframework.beans.factory.annotation.InjectionMetadata$InjectedElement.inject(InjectionMetadata.java:228)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessProperties(CommonAnnotationBeanPostProcessor.java:329)
+	... 17 more
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'categoryMapper' defined in file [E:\workspace\java\MyNote\myNote-notes\target\classes\com\mynote\notes\mapper\CategoryMapper.class]: Unsatisfied dependency expressed through bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [com/baomidou/mybatisplus/autoconfigure/MybatisPlusAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is java.io.IOException: Failed to parse mapping resource: 'file [E:\workspace\java\MyNote\myNote-notes\target\classes\com\mynote\notes\mapper\xml\NoteCategoryMapper.xml]'
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireByType(AbstractAutowireCapableBeanFactory.java:1534)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1417)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:619)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1389)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1309)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:656)
+	... 36 more
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [com/baomidou/mybatisplus/autoconfigure/MybatisPlusAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is java.io.IOException: Failed to parse mapping resource: 'file [E:\workspace\java\MyNote\myNote-notes\target\classes\com\mynote\notes\mapper\xml\NoteCategoryMapper.xml]'
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:658)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:638)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1352)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1195)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1389)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1309)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireByType(AbstractAutowireCapableBeanFactory.java:1519)
+	... 47 more
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is java.io.IOException: Failed to parse mapping resource: 'file [E:\workspace\java\MyNote\myNote-notes\target\classes\com\mynote\notes\mapper\xml\NoteCategoryMapper.xml]'
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:185)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:653)
+	... 60 more
+Caused by: java.io.IOException: Failed to parse mapping resource: 'file [E:\workspace\java\MyNote\myNote-notes\target\classes\com\mynote\notes\mapper\xml\NoteCategoryMapper.xml]'
+	at com.baomidou.mybatisplus.extension.spring.MybatisSqlSessionFactoryBean.buildSqlSessionFactory(MybatisSqlSessionFactoryBean.java:575)
+	at com.baomidou.mybatisplus.extension.spring.MybatisSqlSessionFactoryBean.afterPropertiesSet(MybatisSqlSessionFactoryBean.java:444)
+	at com.baomidou.mybatisplus.extension.spring.MybatisSqlSessionFactoryBean.getObject(MybatisSqlSessionFactoryBean.java:608)
+	at com.baomidou.mybatisplus.autoconfigure.MybatisPlusAutoConfiguration.sqlSessionFactory(MybatisPlusAutoConfiguration.java:224)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154)
+	... 61 more
+Caused by: com.baomidou.mybatisplus.core.exceptions.MybatisPlusException: @TableId can't more than one in Class: "com.mynote.notes.entity.NoteCategory".
+	at com.baomidou.mybatisplus.core.toolkit.ExceptionUtils.mpe(ExceptionUtils.java:49)
+	at com.baomidou.mybatisplus.core.metadata.TableInfoHelper.initTableFields(TableInfoHelper.java:308)
+	at com.baomidou.mybatisplus.core.metadata.TableInfoHelper.initTableInfo(TableInfoHelper.java:176)
+	at com.baomidou.mybatisplus.core.metadata.TableInfoHelper.initTableInfo(TableInfoHelper.java:153)
+	at com.baomidou.mybatisplus.core.injector.AbstractSqlInjector.inspectInject(AbstractSqlInjector.java:48)
+	at com.baomidou.mybatisplus.core.MybatisMapperAnnotationBuilder.parserInjector(MybatisMapperAnnotationBuilder.java:133)
+	at com.baomidou.mybatisplus.core.MybatisMapperAnnotationBuilder.parse(MybatisMapperAnnotationBuilder.java:123)
+	at com.baomidou.mybatisplus.core.MybatisMapperRegistry.addMapper(MybatisMapperRegistry.java:94)
+	at com.baomidou.mybatisplus.core.MybatisConfiguration.addMapper(MybatisConfiguration.java:129)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.bindMapperForNamespace(XMLMapperBuilder.java:432)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.parse(XMLMapperBuilder.java:97)
+	at com.baomidou.mybatisplus.extension.spring.MybatisSqlSessionFactoryBean.buildSqlSessionFactory(MybatisSqlSessionFactoryBean.java:573)
+	... 69 more
+2023-12-19 16:59:42,236 INFO [main][StartupInfoLogger.java:55] - Starting NoteApplication using Java 11.0.20 on zzadmin with PID 8860 (E:\workspace\java\MyNote\myNote-notes\target\classes started by Administrator in E:\workspace\java\MyNote)
+2023-12-19 16:59:42,236 INFO [main][StartupInfoLogger.java:55] - Starting NoteApplication using Java 11.0.20 on zzadmin with PID 8860 (E:\workspace\java\MyNote\myNote-notes\target\classes started by Administrator in E:\workspace\java\MyNote)
+2023-12-19 16:59:42,242 INFO [main][SpringApplication.java:646] - The following 1 profile is active: "dev"
+2023-12-19 16:59:42,242 INFO [main][SpringApplication.java:646] - The following 1 profile is active: "dev"
+2023-12-19 16:59:42,646 INFO [main][RepositoryConfigurationDelegate.java:262] - Multiple Spring Data modules found, entering strict repository configuration mode!
+2023-12-19 16:59:42,646 INFO [main][RepositoryConfigurationDelegate.java:262] - Multiple Spring Data modules found, entering strict repository configuration mode!
+2023-12-19 16:59:42,650 INFO [main][RepositoryConfigurationDelegate.java:132] - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-12-19 16:59:42,650 INFO [main][RepositoryConfigurationDelegate.java:132] - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-12-19 16:59:42,662 INFO [main][RepositoryConfigurationDelegate.java:201] - Finished Spring Data repository scanning in 4 ms. Found 0 Redis repository interfaces.
+2023-12-19 16:59:42,662 INFO [main][RepositoryConfigurationDelegate.java:201] - Finished Spring Data repository scanning in 4 ms. Found 0 Redis repository interfaces.
+2023-12-19 16:59:42,942 INFO [main][TomcatWebServer.java:108] - Tomcat initialized with port(s): 8001 (http)
+2023-12-19 16:59:42,942 INFO [main][TomcatWebServer.java:108] - Tomcat initialized with port(s): 8001 (http)
+2023-12-19 16:59:42,942 INFO [main][DirectJDKLog.java:173] - Loaded Apache Tomcat Native library [1.2.38] using APR version [1.7.4].
+2023-12-19 16:59:42,942 INFO [main][DirectJDKLog.java:173] - Loaded Apache Tomcat Native library [1.2.38] using APR version [1.7.4].
+2023-12-19 16:59:42,942 INFO [main][DirectJDKLog.java:173] - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+2023-12-19 16:59:42,942 INFO [main][DirectJDKLog.java:173] - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+2023-12-19 16:59:42,942 INFO [main][DirectJDKLog.java:173] - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2023-12-19 16:59:42,942 INFO [main][DirectJDKLog.java:173] - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2023-12-19 16:59:42,944 INFO [main][DirectJDKLog.java:173] - OpenSSL successfully initialized [OpenSSL 1.1.1v  1 Aug 2023]
+2023-12-19 16:59:42,944 INFO [main][DirectJDKLog.java:173] - OpenSSL successfully initialized [OpenSSL 1.1.1v  1 Aug 2023]
+2023-12-19 16:59:42,949 INFO [main][DirectJDKLog.java:173] - Initializing ProtocolHandler ["http-nio-8001"]
+2023-12-19 16:59:42,949 INFO [main][DirectJDKLog.java:173] - Initializing ProtocolHandler ["http-nio-8001"]
+2023-12-19 16:59:42,949 INFO [main][DirectJDKLog.java:173] - Starting service [Tomcat]
+2023-12-19 16:59:42,949 INFO [main][DirectJDKLog.java:173] - Starting service [Tomcat]
+2023-12-19 16:59:42,949 INFO [main][DirectJDKLog.java:173] - Starting Servlet engine: [Apache Tomcat/9.0.60]
+2023-12-19 16:59:42,949 INFO [main][DirectJDKLog.java:173] - Starting Servlet engine: [Apache Tomcat/9.0.60]
+2023-12-19 16:59:42,999 INFO [main][DirectJDKLog.java:173] - Initializing Spring embedded WebApplicationContext
+2023-12-19 16:59:42,999 INFO [main][DirectJDKLog.java:173] - Initializing Spring embedded WebApplicationContext
+2023-12-19 16:59:42,999 INFO [main][ServletWebServerApplicationContext.java:290] - Root WebApplicationContext: initialization completed in 739 ms
+2023-12-19 16:59:42,999 INFO [main][ServletWebServerApplicationContext.java:290] - Root WebApplicationContext: initialization completed in 739 ms
+2023-12-19 16:59:43,198 WARN [main][AbstractApplicationContext.java:591] - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'categoryController': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'categoryServiceImpl': Unsatisfied dependency expressed through field 'baseMapper'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'categoryMapper' defined in file [E:\workspace\java\MyNote\myNote-notes\target\classes\com\mynote\notes\mapper\CategoryMapper.class]: Unsatisfied dependency expressed through bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [com/baomidou/mybatisplus/autoconfigure/MybatisPlusAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is java.io.IOException: Failed to parse mapping resource: 'file [E:\workspace\java\MyNote\myNote-notes\target\classes\com\mynote\notes\mapper\xml\NoteCategoryMapper.xml]'
+2023-12-19 16:59:43,198 WARN [main][AbstractApplicationContext.java:591] - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'categoryController': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'categoryServiceImpl': Unsatisfied dependency expressed through field 'baseMapper'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'categoryMapper' defined in file [E:\workspace\java\MyNote\myNote-notes\target\classes\com\mynote\notes\mapper\CategoryMapper.class]: Unsatisfied dependency expressed through bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [com/baomidou/mybatisplus/autoconfigure/MybatisPlusAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is java.io.IOException: Failed to parse mapping resource: 'file [E:\workspace\java\MyNote\myNote-notes\target\classes\com\mynote\notes\mapper\xml\NoteCategoryMapper.xml]'
+2023-12-19 16:59:43,201 INFO [main][DirectJDKLog.java:173] - Stopping service [Tomcat]
+2023-12-19 16:59:43,201 INFO [main][DirectJDKLog.java:173] - Stopping service [Tomcat]
+2023-12-19 16:59:43,208 INFO [main][ConditionEvaluationReportLoggingListener.java:136] - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2023-12-19 16:59:43,208 INFO [main][ConditionEvaluationReportLoggingListener.java:136] - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2023-12-19 16:59:43,220 ERROR [main][SpringApplication.java:830] - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'categoryController': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'categoryServiceImpl': Unsatisfied dependency expressed through field 'baseMapper'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'categoryMapper' defined in file [E:\workspace\java\MyNote\myNote-notes\target\classes\com\mynote\notes\mapper\CategoryMapper.class]: Unsatisfied dependency expressed through bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [com/baomidou/mybatisplus/autoconfigure/MybatisPlusAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is java.io.IOException: Failed to parse mapping resource: 'file [E:\workspace\java\MyNote\myNote-notes\target\classes\com\mynote\notes\mapper\xml\NoteCategoryMapper.xml]'
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessProperties(CommonAnnotationBeanPostProcessor.java:332)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1431)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:619)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:953)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:740)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:415)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1312)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1301)
+	at com.mynote.notes.NoteApplication.main(NoteApplication.java:24)
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'categoryServiceImpl': Unsatisfied dependency expressed through field 'baseMapper'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'categoryMapper' defined in file [E:\workspace\java\MyNote\myNote-notes\target\classes\com\mynote\notes\mapper\CategoryMapper.class]: Unsatisfied dependency expressed through bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [com/baomidou/mybatisplus/autoconfigure/MybatisPlusAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is java.io.IOException: Failed to parse mapping resource: 'file [E:\workspace\java\MyNote\myNote-notes\target\classes\com\mynote\notes\mapper\xml\NoteCategoryMapper.xml]'
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:659)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:639)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1431)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:619)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1389)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1309)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.autowireResource(CommonAnnotationBeanPostProcessor.java:544)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.getResource(CommonAnnotationBeanPostProcessor.java:520)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor$ResourceElement.getResourceToInject(CommonAnnotationBeanPostProcessor.java:673)
+	at org.springframework.beans.factory.annotation.InjectionMetadata$InjectedElement.inject(InjectionMetadata.java:228)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessProperties(CommonAnnotationBeanPostProcessor.java:329)
+	... 17 more
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'categoryMapper' defined in file [E:\workspace\java\MyNote\myNote-notes\target\classes\com\mynote\notes\mapper\CategoryMapper.class]: Unsatisfied dependency expressed through bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [com/baomidou/mybatisplus/autoconfigure/MybatisPlusAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is java.io.IOException: Failed to parse mapping resource: 'file [E:\workspace\java\MyNote\myNote-notes\target\classes\com\mynote\notes\mapper\xml\NoteCategoryMapper.xml]'
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireByType(AbstractAutowireCapableBeanFactory.java:1534)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1417)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:619)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1389)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1309)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:656)
+	... 36 more
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [com/baomidou/mybatisplus/autoconfigure/MybatisPlusAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is java.io.IOException: Failed to parse mapping resource: 'file [E:\workspace\java\MyNote\myNote-notes\target\classes\com\mynote\notes\mapper\xml\NoteCategoryMapper.xml]'
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:658)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:638)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1352)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1195)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1389)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1309)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireByType(AbstractAutowireCapableBeanFactory.java:1519)
+	... 47 more
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is java.io.IOException: Failed to parse mapping resource: 'file [E:\workspace\java\MyNote\myNote-notes\target\classes\com\mynote\notes\mapper\xml\NoteCategoryMapper.xml]'
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:185)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:653)
+	... 60 more
+Caused by: java.io.IOException: Failed to parse mapping resource: 'file [E:\workspace\java\MyNote\myNote-notes\target\classes\com\mynote\notes\mapper\xml\NoteCategoryMapper.xml]'
+	at com.baomidou.mybatisplus.extension.spring.MybatisSqlSessionFactoryBean.buildSqlSessionFactory(MybatisSqlSessionFactoryBean.java:575)
+	at com.baomidou.mybatisplus.extension.spring.MybatisSqlSessionFactoryBean.afterPropertiesSet(MybatisSqlSessionFactoryBean.java:444)
+	at com.baomidou.mybatisplus.extension.spring.MybatisSqlSessionFactoryBean.getObject(MybatisSqlSessionFactoryBean.java:608)
+	at com.baomidou.mybatisplus.autoconfigure.MybatisPlusAutoConfiguration.sqlSessionFactory(MybatisPlusAutoConfiguration.java:224)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154)
+	... 61 more
+Caused by: com.baomidou.mybatisplus.core.exceptions.MybatisPlusException: @TableId can't more than one in Class: "com.mynote.notes.entity.NoteCategory".
+	at com.baomidou.mybatisplus.core.toolkit.ExceptionUtils.mpe(ExceptionUtils.java:49)
+	at com.baomidou.mybatisplus.core.metadata.TableInfoHelper.initTableFields(TableInfoHelper.java:308)
+	at com.baomidou.mybatisplus.core.metadata.TableInfoHelper.initTableInfo(TableInfoHelper.java:176)
+	at com.baomidou.mybatisplus.core.metadata.TableInfoHelper.initTableInfo(TableInfoHelper.java:153)
+	at com.baomidou.mybatisplus.core.injector.AbstractSqlInjector.inspectInject(AbstractSqlInjector.java:48)
+	at com.baomidou.mybatisplus.core.MybatisMapperAnnotationBuilder.parserInjector(MybatisMapperAnnotationBuilder.java:133)
+	at com.baomidou.mybatisplus.core.MybatisMapperAnnotationBuilder.parse(MybatisMapperAnnotationBuilder.java:123)
+	at com.baomidou.mybatisplus.core.MybatisMapperRegistry.addMapper(MybatisMapperRegistry.java:94)
+	at com.baomidou.mybatisplus.core.MybatisConfiguration.addMapper(MybatisConfiguration.java:129)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.bindMapperForNamespace(XMLMapperBuilder.java:432)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.parse(XMLMapperBuilder.java:97)
+	at com.baomidou.mybatisplus.extension.spring.MybatisSqlSessionFactoryBean.buildSqlSessionFactory(MybatisSqlSessionFactoryBean.java:573)
+	... 69 more
+2023-12-19 16:59:43,220 ERROR [main][SpringApplication.java:830] - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'categoryController': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'categoryServiceImpl': Unsatisfied dependency expressed through field 'baseMapper'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'categoryMapper' defined in file [E:\workspace\java\MyNote\myNote-notes\target\classes\com\mynote\notes\mapper\CategoryMapper.class]: Unsatisfied dependency expressed through bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [com/baomidou/mybatisplus/autoconfigure/MybatisPlusAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is java.io.IOException: Failed to parse mapping resource: 'file [E:\workspace\java\MyNote\myNote-notes\target\classes\com\mynote\notes\mapper\xml\NoteCategoryMapper.xml]'
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessProperties(CommonAnnotationBeanPostProcessor.java:332)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1431)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:619)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:953)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:740)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:415)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1312)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1301)
+	at com.mynote.notes.NoteApplication.main(NoteApplication.java:24)
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'categoryServiceImpl': Unsatisfied dependency expressed through field 'baseMapper'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'categoryMapper' defined in file [E:\workspace\java\MyNote\myNote-notes\target\classes\com\mynote\notes\mapper\CategoryMapper.class]: Unsatisfied dependency expressed through bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [com/baomidou/mybatisplus/autoconfigure/MybatisPlusAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is java.io.IOException: Failed to parse mapping resource: 'file [E:\workspace\java\MyNote\myNote-notes\target\classes\com\mynote\notes\mapper\xml\NoteCategoryMapper.xml]'
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:659)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:639)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1431)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:619)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1389)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1309)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.autowireResource(CommonAnnotationBeanPostProcessor.java:544)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.getResource(CommonAnnotationBeanPostProcessor.java:520)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor$ResourceElement.getResourceToInject(CommonAnnotationBeanPostProcessor.java:673)
+	at org.springframework.beans.factory.annotation.InjectionMetadata$InjectedElement.inject(InjectionMetadata.java:228)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessProperties(CommonAnnotationBeanPostProcessor.java:329)
+	... 17 more
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'categoryMapper' defined in file [E:\workspace\java\MyNote\myNote-notes\target\classes\com\mynote\notes\mapper\CategoryMapper.class]: Unsatisfied dependency expressed through bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [com/baomidou/mybatisplus/autoconfigure/MybatisPlusAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is java.io.IOException: Failed to parse mapping resource: 'file [E:\workspace\java\MyNote\myNote-notes\target\classes\com\mynote\notes\mapper\xml\NoteCategoryMapper.xml]'
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireByType(AbstractAutowireCapableBeanFactory.java:1534)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1417)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:619)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1389)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1309)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:656)
+	... 36 more
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [com/baomidou/mybatisplus/autoconfigure/MybatisPlusAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is java.io.IOException: Failed to parse mapping resource: 'file [E:\workspace\java\MyNote\myNote-notes\target\classes\com\mynote\notes\mapper\xml\NoteCategoryMapper.xml]'
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:658)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:638)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1352)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1195)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1389)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1309)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireByType(AbstractAutowireCapableBeanFactory.java:1519)
+	... 47 more
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is java.io.IOException: Failed to parse mapping resource: 'file [E:\workspace\java\MyNote\myNote-notes\target\classes\com\mynote\notes\mapper\xml\NoteCategoryMapper.xml]'
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:185)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:653)
+	... 60 more
+Caused by: java.io.IOException: Failed to parse mapping resource: 'file [E:\workspace\java\MyNote\myNote-notes\target\classes\com\mynote\notes\mapper\xml\NoteCategoryMapper.xml]'
+	at com.baomidou.mybatisplus.extension.spring.MybatisSqlSessionFactoryBean.buildSqlSessionFactory(MybatisSqlSessionFactoryBean.java:575)
+	at com.baomidou.mybatisplus.extension.spring.MybatisSqlSessionFactoryBean.afterPropertiesSet(MybatisSqlSessionFactoryBean.java:444)
+	at com.baomidou.mybatisplus.extension.spring.MybatisSqlSessionFactoryBean.getObject(MybatisSqlSessionFactoryBean.java:608)
+	at com.baomidou.mybatisplus.autoconfigure.MybatisPlusAutoConfiguration.sqlSessionFactory(MybatisPlusAutoConfiguration.java:224)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154)
+	... 61 more
+Caused by: com.baomidou.mybatisplus.core.exceptions.MybatisPlusException: @TableId can't more than one in Class: "com.mynote.notes.entity.NoteCategory".
+	at com.baomidou.mybatisplus.core.toolkit.ExceptionUtils.mpe(ExceptionUtils.java:49)
+	at com.baomidou.mybatisplus.core.metadata.TableInfoHelper.initTableFields(TableInfoHelper.java:308)
+	at com.baomidou.mybatisplus.core.metadata.TableInfoHelper.initTableInfo(TableInfoHelper.java:176)
+	at com.baomidou.mybatisplus.core.metadata.TableInfoHelper.initTableInfo(TableInfoHelper.java:153)
+	at com.baomidou.mybatisplus.core.injector.AbstractSqlInjector.inspectInject(AbstractSqlInjector.java:48)
+	at com.baomidou.mybatisplus.core.MybatisMapperAnnotationBuilder.parserInjector(MybatisMapperAnnotationBuilder.java:133)
+	at com.baomidou.mybatisplus.core.MybatisMapperAnnotationBuilder.parse(MybatisMapperAnnotationBuilder.java:123)
+	at com.baomidou.mybatisplus.core.MybatisMapperRegistry.addMapper(MybatisMapperRegistry.java:94)
+	at com.baomidou.mybatisplus.core.MybatisConfiguration.addMapper(MybatisConfiguration.java:129)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.bindMapperForNamespace(XMLMapperBuilder.java:432)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.parse(XMLMapperBuilder.java:97)
+	at com.baomidou.mybatisplus.extension.spring.MybatisSqlSessionFactoryBean.buildSqlSessionFactory(MybatisSqlSessionFactoryBean.java:573)
+	... 69 more

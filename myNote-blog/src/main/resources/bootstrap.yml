@@ -1,0 +1,29 @@
+spring:
+  application:
+    name: mynote-blog
+  profiles:
+    active: '@profile.name@'
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 192.168.11.135:8848
+        namespace: a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6
+        group: dev
+      config:
+        server-addr: 192.168.11.135:8848
+        file-extension: yaml
+        namespace: a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6
+        group: dev
+        extension-configs:
+          - data-id: blog-datasource.yaml
+            group: dev
+            refresh: true
+          - data-id: blog-other.yaml
+            group: dev
+            refresh: true
+          - data-id: blog-mybatisplus.yaml
+            group: dev
+            refresh: true
+          - data-id: log4j-dev.yaml
+            group: dev
+            refresh: true

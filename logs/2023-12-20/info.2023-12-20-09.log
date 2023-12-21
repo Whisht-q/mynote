@@ -1,0 +1,306 @@
+2023-12-20 09:14:47,541 INFO [main][StartupInfoLogger.java:55] - Starting NoteApplication using Java 11.0.20 on zzadmin with PID 10296 (E:\workspace\java\MyNote\myNote-notes\target\classes started by Administrator in E:\workspace\java\MyNote)
+2023-12-20 09:14:47,541 INFO [main][StartupInfoLogger.java:55] - Starting NoteApplication using Java 11.0.20 on zzadmin with PID 10296 (E:\workspace\java\MyNote\myNote-notes\target\classes started by Administrator in E:\workspace\java\MyNote)
+2023-12-20 09:14:47,550 INFO [main][SpringApplication.java:646] - The following 1 profile is active: "dev"
+2023-12-20 09:14:47,550 INFO [main][SpringApplication.java:646] - The following 1 profile is active: "dev"
+2023-12-20 09:14:48,040 INFO [main][RepositoryConfigurationDelegate.java:262] - Multiple Spring Data modules found, entering strict repository configuration mode!
+2023-12-20 09:14:48,040 INFO [main][RepositoryConfigurationDelegate.java:262] - Multiple Spring Data modules found, entering strict repository configuration mode!
+2023-12-20 09:14:48,041 INFO [main][RepositoryConfigurationDelegate.java:132] - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-12-20 09:14:48,041 INFO [main][RepositoryConfigurationDelegate.java:132] - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-12-20 09:14:48,055 INFO [main][RepositoryConfigurationDelegate.java:201] - Finished Spring Data repository scanning in 4 ms. Found 0 Redis repository interfaces.
+2023-12-20 09:14:48,055 INFO [main][RepositoryConfigurationDelegate.java:201] - Finished Spring Data repository scanning in 4 ms. Found 0 Redis repository interfaces.
+2023-12-20 09:14:48,366 INFO [main][TomcatWebServer.java:108] - Tomcat initialized with port(s): 9001 (http)
+2023-12-20 09:14:48,366 INFO [main][TomcatWebServer.java:108] - Tomcat initialized with port(s): 9001 (http)
+2023-12-20 09:14:48,366 INFO [main][DirectJDKLog.java:173] - Loaded Apache Tomcat Native library [1.2.38] using APR version [1.7.4].
+2023-12-20 09:14:48,366 INFO [main][DirectJDKLog.java:173] - Loaded Apache Tomcat Native library [1.2.38] using APR version [1.7.4].
+2023-12-20 09:14:48,367 INFO [main][DirectJDKLog.java:173] - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+2023-12-20 09:14:48,367 INFO [main][DirectJDKLog.java:173] - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+2023-12-20 09:14:48,367 INFO [main][DirectJDKLog.java:173] - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2023-12-20 09:14:48,367 INFO [main][DirectJDKLog.java:173] - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2023-12-20 09:14:48,374 INFO [main][DirectJDKLog.java:173] - OpenSSL successfully initialized [OpenSSL 1.1.1v  1 Aug 2023]
+2023-12-20 09:14:48,374 INFO [main][DirectJDKLog.java:173] - OpenSSL successfully initialized [OpenSSL 1.1.1v  1 Aug 2023]
+2023-12-20 09:14:48,379 INFO [main][DirectJDKLog.java:173] - Initializing ProtocolHandler ["http-nio-9001"]
+2023-12-20 09:14:48,379 INFO [main][DirectJDKLog.java:173] - Initializing ProtocolHandler ["http-nio-9001"]
+2023-12-20 09:14:48,380 INFO [main][DirectJDKLog.java:173] - Starting service [Tomcat]
+2023-12-20 09:14:48,380 INFO [main][DirectJDKLog.java:173] - Starting service [Tomcat]
+2023-12-20 09:14:48,380 INFO [main][DirectJDKLog.java:173] - Starting Servlet engine: [Apache Tomcat/9.0.60]
+2023-12-20 09:14:48,380 INFO [main][DirectJDKLog.java:173] - Starting Servlet engine: [Apache Tomcat/9.0.60]
+2023-12-20 09:14:48,461 INFO [main][DirectJDKLog.java:173] - Initializing Spring embedded WebApplicationContext
+2023-12-20 09:14:48,461 INFO [main][DirectJDKLog.java:173] - Initializing Spring embedded WebApplicationContext
+2023-12-20 09:14:48,461 INFO [main][ServletWebServerApplicationContext.java:290] - Root WebApplicationContext: initialization completed in 888 ms
+2023-12-20 09:14:48,461 INFO [main][ServletWebServerApplicationContext.java:290] - Root WebApplicationContext: initialization completed in 888 ms
+2023-12-20 09:14:49,423 INFO [main][DirectJDKLog.java:173] - Starting ProtocolHandler ["http-nio-9001"]
+2023-12-20 09:14:49,423 INFO [main][DirectJDKLog.java:173] - Starting ProtocolHandler ["http-nio-9001"]
+2023-12-20 09:14:49,434 INFO [main][TomcatWebServer.java:220] - Tomcat started on port(s): 9001 (http) with context path ''
+2023-12-20 09:14:49,434 INFO [main][TomcatWebServer.java:220] - Tomcat started on port(s): 9001 (http) with context path ''
+2023-12-20 09:14:49,543 INFO [main][StartupInfoLogger.java:61] - Started NoteApplication in 2.306 seconds (JVM running for 2.938)
+2023-12-20 09:14:49,543 INFO [main][StartupInfoLogger.java:61] - Started NoteApplication in 2.306 seconds (JVM running for 2.938)
+2023-12-20 09:14:49,548 INFO [main][NoteApplication.java:34] - 
+----------------------------------------------------------
+	Application MyNote-note is running! Access URLs:
+	local: 	http://localhost:9001/doc.html
+	Swagger文档: 	http://192.168.0.147:9001/doc.html
+----------------------------------------------------------
+2023-12-20 09:14:49,548 INFO [main][NoteApplication.java:34] - 
+----------------------------------------------------------
+	Application MyNote-note is running! Access URLs:
+	local: 	http://localhost:9001/doc.html
+	Swagger文档: 	http://192.168.0.147:9001/doc.html
+----------------------------------------------------------
+2023-12-20 09:14:52,553 INFO [http-nio-9001-exec-10][DirectJDKLog.java:173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-12-20 09:14:52,553 INFO [http-nio-9001-exec-10][DirectJDKLog.java:173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-12-20 09:14:52,553 INFO [http-nio-9001-exec-10][FrameworkServlet.java:525] - Initializing Servlet 'dispatcherServlet'
+2023-12-20 09:14:52,553 INFO [http-nio-9001-exec-10][FrameworkServlet.java:525] - Initializing Servlet 'dispatcherServlet'
+2023-12-20 09:14:52,555 INFO [http-nio-9001-exec-10][FrameworkServlet.java:547] - Completed initialization in 1 ms
+2023-12-20 09:14:52,555 INFO [http-nio-9001-exec-10][FrameworkServlet.java:547] - Completed initialization in 1 ms
+2023-12-20 09:15:03,346 INFO [http-nio-9001-exec-4][HikariDataSource.java:110] - HikariPool-1 - Starting...
+2023-12-20 09:15:03,346 INFO [http-nio-9001-exec-4][HikariDataSource.java:110] - HikariPool-1 - Starting...
+2023-12-20 09:15:03,463 INFO [http-nio-9001-exec-4][HikariDataSource.java:123] - HikariPool-1 - Start completed.
+2023-12-20 09:15:03,463 INFO [http-nio-9001-exec-4][HikariDataSource.java:123] - HikariPool-1 - Start completed.
+2023-12-20 09:36:34,848 INFO [SpringApplicationShutdownHook][HikariDataSource.java:350] - HikariPool-1 - Shutdown initiated...
+2023-12-20 09:36:34,848 INFO [SpringApplicationShutdownHook][HikariDataSource.java:350] - HikariPool-1 - Shutdown initiated...
+2023-12-20 09:36:34,855 INFO [SpringApplicationShutdownHook][HikariDataSource.java:352] - HikariPool-1 - Shutdown completed.
+2023-12-20 09:36:34,855 INFO [SpringApplicationShutdownHook][HikariDataSource.java:352] - HikariPool-1 - Shutdown completed.
+2023-12-20 09:36:43,311 INFO [main][StartupInfoLogger.java:55] - Starting NoteApplication using Java 11.0.20 on zzadmin with PID 8792 (E:\workspace\java\MyNote\myNote-notes\target\classes started by Administrator in E:\workspace\java\MyNote)
+2023-12-20 09:36:43,311 INFO [main][StartupInfoLogger.java:55] - Starting NoteApplication using Java 11.0.20 on zzadmin with PID 8792 (E:\workspace\java\MyNote\myNote-notes\target\classes started by Administrator in E:\workspace\java\MyNote)
+2023-12-20 09:36:43,316 INFO [main][SpringApplication.java:646] - The following 1 profile is active: "dev"
+2023-12-20 09:36:43,316 INFO [main][SpringApplication.java:646] - The following 1 profile is active: "dev"
+2023-12-20 09:36:43,745 INFO [main][RepositoryConfigurationDelegate.java:262] - Multiple Spring Data modules found, entering strict repository configuration mode!
+2023-12-20 09:36:43,745 INFO [main][RepositoryConfigurationDelegate.java:262] - Multiple Spring Data modules found, entering strict repository configuration mode!
+2023-12-20 09:36:43,746 INFO [main][RepositoryConfigurationDelegate.java:132] - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-12-20 09:36:43,746 INFO [main][RepositoryConfigurationDelegate.java:132] - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-12-20 09:36:43,756 INFO [main][RepositoryConfigurationDelegate.java:201] - Finished Spring Data repository scanning in 4 ms. Found 0 Redis repository interfaces.
+2023-12-20 09:36:43,756 INFO [main][RepositoryConfigurationDelegate.java:201] - Finished Spring Data repository scanning in 4 ms. Found 0 Redis repository interfaces.
+2023-12-20 09:36:44,021 INFO [main][TomcatWebServer.java:108] - Tomcat initialized with port(s): 9001 (http)
+2023-12-20 09:36:44,021 INFO [main][TomcatWebServer.java:108] - Tomcat initialized with port(s): 9001 (http)
+2023-12-20 09:36:44,021 INFO [main][DirectJDKLog.java:173] - Loaded Apache Tomcat Native library [1.2.38] using APR version [1.7.4].
+2023-12-20 09:36:44,021 INFO [main][DirectJDKLog.java:173] - Loaded Apache Tomcat Native library [1.2.38] using APR version [1.7.4].
+2023-12-20 09:36:44,022 INFO [main][DirectJDKLog.java:173] - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+2023-12-20 09:36:44,022 INFO [main][DirectJDKLog.java:173] - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+2023-12-20 09:36:44,022 INFO [main][DirectJDKLog.java:173] - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2023-12-20 09:36:44,022 INFO [main][DirectJDKLog.java:173] - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2023-12-20 09:36:44,023 INFO [main][DirectJDKLog.java:173] - OpenSSL successfully initialized [OpenSSL 1.1.1v  1 Aug 2023]
+2023-12-20 09:36:44,023 INFO [main][DirectJDKLog.java:173] - OpenSSL successfully initialized [OpenSSL 1.1.1v  1 Aug 2023]
+2023-12-20 09:36:44,027 INFO [main][DirectJDKLog.java:173] - Initializing ProtocolHandler ["http-nio-9001"]
+2023-12-20 09:36:44,027 INFO [main][DirectJDKLog.java:173] - Initializing ProtocolHandler ["http-nio-9001"]
+2023-12-20 09:36:44,028 INFO [main][DirectJDKLog.java:173] - Starting service [Tomcat]
+2023-12-20 09:36:44,028 INFO [main][DirectJDKLog.java:173] - Starting service [Tomcat]
+2023-12-20 09:36:44,028 INFO [main][DirectJDKLog.java:173] - Starting Servlet engine: [Apache Tomcat/9.0.60]
+2023-12-20 09:36:44,028 INFO [main][DirectJDKLog.java:173] - Starting Servlet engine: [Apache Tomcat/9.0.60]
+2023-12-20 09:36:44,099 INFO [main][DirectJDKLog.java:173] - Initializing Spring embedded WebApplicationContext
+2023-12-20 09:36:44,099 INFO [main][DirectJDKLog.java:173] - Initializing Spring embedded WebApplicationContext
+2023-12-20 09:36:44,099 INFO [main][ServletWebServerApplicationContext.java:290] - Root WebApplicationContext: initialization completed in 765 ms
+2023-12-20 09:36:44,099 INFO [main][ServletWebServerApplicationContext.java:290] - Root WebApplicationContext: initialization completed in 765 ms
+2023-12-20 09:36:44,919 INFO [main][DirectJDKLog.java:173] - Starting ProtocolHandler ["http-nio-9001"]
+2023-12-20 09:36:44,919 INFO [main][DirectJDKLog.java:173] - Starting ProtocolHandler ["http-nio-9001"]
+2023-12-20 09:36:44,928 INFO [main][TomcatWebServer.java:220] - Tomcat started on port(s): 9001 (http) with context path ''
+2023-12-20 09:36:44,928 INFO [main][TomcatWebServer.java:220] - Tomcat started on port(s): 9001 (http) with context path ''
+2023-12-20 09:36:45,041 INFO [main][StartupInfoLogger.java:61] - Started NoteApplication in 1.955 seconds (JVM running for 2.669)
+2023-12-20 09:36:45,041 INFO [main][StartupInfoLogger.java:61] - Started NoteApplication in 1.955 seconds (JVM running for 2.669)
+2023-12-20 09:36:45,045 INFO [main][NoteApplication.java:34] - 
+----------------------------------------------------------
+	Application MyNote-note is running! Access URLs:
+	local: 	http://localhost:9001/doc.html
+	Swagger文档: 	http://192.168.0.147:9001/doc.html
+----------------------------------------------------------
+2023-12-20 09:36:45,045 INFO [main][NoteApplication.java:34] - 
+----------------------------------------------------------
+	Application MyNote-note is running! Access URLs:
+	local: 	http://localhost:9001/doc.html
+	Swagger文档: 	http://192.168.0.147:9001/doc.html
+----------------------------------------------------------
+2023-12-20 09:36:50,334 INFO [http-nio-9001-exec-1][DirectJDKLog.java:173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-12-20 09:36:50,334 INFO [http-nio-9001-exec-1][DirectJDKLog.java:173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-12-20 09:36:50,334 INFO [http-nio-9001-exec-1][FrameworkServlet.java:525] - Initializing Servlet 'dispatcherServlet'
+2023-12-20 09:36:50,334 INFO [http-nio-9001-exec-1][FrameworkServlet.java:525] - Initializing Servlet 'dispatcherServlet'
+2023-12-20 09:36:50,336 INFO [http-nio-9001-exec-1][FrameworkServlet.java:547] - Completed initialization in 1 ms
+2023-12-20 09:36:50,336 INFO [http-nio-9001-exec-1][FrameworkServlet.java:547] - Completed initialization in 1 ms
+2023-12-20 09:36:50,395 INFO [http-nio-9001-exec-1][HikariDataSource.java:110] - HikariPool-1 - Starting...
+2023-12-20 09:36:50,395 INFO [http-nio-9001-exec-1][HikariDataSource.java:110] - HikariPool-1 - Starting...
+2023-12-20 09:36:50,504 INFO [http-nio-9001-exec-1][HikariDataSource.java:123] - HikariPool-1 - Start completed.
+2023-12-20 09:36:50,504 INFO [http-nio-9001-exec-1][HikariDataSource.java:123] - HikariPool-1 - Start completed.
+2023-12-20 09:40:02,589 INFO [SpringApplicationShutdownHook][HikariDataSource.java:350] - HikariPool-1 - Shutdown initiated...
+2023-12-20 09:40:02,589 INFO [SpringApplicationShutdownHook][HikariDataSource.java:350] - HikariPool-1 - Shutdown initiated...
+2023-12-20 09:40:02,595 INFO [SpringApplicationShutdownHook][HikariDataSource.java:352] - HikariPool-1 - Shutdown completed.
+2023-12-20 09:40:02,595 INFO [SpringApplicationShutdownHook][HikariDataSource.java:352] - HikariPool-1 - Shutdown completed.
+2023-12-20 09:40:06,692 INFO [main][StartupInfoLogger.java:55] - Starting NoteApplication using Java 11.0.20 on zzadmin with PID 8816 (E:\workspace\java\MyNote\myNote-notes\target\classes started by Administrator in E:\workspace\java\MyNote)
+2023-12-20 09:40:06,692 INFO [main][StartupInfoLogger.java:55] - Starting NoteApplication using Java 11.0.20 on zzadmin with PID 8816 (E:\workspace\java\MyNote\myNote-notes\target\classes started by Administrator in E:\workspace\java\MyNote)
+2023-12-20 09:40:06,697 INFO [main][SpringApplication.java:646] - The following 1 profile is active: "dev"
+2023-12-20 09:40:06,697 INFO [main][SpringApplication.java:646] - The following 1 profile is active: "dev"
+2023-12-20 09:40:07,105 INFO [main][RepositoryConfigurationDelegate.java:262] - Multiple Spring Data modules found, entering strict repository configuration mode!
+2023-12-20 09:40:07,105 INFO [main][RepositoryConfigurationDelegate.java:262] - Multiple Spring Data modules found, entering strict repository configuration mode!
+2023-12-20 09:40:07,106 INFO [main][RepositoryConfigurationDelegate.java:132] - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-12-20 09:40:07,106 INFO [main][RepositoryConfigurationDelegate.java:132] - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-12-20 09:40:07,117 INFO [main][RepositoryConfigurationDelegate.java:201] - Finished Spring Data repository scanning in 4 ms. Found 0 Redis repository interfaces.
+2023-12-20 09:40:07,117 INFO [main][RepositoryConfigurationDelegate.java:201] - Finished Spring Data repository scanning in 4 ms. Found 0 Redis repository interfaces.
+2023-12-20 09:40:07,431 INFO [main][TomcatWebServer.java:108] - Tomcat initialized with port(s): 9001 (http)
+2023-12-20 09:40:07,431 INFO [main][TomcatWebServer.java:108] - Tomcat initialized with port(s): 9001 (http)
+2023-12-20 09:40:07,432 INFO [main][DirectJDKLog.java:173] - Loaded Apache Tomcat Native library [1.2.38] using APR version [1.7.4].
+2023-12-20 09:40:07,432 INFO [main][DirectJDKLog.java:173] - Loaded Apache Tomcat Native library [1.2.38] using APR version [1.7.4].
+2023-12-20 09:40:07,432 INFO [main][DirectJDKLog.java:173] - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+2023-12-20 09:40:07,432 INFO [main][DirectJDKLog.java:173] - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+2023-12-20 09:40:07,433 INFO [main][DirectJDKLog.java:173] - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2023-12-20 09:40:07,433 INFO [main][DirectJDKLog.java:173] - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2023-12-20 09:40:07,434 INFO [main][DirectJDKLog.java:173] - OpenSSL successfully initialized [OpenSSL 1.1.1v  1 Aug 2023]
+2023-12-20 09:40:07,434 INFO [main][DirectJDKLog.java:173] - OpenSSL successfully initialized [OpenSSL 1.1.1v  1 Aug 2023]
+2023-12-20 09:40:07,439 INFO [main][DirectJDKLog.java:173] - Initializing ProtocolHandler ["http-nio-9001"]
+2023-12-20 09:40:07,439 INFO [main][DirectJDKLog.java:173] - Initializing ProtocolHandler ["http-nio-9001"]
+2023-12-20 09:40:07,439 INFO [main][DirectJDKLog.java:173] - Starting service [Tomcat]
+2023-12-20 09:40:07,439 INFO [main][DirectJDKLog.java:173] - Starting service [Tomcat]
+2023-12-20 09:40:07,439 INFO [main][DirectJDKLog.java:173] - Starting Servlet engine: [Apache Tomcat/9.0.60]
+2023-12-20 09:40:07,439 INFO [main][DirectJDKLog.java:173] - Starting Servlet engine: [Apache Tomcat/9.0.60]
+2023-12-20 09:40:07,490 INFO [main][DirectJDKLog.java:173] - Initializing Spring embedded WebApplicationContext
+2023-12-20 09:40:07,490 INFO [main][DirectJDKLog.java:173] - Initializing Spring embedded WebApplicationContext
+2023-12-20 09:40:07,490 INFO [main][ServletWebServerApplicationContext.java:290] - Root WebApplicationContext: initialization completed in 776 ms
+2023-12-20 09:40:07,490 INFO [main][ServletWebServerApplicationContext.java:290] - Root WebApplicationContext: initialization completed in 776 ms
+2023-12-20 09:40:08,314 INFO [main][DirectJDKLog.java:173] - Starting ProtocolHandler ["http-nio-9001"]
+2023-12-20 09:40:08,314 INFO [main][DirectJDKLog.java:173] - Starting ProtocolHandler ["http-nio-9001"]
+2023-12-20 09:40:08,324 INFO [main][TomcatWebServer.java:220] - Tomcat started on port(s): 9001 (http) with context path ''
+2023-12-20 09:40:08,324 INFO [main][TomcatWebServer.java:220] - Tomcat started on port(s): 9001 (http) with context path ''
+2023-12-20 09:40:08,434 INFO [main][StartupInfoLogger.java:61] - Started NoteApplication in 1.971 seconds (JVM running for 2.452)
+2023-12-20 09:40:08,434 INFO [main][StartupInfoLogger.java:61] - Started NoteApplication in 1.971 seconds (JVM running for 2.452)
+2023-12-20 09:40:08,438 INFO [main][NoteApplication.java:34] - 
+----------------------------------------------------------
+	Application MyNote-note is running! Access URLs:
+	local: 	http://localhost:9001/doc.html
+	Swagger文档: 	http://192.168.0.147:9001/doc.html
+----------------------------------------------------------
+2023-12-20 09:40:08,438 INFO [main][NoteApplication.java:34] - 
+----------------------------------------------------------
+	Application MyNote-note is running! Access URLs:
+	local: 	http://localhost:9001/doc.html
+	Swagger文档: 	http://192.168.0.147:9001/doc.html
+----------------------------------------------------------
+2023-12-20 09:40:16,685 INFO [http-nio-9001-exec-1][DirectJDKLog.java:173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-12-20 09:40:16,685 INFO [http-nio-9001-exec-1][DirectJDKLog.java:173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-12-20 09:40:16,686 INFO [http-nio-9001-exec-1][FrameworkServlet.java:525] - Initializing Servlet 'dispatcherServlet'
+2023-12-20 09:40:16,686 INFO [http-nio-9001-exec-1][FrameworkServlet.java:525] - Initializing Servlet 'dispatcherServlet'
+2023-12-20 09:40:16,688 INFO [http-nio-9001-exec-1][FrameworkServlet.java:547] - Completed initialization in 2 ms
+2023-12-20 09:40:16,688 INFO [http-nio-9001-exec-1][FrameworkServlet.java:547] - Completed initialization in 2 ms
+2023-12-20 09:40:16,759 INFO [http-nio-9001-exec-1][HikariDataSource.java:110] - HikariPool-1 - Starting...
+2023-12-20 09:40:16,759 INFO [http-nio-9001-exec-1][HikariDataSource.java:110] - HikariPool-1 - Starting...
+2023-12-20 09:40:16,905 INFO [http-nio-9001-exec-1][HikariDataSource.java:123] - HikariPool-1 - Start completed.
+2023-12-20 09:40:16,905 INFO [http-nio-9001-exec-1][HikariDataSource.java:123] - HikariPool-1 - Start completed.
+2023-12-20 09:43:12,497 INFO [SpringApplicationShutdownHook][HikariDataSource.java:350] - HikariPool-1 - Shutdown initiated...
+2023-12-20 09:43:12,497 INFO [SpringApplicationShutdownHook][HikariDataSource.java:350] - HikariPool-1 - Shutdown initiated...
+2023-12-20 09:43:12,504 INFO [SpringApplicationShutdownHook][HikariDataSource.java:352] - HikariPool-1 - Shutdown completed.
+2023-12-20 09:43:12,504 INFO [SpringApplicationShutdownHook][HikariDataSource.java:352] - HikariPool-1 - Shutdown completed.
+2023-12-20 09:43:16,489 INFO [main][StartupInfoLogger.java:55] - Starting NoteApplication using Java 11.0.20 on zzadmin with PID 1864 (E:\workspace\java\MyNote\myNote-notes\target\classes started by Administrator in E:\workspace\java\MyNote)
+2023-12-20 09:43:16,489 INFO [main][StartupInfoLogger.java:55] - Starting NoteApplication using Java 11.0.20 on zzadmin with PID 1864 (E:\workspace\java\MyNote\myNote-notes\target\classes started by Administrator in E:\workspace\java\MyNote)
+2023-12-20 09:43:16,494 INFO [main][SpringApplication.java:646] - The following 1 profile is active: "dev"
+2023-12-20 09:43:16,494 INFO [main][SpringApplication.java:646] - The following 1 profile is active: "dev"
+2023-12-20 09:43:16,915 INFO [main][RepositoryConfigurationDelegate.java:262] - Multiple Spring Data modules found, entering strict repository configuration mode!
+2023-12-20 09:43:16,915 INFO [main][RepositoryConfigurationDelegate.java:262] - Multiple Spring Data modules found, entering strict repository configuration mode!
+2023-12-20 09:43:16,916 INFO [main][RepositoryConfigurationDelegate.java:132] - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-12-20 09:43:16,916 INFO [main][RepositoryConfigurationDelegate.java:132] - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-12-20 09:43:16,928 INFO [main][RepositoryConfigurationDelegate.java:201] - Finished Spring Data repository scanning in 4 ms. Found 0 Redis repository interfaces.
+2023-12-20 09:43:16,928 INFO [main][RepositoryConfigurationDelegate.java:201] - Finished Spring Data repository scanning in 4 ms. Found 0 Redis repository interfaces.
+2023-12-20 09:43:17,219 INFO [main][TomcatWebServer.java:108] - Tomcat initialized with port(s): 9001 (http)
+2023-12-20 09:43:17,219 INFO [main][TomcatWebServer.java:108] - Tomcat initialized with port(s): 9001 (http)
+2023-12-20 09:43:17,219 INFO [main][DirectJDKLog.java:173] - Loaded Apache Tomcat Native library [1.2.38] using APR version [1.7.4].
+2023-12-20 09:43:17,219 INFO [main][DirectJDKLog.java:173] - Loaded Apache Tomcat Native library [1.2.38] using APR version [1.7.4].
+2023-12-20 09:43:17,220 INFO [main][DirectJDKLog.java:173] - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+2023-12-20 09:43:17,220 INFO [main][DirectJDKLog.java:173] - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+2023-12-20 09:43:17,220 INFO [main][DirectJDKLog.java:173] - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2023-12-20 09:43:17,220 INFO [main][DirectJDKLog.java:173] - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2023-12-20 09:43:17,221 INFO [main][DirectJDKLog.java:173] - OpenSSL successfully initialized [OpenSSL 1.1.1v  1 Aug 2023]
+2023-12-20 09:43:17,221 INFO [main][DirectJDKLog.java:173] - OpenSSL successfully initialized [OpenSSL 1.1.1v  1 Aug 2023]
+2023-12-20 09:43:17,227 INFO [main][DirectJDKLog.java:173] - Initializing ProtocolHandler ["http-nio-9001"]
+2023-12-20 09:43:17,227 INFO [main][DirectJDKLog.java:173] - Initializing ProtocolHandler ["http-nio-9001"]
+2023-12-20 09:43:17,227 INFO [main][DirectJDKLog.java:173] - Starting service [Tomcat]
+2023-12-20 09:43:17,227 INFO [main][DirectJDKLog.java:173] - Starting service [Tomcat]
+2023-12-20 09:43:17,227 INFO [main][DirectJDKLog.java:173] - Starting Servlet engine: [Apache Tomcat/9.0.60]
+2023-12-20 09:43:17,227 INFO [main][DirectJDKLog.java:173] - Starting Servlet engine: [Apache Tomcat/9.0.60]
+2023-12-20 09:43:17,282 INFO [main][DirectJDKLog.java:173] - Initializing Spring embedded WebApplicationContext
+2023-12-20 09:43:17,282 INFO [main][DirectJDKLog.java:173] - Initializing Spring embedded WebApplicationContext
+2023-12-20 09:43:17,282 INFO [main][ServletWebServerApplicationContext.java:290] - Root WebApplicationContext: initialization completed in 770 ms
+2023-12-20 09:43:17,282 INFO [main][ServletWebServerApplicationContext.java:290] - Root WebApplicationContext: initialization completed in 770 ms
+2023-12-20 09:43:18,077 INFO [main][DirectJDKLog.java:173] - Starting ProtocolHandler ["http-nio-9001"]
+2023-12-20 09:43:18,077 INFO [main][DirectJDKLog.java:173] - Starting ProtocolHandler ["http-nio-9001"]
+2023-12-20 09:43:18,087 INFO [main][TomcatWebServer.java:220] - Tomcat started on port(s): 9001 (http) with context path ''
+2023-12-20 09:43:18,087 INFO [main][TomcatWebServer.java:220] - Tomcat started on port(s): 9001 (http) with context path ''
+2023-12-20 09:43:18,187 INFO [main][StartupInfoLogger.java:61] - Started NoteApplication in 1.934 seconds (JVM running for 2.403)
+2023-12-20 09:43:18,187 INFO [main][StartupInfoLogger.java:61] - Started NoteApplication in 1.934 seconds (JVM running for 2.403)
+2023-12-20 09:43:18,191 INFO [main][NoteApplication.java:34] - 
+----------------------------------------------------------
+	Application MyNote-note is running! Access URLs:
+	local: 	http://localhost:9001/doc.html
+	Swagger文档: 	http://192.168.0.147:9001/doc.html
+----------------------------------------------------------
+2023-12-20 09:43:18,191 INFO [main][NoteApplication.java:34] - 
+----------------------------------------------------------
+	Application MyNote-note is running! Access URLs:
+	local: 	http://localhost:9001/doc.html
+	Swagger文档: 	http://192.168.0.147:9001/doc.html
+----------------------------------------------------------
+2023-12-20 09:43:22,208 INFO [http-nio-9001-exec-1][DirectJDKLog.java:173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-12-20 09:43:22,208 INFO [http-nio-9001-exec-1][DirectJDKLog.java:173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-12-20 09:43:22,209 INFO [http-nio-9001-exec-1][FrameworkServlet.java:525] - Initializing Servlet 'dispatcherServlet'
+2023-12-20 09:43:22,209 INFO [http-nio-9001-exec-1][FrameworkServlet.java:525] - Initializing Servlet 'dispatcherServlet'
+2023-12-20 09:43:22,211 INFO [http-nio-9001-exec-1][FrameworkServlet.java:547] - Completed initialization in 2 ms
+2023-12-20 09:43:22,211 INFO [http-nio-9001-exec-1][FrameworkServlet.java:547] - Completed initialization in 2 ms
+2023-12-20 09:43:22,276 INFO [http-nio-9001-exec-1][HikariDataSource.java:110] - HikariPool-1 - Starting...
+2023-12-20 09:43:22,276 INFO [http-nio-9001-exec-1][HikariDataSource.java:110] - HikariPool-1 - Starting...
+2023-12-20 09:43:22,384 INFO [http-nio-9001-exec-1][HikariDataSource.java:123] - HikariPool-1 - Start completed.
+2023-12-20 09:43:22,384 INFO [http-nio-9001-exec-1][HikariDataSource.java:123] - HikariPool-1 - Start completed.
+2023-12-20 09:55:21,883 INFO [SpringApplicationShutdownHook][HikariDataSource.java:350] - HikariPool-1 - Shutdown initiated...
+2023-12-20 09:55:21,883 INFO [SpringApplicationShutdownHook][HikariDataSource.java:350] - HikariPool-1 - Shutdown initiated...
+2023-12-20 09:55:21,890 INFO [SpringApplicationShutdownHook][HikariDataSource.java:352] - HikariPool-1 - Shutdown completed.
+2023-12-20 09:55:21,890 INFO [SpringApplicationShutdownHook][HikariDataSource.java:352] - HikariPool-1 - Shutdown completed.
+2023-12-20 09:55:26,053 INFO [main][StartupInfoLogger.java:55] - Starting NoteApplication using Java 11.0.20 on zzadmin with PID 2856 (E:\workspace\java\MyNote\myNote-notes\target\classes started by Administrator in E:\workspace\java\MyNote)
+2023-12-20 09:55:26,053 INFO [main][StartupInfoLogger.java:55] - Starting NoteApplication using Java 11.0.20 on zzadmin with PID 2856 (E:\workspace\java\MyNote\myNote-notes\target\classes started by Administrator in E:\workspace\java\MyNote)
+2023-12-20 09:55:26,059 INFO [main][SpringApplication.java:646] - The following 1 profile is active: "dev"
+2023-12-20 09:55:26,059 INFO [main][SpringApplication.java:646] - The following 1 profile is active: "dev"
+2023-12-20 09:55:26,457 INFO [main][RepositoryConfigurationDelegate.java:262] - Multiple Spring Data modules found, entering strict repository configuration mode!
+2023-12-20 09:55:26,457 INFO [main][RepositoryConfigurationDelegate.java:262] - Multiple Spring Data modules found, entering strict repository configuration mode!
+2023-12-20 09:55:26,458 INFO [main][RepositoryConfigurationDelegate.java:132] - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-12-20 09:55:26,458 INFO [main][RepositoryConfigurationDelegate.java:132] - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-12-20 09:55:26,470 INFO [main][RepositoryConfigurationDelegate.java:201] - Finished Spring Data repository scanning in 4 ms. Found 0 Redis repository interfaces.
+2023-12-20 09:55:26,470 INFO [main][RepositoryConfigurationDelegate.java:201] - Finished Spring Data repository scanning in 4 ms. Found 0 Redis repository interfaces.
+2023-12-20 09:55:26,744 INFO [main][TomcatWebServer.java:108] - Tomcat initialized with port(s): 9001 (http)
+2023-12-20 09:55:26,744 INFO [main][TomcatWebServer.java:108] - Tomcat initialized with port(s): 9001 (http)
+2023-12-20 09:55:26,745 INFO [main][DirectJDKLog.java:173] - Loaded Apache Tomcat Native library [1.2.38] using APR version [1.7.4].
+2023-12-20 09:55:26,745 INFO [main][DirectJDKLog.java:173] - Loaded Apache Tomcat Native library [1.2.38] using APR version [1.7.4].
+2023-12-20 09:55:26,746 INFO [main][DirectJDKLog.java:173] - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+2023-12-20 09:55:26,746 INFO [main][DirectJDKLog.java:173] - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+2023-12-20 09:55:26,746 INFO [main][DirectJDKLog.java:173] - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2023-12-20 09:55:26,746 INFO [main][DirectJDKLog.java:173] - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2023-12-20 09:55:26,747 INFO [main][DirectJDKLog.java:173] - OpenSSL successfully initialized [OpenSSL 1.1.1v  1 Aug 2023]
+2023-12-20 09:55:26,747 INFO [main][DirectJDKLog.java:173] - OpenSSL successfully initialized [OpenSSL 1.1.1v  1 Aug 2023]
+2023-12-20 09:55:26,752 INFO [main][DirectJDKLog.java:173] - Initializing ProtocolHandler ["http-nio-9001"]
+2023-12-20 09:55:26,752 INFO [main][DirectJDKLog.java:173] - Initializing ProtocolHandler ["http-nio-9001"]
+2023-12-20 09:55:26,752 INFO [main][DirectJDKLog.java:173] - Starting service [Tomcat]
+2023-12-20 09:55:26,752 INFO [main][DirectJDKLog.java:173] - Starting service [Tomcat]
+2023-12-20 09:55:26,752 INFO [main][DirectJDKLog.java:173] - Starting Servlet engine: [Apache Tomcat/9.0.60]
+2023-12-20 09:55:26,752 INFO [main][DirectJDKLog.java:173] - Starting Servlet engine: [Apache Tomcat/9.0.60]
+2023-12-20 09:55:26,802 INFO [main][DirectJDKLog.java:173] - Initializing Spring embedded WebApplicationContext
+2023-12-20 09:55:26,802 INFO [main][DirectJDKLog.java:173] - Initializing Spring embedded WebApplicationContext
+2023-12-20 09:55:26,803 INFO [main][ServletWebServerApplicationContext.java:290] - Root WebApplicationContext: initialization completed in 727 ms
+2023-12-20 09:55:26,803 INFO [main][ServletWebServerApplicationContext.java:290] - Root WebApplicationContext: initialization completed in 727 ms
+2023-12-20 09:55:27,632 INFO [main][DirectJDKLog.java:173] - Starting ProtocolHandler ["http-nio-9001"]
+2023-12-20 09:55:27,632 INFO [main][DirectJDKLog.java:173] - Starting ProtocolHandler ["http-nio-9001"]
+2023-12-20 09:55:27,641 INFO [main][TomcatWebServer.java:220] - Tomcat started on port(s): 9001 (http) with context path ''
+2023-12-20 09:55:27,641 INFO [main][TomcatWebServer.java:220] - Tomcat started on port(s): 9001 (http) with context path ''
+2023-12-20 09:55:27,757 INFO [main][StartupInfoLogger.java:61] - Started NoteApplication in 1.934 seconds (JVM running for 2.409)
+2023-12-20 09:55:27,757 INFO [main][StartupInfoLogger.java:61] - Started NoteApplication in 1.934 seconds (JVM running for 2.409)
+2023-12-20 09:55:27,760 INFO [main][NoteApplication.java:34] - 
+----------------------------------------------------------
+	Application MyNote-note is running! Access URLs:
+	local: 	http://localhost:9001/doc.html
+	Swagger文档: 	http://192.168.0.147:9001/doc.html
+----------------------------------------------------------
+2023-12-20 09:55:27,760 INFO [main][NoteApplication.java:34] - 
+----------------------------------------------------------
+	Application MyNote-note is running! Access URLs:
+	local: 	http://localhost:9001/doc.html
+	Swagger文档: 	http://192.168.0.147:9001/doc.html
+----------------------------------------------------------
+2023-12-20 09:55:31,915 INFO [http-nio-9001-exec-2][DirectJDKLog.java:173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-12-20 09:55:31,915 INFO [http-nio-9001-exec-2][DirectJDKLog.java:173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-12-20 09:55:31,916 INFO [http-nio-9001-exec-2][FrameworkServlet.java:525] - Initializing Servlet 'dispatcherServlet'
+2023-12-20 09:55:31,916 INFO [http-nio-9001-exec-2][FrameworkServlet.java:525] - Initializing Servlet 'dispatcherServlet'
+2023-12-20 09:55:31,918 INFO [http-nio-9001-exec-2][FrameworkServlet.java:547] - Completed initialization in 2 ms
+2023-12-20 09:55:31,918 INFO [http-nio-9001-exec-2][FrameworkServlet.java:547] - Completed initialization in 2 ms
+2023-12-20 09:55:31,982 INFO [http-nio-9001-exec-2][HikariDataSource.java:110] - HikariPool-1 - Starting...
+2023-12-20 09:55:31,982 INFO [http-nio-9001-exec-2][HikariDataSource.java:110] - HikariPool-1 - Starting...
+2023-12-20 09:55:32,086 INFO [http-nio-9001-exec-2][HikariDataSource.java:123] - HikariPool-1 - Start completed.
+2023-12-20 09:55:32,086 INFO [http-nio-9001-exec-2][HikariDataSource.java:123] - HikariPool-1 - Start completed.

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.mynote.notes.mapper.NoteCategoryMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.mynote.base.common.note.entity.NoteCategory">
+        <id column="note_id" property="noteId" />
+        <id column="category_id" property="categoryId" />
+        <result column="id" property="id" />
+    </resultMap>
+
+    <select id="checkNoteCategory" resultType="int">
+        select count(*) from notes.notes_note_category nn
+        where 1=1
+        <if test="noteId != null and noteId != ''">
+            AND nn.note_id = #{noteId}
+        </if>
+        <if test="categoryId != null and categoryId != ''">
+            AND nn.category_id = #{categoryId}
+        </if>
+    </select>
+</mapper>
