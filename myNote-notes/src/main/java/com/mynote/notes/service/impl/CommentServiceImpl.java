@@ -4,6 +4,7 @@ import com.mynote.base.common.note.entity.Comment;
 import com.mynote.notes.mapper.CommentMapper;
 import com.mynote.notes.service.CommentService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 /**
@@ -17,4 +18,11 @@ import org.springframework.stereotype.Service;
 @Service
 public class CommentServiceImpl extends ServiceImpl<CommentMapper, Comment> implements CommentService {
 
+    @Autowired
+    private CommentMapper commentMapper;
+
+    @Override
+    public void logicDelete(String id) {
+        commentMapper.logicDelete(id);
+    }
 }

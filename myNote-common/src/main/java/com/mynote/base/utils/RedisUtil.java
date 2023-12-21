@@ -1,5 +1,6 @@
 package com.mynote.base.utils;
 
+import com.mynote.base.constant.DeleteCode;
 import com.mynote.base.exception.NoteException;
 import com.mynote.base.constant.Enum.ResultCodeEnum;
 import org.springframework.data.redis.core.RedisTemplate;
@@ -7,6 +8,7 @@ import org.springframework.stereotype.Component;
 
 import javax.annotation.Resource;
 import java.util.Arrays;
+import java.util.Set;
 import java.util.concurrent.TimeUnit;
 
 /**
@@ -28,6 +30,19 @@ public class RedisUtil {
         } catch (Exception e) {
             e.printStackTrace();
             return false;
+        }
+    }
+
+    public void sSet(String key,Object object){
+        redisTemplate.opsForSet().add(key, object);
+    }
+
+    public Set<Object> sGet(String key) {
+        try {
+            return this.redisTemplate.opsForSet().members(key);
+        } catch (Exception e) {
+            e.printStackTrace();
+            return null;
         }
     }
 

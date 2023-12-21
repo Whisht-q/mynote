@@ -9,8 +9,12 @@
         <result column="note_id" property="noteId" />
         <result column="content" property="content" />
         <result column="created_time" property="createdTime" />
-        <result column="updated_time" property="updatedTime" />
         <result column="is_deleted" property="isDeleted" />
     </resultMap>
 
+    <update id="logicDelete">
+        update notes.notes_comment
+        set is_deleted = 1
+        where id = #{id}
+    </update>
 </mapper>

@@ -46,10 +46,6 @@ public class Comment implements Serializable {
     @TableField("created_time")
     private LocalDateTime createdTime;
 
-    @ApiModelProperty("评论修改时间")
-    @TableField("updated_time")
-    private LocalDateTime updatedTime;
-
     @ApiModelProperty("逻辑删除: 0 未删除 , 1 已删除")
     @TableField("is_deleted")
     private Boolean isDeleted;
