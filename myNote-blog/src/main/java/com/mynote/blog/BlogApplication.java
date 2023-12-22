@@ -1,11 +1,13 @@
 package com.mynote.blog;
 
 import com.mynote.base.utils.CommonUtil;
+import com.mynote.blog.feign.SystemFeignClient;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 import org.springframework.cloud.context.config.annotation.RefreshScope;
+import org.springframework.cloud.openfeign.EnableFeignClients;
 import org.springframework.context.ConfigurableApplicationContext;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.core.env.Environment;
@@ -21,6 +23,7 @@ import java.net.UnknownHostException;
 @Slf4j
 @SpringBootApplication
 @ComponentScan({"com.mynote.blog","com.mynote.base"})
+@EnableFeignClients(basePackageClasses = {SystemFeignClient.class})
 @EnableDiscoveryClient
 @RefreshScope
 public class BlogApplication {

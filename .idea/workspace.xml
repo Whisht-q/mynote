@@ -4,23 +4,42 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b686dafb-5bce-444d-8109-366e6029888f" name="Changes" comment="系统管理和笔记">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/2023-12-21/info.2023-12-21-14.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myNote-common/src/main/java/com/mynote/base/constant/DeleteCode.java" afterDir="false" />
+    <list default="true" id="b686dafb-5bce-444d-8109-366e6029888f" name="Changes" comment="添加评论和删除">
+      <change afterPath="$PROJECT_DIR$/logs/2023-12-21/info.2023-12-21-15.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myNote-blog/src/main/java/com/mynote/blog/feign/SystemFeignClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myNote-common/src/main/java/com/mynote/base/common/blog/dto/BlogContentDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myNote-common/src/main/java/com/mynote/base/common/blog/vo/BlogCategoryVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myNote-common/src/main/java/com/mynote/base/common/blog/vo/BlogContentVo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/33dbf51a-1bce-41dc-beb2-5e41a1590cd9.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/33dbf51a-1bce-41dc-beb2-5e41a1590cd9.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/info.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/info.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myNote-common/src/main/java/com/mynote/base/common/note/dto/CommentDto.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/myNote-common/src/main/java/com/mynote/base/common/note/entity/Comment.java" beforeDir="false" afterPath="$PROJECT_DIR$/myNote-common/src/main/java/com/mynote/base/common/note/entity/Comment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myNote-blog/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/myNote-blog/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myNote-blog/src/main/java/com/mynote/blog/BlogApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/myNote-blog/src/main/java/com/mynote/blog/BlogApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myNote-blog/src/main/java/com/mynote/blog/controller/CategoryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/myNote-blog/src/main/java/com/mynote/blog/controller/CategoryController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myNote-blog/src/main/java/com/mynote/blog/controller/ContentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/myNote-blog/src/main/java/com/mynote/blog/controller/ContentController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myNote-blog/src/main/java/com/mynote/blog/mapper/xml/CategoryMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/myNote-blog/src/main/java/com/mynote/blog/mapper/xml/CategoryMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myNote-blog/src/main/java/com/mynote/blog/service/ContentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/myNote-blog/src/main/java/com/mynote/blog/service/ContentService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myNote-blog/src/main/java/com/mynote/blog/service/impl/ContentServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/myNote-blog/src/main/java/com/mynote/blog/service/impl/ContentServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myNote-common/src/main/java/com/mynote/base/common/blog/entity/Category.java" beforeDir="false" afterPath="$PROJECT_DIR$/myNote-common/src/main/java/com/mynote/base/common/blog/entity/Category.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myNote-common/src/main/java/com/mynote/base/common/blog/entity/Status.java" beforeDir="false" afterPath="$PROJECT_DIR$/myNote-common/src/main/java/com/mynote/base/common/blog/entity/Status.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myNote-common/src/main/java/com/mynote/base/common/note/entity/Category.java" beforeDir="false" afterPath="$PROJECT_DIR$/myNote-common/src/main/java/com/mynote/base/common/note/entity/Category.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myNote-common/src/main/java/com/mynote/base/common/note/entity/Comment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myNote-common/src/main/java/com/mynote/base/common/note/entity/Reply.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/myNote-common/src/main/java/com/mynote/base/constant/Enum/ResultCodeEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/myNote-common/src/main/java/com/mynote/base/constant/Enum/ResultCodeEnum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myNote-common/src/main/java/com/mynote/base/utils/RedisUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/myNote-common/src/main/java/com/mynote/base/utils/RedisUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myNote-notes/src/main/java/com/mynote/notes/controller/CommentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/myNote-notes/src/main/java/com/mynote/notes/controller/CommentController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myNote-notes/src/main/java/com/mynote/notes/mapper/CommentMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/myNote-notes/src/main/java/com/mynote/notes/mapper/CommentMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myNote-notes/src/main/java/com/mynote/notes/mapper/xml/CommentMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/myNote-notes/src/main/java/com/mynote/notes/mapper/xml/CommentMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myNote-notes/src/main/java/com/mynote/notes/service/CommentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/myNote-notes/src/main/java/com/mynote/notes/service/CommentService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myNote-notes/src/main/java/com/mynote/notes/service/impl/CommentServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/myNote-notes/src/main/java/com/mynote/notes/service/impl/CommentServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myNote-system/src/main/java/com/mynote/sys/annotation/LogAfterExecution.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/myNote-system/src/main/java/com/mynote/sys/aspect/LogAfterExecutionAspect.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myNote-notes/src/main/java/com/mynote/notes/controller/CommentController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myNote-notes/src/main/java/com/mynote/notes/mapper/CommentMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myNote-notes/src/main/java/com/mynote/notes/mapper/ReplyMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myNote-notes/src/main/java/com/mynote/notes/mapper/xml/CommentMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myNote-notes/src/main/java/com/mynote/notes/mapper/xml/ReplyMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myNote-notes/src/main/java/com/mynote/notes/service/CommentService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myNote-notes/src/main/java/com/mynote/notes/service/ReplyService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myNote-notes/src/main/java/com/mynote/notes/service/impl/CategoryServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myNote-notes/src/main/java/com/mynote/notes/service/impl/CommentServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myNote-notes/src/main/java/com/mynote/notes/service/impl/ContentServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myNote-notes/src/main/java/com/mynote/notes/service/impl/NoteCategoryServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myNote-notes/src/main/java/com/mynote/notes/service/impl/NoteStatusServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myNote-notes/src/main/java/com/mynote/notes/service/impl/ReplyServiceImpl.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,8 +54,8 @@
         <option value="AnnotationType" />
         <option value="Enum" />
         <option value="bootstrap" />
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -69,45 +88,45 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "Application.Generator.executor": "Run",
-    "Application.tesrGd.executor": "Run",
-    "Maven.MyNote [clean].executor": "Run",
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "Spring Boot.BlogApplication.executor": "Run",
-    "Spring Boot.NoteApplication.executor": "Run",
-    "Spring Boot.SystemApplication.executor": "Run",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "jdk.selected.JAVA_MODULE": "11",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "E:/workspace/java/MyNote",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Problems",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.2282958",
-    "run.configurations.included.in.services": "true",
-    "settings.editor.selected.configurable": "Errors",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Application.Generator.executor&quot;: &quot;Run&quot;,
+    &quot;Application.tesrGd.executor&quot;: &quot;Run&quot;,
+    &quot;Maven.MyNote [clean].executor&quot;: &quot;Run&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Spring Boot.BlogApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.NoteApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.SystemApplication.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;11&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/workspace/java/MyNote&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Problems&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2282958&quot;,
+    &quot;run.configurations.included.in.services&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;Errors&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "mysql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\workspace\java\MyNote\myNote-blog\src\main\java\com\mynote\blog\config" />
@@ -184,9 +203,9 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.NoteApplication" />
-        <item itemvalue="Spring Boot.SystemApplication" />
         <item itemvalue="Spring Boot.BlogApplication" />
+        <item itemvalue="Spring Boot.SystemApplication" />
+        <item itemvalue="Spring Boot.NoteApplication" />
         <item itemvalue="Application.Generator" />
       </list>
     </recent_temporary>
@@ -211,7 +230,8 @@
       <workItem from="1703034353260" duration="6805000" />
       <workItem from="1703041172285" duration="42000" />
       <workItem from="1703041220035" duration="16441000" />
-      <workItem from="1703119290841" duration="11583000" />
+      <workItem from="1703119290841" duration="12243000" />
+      <workItem from="1703210539080" duration="5435000" />
     </task>
     <task id="LOCAL-00001" summary="系统管理和笔记">
       <option name="closed" value="true" />
@@ -221,7 +241,15 @@
       <option name="project" value="LOCAL" />
       <updated>1703140874213</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="添加评论和删除">
+      <option name="closed" value="true" />
+      <created>1703144319778</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1703144319778</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -241,7 +269,8 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="系统管理和笔记" />
-    <option name="LAST_COMMIT_MESSAGE" value="系统管理和笔记" />
+    <MESSAGE value="添加评论和删除" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加评论和删除" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

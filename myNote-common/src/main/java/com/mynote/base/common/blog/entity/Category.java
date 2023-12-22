@@ -30,6 +30,10 @@ public class Category implements Serializable {
     @TableId("id")
     private String id;
 
+    @ApiModelProperty("父分类id")
+    @TableField("parent_id")
+    private String parentId;
+
     @ApiModelProperty("分类名称")
     @TableField("name")
     private String name;

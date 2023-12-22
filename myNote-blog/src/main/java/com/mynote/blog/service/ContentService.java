@@ -1,5 +1,6 @@
 package com.mynote.blog.service;
 
+import com.mynote.base.common.blog.dto.BlogContentDto;
 import com.mynote.base.common.blog.entity.Content;
 import com.baomidou.mybatisplus.extension.service.IService;
 
@@ -13,4 +14,5 @@ import com.baomidou.mybatisplus.extension.service.IService;
  */
 public interface ContentService extends IService<Content> {
 
+    void saveContent(BlogContentDto blogContentDto);
 }

@@ -35,5 +35,5 @@ public class Status implements Serializable {
 
     @ApiModelProperty("是否公开: 0 公开 , 1 私有")
     @TableField("status")
-    private Boolean status;
+    private byte status;
 }

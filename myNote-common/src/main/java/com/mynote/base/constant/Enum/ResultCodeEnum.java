@@ -49,8 +49,8 @@ public enum ResultCodeEnum {
     NOTE_IS_EXIST(516,"笔记已存在"),
     //笔记不存在
     NOTE_IS_NONE(517,"笔记不存在"),
-    //评论不存在
-    COMMENT_IS_NONE(518,"评论不存在")
+    //博客已存在
+    BLOG_IS_EXIST(518,"博客已存在")
     ;
 
     private final Integer code;

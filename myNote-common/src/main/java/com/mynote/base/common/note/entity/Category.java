@@ -41,14 +41,10 @@ public class Category implements Serializable {
     @TableField("name")
     private String name;
 
-    @JsonFormat(timezone = "GMT+8",pattern = "yyyy-MM-dd HH:mm:ss")
-    @DateTimeFormat(pattern="yyyy-MM-dd HH:mm:ss")
     @ApiModelProperty("创建时间")
     @TableField("created_time")
     private LocalDateTime createdTime;
 
-    @JsonFormat(timezone = "GMT+8",pattern = "yyyy-MM-dd HH:mm:ss")
-    @DateTimeFormat(pattern="yyyy-MM-dd HH:mm:ss")
     @ApiModelProperty("修改时间")
     @TableField("updated_time")
     private LocalDateTime updatedTime;
