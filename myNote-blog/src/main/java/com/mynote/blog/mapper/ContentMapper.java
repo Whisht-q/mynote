@@ -2,7 +2,11 @@ package com.mynote.blog.mapper;
 
 import com.mynote.base.common.blog.entity.Content;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
+import com.mynote.base.common.blog.vo.BlogContentVo;
 import org.apache.ibatis.annotations.Mapper;
+import org.apache.ibatis.annotations.Param;
+
+import java.util.List;
 
 /**
  * <p>
@@ -15,4 +19,7 @@ import org.apache.ibatis.annotations.Mapper;
 @Mapper
 public interface ContentMapper extends BaseMapper<Content> {
 
+    List<Content> getPublicList(@Param("userId") String userId, @Param("categoryId") String categoryId);
+
+    List<Content> selectListByUserId(@Param("id") String id);
 }

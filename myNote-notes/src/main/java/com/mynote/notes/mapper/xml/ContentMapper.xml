@@ -25,4 +25,5 @@
         where nns.status = '0'
         and nc.is_deleted = '0'
     </select>
+
 </mapper>

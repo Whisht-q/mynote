@@ -1,8 +1,12 @@
 package com.mynote.blog.service;
 
+import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import com.mynote.base.common.blog.dto.BlogContentDto;
 import com.mynote.base.common.blog.entity.Content;
 import com.baomidou.mybatisplus.extension.service.IService;
+import com.mynote.base.common.blog.vo.BlogTitleVo;
+
+import java.util.List;
 
 /**
  * <p>
@@ -15,4 +19,8 @@ import com.baomidou.mybatisplus.extension.service.IService;
 public interface ContentService extends IService<Content> {
 
     void saveContent(BlogContentDto blogContentDto);
+
+    List<BlogTitleVo> getPublicList(String userId,String categoryId);
+
+    List<Content> selectListByUserId( String id);
 }

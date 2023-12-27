@@ -1,16 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="com.mynote.blog.mapper.ContentMapper">
-
     <!-- 通用查询映射结果 -->
     <resultMap id="BaseResultMap" type="com.mynote.base.common.blog.entity.Content">
-        <id column="id" property="id" />
-        <result column="user_id" property="userId" />
-        <result column="title" property="title" />
-        <result column="content" property="content" />
-        <result column="is_deleted" property="isDeleted" />
-        <result column="created_time" property="createdTime" />
-        <result column="updated_time" property="updatedTime" />
+        <id column="id" property="id"/>
+        <result column="user_id" property="userId"/>
+        <result column="title" property="title"/>
+        <result column="content" property="content"/>
+        <result column="is_deleted" property="isDeleted"/>
+        <result column="created_time" property="createdTime"/>
+        <result column="updated_time" property="updatedTime"/>
     </resultMap>
 
+    <select id="getPublicList" resultType="com.mynote.base.common.blog.entity.Content">
+        select bc.id, bc.user_id, bc.title
+        from blog.blog_content bc
+                 left join blog.blog_status bs on bc.id = bs.blog_id
+        left join blog.blog_union_category buc on bc.id = buc.blog_id
+        where 1 = 1
+        <if test="userId != null and userId != ''">
+            AND bc.user_id = #{userId}
+        </if>
+        <if test="categoryId != null and categoryId != ''">
+            AND buc.category_id = #{categoryId}
+        </if>
+        and status = '0'
+    </select>
+
+    <select id="selectListByUserId" resultType="com.mynote.base.common.blog.entity.Content">
+        select bc.id, bc.user_id, bc.title
+        from blog.blog_content bc
+                 left join blog.blog_status bs on bc.id = bs.blog_id
+        where 1 = 1
+        <if test="id != null and id != ''">
+            AND bc.user_id = #{id}
+        </if>
+        and bs.status = '0'
+    </select>
 </mapper>

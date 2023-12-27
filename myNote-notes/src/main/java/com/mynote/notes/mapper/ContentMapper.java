@@ -5,6 +5,7 @@ import com.mynote.base.common.note.entity.Content;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 import com.mynote.base.common.note.vo.ContentVo;
 import org.apache.ibatis.annotations.Mapper;
+import org.apache.ibatis.annotations.Param;
 
 import java.util.List;
 
@@ -22,4 +23,5 @@ public interface ContentMapper extends BaseMapper<Content> {
     void logicDelete(String id);
 
     List<Content> selectPublicNote();
+
 }
