@@ -1,0 +1,396 @@
+2023-12-29 13:58:00,544 INFO [main][SpringApplication.java:646] - The following 1 profile is active: "dev"
+2023-12-29 13:58:00,544 INFO [main][SpringApplication.java:646] - The following 1 profile is active: "dev"
+2023-12-29 13:58:01,037 INFO [main][RepositoryConfigurationDelegate.java:262] - Multiple Spring Data modules found, entering strict repository configuration mode!
+2023-12-29 13:58:01,037 INFO [main][RepositoryConfigurationDelegate.java:262] - Multiple Spring Data modules found, entering strict repository configuration mode!
+2023-12-29 13:58:01,039 INFO [main][RepositoryConfigurationDelegate.java:132] - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-12-29 13:58:01,039 INFO [main][RepositoryConfigurationDelegate.java:132] - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-12-29 13:58:01,052 INFO [main][RepositoryConfigurationDelegate.java:201] - Finished Spring Data repository scanning in 4 ms. Found 0 Redis repository interfaces.
+2023-12-29 13:58:01,052 INFO [main][RepositoryConfigurationDelegate.java:201] - Finished Spring Data repository scanning in 4 ms. Found 0 Redis repository interfaces.
+2023-12-29 13:58:01,147 DEBUG [main][LogFactory.java:109] - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2023-12-29 13:58:01,147 DEBUG [main][LogFactory.java:109] - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2023-12-29 13:58:01,206 INFO [main][GenericScope.java:283] - BeanFactory id=1eaff72d-037c-3b54-8755-2972cb143b9d
+2023-12-29 13:58:01,206 INFO [main][GenericScope.java:283] - BeanFactory id=1eaff72d-037c-3b54-8755-2972cb143b9d
+2023-12-29 13:58:01,612 DEBUG [main][HikariConfig.java:971] - Driver class com.mysql.cj.jdbc.Driver found in Thread context class loader jdk.internal.loader.ClassLoaders$AppClassLoader@61064425
+2023-12-29 13:58:01,612 DEBUG [main][HikariConfig.java:971] - Driver class com.mysql.cj.jdbc.Driver found in Thread context class loader jdk.internal.loader.ClassLoaders$AppClassLoader@61064425
+2023-12-29 13:58:02,257 INFO [main][FeignClientFactoryBean.java:418] - For 'mynote-system' URL not provided. Will try picking an instance via load-balancing.
+2023-12-29 13:58:02,257 INFO [main][FeignClientFactoryBean.java:418] - For 'mynote-system' URL not provided. Will try picking an instance via load-balancing.
+2023-12-29 13:58:02,394 DEBUG [main][InternalLoggerFactory.java:63] - Using SLF4J as the default logging framework
+2023-12-29 13:58:02,394 DEBUG [main][InternalLoggerFactory.java:63] - Using SLF4J as the default logging framework
+2023-12-29 13:58:02,397 DEBUG [main][AddressResolverGroupProvider.java:37] - Starting without optional netty's non-blocking DNS resolver library
+2023-12-29 13:58:02,397 DEBUG [main][AddressResolverGroupProvider.java:37] - Starting without optional netty's non-blocking DNS resolver library
+2023-12-29 13:58:02,399 DEBUG [main][DefaultClientResources.java:122] - -Dio.netty.eventLoopThreads: 16
+2023-12-29 13:58:02,399 DEBUG [main][DefaultClientResources.java:122] - -Dio.netty.eventLoopThreads: 16
+2023-12-29 13:58:02,404 DEBUG [main][DefaultEventLoopGroupProvider.java:231] - Creating executor io.netty.util.concurrent.DefaultEventExecutorGroup
+2023-12-29 13:58:02,404 DEBUG [main][DefaultEventLoopGroupProvider.java:231] - Creating executor io.netty.util.concurrent.DefaultEventExecutorGroup
+2023-12-29 13:58:02,416 DEBUG [main][InternalThreadLocalMap.java:86] - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2023-12-29 13:58:02,416 DEBUG [main][InternalThreadLocalMap.java:86] - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2023-12-29 13:58:02,417 DEBUG [main][InternalThreadLocalMap.java:89] - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2023-12-29 13:58:02,417 DEBUG [main][InternalThreadLocalMap.java:89] - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2023-12-29 13:58:02,420 DEBUG [main][ResourceLeakDetector.java:129] - -Dio.netty.leakDetection.level: simple
+2023-12-29 13:58:02,420 DEBUG [main][ResourceLeakDetector.java:129] - -Dio.netty.leakDetection.level: simple
+2023-12-29 13:58:02,420 DEBUG [main][ResourceLeakDetector.java:130] - -Dio.netty.leakDetection.targetRecords: 4
+2023-12-29 13:58:02,420 DEBUG [main][ResourceLeakDetector.java:130] - -Dio.netty.leakDetection.targetRecords: 4
+2023-12-29 13:58:02,423 DEBUG [main][ResourceLeakDetectorFactory.java:196] - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@7bebad0d
+2023-12-29 13:58:02,423 DEBUG [main][ResourceLeakDetectorFactory.java:196] - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@7bebad0d
+2023-12-29 13:58:02,435 DEBUG [main][PlatformDependent0.java:460] - -Dio.netty.noUnsafe: false
+2023-12-29 13:58:02,435 DEBUG [main][PlatformDependent0.java:460] - -Dio.netty.noUnsafe: false
+2023-12-29 13:58:02,435 DEBUG [main][PlatformDependent0.java:954] - Java version: 11
+2023-12-29 13:58:02,435 DEBUG [main][PlatformDependent0.java:954] - Java version: 11
+2023-12-29 13:58:02,436 DEBUG [main][PlatformDependent0.java:135] - sun.misc.Unsafe.theUnsafe: available
+2023-12-29 13:58:02,436 DEBUG [main][PlatformDependent0.java:135] - sun.misc.Unsafe.theUnsafe: available
+2023-12-29 13:58:02,436 DEBUG [main][PlatformDependent0.java:159] - sun.misc.Unsafe.copyMemory: available
+2023-12-29 13:58:02,436 DEBUG [main][PlatformDependent0.java:159] - sun.misc.Unsafe.copyMemory: available
+2023-12-29 13:58:02,436 DEBUG [main][PlatformDependent0.java:202] - java.nio.Buffer.address: available
+2023-12-29 13:58:02,436 DEBUG [main][PlatformDependent0.java:202] - java.nio.Buffer.address: available
+2023-12-29 13:58:02,436 DEBUG [main][PlatformDependent0.java:285] - direct buffer constructor: unavailable: Reflective setAccessible(true) disabled
+2023-12-29 13:58:02,436 DEBUG [main][PlatformDependent0.java:285] - direct buffer constructor: unavailable: Reflective setAccessible(true) disabled
+2023-12-29 13:58:02,437 DEBUG [main][PlatformDependent0.java:350] - java.nio.Bits.unaligned: available, true
+2023-12-29 13:58:02,437 DEBUG [main][PlatformDependent0.java:350] - java.nio.Bits.unaligned: available, true
+2023-12-29 13:58:02,438 DEBUG [main][PlatformDependent0.java:417] - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable: class io.netty.util.internal.PlatformDependent0$6 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @af04f09
+2023-12-29 13:58:02,438 DEBUG [main][PlatformDependent0.java:417] - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable: class io.netty.util.internal.PlatformDependent0$6 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @af04f09
+2023-12-29 13:58:02,438 DEBUG [main][PlatformDependent0.java:446] - java.nio.DirectByteBuffer.<init>(long, int): unavailable
+2023-12-29 13:58:02,438 DEBUG [main][PlatformDependent0.java:446] - java.nio.DirectByteBuffer.<init>(long, int): unavailable
+2023-12-29 13:58:02,438 DEBUG [main][PlatformDependent.java:1116] - sun.misc.Unsafe: available
+2023-12-29 13:58:02,438 DEBUG [main][PlatformDependent.java:1116] - sun.misc.Unsafe: available
+2023-12-29 13:58:02,439 DEBUG [main][PlatformDependent.java:1227] - maxDirectMemory: 8522825728 bytes (maybe)
+2023-12-29 13:58:02,439 DEBUG [main][PlatformDependent.java:1227] - maxDirectMemory: 8522825728 bytes (maybe)
+2023-12-29 13:58:02,439 DEBUG [main][PlatformDependent.java:1246] - -Dio.netty.tmpdir: C:\Users\ADMINI~1\AppData\Local\Temp (java.io.tmpdir)
+2023-12-29 13:58:02,439 DEBUG [main][PlatformDependent.java:1246] - -Dio.netty.tmpdir: C:\Users\ADMINI~1\AppData\Local\Temp (java.io.tmpdir)
+2023-12-29 13:58:02,439 DEBUG [main][PlatformDependent.java:1325] - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2023-12-29 13:58:02,439 DEBUG [main][PlatformDependent.java:1325] - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2023-12-29 13:58:02,439 DEBUG [main][PlatformDependent.java:1076] - Platform: Windows
+2023-12-29 13:58:02,439 DEBUG [main][PlatformDependent.java:1076] - Platform: Windows
+2023-12-29 13:58:02,440 DEBUG [main][PlatformDependent.java:178] - -Dio.netty.maxDirectMemory: -1 bytes
+2023-12-29 13:58:02,440 DEBUG [main][PlatformDependent.java:178] - -Dio.netty.maxDirectMemory: -1 bytes
+2023-12-29 13:58:02,440 DEBUG [main][PlatformDependent.java:185] - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2023-12-29 13:58:02,440 DEBUG [main][PlatformDependent.java:185] - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2023-12-29 13:58:02,441 DEBUG [main][CleanerJava9.java:71] - java.nio.ByteBuffer.cleaner(): available
+2023-12-29 13:58:02,441 DEBUG [main][CleanerJava9.java:71] - java.nio.ByteBuffer.cleaner(): available
+2023-12-29 13:58:02,441 DEBUG [main][PlatformDependent.java:205] - -Dio.netty.noPreferDirect: false
+2023-12-29 13:58:02,441 DEBUG [main][PlatformDependent.java:205] - -Dio.netty.noPreferDirect: false
+2023-12-29 13:58:02,446 DEBUG [main][PlatformDependent.java:967] - org.jctools-core.MpscChunkedArrayQueue: available
+2023-12-29 13:58:02,446 DEBUG [main][PlatformDependent.java:967] - org.jctools-core.MpscChunkedArrayQueue: available
+2023-12-29 13:58:02,452 DEBUG [main][Loggers.java:245] - Using Slf4j logging framework
+2023-12-29 13:58:02,452 DEBUG [main][Loggers.java:245] - Using Slf4j logging framework
+2023-12-29 13:58:02,455 DEBUG [main][EventRecorderHolder.java:47] - Starting with JFR support
+2023-12-29 13:58:02,455 DEBUG [main][EventRecorderHolder.java:47] - Starting with JFR support
+2023-12-29 13:58:02,468 DEBUG [main][DefaultClientResources.java:227] - LatencyUtils/HdrUtils are not available, metrics are disabled
+2023-12-29 13:58:02,468 DEBUG [main][DefaultClientResources.java:227] - LatencyUtils/HdrUtils are not available, metrics are disabled
+2023-12-29 13:58:02,941 DEBUG [main][AbstractHandlerMethodMapping.java:295] - 
+	c.m.n.c.CategoryController:
+	{POST [/note/category/add]}: add(String,String)
+	{POST [/note/category/update]}: update(CategoryDto)
+	{GET [/note/category/list]}: list(Integer,Integer)
+	{POST [/note/category/delete]}: delete(String)
+	{POST [/note/category/mylist]}: myList(String)
+2023-12-29 13:58:02,941 DEBUG [main][AbstractHandlerMethodMapping.java:295] - 
+	c.m.n.c.CategoryController:
+	{POST [/note/category/add]}: add(String,String)
+	{POST [/note/category/update]}: update(CategoryDto)
+	{GET [/note/category/list]}: list(Integer,Integer)
+	{POST [/note/category/delete]}: delete(String)
+	{POST [/note/category/mylist]}: myList(String)
+2023-12-29 13:58:02,945 DEBUG [main][AbstractHandlerMethodMapping.java:295] - 
+	c.m.n.c.ContentController:
+	{POST [/note/content/add]}: add(ContentDto,String,String)
+	{POST [/note/content/get]}: get(String)
+	{POST [/note/content/update]}: update(ContentUpdateDto)
+	{GET [/note/content/list]}: list(Integer,Integer)
+	{POST [/note/content/delete/{id}]}: delete(String)
+	{POST [/note/content/mynotes]}: getMyNotes(String,List,Integer,Integer)
+2023-12-29 13:58:02,945 DEBUG [main][AbstractHandlerMethodMapping.java:295] - 
+	c.m.n.c.ContentController:
+	{POST [/note/content/add]}: add(ContentDto,String,String)
+	{POST [/note/content/get]}: get(String)
+	{POST [/note/content/update]}: update(ContentUpdateDto)
+	{GET [/note/content/list]}: list(Integer,Integer)
+	{POST [/note/content/delete/{id}]}: delete(String)
+	{POST [/note/content/mynotes]}: getMyNotes(String,List,Integer,Integer)
+2023-12-29 13:58:02,946 DEBUG [main][AbstractHandlerMethodMapping.java:295] - 
+	s.d.s.w.Swagger2ControllerWebMvc:
+	{GET [/v2/api-docs], produces [application/json || application/hal+json]}: getDocumentation(String,HttpServletRequest)
+2023-12-29 13:58:02,946 DEBUG [main][AbstractHandlerMethodMapping.java:295] - 
+	s.d.s.w.Swagger2ControllerWebMvc:
+	{GET [/v2/api-docs], produces [application/json || application/hal+json]}: getDocumentation(String,HttpServletRequest)
+2023-12-29 13:58:02,949 DEBUG [main][AbstractHandlerMethodMapping.java:295] - 
+	s.d.s.w.ApiResourceController:
+	{GET [/swagger-resources/configuration/ui], produces [application/json]}: uiConfiguration()
+	{GET [/swagger-resources], produces [application/json]}: swaggerResources()
+	{GET [/swagger-resources/configuration/security], produces [application/json]}: securityConfiguration()
+2023-12-29 13:58:02,949 DEBUG [main][AbstractHandlerMethodMapping.java:295] - 
+	s.d.s.w.ApiResourceController:
+	{GET [/swagger-resources/configuration/ui], produces [application/json]}: uiConfiguration()
+	{GET [/swagger-resources], produces [application/json]}: swaggerResources()
+	{GET [/swagger-resources/configuration/security], produces [application/json]}: securityConfiguration()
+2023-12-29 13:58:02,950 DEBUG [main][AbstractHandlerMethodMapping.java:295] - 
+	s.d.o.w.OpenApiControllerWebMvc:
+	{GET [/v3/api-docs], produces [application/json || application/hal+json]}: getDocumentation(String,HttpServletRequest)
+2023-12-29 13:58:02,950 DEBUG [main][AbstractHandlerMethodMapping.java:295] - 
+	s.d.o.w.OpenApiControllerWebMvc:
+	{GET [/v3/api-docs], produces [application/json || application/hal+json]}: getDocumentation(String,HttpServletRequest)
+2023-12-29 13:58:02,954 DEBUG [main][AbstractHandlerMethodMapping.java:295] - 
+	o.s.b.a.w.s.e.BasicErrorController:
+	{ [/error]}: error(HttpServletRequest)
+	{ [/error], produces [text/html]}: errorHtml(HttpServletRequest,HttpServletResponse)
+2023-12-29 13:58:02,954 DEBUG [main][AbstractHandlerMethodMapping.java:295] - 
+	o.s.b.a.w.s.e.BasicErrorController:
+	{ [/error]}: error(HttpServletRequest)
+	{ [/error], produces [text/html]}: errorHtml(HttpServletRequest,HttpServletResponse)
+2023-12-29 13:58:03,382 DEBUG [main][SimpleUrlHandlerMapping.java:177] - 'viewControllerHandlerMapping' {/swagger-ui/=ParameterizableViewController [view="forward:/swagger-ui/index.html"]}
+2023-12-29 13:58:03,382 DEBUG [main][SimpleUrlHandlerMapping.java:177] - 'viewControllerHandlerMapping' {/swagger-ui/=ParameterizableViewController [view="forward:/swagger-ui/index.html"]}
+2023-12-29 13:58:03,388 DEBUG [main][AbstractDetectingUrlHandlerMapping.java:86] - 'beanNameHandlerMapping' {}
+2023-12-29 13:58:03,388 DEBUG [main][AbstractDetectingUrlHandlerMapping.java:86] - 'beanNameHandlerMapping' {}
+2023-12-29 13:58:03,408 DEBUG [main][SimpleUrlHandlerMapping.java:177] - 'resourceHandlerMapping' {/webjars/**=ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]], /**=ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]], /swagger-ui/**=ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/springfox-swagger-ui/]]}
+2023-12-29 13:58:03,408 DEBUG [main][SimpleUrlHandlerMapping.java:177] - 'resourceHandlerMapping' {/webjars/**=ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]], /**=ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]], /swagger-ui/**=ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/springfox-swagger-ui/]]}
+2023-12-29 13:58:04,715 INFO [main][InetUtils.java:170] - Cannot determine local hostname
+2023-12-29 13:58:04,715 INFO [main][InetUtils.java:170] - Cannot determine local hostname
+2023-12-29 13:58:06,025 INFO [main][InetUtils.java:170] - Cannot determine local hostname
+2023-12-29 13:58:06,025 INFO [main][InetUtils.java:170] - Cannot determine local hostname
+2023-12-29 13:58:06,078 WARN [main][LoadBalancerCacheAutoConfiguration.java:82] - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2023-12-29 13:58:06,078 WARN [main][LoadBalancerCacheAutoConfiguration.java:82] - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2023-12-29 13:58:06,115 INFO [main][InitUtils.java:65] - initializer namespace from System Property :null
+2023-12-29 13:58:06,115 INFO [main][InitUtils.java:65] - initializer namespace from System Property :null
+2023-12-29 13:58:06,115 INFO [main][InitUtils.java:74] - initializer namespace from System Environment :null
+2023-12-29 13:58:06,115 INFO [main][InitUtils.java:74] - initializer namespace from System Environment :null
+2023-12-29 13:58:06,115 INFO [main][InitUtils.java:84] - initializer namespace from System Property :null
+2023-12-29 13:58:06,115 INFO [main][InitUtils.java:84] - initializer namespace from System Property :null
+2023-12-29 13:58:06,120 DEBUG [main][NamingProxy.java:195] - server list provided by user: [192.168.11.135:8848]
+2023-12-29 13:58:06,120 DEBUG [main][NamingProxy.java:195] - server list provided by user: [192.168.11.135:8848]
+2023-12-29 13:58:06,120 DEBUG [com.alibaba.nacos.client.naming.updater][NamingProxy.java:195] - server list provided by user: [192.168.11.135:8848]
+2023-12-29 13:58:06,120 DEBUG [com.alibaba.nacos.client.naming.updater][NamingProxy.java:195] - server list provided by user: [192.168.11.135:8848]
+2023-12-29 13:58:06,124 DEBUG [com.alibaba.nacos.naming.failover][FailoverReactor.java:147] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
+2023-12-29 13:58:06,124 DEBUG [com.alibaba.nacos.naming.failover][FailoverReactor.java:147] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
+2023-12-29 13:58:06,130 DEBUG [main][HostReactor.java:306] - failover-mode: false
+2023-12-29 13:58:06,130 DEBUG [main][HostReactor.java:306] - failover-mode: false
+2023-12-29 13:58:06,131 DEBUG [main][NacosRestTemplate.java:476] - HTTP method: GET, url: http://192.168.11.135:8848/nacos/v1/ns/instance/list?app=unknown&healthyOnly=false&namespaceId=a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6&clientIP=192.168.0.118&serviceName=dev%40%40mynote-note&udpPort=51107&clusters=DEFAULT, body: {}
+2023-12-29 13:58:06,131 DEBUG [main][NacosRestTemplate.java:476] - HTTP method: GET, url: http://192.168.11.135:8848/nacos/v1/ns/instance/list?app=unknown&healthyOnly=false&namespaceId=a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6&clientIP=192.168.0.118&serviceName=dev%40%40mynote-note&udpPort=51107&clusters=DEFAULT, body: {}
+2023-12-29 13:58:06,420 INFO [main][StartupInfoLogger.java:61] - Started NoteApplicationTest in 9.01 seconds (JVM running for 9.918)
+2023-12-29 13:58:06,420 INFO [main][StartupInfoLogger.java:61] - Started NoteApplicationTest in 9.01 seconds (JVM running for 9.918)
+2023-12-29 13:58:06,423 INFO [main][ClientWorker.java:169] - [fixed-192.168.11.135_8848-a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6] [subscribe] mynote-note.yaml+dev+a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6
+2023-12-29 13:58:06,423 INFO [main][ClientWorker.java:169] - [fixed-192.168.11.135_8848-a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6] [subscribe] mynote-note.yaml+dev+a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6
+2023-12-29 13:58:06,424 INFO [main][CacheData.java:92] - [fixed-192.168.11.135_8848-a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6] [add-listener] ok, tenant=a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6, dataId=mynote-note.yaml, group=dev, cnt=1
+2023-12-29 13:58:06,424 INFO [main][CacheData.java:92] - [fixed-192.168.11.135_8848-a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6] [add-listener] ok, tenant=a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6, dataId=mynote-note.yaml, group=dev, cnt=1
+2023-12-29 13:58:06,424 INFO [main][NacosContextRefresher.java:105] - listening config: dataId=mynote-note.yaml, group=dev
+2023-12-29 13:58:06,424 INFO [main][NacosContextRefresher.java:105] - listening config: dataId=mynote-note.yaml, group=dev
+2023-12-29 13:58:06,427 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-192.168.11.135_8848-a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6][NacosRestTemplate.java:476] - HTTP method: POST, url: http://192.168.11.135:8848/nacos/v1/cs/configs/listener, body: {Listening-Configs=mynote-note.yamldeva01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6, tenant=a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6}
+2023-12-29 13:58:06,427 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-192.168.11.135_8848-a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6][NacosRestTemplate.java:476] - HTTP method: POST, url: http://192.168.11.135:8848/nacos/v1/cs/configs/listener, body: {Listening-Configs=mynote-note.yamldeva01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6, tenant=a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6}
+2023-12-29 13:58:06,428 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-192.168.11.135_8848-a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6][NacosRestTemplate.java:494] - Execute via interceptors :[com.alibaba.nacos.client.config.impl.ConfigHttpClientManager$LimiterHttpClientRequestInterceptor@424f779b]
+2023-12-29 13:58:06,428 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-192.168.11.135_8848-a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6][NacosRestTemplate.java:494] - Execute via interceptors :[com.alibaba.nacos.client.config.impl.ConfigHttpClientManager$LimiterHttpClientRequestInterceptor@424f779b]
+2023-12-29 13:58:06,431 INFO [main][ClientWorker.java:169] - [fixed-192.168.11.135_8848-a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6] [subscribe] log4j-dev.yaml+dev+a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6
+2023-12-29 13:58:06,431 INFO [main][ClientWorker.java:169] - [fixed-192.168.11.135_8848-a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6] [subscribe] log4j-dev.yaml+dev+a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6
+2023-12-29 13:58:06,431 INFO [main][CacheData.java:92] - [fixed-192.168.11.135_8848-a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6] [add-listener] ok, tenant=a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6, dataId=log4j-dev.yaml, group=dev, cnt=1
+2023-12-29 13:58:06,431 INFO [main][CacheData.java:92] - [fixed-192.168.11.135_8848-a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6] [add-listener] ok, tenant=a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6, dataId=log4j-dev.yaml, group=dev, cnt=1
+2023-12-29 13:58:06,432 INFO [main][NacosContextRefresher.java:105] - listening config: dataId=log4j-dev.yaml, group=dev
+2023-12-29 13:58:06,432 INFO [main][NacosContextRefresher.java:105] - listening config: dataId=log4j-dev.yaml, group=dev
+2023-12-29 13:58:06,434 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-192.168.11.135_8848-a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6][NacosRestTemplate.java:476] - HTTP method: POST, url: http://192.168.11.135:8848/nacos/v1/cs/configs/listener, body: {Listening-Configs=mynote-note.yamldeva01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6log4j-dev.yamldeve64d783bcfca30643e99618f46333797a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6, tenant=a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6}
+2023-12-29 13:58:06,434 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-192.168.11.135_8848-a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6][NacosRestTemplate.java:476] - HTTP method: POST, url: http://192.168.11.135:8848/nacos/v1/cs/configs/listener, body: {Listening-Configs=mynote-note.yamldeva01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6log4j-dev.yamldeve64d783bcfca30643e99618f46333797a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6, tenant=a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6}
+2023-12-29 13:58:06,434 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-192.168.11.135_8848-a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6][NacosRestTemplate.java:494] - Execute via interceptors :[com.alibaba.nacos.client.config.impl.ConfigHttpClientManager$LimiterHttpClientRequestInterceptor@424f779b]
+2023-12-29 13:58:06,434 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-192.168.11.135_8848-a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6][NacosRestTemplate.java:494] - Execute via interceptors :[com.alibaba.nacos.client.config.impl.ConfigHttpClientManager$LimiterHttpClientRequestInterceptor@424f779b]
+2023-12-29 13:58:06,436 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-192.168.11.135_8848-a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6][NacosRestTemplate.java:476] - HTTP method: POST, url: http://192.168.11.135:8848/nacos/v1/cs/configs/listener, body: {Listening-Configs=mynote-note.yamldeva01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6log4j-dev.yamldeve64d783bcfca30643e99618f46333797a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6, tenant=a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6}
+2023-12-29 13:58:06,436 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-192.168.11.135_8848-a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6][NacosRestTemplate.java:476] - HTTP method: POST, url: http://192.168.11.135:8848/nacos/v1/cs/configs/listener, body: {Listening-Configs=mynote-note.yamldeva01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6log4j-dev.yamldeve64d783bcfca30643e99618f46333797a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6, tenant=a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6}
+2023-12-29 13:58:06,437 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-192.168.11.135_8848-a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6][NacosRestTemplate.java:494] - Execute via interceptors :[com.alibaba.nacos.client.config.impl.ConfigHttpClientManager$LimiterHttpClientRequestInterceptor@424f779b]
+2023-12-29 13:58:06,437 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-192.168.11.135_8848-a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6][NacosRestTemplate.java:494] - Execute via interceptors :[com.alibaba.nacos.client.config.impl.ConfigHttpClientManager$LimiterHttpClientRequestInterceptor@424f779b]
+2023-12-29 13:58:06,437 INFO [main][ClientWorker.java:169] - [fixed-192.168.11.135_8848-a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6] [subscribe] note-other.yaml+dev+a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6
+2023-12-29 13:58:06,437 INFO [main][ClientWorker.java:169] - [fixed-192.168.11.135_8848-a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6] [subscribe] note-other.yaml+dev+a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6
+2023-12-29 13:58:06,437 INFO [main][CacheData.java:92] - [fixed-192.168.11.135_8848-a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6] [add-listener] ok, tenant=a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6, dataId=note-other.yaml, group=dev, cnt=1
+2023-12-29 13:58:06,437 INFO [main][CacheData.java:92] - [fixed-192.168.11.135_8848-a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6] [add-listener] ok, tenant=a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6, dataId=note-other.yaml, group=dev, cnt=1
+2023-12-29 13:58:06,437 INFO [main][NacosContextRefresher.java:105] - listening config: dataId=note-other.yaml, group=dev
+2023-12-29 13:58:06,437 INFO [main][NacosContextRefresher.java:105] - listening config: dataId=note-other.yaml, group=dev
+2023-12-29 13:58:06,438 INFO [main][ClientWorker.java:169] - [fixed-192.168.11.135_8848-a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6] [subscribe] mynote-note+dev+a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6
+2023-12-29 13:58:06,438 INFO [main][ClientWorker.java:169] - [fixed-192.168.11.135_8848-a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6] [subscribe] mynote-note+dev+a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6
+2023-12-29 13:58:06,438 INFO [main][CacheData.java:92] - [fixed-192.168.11.135_8848-a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6] [add-listener] ok, tenant=a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6, dataId=mynote-note, group=dev, cnt=1
+2023-12-29 13:58:06,438 INFO [main][CacheData.java:92] - [fixed-192.168.11.135_8848-a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6] [add-listener] ok, tenant=a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6, dataId=mynote-note, group=dev, cnt=1
+2023-12-29 13:58:06,438 INFO [main][NacosContextRefresher.java:105] - listening config: dataId=mynote-note, group=dev
+2023-12-29 13:58:06,438 INFO [main][NacosContextRefresher.java:105] - listening config: dataId=mynote-note, group=dev
+2023-12-29 13:58:06,438 INFO [main][ClientWorker.java:169] - [fixed-192.168.11.135_8848-a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6] [subscribe] mynote-note-dev.yaml+dev+a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6
+2023-12-29 13:58:06,438 INFO [main][ClientWorker.java:169] - [fixed-192.168.11.135_8848-a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6] [subscribe] mynote-note-dev.yaml+dev+a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6
+2023-12-29 13:58:06,438 INFO [main][CacheData.java:92] - [fixed-192.168.11.135_8848-a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6] [add-listener] ok, tenant=a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6, dataId=mynote-note-dev.yaml, group=dev, cnt=1
+2023-12-29 13:58:06,438 INFO [main][CacheData.java:92] - [fixed-192.168.11.135_8848-a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6] [add-listener] ok, tenant=a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6, dataId=mynote-note-dev.yaml, group=dev, cnt=1
+2023-12-29 13:58:06,438 INFO [main][NacosContextRefresher.java:105] - listening config: dataId=mynote-note-dev.yaml, group=dev
+2023-12-29 13:58:06,438 INFO [main][NacosContextRefresher.java:105] - listening config: dataId=mynote-note-dev.yaml, group=dev
+2023-12-29 13:58:06,443 INFO [main][ClientWorker.java:169] - [fixed-192.168.11.135_8848-a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6] [subscribe] note-datasource.yaml+dev+a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6
+2023-12-29 13:58:06,443 INFO [main][ClientWorker.java:169] - [fixed-192.168.11.135_8848-a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6] [subscribe] note-datasource.yaml+dev+a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6
+2023-12-29 13:58:06,444 INFO [main][CacheData.java:92] - [fixed-192.168.11.135_8848-a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6] [add-listener] ok, tenant=a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6, dataId=note-datasource.yaml, group=dev, cnt=1
+2023-12-29 13:58:06,444 INFO [main][CacheData.java:92] - [fixed-192.168.11.135_8848-a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6] [add-listener] ok, tenant=a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6, dataId=note-datasource.yaml, group=dev, cnt=1
+2023-12-29 13:58:06,444 INFO [main][NacosContextRefresher.java:105] - listening config: dataId=note-datasource.yaml, group=dev
+2023-12-29 13:58:06,444 INFO [main][NacosContextRefresher.java:105] - listening config: dataId=note-datasource.yaml, group=dev
+2023-12-29 13:58:06,445 INFO [main][ClientWorker.java:169] - [fixed-192.168.11.135_8848-a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6] [subscribe] note-mybatisplus.yaml+dev+a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6
+2023-12-29 13:58:06,445 INFO [main][ClientWorker.java:169] - [fixed-192.168.11.135_8848-a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6] [subscribe] note-mybatisplus.yaml+dev+a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6
+2023-12-29 13:58:06,445 INFO [main][CacheData.java:92] - [fixed-192.168.11.135_8848-a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6] [add-listener] ok, tenant=a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6, dataId=note-mybatisplus.yaml, group=dev, cnt=1
+2023-12-29 13:58:06,445 INFO [main][CacheData.java:92] - [fixed-192.168.11.135_8848-a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6] [add-listener] ok, tenant=a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6, dataId=note-mybatisplus.yaml, group=dev, cnt=1
+2023-12-29 13:58:06,445 INFO [main][NacosContextRefresher.java:105] - listening config: dataId=note-mybatisplus.yaml, group=dev
+2023-12-29 13:58:06,445 INFO [main][NacosContextRefresher.java:105] - listening config: dataId=note-mybatisplus.yaml, group=dev
+2023-12-29 13:58:06,674 INFO [com.alibaba.nacos.naming.push.receiver][PushReceiver.java:97] - received push data: {"type":"dom","data":"{\"name\":\"dev@@mynote-note\",\"clusters\":\"DEFAULT\",\"cacheMillis\":10000,\"hosts\":[],\"lastRefTime\":1703829488145,\"checksum\":\"\",\"allIPs\":false,\"reachProtectionThreshold\":false,\"valid\":true}","lastRefTime":13977508428021} from /192.168.0.118
+2023-12-29 13:58:06,674 INFO [com.alibaba.nacos.naming.push.receiver][PushReceiver.java:97] - received push data: {"type":"dom","data":"{\"name\":\"dev@@mynote-note\",\"clusters\":\"DEFAULT\",\"cacheMillis\":10000,\"hosts\":[],\"lastRefTime\":1703829488145,\"checksum\":\"\",\"allIPs\":false,\"reachProtectionThreshold\":false,\"valid\":true}","lastRefTime":13977508428021} from /192.168.0.118
+2023-12-29 13:58:06,780 DEBUG [main][HikariConfig.java:1103] - HikariPool-1 - configuration:
+2023-12-29 13:58:06,780 DEBUG [main][HikariConfig.java:1103] - HikariPool-1 - configuration:
+2023-12-29 13:58:06,781 DEBUG [main][HikariConfig.java:1135] - allowPoolSuspension................................false
+2023-12-29 13:58:06,781 DEBUG [main][HikariConfig.java:1135] - allowPoolSuspension................................false
+2023-12-29 13:58:06,781 DEBUG [main][HikariConfig.java:1135] - autoCommit................................true
+2023-12-29 13:58:06,781 DEBUG [main][HikariConfig.java:1135] - autoCommit................................true
+2023-12-29 13:58:06,781 DEBUG [main][HikariConfig.java:1135] - catalog................................none
+2023-12-29 13:58:06,781 DEBUG [main][HikariConfig.java:1135] - catalog................................none
+2023-12-29 13:58:06,781 DEBUG [main][HikariConfig.java:1135] - connectionInitSql................................none
+2023-12-29 13:58:06,781 DEBUG [main][HikariConfig.java:1135] - connectionInitSql................................none
+2023-12-29 13:58:06,781 DEBUG [main][HikariConfig.java:1135] - connectionTestQuery................................none
+2023-12-29 13:58:06,781 DEBUG [main][HikariConfig.java:1135] - connectionTestQuery................................none
+2023-12-29 13:58:06,781 DEBUG [main][HikariConfig.java:1135] - connectionTimeout................................30000
+2023-12-29 13:58:06,781 DEBUG [main][HikariConfig.java:1135] - connectionTimeout................................30000
+2023-12-29 13:58:06,781 DEBUG [main][HikariConfig.java:1135] - dataSource................................none
+2023-12-29 13:58:06,781 DEBUG [main][HikariConfig.java:1135] - dataSource................................none
+2023-12-29 13:58:06,781 DEBUG [main][HikariConfig.java:1135] - dataSourceClassName................................none
+2023-12-29 13:58:06,781 DEBUG [main][HikariConfig.java:1135] - dataSourceClassName................................none
+2023-12-29 13:58:06,781 DEBUG [main][HikariConfig.java:1135] - dataSourceJNDI................................none
+2023-12-29 13:58:06,781 DEBUG [main][HikariConfig.java:1135] - dataSourceJNDI................................none
+2023-12-29 13:58:06,781 DEBUG [main][HikariConfig.java:1135] - dataSourceProperties................................{password=<masked>}
+2023-12-29 13:58:06,781 DEBUG [main][HikariConfig.java:1135] - dataSourceProperties................................{password=<masked>}
+2023-12-29 13:58:06,782 DEBUG [main][HikariConfig.java:1135] - driverClassName................................"com.mysql.cj.jdbc.Driver"
+2023-12-29 13:58:06,782 DEBUG [main][HikariConfig.java:1135] - driverClassName................................"com.mysql.cj.jdbc.Driver"
+2023-12-29 13:58:06,782 DEBUG [main][HikariConfig.java:1135] - exceptionOverrideClassName................................none
+2023-12-29 13:58:06,782 DEBUG [main][HikariConfig.java:1135] - exceptionOverrideClassName................................none
+2023-12-29 13:58:06,782 DEBUG [main][HikariConfig.java:1135] - healthCheckProperties................................{}
+2023-12-29 13:58:06,782 DEBUG [main][HikariConfig.java:1135] - healthCheckProperties................................{}
+2023-12-29 13:58:06,782 DEBUG [main][HikariConfig.java:1135] - healthCheckRegistry................................none
+2023-12-29 13:58:06,782 DEBUG [main][HikariConfig.java:1135] - healthCheckRegistry................................none
+2023-12-29 13:58:06,782 DEBUG [main][HikariConfig.java:1135] - idleTimeout................................600000
+2023-12-29 13:58:06,782 DEBUG [main][HikariConfig.java:1135] - idleTimeout................................600000
+2023-12-29 13:58:06,782 DEBUG [main][HikariConfig.java:1135] - initializationFailTimeout................................1
+2023-12-29 13:58:06,782 DEBUG [main][HikariConfig.java:1135] - initializationFailTimeout................................1
+2023-12-29 13:58:06,782 DEBUG [main][HikariConfig.java:1135] - isolateInternalQueries................................false
+2023-12-29 13:58:06,782 DEBUG [main][HikariConfig.java:1135] - isolateInternalQueries................................false
+2023-12-29 13:58:06,782 DEBUG [main][HikariConfig.java:1135] - jdbcUrl................................jdbc:mysql://192.168.11.135:3306/notes?characterEncoding=UTF-8&useUnicode=true&useSSL=false&tinyInt1isBit=false&allowPublicKeyRetrieval=true&serverTimezone=UTC
+2023-12-29 13:58:06,782 DEBUG [main][HikariConfig.java:1135] - jdbcUrl................................jdbc:mysql://192.168.11.135:3306/notes?characterEncoding=UTF-8&useUnicode=true&useSSL=false&tinyInt1isBit=false&allowPublicKeyRetrieval=true&serverTimezone=UTC
+2023-12-29 13:58:06,783 DEBUG [main][HikariConfig.java:1135] - keepaliveTime................................0
+2023-12-29 13:58:06,783 DEBUG [main][HikariConfig.java:1135] - keepaliveTime................................0
+2023-12-29 13:58:06,783 DEBUG [main][HikariConfig.java:1135] - leakDetectionThreshold................................0
+2023-12-29 13:58:06,783 DEBUG [main][HikariConfig.java:1135] - leakDetectionThreshold................................0
+2023-12-29 13:58:06,783 DEBUG [main][HikariConfig.java:1135] - maxLifetime................................1800000
+2023-12-29 13:58:06,783 DEBUG [main][HikariConfig.java:1135] - maxLifetime................................1800000
+2023-12-29 13:58:06,784 DEBUG [main][HikariConfig.java:1135] - maximumPoolSize................................10
+2023-12-29 13:58:06,784 DEBUG [main][HikariConfig.java:1135] - maximumPoolSize................................10
+2023-12-29 13:58:06,784 DEBUG [main][HikariConfig.java:1135] - metricRegistry................................none
+2023-12-29 13:58:06,784 DEBUG [main][HikariConfig.java:1135] - metricRegistry................................none
+2023-12-29 13:58:06,784 DEBUG [main][HikariConfig.java:1135] - metricsTrackerFactory................................none
+2023-12-29 13:58:06,784 DEBUG [main][HikariConfig.java:1135] - metricsTrackerFactory................................none
+2023-12-29 13:58:06,784 DEBUG [main][HikariConfig.java:1135] - minimumIdle................................10
+2023-12-29 13:58:06,784 DEBUG [main][HikariConfig.java:1135] - minimumIdle................................10
+2023-12-29 13:58:06,784 DEBUG [main][HikariConfig.java:1135] - password................................<masked>
+2023-12-29 13:58:06,784 DEBUG [main][HikariConfig.java:1135] - password................................<masked>
+2023-12-29 13:58:06,784 DEBUG [main][HikariConfig.java:1135] - poolName................................"HikariPool-1"
+2023-12-29 13:58:06,784 DEBUG [main][HikariConfig.java:1135] - poolName................................"HikariPool-1"
+2023-12-29 13:58:06,784 DEBUG [main][HikariConfig.java:1135] - readOnly................................false
+2023-12-29 13:58:06,784 DEBUG [main][HikariConfig.java:1135] - readOnly................................false
+2023-12-29 13:58:06,785 DEBUG [main][HikariConfig.java:1135] - registerMbeans................................false
+2023-12-29 13:58:06,785 DEBUG [main][HikariConfig.java:1135] - registerMbeans................................false
+2023-12-29 13:58:06,785 DEBUG [main][HikariConfig.java:1135] - scheduledExecutor................................none
+2023-12-29 13:58:06,785 DEBUG [main][HikariConfig.java:1135] - scheduledExecutor................................none
+2023-12-29 13:58:06,785 DEBUG [main][HikariConfig.java:1135] - schema................................none
+2023-12-29 13:58:06,785 DEBUG [main][HikariConfig.java:1135] - schema................................none
+2023-12-29 13:58:06,785 DEBUG [main][HikariConfig.java:1135] - threadFactory................................internal
+2023-12-29 13:58:06,785 DEBUG [main][HikariConfig.java:1135] - threadFactory................................internal
+2023-12-29 13:58:06,785 DEBUG [main][HikariConfig.java:1135] - transactionIsolation................................default
+2023-12-29 13:58:06,785 DEBUG [main][HikariConfig.java:1135] - transactionIsolation................................default
+2023-12-29 13:58:06,785 DEBUG [main][HikariConfig.java:1135] - username................................"root"
+2023-12-29 13:58:06,785 DEBUG [main][HikariConfig.java:1135] - username................................"root"
+2023-12-29 13:58:06,786 DEBUG [main][HikariConfig.java:1135] - validationTimeout................................5000
+2023-12-29 13:58:06,786 DEBUG [main][HikariConfig.java:1135] - validationTimeout................................5000
+2023-12-29 13:58:06,786 INFO [main][HikariDataSource.java:110] - HikariPool-1 - Starting...
+2023-12-29 13:58:06,786 INFO [main][HikariDataSource.java:110] - HikariPool-1 - Starting...
+2023-12-29 13:58:06,882 DEBUG [main][HikariPool.java:565] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@198d55de
+2023-12-29 13:58:06,882 DEBUG [main][HikariPool.java:565] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@198d55de
+2023-12-29 13:58:06,883 INFO [main][HikariDataSource.java:123] - HikariPool-1 - Start completed.
+2023-12-29 13:58:06,883 INFO [main][HikariDataSource.java:123] - HikariPool-1 - Start completed.
+2023-12-29 13:58:06,958 WARN [Thread-12][NotifyCenter.java:145] - [NotifyCenter] Start destroying Publisher
+2023-12-29 13:58:06,958 WARN [Thread-12][NotifyCenter.java:145] - [NotifyCenter] Start destroying Publisher
+2023-12-29 13:58:06,959 WARN [Thread-1][HttpClientBeanHolder.java:108] - [HttpClientBeanHolder] Start destroying common HttpClient
+2023-12-29 13:58:06,959 WARN [Thread-12][NotifyCenter.java:162] - [NotifyCenter] Destruction of the end
+2023-12-29 13:58:06,959 WARN [Thread-1][HttpClientBeanHolder.java:108] - [HttpClientBeanHolder] Start destroying common HttpClient
+2023-12-29 13:58:06,959 WARN [Thread-12][NotifyCenter.java:162] - [NotifyCenter] Destruction of the end
+2023-12-29 13:58:06,960 WARN [Thread-1][HttpClientBeanHolder.java:114] - [HttpClientBeanHolder] Destruction of the end
+2023-12-29 13:58:06,960 WARN [Thread-1][HttpClientBeanHolder.java:114] - [HttpClientBeanHolder] Destruction of the end
+2023-12-29 13:58:06,961 INFO [SpringApplicationShutdownHook][BeatReactor.java:147] - com.alibaba.nacos.client.naming.beat.BeatReactor do shutdown begin
+2023-12-29 13:58:06,961 INFO [SpringApplicationShutdownHook][BeatReactor.java:147] - com.alibaba.nacos.client.naming.beat.BeatReactor do shutdown begin
+2023-12-29 13:58:06,962 INFO [SpringApplicationShutdownHook][BeatReactor.java:149] - com.alibaba.nacos.client.naming.beat.BeatReactor do shutdown stop
+2023-12-29 13:58:06,962 INFO [SpringApplicationShutdownHook][BeatReactor.java:149] - com.alibaba.nacos.client.naming.beat.BeatReactor do shutdown stop
+2023-12-29 13:58:06,962 INFO [SpringApplicationShutdownHook][HostReactor.java:413] - com.alibaba.nacos.client.naming.core.HostReactor do shutdown begin
+2023-12-29 13:58:06,962 INFO [SpringApplicationShutdownHook][HostReactor.java:413] - com.alibaba.nacos.client.naming.core.HostReactor do shutdown begin
+2023-12-29 13:58:06,995 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=1, active=0, idle=1, waiting=0)
+2023-12-29 13:58:06,995 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=1, active=0, idle=1, waiting=0)
+2023-12-29 13:58:07,000 DEBUG [HikariPool-1 connection adder][HikariPool.java:729] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@40b20e18
+2023-12-29 13:58:07,000 DEBUG [HikariPool-1 connection adder][HikariPool.java:729] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@40b20e18
+2023-12-29 13:58:07,003 DEBUG [HikariPool-1 connection adder][HikariPool.java:729] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@18f0423
+2023-12-29 13:58:07,003 DEBUG [HikariPool-1 connection adder][HikariPool.java:729] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@18f0423
+2023-12-29 13:58:07,007 DEBUG [HikariPool-1 connection adder][HikariPool.java:729] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@30c4e5a1
+2023-12-29 13:58:07,007 DEBUG [HikariPool-1 connection adder][HikariPool.java:729] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@30c4e5a1
+2023-12-29 13:58:07,010 DEBUG [HikariPool-1 connection adder][HikariPool.java:729] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@61a0fb6c
+2023-12-29 13:58:07,010 DEBUG [HikariPool-1 connection adder][HikariPool.java:729] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@61a0fb6c
+2023-12-29 13:58:07,014 DEBUG [HikariPool-1 connection adder][HikariPool.java:729] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@21f49525
+2023-12-29 13:58:07,014 DEBUG [HikariPool-1 connection adder][HikariPool.java:729] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@21f49525
+2023-12-29 13:58:07,017 DEBUG [HikariPool-1 connection adder][HikariPool.java:729] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@65ee666d
+2023-12-29 13:58:07,017 DEBUG [HikariPool-1 connection adder][HikariPool.java:729] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@65ee666d
+2023-12-29 13:58:07,020 DEBUG [HikariPool-1 connection adder][HikariPool.java:729] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@bf3c80a
+2023-12-29 13:58:07,020 DEBUG [HikariPool-1 connection adder][HikariPool.java:729] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@bf3c80a
+2023-12-29 13:58:07,024 DEBUG [HikariPool-1 connection adder][HikariPool.java:729] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@496a101b
+2023-12-29 13:58:07,024 DEBUG [HikariPool-1 connection adder][HikariPool.java:729] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@496a101b
+2023-12-29 13:58:07,026 DEBUG [HikariPool-1 connection adder][HikariPool.java:729] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@16fb68b
+2023-12-29 13:58:07,026 DEBUG [HikariPool-1 connection adder][HikariPool.java:729] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@16fb68b
+2023-12-29 13:58:07,027 DEBUG [HikariPool-1 connection adder][HikariPool.java:421] - HikariPool-1 - After adding stats (total=10, active=0, idle=10, waiting=0)
+2023-12-29 13:58:07,027 DEBUG [HikariPool-1 connection adder][HikariPool.java:421] - HikariPool-1 - After adding stats (total=10, active=0, idle=10, waiting=0)
+2023-12-29 13:58:07,180 DEBUG [com.alibaba.nacos.client.naming.updater][NacosRestTemplate.java:476] - HTTP method: GET, url: http://192.168.11.135:8848/nacos/v1/ns/instance/list?app=unknown&healthyOnly=false&namespaceId=a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6&clientIP=192.168.0.118&serviceName=dev%40%40mynote-note&udpPort=51107&clusters=DEFAULT, body: {}
+2023-12-29 13:58:07,180 DEBUG [com.alibaba.nacos.client.naming.updater][NacosRestTemplate.java:476] - HTTP method: GET, url: http://192.168.11.135:8848/nacos/v1/ns/instance/list?app=unknown&healthyOnly=false&namespaceId=a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6&clientIP=192.168.0.118&serviceName=dev%40%40mynote-note&udpPort=51107&clusters=DEFAULT, body: {}
+2023-12-29 13:58:07,184 INFO [SpringApplicationShutdownHook][PushReceiver.java:132] - com.alibaba.nacos.client.naming.core.PushReceiver do shutdown begin
+2023-12-29 13:58:07,184 INFO [SpringApplicationShutdownHook][PushReceiver.java:132] - com.alibaba.nacos.client.naming.core.PushReceiver do shutdown begin
+2023-12-29 13:58:10,212 INFO [SpringApplicationShutdownHook][PushReceiver.java:136] - com.alibaba.nacos.client.naming.core.PushReceiver do shutdown stop
+2023-12-29 13:58:10,212 INFO [SpringApplicationShutdownHook][PushReceiver.java:136] - com.alibaba.nacos.client.naming.core.PushReceiver do shutdown stop
+2023-12-29 13:58:10,213 INFO [SpringApplicationShutdownHook][FailoverReactor.java:132] - com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown begin
+2023-12-29 13:58:10,213 INFO [SpringApplicationShutdownHook][FailoverReactor.java:132] - com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown begin
+2023-12-29 13:58:13,229 INFO [SpringApplicationShutdownHook][FailoverReactor.java:134] - com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown stop
+2023-12-29 13:58:13,229 INFO [SpringApplicationShutdownHook][FailoverReactor.java:134] - com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown stop
+2023-12-29 13:58:13,230 INFO [SpringApplicationShutdownHook][HostReactor.java:418] - com.alibaba.nacos.client.naming.core.HostReactor do shutdown stop
+2023-12-29 13:58:13,230 INFO [SpringApplicationShutdownHook][HostReactor.java:418] - com.alibaba.nacos.client.naming.core.HostReactor do shutdown stop
+2023-12-29 13:58:13,230 INFO [SpringApplicationShutdownHook][NamingProxy.java:719] - com.alibaba.nacos.client.naming.net.NamingProxy do shutdown begin
+2023-12-29 13:58:13,230 INFO [SpringApplicationShutdownHook][NamingProxy.java:719] - com.alibaba.nacos.client.naming.net.NamingProxy do shutdown begin
+2023-12-29 13:58:13,230 WARN [SpringApplicationShutdownHook][NamingHttpClientManager.java:72] - [NamingHttpClientManager] Start destroying NacosRestTemplate
+2023-12-29 13:58:13,230 WARN [SpringApplicationShutdownHook][NamingHttpClientManager.java:72] - [NamingHttpClientManager] Start destroying NacosRestTemplate
+2023-12-29 13:58:13,231 WARN [SpringApplicationShutdownHook][NamingHttpClientManager.java:79] - [NamingHttpClientManager] Destruction of the end
+2023-12-29 13:58:13,231 WARN [SpringApplicationShutdownHook][NamingHttpClientManager.java:79] - [NamingHttpClientManager] Destruction of the end
+2023-12-29 13:58:13,232 INFO [SpringApplicationShutdownHook][CredentialWatcher.java:105] - [null] CredentialWatcher is stopped
+2023-12-29 13:58:13,232 INFO [SpringApplicationShutdownHook][CredentialWatcher.java:105] - [null] CredentialWatcher is stopped
+2023-12-29 13:58:13,233 INFO [SpringApplicationShutdownHook][CredentialService.java:98] - [null] CredentialService is freed
+2023-12-29 13:58:13,233 INFO [SpringApplicationShutdownHook][CredentialService.java:98] - [null] CredentialService is freed
+2023-12-29 13:58:13,233 INFO [SpringApplicationShutdownHook][NamingProxy.java:723] - com.alibaba.nacos.client.naming.net.NamingProxy do shutdown stop
+2023-12-29 13:58:13,233 INFO [SpringApplicationShutdownHook][NamingProxy.java:723] - com.alibaba.nacos.client.naming.net.NamingProxy do shutdown stop
+2023-12-29 13:58:13,236 DEBUG [SpringApplicationShutdownHook][AbstractRedisClient.java:539] - Initiate shutdown (100, 100, MILLISECONDS)
+2023-12-29 13:58:13,236 DEBUG [SpringApplicationShutdownHook][AbstractRedisClient.java:539] - Initiate shutdown (100, 100, MILLISECONDS)
+2023-12-29 13:58:13,239 DEBUG [SpringApplicationShutdownHook][DefaultClientResources.java:735] - Initiate shutdown (0, 2, SECONDS)
+2023-12-29 13:58:13,239 DEBUG [SpringApplicationShutdownHook][DefaultClientResources.java:735] - Initiate shutdown (0, 2, SECONDS)
+2023-12-29 13:58:13,241 DEBUG [SpringApplicationShutdownHook][DefaultEventLoopGroupProvider.java:317] - Initiate shutdown (0, 2, SECONDS)
+2023-12-29 13:58:13,241 DEBUG [SpringApplicationShutdownHook][DefaultEventLoopGroupProvider.java:317] - Initiate shutdown (0, 2, SECONDS)
+2023-12-29 13:58:13,248 INFO [SpringApplicationShutdownHook][HikariDataSource.java:350] - HikariPool-1 - Shutdown initiated...
+2023-12-29 13:58:13,248 INFO [SpringApplicationShutdownHook][HikariDataSource.java:350] - HikariPool-1 - Shutdown initiated...
+2023-12-29 13:58:13,248 DEBUG [SpringApplicationShutdownHook][HikariPool.java:421] - HikariPool-1 - Before shutdown stats (total=10, active=0, idle=10, waiting=0)
+2023-12-29 13:58:13,248 DEBUG [SpringApplicationShutdownHook][HikariPool.java:421] - HikariPool-1 - Before shutdown stats (total=10, active=0, idle=10, waiting=0)
+2023-12-29 13:58:13,249 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@198d55de: (connection evicted)
+2023-12-29 13:58:13,249 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@198d55de: (connection evicted)
+2023-12-29 13:58:13,300 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@40b20e18: (connection evicted)
+2023-12-29 13:58:13,300 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@40b20e18: (connection evicted)
+2023-12-29 13:58:13,301 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@18f0423: (connection evicted)
+2023-12-29 13:58:13,301 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@18f0423: (connection evicted)
+2023-12-29 13:58:13,301 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@30c4e5a1: (connection evicted)
+2023-12-29 13:58:13,301 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@30c4e5a1: (connection evicted)
+2023-12-29 13:58:13,302 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@61a0fb6c: (connection evicted)
+2023-12-29 13:58:13,302 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@61a0fb6c: (connection evicted)
+2023-12-29 13:58:13,303 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@21f49525: (connection evicted)
+2023-12-29 13:58:13,303 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@21f49525: (connection evicted)
+2023-12-29 13:58:13,304 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@65ee666d: (connection evicted)
+2023-12-29 13:58:13,304 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@65ee666d: (connection evicted)
+2023-12-29 13:58:13,305 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@bf3c80a: (connection evicted)
+2023-12-29 13:58:13,305 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@bf3c80a: (connection evicted)
+2023-12-29 13:58:13,306 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@496a101b: (connection evicted)
+2023-12-29 13:58:13,306 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@496a101b: (connection evicted)
+2023-12-29 13:58:13,307 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@16fb68b: (connection evicted)
+2023-12-29 13:58:13,307 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@16fb68b: (connection evicted)
+2023-12-29 13:58:13,307 DEBUG [SpringApplicationShutdownHook][HikariPool.java:421] - HikariPool-1 - After shutdown stats (total=0, active=0, idle=0, waiting=0)
+2023-12-29 13:58:13,307 DEBUG [SpringApplicationShutdownHook][HikariPool.java:421] - HikariPool-1 - After shutdown stats (total=0, active=0, idle=0, waiting=0)
+2023-12-29 13:58:13,308 INFO [SpringApplicationShutdownHook][HikariDataSource.java:352] - HikariPool-1 - Shutdown completed.
+2023-12-29 13:58:13,308 INFO [SpringApplicationShutdownHook][HikariDataSource.java:352] - HikariPool-1 - Shutdown completed.

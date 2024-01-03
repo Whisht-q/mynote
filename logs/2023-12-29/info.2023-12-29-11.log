@@ -1,0 +1,574 @@
+2023-12-29 13:16:35,006 ERROR [com.alibaba.nacos.naming.beat.sender][NamingProxy.java:617] - [NA] failed to request
+java.net.SocketTimeoutException: connect timed out
+	at java.base/java.net.PlainSocketImpl.waitForConnect(Native Method)
+	at java.base/java.net.PlainSocketImpl.socketConnect(PlainSocketImpl.java:107)
+	at java.base/java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:412)
+	at java.base/java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:255)
+	at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:237)
+	at java.base/java.net.Socket.connect(Socket.java:608)
+	at java.base/sun.net.NetworkClient.doConnect(NetworkClient.java:177)
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:510)
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:605)
+	at java.base/sun.net.www.http.HttpClient.<init>(HttpClient.java:278)
+	at java.base/sun.net.www.http.HttpClient.New(HttpClient.java:377)
+	at java.base/sun.net.www.http.HttpClient.New(HttpClient.java:398)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1253)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1187)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1081)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:1015)
+	at com.alibaba.nacos.common.http.client.request.JdkHttpClientRequest.execute(JdkHttpClientRequest.java:112)
+	at com.alibaba.nacos.common.http.client.NacosRestTemplate.execute(NacosRestTemplate.java:482)
+	at com.alibaba.nacos.common.http.client.NacosRestTemplate.exchangeForm(NacosRestTemplate.java:427)
+	at com.alibaba.nacos.client.naming.net.NamingProxy.callServer(NamingProxy.java:603)
+	at com.alibaba.nacos.client.naming.net.NamingProxy.reqApi(NamingProxy.java:526)
+	at com.alibaba.nacos.client.naming.net.NamingProxy.reqApi(NamingProxy.java:498)
+	at com.alibaba.nacos.client.naming.net.NamingProxy.sendBeat(NamingProxy.java:433)
+	at com.alibaba.nacos.client.naming.beat.BeatReactor$BeatTask.run(BeatReactor.java:167)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2023-12-29 13:16:35,006 ERROR [com.alibaba.nacos.naming.beat.sender][NamingProxy.java:617] - [NA] failed to request
+java.net.SocketTimeoutException: connect timed out
+	at java.base/java.net.PlainSocketImpl.waitForConnect(Native Method)
+	at java.base/java.net.PlainSocketImpl.socketConnect(PlainSocketImpl.java:107)
+	at java.base/java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:412)
+	at java.base/java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:255)
+	at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:237)
+	at java.base/java.net.Socket.connect(Socket.java:608)
+	at java.base/sun.net.NetworkClient.doConnect(NetworkClient.java:177)
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:510)
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:605)
+	at java.base/sun.net.www.http.HttpClient.<init>(HttpClient.java:278)
+	at java.base/sun.net.www.http.HttpClient.New(HttpClient.java:377)
+	at java.base/sun.net.www.http.HttpClient.New(HttpClient.java:398)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1253)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1187)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1081)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:1015)
+	at com.alibaba.nacos.common.http.client.request.JdkHttpClientRequest.execute(JdkHttpClientRequest.java:112)
+	at com.alibaba.nacos.common.http.client.NacosRestTemplate.execute(NacosRestTemplate.java:482)
+	at com.alibaba.nacos.common.http.client.NacosRestTemplate.exchangeForm(NacosRestTemplate.java:427)
+	at com.alibaba.nacos.client.naming.net.NamingProxy.callServer(NamingProxy.java:603)
+	at com.alibaba.nacos.client.naming.net.NamingProxy.reqApi(NamingProxy.java:526)
+	at com.alibaba.nacos.client.naming.net.NamingProxy.reqApi(NamingProxy.java:498)
+	at com.alibaba.nacos.client.naming.net.NamingProxy.sendBeat(NamingProxy.java:433)
+	at com.alibaba.nacos.client.naming.beat.BeatReactor$BeatTask.run(BeatReactor.java:167)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2023-12-29 13:16:35,014 DEBUG [com.alibaba.nacos.naming.beat.sender][NamingProxy.java:530] - request 192.168.11.135:8848 failed.
+ErrCode:500, ErrMsg:connect timed out
+	at com.alibaba.nacos.client.naming.net.NamingProxy.callServer(NamingProxy.java:618)
+	at com.alibaba.nacos.client.naming.net.NamingProxy.reqApi(NamingProxy.java:526)
+	at com.alibaba.nacos.client.naming.net.NamingProxy.reqApi(NamingProxy.java:498)
+	at com.alibaba.nacos.client.naming.net.NamingProxy.sendBeat(NamingProxy.java:433)
+	at com.alibaba.nacos.client.naming.beat.BeatReactor$BeatTask.run(BeatReactor.java:167)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.net.SocketTimeoutException: connect timed out
+	at java.base/java.net.PlainSocketImpl.waitForConnect(Native Method)
+	at java.base/java.net.PlainSocketImpl.socketConnect(PlainSocketImpl.java:107)
+	at java.base/java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:412)
+	at java.base/java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:255)
+	at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:237)
+	at java.base/java.net.Socket.connect(Socket.java:608)
+	at java.base/sun.net.NetworkClient.doConnect(NetworkClient.java:177)
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:510)
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:605)
+	at java.base/sun.net.www.http.HttpClient.<init>(HttpClient.java:278)
+	at java.base/sun.net.www.http.HttpClient.New(HttpClient.java:377)
+	at java.base/sun.net.www.http.HttpClient.New(HttpClient.java:398)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1253)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1187)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1081)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:1015)
+	at com.alibaba.nacos.common.http.client.request.JdkHttpClientRequest.execute(JdkHttpClientRequest.java:112)
+	at com.alibaba.nacos.common.http.client.NacosRestTemplate.execute(NacosRestTemplate.java:482)
+	at com.alibaba.nacos.common.http.client.NacosRestTemplate.exchangeForm(NacosRestTemplate.java:427)
+	at com.alibaba.nacos.client.naming.net.NamingProxy.callServer(NamingProxy.java:603)
+	... 10 more
+2023-12-29 13:16:35,014 DEBUG [com.alibaba.nacos.naming.beat.sender][NamingProxy.java:530] - request 192.168.11.135:8848 failed.
+ErrCode:500, ErrMsg:connect timed out
+	at com.alibaba.nacos.client.naming.net.NamingProxy.callServer(NamingProxy.java:618)
+	at com.alibaba.nacos.client.naming.net.NamingProxy.reqApi(NamingProxy.java:526)
+	at com.alibaba.nacos.client.naming.net.NamingProxy.reqApi(NamingProxy.java:498)
+	at com.alibaba.nacos.client.naming.net.NamingProxy.sendBeat(NamingProxy.java:433)
+	at com.alibaba.nacos.client.naming.beat.BeatReactor$BeatTask.run(BeatReactor.java:167)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.net.SocketTimeoutException: connect timed out
+	at java.base/java.net.PlainSocketImpl.waitForConnect(Native Method)
+	at java.base/java.net.PlainSocketImpl.socketConnect(PlainSocketImpl.java:107)
+	at java.base/java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:412)
+	at java.base/java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:255)
+	at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:237)
+	at java.base/java.net.Socket.connect(Socket.java:608)
+	at java.base/sun.net.NetworkClient.doConnect(NetworkClient.java:177)
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:510)
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:605)
+	at java.base/sun.net.www.http.HttpClient.<init>(HttpClient.java:278)
+	at java.base/sun.net.www.http.HttpClient.New(HttpClient.java:377)
+	at java.base/sun.net.www.http.HttpClient.New(HttpClient.java:398)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1253)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1187)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1081)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:1015)
+	at com.alibaba.nacos.common.http.client.request.JdkHttpClientRequest.execute(JdkHttpClientRequest.java:112)
+	at com.alibaba.nacos.common.http.client.NacosRestTemplate.execute(NacosRestTemplate.java:482)
+	at com.alibaba.nacos.common.http.client.NacosRestTemplate.exchangeForm(NacosRestTemplate.java:427)
+	at com.alibaba.nacos.client.naming.net.NamingProxy.callServer(NamingProxy.java:603)
+	... 10 more
+2023-12-29 13:16:35,015 DEBUG [com.alibaba.nacos.naming.beat.sender][NacosRestTemplate.java:476] - HTTP method: PUT, url: http://192.168.11.135:8848/nacos/v1/ns/instance/beat?app=unknown&serviceName=dev%40%40mynote-note&namespaceId=a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6&port=9001&clusterName=DEFAULT&ip=192.168.75.1, body: {}
+2023-12-29 13:16:35,015 DEBUG [com.alibaba.nacos.naming.beat.sender][NacosRestTemplate.java:476] - HTTP method: PUT, url: http://192.168.11.135:8848/nacos/v1/ns/instance/beat?app=unknown&serviceName=dev%40%40mynote-note&namespaceId=a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6&port=9001&clusterName=DEFAULT&ip=192.168.75.1, body: {}
+2023-12-29 13:16:35,224 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-192.168.11.135_8848-a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6][NacosRestTemplate.java:476] - HTTP method: POST, url: http://192.168.11.135:8848/nacos/v1/cs/configs/listener, body: {Listening-Configs=mynote-system-dev.yamldeva01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6system-mybatisplus.yamldevbe6b800cd0b4b933ff385e28c53afec7a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6mynote-system.yamldeva01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6system-other.yamldev8b0305a0e50ba85bb1c4bc8a3fcb19f9a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6log4j-dev.yamldeve64d783bcfca30643e99618f46333797a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6mynote-systemdeva01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6system-datasource.yamldev0987b9699e8a76491c986463e4cf478ba01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6, tenant=a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6}
+2023-12-29 13:16:35,224 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-192.168.11.135_8848-a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6][NacosRestTemplate.java:476] - HTTP method: POST, url: http://192.168.11.135:8848/nacos/v1/cs/configs/listener, body: {Listening-Configs=mynote-system-dev.yamldeva01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6system-mybatisplus.yamldevbe6b800cd0b4b933ff385e28c53afec7a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6mynote-system.yamldeva01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6system-other.yamldev8b0305a0e50ba85bb1c4bc8a3fcb19f9a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6log4j-dev.yamldeve64d783bcfca30643e99618f46333797a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6mynote-systemdeva01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6system-datasource.yamldev0987b9699e8a76491c986463e4cf478ba01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6, tenant=a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6}
+2023-12-29 13:16:35,224 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-192.168.11.135_8848-a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6][NacosRestTemplate.java:476] - HTTP method: POST, url: http://192.168.11.135:8848/nacos/v1/cs/configs/listener, body: {Listening-Configs=note-other.yamldev83d185051730033c4736014110b7f3cea01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6mynote-note.yamldeva01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6mynote-notedeva01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6note-datasource.yamldev8d301230a139a7e0363d2d1962c42164a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6note-mybatisplus.yamldevbd958897385e9c630d37aedf29509d53a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6log4j-dev.yamldeve64d783bcfca30643e99618f46333797a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6mynote-note-dev.yamldeva01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6, tenant=a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6}
+2023-12-29 13:16:35,224 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-192.168.11.135_8848-a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6][NacosRestTemplate.java:476] - HTTP method: POST, url: http://192.168.11.135:8848/nacos/v1/cs/configs/listener, body: {Listening-Configs=note-other.yamldev83d185051730033c4736014110b7f3cea01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6mynote-note.yamldeva01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6mynote-notedeva01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6note-datasource.yamldev8d301230a139a7e0363d2d1962c42164a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6note-mybatisplus.yamldevbd958897385e9c630d37aedf29509d53a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6log4j-dev.yamldeve64d783bcfca30643e99618f46333797a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6mynote-note-dev.yamldeva01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6, tenant=a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6}
+2023-12-29 13:16:35,224 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-192.168.11.135_8848-a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6][NacosRestTemplate.java:494] - Execute via interceptors :[com.alibaba.nacos.client.config.impl.ConfigHttpClientManager$LimiterHttpClientRequestInterceptor@270c2522]
+2023-12-29 13:16:35,224 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-192.168.11.135_8848-a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6][NacosRestTemplate.java:494] - Execute via interceptors :[com.alibaba.nacos.client.config.impl.ConfigHttpClientManager$LimiterHttpClientRequestInterceptor@270c2522]
+2023-12-29 13:16:35,224 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-192.168.11.135_8848-a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6][NacosRestTemplate.java:494] - Execute via interceptors :[com.alibaba.nacos.client.config.impl.ConfigHttpClientManager$LimiterHttpClientRequestInterceptor@6b0a2b9d]
+2023-12-29 13:16:35,224 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-192.168.11.135_8848-a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6][NacosRestTemplate.java:494] - Execute via interceptors :[com.alibaba.nacos.client.config.impl.ConfigHttpClientManager$LimiterHttpClientRequestInterceptor@6b0a2b9d]
+2023-12-29 13:16:35,288 DEBUG [com.alibaba.nacos.client.naming.updater][NamingProxy.java:195] - server list provided by user: [192.168.11.135:8848]
+2023-12-29 13:16:35,288 DEBUG [com.alibaba.nacos.client.naming.updater][NamingProxy.java:195] - server list provided by user: [192.168.11.135:8848]
+2023-12-29 13:16:35,714 DEBUG [com.alibaba.nacos.naming.failover][FailoverReactor.java:147] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
+2023-12-29 13:16:35,714 DEBUG [com.alibaba.nacos.naming.failover][FailoverReactor.java:147] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
+2023-12-29 13:16:35,999 DEBUG [com.alibaba.nacos.naming.failover][FailoverReactor.java:147] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
+2023-12-29 13:16:35,999 DEBUG [com.alibaba.nacos.naming.failover][FailoverReactor.java:147] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
+2023-12-29 13:39:00,754 ERROR [com.alibaba.nacos.client.Worker.longPolling.fixed-192.168.11.135_8848-a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6][ServerHttpAgent.java:169] - [NACOS SocketTimeoutException httpPost] currentServerAddr: http://192.168.11.135:8848， err : connect timed out
+2023-12-29 13:39:00,754 ERROR [com.alibaba.nacos.client.Worker.longPolling.fixed-192.168.11.135_8848-a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6][ServerHttpAgent.java:169] - [NACOS SocketTimeoutException httpPost] currentServerAddr: http://192.168.11.135:8848， err : connect timed out
+2023-12-29 13:39:00,754 ERROR [com.alibaba.nacos.client.Worker.longPolling.fixed-192.168.11.135_8848-a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6][ServerHttpAgent.java:189] - no available server, currentServerAddr : http://192.168.11.135:8848
+2023-12-29 13:39:00,754 ERROR [com.alibaba.nacos.client.Worker.longPolling.fixed-192.168.11.135_8848-a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6][ServerHttpAgent.java:169] - [NACOS SocketTimeoutException httpPost] currentServerAddr: http://192.168.11.135:8848， err : connect timed out
+2023-12-29 13:39:00,754 ERROR [com.alibaba.nacos.client.Worker.longPolling.fixed-192.168.11.135_8848-a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6][ServerHttpAgent.java:189] - no available server, currentServerAddr : http://192.168.11.135:8848
+2023-12-29 13:39:00,754 ERROR [com.alibaba.nacos.client.Worker.longPolling.fixed-192.168.11.135_8848-a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6][ServerHttpAgent.java:189] - no available server, currentServerAddr : http://192.168.11.135:8848
+2023-12-29 13:39:00,754 ERROR [com.alibaba.nacos.client.Worker.longPolling.fixed-192.168.11.135_8848-a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6][ClientWorker.java:393] - [fixed-192.168.11.135_8848-a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6] [check-update] get changed dataId exception
+java.net.ConnectException: no available server, currentServerAddr : http://192.168.11.135:8848
+	at com.alibaba.nacos.client.config.http.ServerHttpAgent.httpPost(ServerHttpAgent.java:190)
+	at com.alibaba.nacos.client.config.http.MetricsHttpAgent.httpPost(MetricsHttpAgent.java:67)
+	at com.alibaba.nacos.client.config.impl.ClientWorker.checkUpdateConfigStr(ClientWorker.java:380)
+	at com.alibaba.nacos.client.config.impl.ClientWorker.checkUpdateDataIds(ClientWorker.java:347)
+	at com.alibaba.nacos.client.config.impl.ClientWorker$LongPollingRunnable.run(ClientWorker.java:535)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2023-12-29 13:39:00,754 ERROR [com.alibaba.nacos.naming.beat.sender][NamingProxy.java:617] - [NA] failed to request
+java.net.SocketTimeoutException: connect timed out
+	at java.base/java.net.PlainSocketImpl.waitForConnect(Native Method)
+	at java.base/java.net.PlainSocketImpl.socketConnect(PlainSocketImpl.java:107)
+	at java.base/java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:412)
+	at java.base/java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:255)
+	at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:237)
+	at java.base/java.net.Socket.connect(Socket.java:608)
+	at java.base/sun.net.NetworkClient.doConnect(NetworkClient.java:177)
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:510)
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:605)
+	at java.base/sun.net.www.http.HttpClient.<init>(HttpClient.java:278)
+	at java.base/sun.net.www.http.HttpClient.New(HttpClient.java:377)
+	at java.base/sun.net.www.http.HttpClient.New(HttpClient.java:398)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1253)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1187)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1081)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:1015)
+	at com.alibaba.nacos.common.http.client.request.JdkHttpClientRequest.execute(JdkHttpClientRequest.java:112)
+	at com.alibaba.nacos.common.http.client.NacosRestTemplate.execute(NacosRestTemplate.java:482)
+	at com.alibaba.nacos.common.http.client.NacosRestTemplate.exchangeForm(NacosRestTemplate.java:427)
+	at com.alibaba.nacos.client.naming.net.NamingProxy.callServer(NamingProxy.java:603)
+	at com.alibaba.nacos.client.naming.net.NamingProxy.reqApi(NamingProxy.java:526)
+	at com.alibaba.nacos.client.naming.net.NamingProxy.reqApi(NamingProxy.java:498)
+	at com.alibaba.nacos.client.naming.net.NamingProxy.sendBeat(NamingProxy.java:433)
+	at com.alibaba.nacos.client.naming.beat.BeatReactor$BeatTask.run(BeatReactor.java:167)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2023-12-29 13:39:00,754 ERROR [com.alibaba.nacos.naming.beat.sender][NamingProxy.java:617] - [NA] failed to request
+java.net.SocketTimeoutException: connect timed out
+	at java.base/java.net.PlainSocketImpl.waitForConnect(Native Method)
+	at java.base/java.net.PlainSocketImpl.socketConnect(PlainSocketImpl.java:107)
+	at java.base/java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:412)
+	at java.base/java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:255)
+	at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:237)
+	at java.base/java.net.Socket.connect(Socket.java:608)
+	at java.base/sun.net.NetworkClient.doConnect(NetworkClient.java:177)
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:510)
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:605)
+	at java.base/sun.net.www.http.HttpClient.<init>(HttpClient.java:278)
+	at java.base/sun.net.www.http.HttpClient.New(HttpClient.java:377)
+	at java.base/sun.net.www.http.HttpClient.New(HttpClient.java:398)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1253)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1187)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1081)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:1015)
+	at com.alibaba.nacos.common.http.client.request.JdkHttpClientRequest.execute(JdkHttpClientRequest.java:112)
+	at com.alibaba.nacos.common.http.client.NacosRestTemplate.execute(NacosRestTemplate.java:482)
+	at com.alibaba.nacos.common.http.client.NacosRestTemplate.exchangeForm(NacosRestTemplate.java:427)
+	at com.alibaba.nacos.client.naming.net.NamingProxy.callServer(NamingProxy.java:603)
+	at com.alibaba.nacos.client.naming.net.NamingProxy.reqApi(NamingProxy.java:526)
+	at com.alibaba.nacos.client.naming.net.NamingProxy.reqApi(NamingProxy.java:498)
+	at com.alibaba.nacos.client.naming.net.NamingProxy.sendBeat(NamingProxy.java:433)
+	at com.alibaba.nacos.client.naming.beat.BeatReactor$BeatTask.run(BeatReactor.java:167)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2023-12-29 13:39:00,754 ERROR [com.alibaba.nacos.client.Worker.longPolling.fixed-192.168.11.135_8848-a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6][ClientWorker.java:393] - [fixed-192.168.11.135_8848-a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6] [check-update] get changed dataId exception
+java.net.ConnectException: no available server, currentServerAddr : http://192.168.11.135:8848
+	at com.alibaba.nacos.client.config.http.ServerHttpAgent.httpPost(ServerHttpAgent.java:190)
+	at com.alibaba.nacos.client.config.http.MetricsHttpAgent.httpPost(MetricsHttpAgent.java:67)
+	at com.alibaba.nacos.client.config.impl.ClientWorker.checkUpdateConfigStr(ClientWorker.java:380)
+	at com.alibaba.nacos.client.config.impl.ClientWorker.checkUpdateDataIds(ClientWorker.java:347)
+	at com.alibaba.nacos.client.config.impl.ClientWorker$LongPollingRunnable.run(ClientWorker.java:535)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2023-12-29 13:39:00,754 ERROR [com.alibaba.nacos.client.Worker.longPolling.fixed-192.168.11.135_8848-a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6][ClientWorker.java:580] - longPolling error : 
+java.net.ConnectException: no available server, currentServerAddr : http://192.168.11.135:8848
+	at com.alibaba.nacos.client.config.http.ServerHttpAgent.httpPost(ServerHttpAgent.java:190)
+	at com.alibaba.nacos.client.config.http.MetricsHttpAgent.httpPost(MetricsHttpAgent.java:67)
+	at com.alibaba.nacos.client.config.impl.ClientWorker.checkUpdateConfigStr(ClientWorker.java:380)
+	at com.alibaba.nacos.client.config.impl.ClientWorker.checkUpdateDataIds(ClientWorker.java:347)
+	at com.alibaba.nacos.client.config.impl.ClientWorker$LongPollingRunnable.run(ClientWorker.java:535)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2023-12-29 13:39:00,754 ERROR [com.alibaba.nacos.client.Worker.longPolling.fixed-192.168.11.135_8848-a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6][ClientWorker.java:580] - longPolling error : 
+java.net.ConnectException: no available server, currentServerAddr : http://192.168.11.135:8848
+	at com.alibaba.nacos.client.config.http.ServerHttpAgent.httpPost(ServerHttpAgent.java:190)
+	at com.alibaba.nacos.client.config.http.MetricsHttpAgent.httpPost(MetricsHttpAgent.java:67)
+	at com.alibaba.nacos.client.config.impl.ClientWorker.checkUpdateConfigStr(ClientWorker.java:380)
+	at com.alibaba.nacos.client.config.impl.ClientWorker.checkUpdateDataIds(ClientWorker.java:347)
+	at com.alibaba.nacos.client.config.impl.ClientWorker$LongPollingRunnable.run(ClientWorker.java:535)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2023-12-29 13:39:00,754 ERROR [com.alibaba.nacos.client.Worker.longPolling.fixed-192.168.11.135_8848-a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6][ClientWorker.java:393] - [fixed-192.168.11.135_8848-a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6] [check-update] get changed dataId exception
+java.net.ConnectException: no available server, currentServerAddr : http://192.168.11.135:8848
+	at com.alibaba.nacos.client.config.http.ServerHttpAgent.httpPost(ServerHttpAgent.java:190)
+	at com.alibaba.nacos.client.config.http.MetricsHttpAgent.httpPost(MetricsHttpAgent.java:67)
+	at com.alibaba.nacos.client.config.impl.ClientWorker.checkUpdateConfigStr(ClientWorker.java:380)
+	at com.alibaba.nacos.client.config.impl.ClientWorker.checkUpdateDataIds(ClientWorker.java:347)
+	at com.alibaba.nacos.client.config.impl.ClientWorker$LongPollingRunnable.run(ClientWorker.java:535)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2023-12-29 13:39:00,754 DEBUG [com.alibaba.nacos.naming.beat.sender][NamingProxy.java:530] - request 192.168.11.135:8848 failed.
+ErrCode:500, ErrMsg:connect timed out
+	at com.alibaba.nacos.client.naming.net.NamingProxy.callServer(NamingProxy.java:618)
+	at com.alibaba.nacos.client.naming.net.NamingProxy.reqApi(NamingProxy.java:526)
+	at com.alibaba.nacos.client.naming.net.NamingProxy.reqApi(NamingProxy.java:498)
+	at com.alibaba.nacos.client.naming.net.NamingProxy.sendBeat(NamingProxy.java:433)
+	at com.alibaba.nacos.client.naming.beat.BeatReactor$BeatTask.run(BeatReactor.java:167)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.net.SocketTimeoutException: connect timed out
+	at java.base/java.net.PlainSocketImpl.waitForConnect(Native Method)
+	at java.base/java.net.PlainSocketImpl.socketConnect(PlainSocketImpl.java:107)
+	at java.base/java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:412)
+	at java.base/java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:255)
+	at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:237)
+	at java.base/java.net.Socket.connect(Socket.java:608)
+	at java.base/sun.net.NetworkClient.doConnect(NetworkClient.java:177)
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:510)
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:605)
+	at java.base/sun.net.www.http.HttpClient.<init>(HttpClient.java:278)
+	at java.base/sun.net.www.http.HttpClient.New(HttpClient.java:377)
+	at java.base/sun.net.www.http.HttpClient.New(HttpClient.java:398)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1253)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1187)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1081)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:1015)
+	at com.alibaba.nacos.common.http.client.request.JdkHttpClientRequest.execute(JdkHttpClientRequest.java:112)
+	at com.alibaba.nacos.common.http.client.NacosRestTemplate.execute(NacosRestTemplate.java:482)
+	at com.alibaba.nacos.common.http.client.NacosRestTemplate.exchangeForm(NacosRestTemplate.java:427)
+	at com.alibaba.nacos.client.naming.net.NamingProxy.callServer(NamingProxy.java:603)
+	... 10 more
+2023-12-29 13:39:00,754 DEBUG [com.alibaba.nacos.naming.beat.sender][NamingProxy.java:530] - request 192.168.11.135:8848 failed.
+ErrCode:500, ErrMsg:connect timed out
+	at com.alibaba.nacos.client.naming.net.NamingProxy.callServer(NamingProxy.java:618)
+	at com.alibaba.nacos.client.naming.net.NamingProxy.reqApi(NamingProxy.java:526)
+	at com.alibaba.nacos.client.naming.net.NamingProxy.reqApi(NamingProxy.java:498)
+	at com.alibaba.nacos.client.naming.net.NamingProxy.sendBeat(NamingProxy.java:433)
+	at com.alibaba.nacos.client.naming.beat.BeatReactor$BeatTask.run(BeatReactor.java:167)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.net.SocketTimeoutException: connect timed out
+	at java.base/java.net.PlainSocketImpl.waitForConnect(Native Method)
+	at java.base/java.net.PlainSocketImpl.socketConnect(PlainSocketImpl.java:107)
+	at java.base/java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:412)
+	at java.base/java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:255)
+	at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:237)
+	at java.base/java.net.Socket.connect(Socket.java:608)
+	at java.base/sun.net.NetworkClient.doConnect(NetworkClient.java:177)
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:510)
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:605)
+	at java.base/sun.net.www.http.HttpClient.<init>(HttpClient.java:278)
+	at java.base/sun.net.www.http.HttpClient.New(HttpClient.java:377)
+	at java.base/sun.net.www.http.HttpClient.New(HttpClient.java:398)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1253)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1187)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1081)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:1015)
+	at com.alibaba.nacos.common.http.client.request.JdkHttpClientRequest.execute(JdkHttpClientRequest.java:112)
+	at com.alibaba.nacos.common.http.client.NacosRestTemplate.execute(NacosRestTemplate.java:482)
+	at com.alibaba.nacos.common.http.client.NacosRestTemplate.exchangeForm(NacosRestTemplate.java:427)
+	at com.alibaba.nacos.client.naming.net.NamingProxy.callServer(NamingProxy.java:603)
+	... 10 more
+2023-12-29 13:39:00,755 ERROR [com.alibaba.nacos.client.Worker.longPolling.fixed-192.168.11.135_8848-a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6][ClientWorker.java:580] - longPolling error : 
+java.net.ConnectException: no available server, currentServerAddr : http://192.168.11.135:8848
+	at com.alibaba.nacos.client.config.http.ServerHttpAgent.httpPost(ServerHttpAgent.java:190)
+	at com.alibaba.nacos.client.config.http.MetricsHttpAgent.httpPost(MetricsHttpAgent.java:67)
+	at com.alibaba.nacos.client.config.impl.ClientWorker.checkUpdateConfigStr(ClientWorker.java:380)
+	at com.alibaba.nacos.client.config.impl.ClientWorker.checkUpdateDataIds(ClientWorker.java:347)
+	at com.alibaba.nacos.client.config.impl.ClientWorker$LongPollingRunnable.run(ClientWorker.java:535)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2023-12-29 13:39:00,755 DEBUG [com.alibaba.nacos.naming.beat.sender][NacosRestTemplate.java:476] - HTTP method: PUT, url: http://192.168.11.135:8848/nacos/v1/ns/instance/beat?app=unknown&serviceName=dev%40%40mynote-note&namespaceId=a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6&port=9001&clusterName=DEFAULT&ip=192.168.75.1, body: {}
+2023-12-29 13:39:00,755 DEBUG [com.alibaba.nacos.naming.beat.sender][NacosRestTemplate.java:476] - HTTP method: PUT, url: http://192.168.11.135:8848/nacos/v1/ns/instance/beat?app=unknown&serviceName=dev%40%40mynote-note&namespaceId=a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6&port=9001&clusterName=DEFAULT&ip=192.168.75.1, body: {}
+2023-12-29 13:39:00,754 ERROR [com.alibaba.nacos.client.Worker.longPolling.fixed-192.168.11.135_8848-a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6][ServerHttpAgent.java:169] - [NACOS SocketTimeoutException httpPost] currentServerAddr: http://192.168.11.135:8848， err : connect timed out
+2023-12-29 13:39:00,754 ERROR [com.alibaba.nacos.client.Worker.longPolling.fixed-192.168.11.135_8848-a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6][ServerHttpAgent.java:189] - no available server, currentServerAddr : http://192.168.11.135:8848
+2023-12-29 13:39:00,754 ERROR [com.alibaba.nacos.client.Worker.longPolling.fixed-192.168.11.135_8848-a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6][ClientWorker.java:393] - [fixed-192.168.11.135_8848-a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6] [check-update] get changed dataId exception
+java.net.ConnectException: no available server, currentServerAddr : http://192.168.11.135:8848
+	at com.alibaba.nacos.client.config.http.ServerHttpAgent.httpPost(ServerHttpAgent.java:190)
+	at com.alibaba.nacos.client.config.http.MetricsHttpAgent.httpPost(MetricsHttpAgent.java:67)
+	at com.alibaba.nacos.client.config.impl.ClientWorker.checkUpdateConfigStr(ClientWorker.java:380)
+	at com.alibaba.nacos.client.config.impl.ClientWorker.checkUpdateDataIds(ClientWorker.java:347)
+	at com.alibaba.nacos.client.config.impl.ClientWorker$LongPollingRunnable.run(ClientWorker.java:535)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2023-12-29 13:39:00,755 ERROR [com.alibaba.nacos.client.Worker.longPolling.fixed-192.168.11.135_8848-a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6][ClientWorker.java:580] - longPolling error : 
+java.net.ConnectException: no available server, currentServerAddr : http://192.168.11.135:8848
+	at com.alibaba.nacos.client.config.http.ServerHttpAgent.httpPost(ServerHttpAgent.java:190)
+	at com.alibaba.nacos.client.config.http.MetricsHttpAgent.httpPost(MetricsHttpAgent.java:67)
+	at com.alibaba.nacos.client.config.impl.ClientWorker.checkUpdateConfigStr(ClientWorker.java:380)
+	at com.alibaba.nacos.client.config.impl.ClientWorker.checkUpdateDataIds(ClientWorker.java:347)
+	at com.alibaba.nacos.client.config.impl.ClientWorker$LongPollingRunnable.run(ClientWorker.java:535)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2023-12-29 13:39:02,277 DEBUG [com.alibaba.nacos.naming.beat.sender][NamingProxy.java:421] - [BEAT] a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6 sending beat to server: BeatInfo{port=8001, ip='192.168.75.1', weight=1.0, serviceName='dev@@mynote-system', cluster='DEFAULT', metadata={preserved.register.source=SPRING_CLOUD}, scheduled=false, period=5000, stopped=false}
+2023-12-29 13:39:02,277 DEBUG [com.alibaba.nacos.naming.beat.sender][NamingProxy.java:421] - [BEAT] a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6 sending beat to server: BeatInfo{port=8001, ip='192.168.75.1', weight=1.0, serviceName='dev@@mynote-system', cluster='DEFAULT', metadata={preserved.register.source=SPRING_CLOUD}, scheduled=false, period=5000, stopped=false}
+2023-12-29 13:39:02,277 DEBUG [com.alibaba.nacos.naming.beat.sender][NacosRestTemplate.java:476] - HTTP method: PUT, url: http://192.168.11.135:8848/nacos/v1/ns/instance/beat?app=unknown&serviceName=dev%40%40mynote-system&namespaceId=a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6&port=8001&clusterName=DEFAULT&ip=192.168.75.1, body: {}
+2023-12-29 13:39:02,277 DEBUG [com.alibaba.nacos.naming.beat.sender][NacosRestTemplate.java:476] - HTTP method: PUT, url: http://192.168.11.135:8848/nacos/v1/ns/instance/beat?app=unknown&serviceName=dev%40%40mynote-system&namespaceId=a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6&port=8001&clusterName=DEFAULT&ip=192.168.75.1, body: {}
+2023-12-29 13:39:02,282 INFO [com.alibaba.nacos.naming.beat.sender][NamingProxy.java:230] - [REGISTER-SERVICE] a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6 registering service dev@@mynote-system with instance: Instance{instanceId='null', ip='192.168.75.1', port=8001, weight=1.0, healthy=true, enabled=true, ephemeral=true, clusterName='DEFAULT', serviceName='dev@@mynote-system', metadata={preserved.register.source=SPRING_CLOUD}}
+2023-12-29 13:39:02,282 INFO [com.alibaba.nacos.naming.beat.sender][NamingProxy.java:230] - [REGISTER-SERVICE] a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6 registering service dev@@mynote-system with instance: Instance{instanceId='null', ip='192.168.75.1', port=8001, weight=1.0, healthy=true, enabled=true, ephemeral=true, clusterName='DEFAULT', serviceName='dev@@mynote-system', metadata={preserved.register.source=SPRING_CLOUD}}
+2023-12-29 13:39:02,283 DEBUG [com.alibaba.nacos.naming.beat.sender][NacosRestTemplate.java:476] - HTTP method: POST, url: http://192.168.11.135:8848/nacos/v1/ns/instance?app=unknown&groupName=dev&metadata=%7B%22preserved.register.source%22%3A%22SPRING_CLOUD%22%7D&namespaceId=a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6&port=8001&enable=true&healthy=true&clusterName=DEFAULT&ip=192.168.75.1&weight=1.0&ephemeral=true&serviceName=dev%40%40mynote-system, body: {}
+2023-12-29 13:39:02,283 DEBUG [com.alibaba.nacos.naming.beat.sender][NacosRestTemplate.java:476] - HTTP method: POST, url: http://192.168.11.135:8848/nacos/v1/ns/instance?app=unknown&groupName=dev&metadata=%7B%22preserved.register.source%22%3A%22SPRING_CLOUD%22%7D&namespaceId=a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6&port=8001&enable=true&healthy=true&clusterName=DEFAULT&ip=192.168.75.1&weight=1.0&ephemeral=true&serviceName=dev%40%40mynote-system, body: {}
+2023-12-29 13:39:02,759 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-192.168.11.135_8848-a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6][NacosRestTemplate.java:476] - HTTP method: POST, url: http://192.168.11.135:8848/nacos/v1/cs/configs/listener, body: {Listening-Configs=mynote-system-dev.yamldeva01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6system-mybatisplus.yamldevbe6b800cd0b4b933ff385e28c53afec7a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6mynote-system.yamldeva01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6system-other.yamldev8b0305a0e50ba85bb1c4bc8a3fcb19f9a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6log4j-dev.yamldeve64d783bcfca30643e99618f46333797a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6mynote-systemdeva01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6system-datasource.yamldev0987b9699e8a76491c986463e4cf478ba01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6, tenant=a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6}
+2023-12-29 13:39:02,759 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-192.168.11.135_8848-a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6][NacosRestTemplate.java:476] - HTTP method: POST, url: http://192.168.11.135:8848/nacos/v1/cs/configs/listener, body: {Listening-Configs=mynote-system-dev.yamldeva01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6system-mybatisplus.yamldevbe6b800cd0b4b933ff385e28c53afec7a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6mynote-system.yamldeva01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6system-other.yamldev8b0305a0e50ba85bb1c4bc8a3fcb19f9a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6log4j-dev.yamldeve64d783bcfca30643e99618f46333797a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6mynote-systemdeva01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6system-datasource.yamldev0987b9699e8a76491c986463e4cf478ba01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6, tenant=a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6}
+2023-12-29 13:39:02,759 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-192.168.11.135_8848-a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6][NacosRestTemplate.java:476] - HTTP method: POST, url: http://192.168.11.135:8848/nacos/v1/cs/configs/listener, body: {Listening-Configs=note-other.yamldev83d185051730033c4736014110b7f3cea01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6mynote-note.yamldeva01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6mynote-notedeva01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6note-datasource.yamldev8d301230a139a7e0363d2d1962c42164a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6note-mybatisplus.yamldevbd958897385e9c630d37aedf29509d53a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6log4j-dev.yamldeve64d783bcfca30643e99618f46333797a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6mynote-note-dev.yamldeva01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6, tenant=a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6}
+2023-12-29 13:39:02,759 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-192.168.11.135_8848-a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6][NacosRestTemplate.java:494] - Execute via interceptors :[com.alibaba.nacos.client.config.impl.ConfigHttpClientManager$LimiterHttpClientRequestInterceptor@270c2522]
+2023-12-29 13:39:02,759 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-192.168.11.135_8848-a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6][NacosRestTemplate.java:476] - HTTP method: POST, url: http://192.168.11.135:8848/nacos/v1/cs/configs/listener, body: {Listening-Configs=note-other.yamldev83d185051730033c4736014110b7f3cea01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6mynote-note.yamldeva01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6mynote-notedeva01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6note-datasource.yamldev8d301230a139a7e0363d2d1962c42164a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6note-mybatisplus.yamldevbd958897385e9c630d37aedf29509d53a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6log4j-dev.yamldeve64d783bcfca30643e99618f46333797a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6mynote-note-dev.yamldeva01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6, tenant=a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6}
+2023-12-29 13:39:02,759 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-192.168.11.135_8848-a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6][NacosRestTemplate.java:494] - Execute via interceptors :[com.alibaba.nacos.client.config.impl.ConfigHttpClientManager$LimiterHttpClientRequestInterceptor@270c2522]
+2023-12-29 13:39:02,759 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-192.168.11.135_8848-a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6][NacosRestTemplate.java:494] - Execute via interceptors :[com.alibaba.nacos.client.config.impl.ConfigHttpClientManager$LimiterHttpClientRequestInterceptor@6b0a2b9d]
+2023-12-29 13:39:02,759 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-192.168.11.135_8848-a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6][NacosRestTemplate.java:494] - Execute via interceptors :[com.alibaba.nacos.client.config.impl.ConfigHttpClientManager$LimiterHttpClientRequestInterceptor@6b0a2b9d]
+2023-12-29 13:39:03,764 ERROR [com.alibaba.nacos.naming.beat.sender][NamingProxy.java:617] - [NA] failed to request
+java.net.SocketTimeoutException: connect timed out
+	at java.base/java.net.PlainSocketImpl.waitForConnect(Native Method)
+	at java.base/java.net.PlainSocketImpl.socketConnect(PlainSocketImpl.java:107)
+	at java.base/java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:412)
+	at java.base/java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:255)
+	at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:237)
+	at java.base/java.net.Socket.connect(Socket.java:608)
+	at java.base/sun.net.NetworkClient.doConnect(NetworkClient.java:177)
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:510)
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:605)
+	at java.base/sun.net.www.http.HttpClient.<init>(HttpClient.java:278)
+	at java.base/sun.net.www.http.HttpClient.New(HttpClient.java:377)
+	at java.base/sun.net.www.http.HttpClient.New(HttpClient.java:398)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1253)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1187)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1081)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:1015)
+	at com.alibaba.nacos.common.http.client.request.JdkHttpClientRequest.execute(JdkHttpClientRequest.java:112)
+	at com.alibaba.nacos.common.http.client.NacosRestTemplate.execute(NacosRestTemplate.java:482)
+	at com.alibaba.nacos.common.http.client.NacosRestTemplate.exchangeForm(NacosRestTemplate.java:427)
+	at com.alibaba.nacos.client.naming.net.NamingProxy.callServer(NamingProxy.java:603)
+	at com.alibaba.nacos.client.naming.net.NamingProxy.reqApi(NamingProxy.java:526)
+	at com.alibaba.nacos.client.naming.net.NamingProxy.reqApi(NamingProxy.java:498)
+	at com.alibaba.nacos.client.naming.net.NamingProxy.sendBeat(NamingProxy.java:433)
+	at com.alibaba.nacos.client.naming.beat.BeatReactor$BeatTask.run(BeatReactor.java:167)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2023-12-29 13:39:03,764 ERROR [com.alibaba.nacos.naming.beat.sender][NamingProxy.java:617] - [NA] failed to request
+java.net.SocketTimeoutException: connect timed out
+	at java.base/java.net.PlainSocketImpl.waitForConnect(Native Method)
+	at java.base/java.net.PlainSocketImpl.socketConnect(PlainSocketImpl.java:107)
+	at java.base/java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:412)
+	at java.base/java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:255)
+	at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:237)
+	at java.base/java.net.Socket.connect(Socket.java:608)
+	at java.base/sun.net.NetworkClient.doConnect(NetworkClient.java:177)
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:510)
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:605)
+	at java.base/sun.net.www.http.HttpClient.<init>(HttpClient.java:278)
+	at java.base/sun.net.www.http.HttpClient.New(HttpClient.java:377)
+	at java.base/sun.net.www.http.HttpClient.New(HttpClient.java:398)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1253)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1187)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1081)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:1015)
+	at com.alibaba.nacos.common.http.client.request.JdkHttpClientRequest.execute(JdkHttpClientRequest.java:112)
+	at com.alibaba.nacos.common.http.client.NacosRestTemplate.execute(NacosRestTemplate.java:482)
+	at com.alibaba.nacos.common.http.client.NacosRestTemplate.exchangeForm(NacosRestTemplate.java:427)
+	at com.alibaba.nacos.client.naming.net.NamingProxy.callServer(NamingProxy.java:603)
+	at com.alibaba.nacos.client.naming.net.NamingProxy.reqApi(NamingProxy.java:526)
+	at com.alibaba.nacos.client.naming.net.NamingProxy.reqApi(NamingProxy.java:498)
+	at com.alibaba.nacos.client.naming.net.NamingProxy.sendBeat(NamingProxy.java:433)
+	at com.alibaba.nacos.client.naming.beat.BeatReactor$BeatTask.run(BeatReactor.java:167)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2023-12-29 13:39:03,765 DEBUG [com.alibaba.nacos.naming.beat.sender][NamingProxy.java:530] - request 192.168.11.135:8848 failed.
+ErrCode:500, ErrMsg:connect timed out
+	at com.alibaba.nacos.client.naming.net.NamingProxy.callServer(NamingProxy.java:618)
+	at com.alibaba.nacos.client.naming.net.NamingProxy.reqApi(NamingProxy.java:526)
+	at com.alibaba.nacos.client.naming.net.NamingProxy.reqApi(NamingProxy.java:498)
+	at com.alibaba.nacos.client.naming.net.NamingProxy.sendBeat(NamingProxy.java:433)
+	at com.alibaba.nacos.client.naming.beat.BeatReactor$BeatTask.run(BeatReactor.java:167)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.net.SocketTimeoutException: connect timed out
+	at java.base/java.net.PlainSocketImpl.waitForConnect(Native Method)
+	at java.base/java.net.PlainSocketImpl.socketConnect(PlainSocketImpl.java:107)
+	at java.base/java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:412)
+	at java.base/java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:255)
+	at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:237)
+	at java.base/java.net.Socket.connect(Socket.java:608)
+	at java.base/sun.net.NetworkClient.doConnect(NetworkClient.java:177)
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:510)
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:605)
+	at java.base/sun.net.www.http.HttpClient.<init>(HttpClient.java:278)
+	at java.base/sun.net.www.http.HttpClient.New(HttpClient.java:377)
+	at java.base/sun.net.www.http.HttpClient.New(HttpClient.java:398)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1253)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1187)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1081)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:1015)
+	at com.alibaba.nacos.common.http.client.request.JdkHttpClientRequest.execute(JdkHttpClientRequest.java:112)
+	at com.alibaba.nacos.common.http.client.NacosRestTemplate.execute(NacosRestTemplate.java:482)
+	at com.alibaba.nacos.common.http.client.NacosRestTemplate.exchangeForm(NacosRestTemplate.java:427)
+	at com.alibaba.nacos.client.naming.net.NamingProxy.callServer(NamingProxy.java:603)
+	... 10 more
+2023-12-29 13:39:03,765 DEBUG [com.alibaba.nacos.naming.beat.sender][NamingProxy.java:530] - request 192.168.11.135:8848 failed.
+ErrCode:500, ErrMsg:connect timed out
+	at com.alibaba.nacos.client.naming.net.NamingProxy.callServer(NamingProxy.java:618)
+	at com.alibaba.nacos.client.naming.net.NamingProxy.reqApi(NamingProxy.java:526)
+	at com.alibaba.nacos.client.naming.net.NamingProxy.reqApi(NamingProxy.java:498)
+	at com.alibaba.nacos.client.naming.net.NamingProxy.sendBeat(NamingProxy.java:433)
+	at com.alibaba.nacos.client.naming.beat.BeatReactor$BeatTask.run(BeatReactor.java:167)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.net.SocketTimeoutException: connect timed out
+	at java.base/java.net.PlainSocketImpl.waitForConnect(Native Method)
+	at java.base/java.net.PlainSocketImpl.socketConnect(PlainSocketImpl.java:107)
+	at java.base/java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:412)
+	at java.base/java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:255)
+	at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:237)
+	at java.base/java.net.Socket.connect(Socket.java:608)
+	at java.base/sun.net.NetworkClient.doConnect(NetworkClient.java:177)
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:510)
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:605)
+	at java.base/sun.net.www.http.HttpClient.<init>(HttpClient.java:278)
+	at java.base/sun.net.www.http.HttpClient.New(HttpClient.java:377)
+	at java.base/sun.net.www.http.HttpClient.New(HttpClient.java:398)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1253)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1187)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1081)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:1015)
+	at com.alibaba.nacos.common.http.client.request.JdkHttpClientRequest.execute(JdkHttpClientRequest.java:112)
+	at com.alibaba.nacos.common.http.client.NacosRestTemplate.execute(NacosRestTemplate.java:482)
+	at com.alibaba.nacos.common.http.client.NacosRestTemplate.exchangeForm(NacosRestTemplate.java:427)
+	at com.alibaba.nacos.client.naming.net.NamingProxy.callServer(NamingProxy.java:603)
+	... 10 more
+2023-12-29 13:39:03,765 ERROR [com.alibaba.nacos.naming.beat.sender][NamingProxy.java:552] - request: /nacos/v1/ns/instance/beat failed, servers: [192.168.11.135:8848], code: 500, msg: connect timed out
+2023-12-29 13:39:03,765 ERROR [com.alibaba.nacos.naming.beat.sender][NamingProxy.java:552] - request: /nacos/v1/ns/instance/beat failed, servers: [192.168.11.135:8848], code: 500, msg: connect timed out
+2023-12-29 13:39:03,765 ERROR [com.alibaba.nacos.naming.beat.sender][BeatReactor.java:198] - [CLIENT-BEAT] failed to send beat: {"port":9001,"ip":"192.168.75.1","weight":1.0,"serviceName":"dev@@mynote-note","cluster":"DEFAULT","metadata":{"preserved.register.source":"SPRING_CLOUD"},"scheduled":false,"period":5000,"stopped":false}, code: 500, msg: failed to req API:/nacos/v1/ns/instance/beat after all servers([192.168.11.135:8848]) tried: java.net.SocketTimeoutException: connect timed out
+2023-12-29 13:39:03,765 ERROR [com.alibaba.nacos.naming.beat.sender][BeatReactor.java:198] - [CLIENT-BEAT] failed to send beat: {"port":9001,"ip":"192.168.75.1","weight":1.0,"serviceName":"dev@@mynote-note","cluster":"DEFAULT","metadata":{"preserved.register.source":"SPRING_CLOUD"},"scheduled":false,"period":5000,"stopped":false}, code: 500, msg: failed to req API:/nacos/v1/ns/instance/beat after all servers([192.168.11.135:8848]) tried: java.net.SocketTimeoutException: connect timed out
+2023-12-29 13:39:04,210 DEBUG [com.alibaba.nacos.client.naming.updater][NacosRestTemplate.java:476] - HTTP method: GET, url: http://192.168.11.135:8848/nacos/v1/ns/instance/list?app=unknown&healthyOnly=false&namespaceId=a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6&clientIP=192.168.0.118&serviceName=dev%40%40mynote-system&udpPort=49665&clusters=, body: {}
+2023-12-29 13:39:04,210 DEBUG [com.alibaba.nacos.client.naming.updater][NacosRestTemplate.java:476] - HTTP method: GET, url: http://192.168.11.135:8848/nacos/v1/ns/instance/list?app=unknown&healthyOnly=false&namespaceId=a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6&clientIP=192.168.0.118&serviceName=dev%40%40mynote-system&udpPort=49665&clusters=, body: {}
+2023-12-29 13:39:04,210 DEBUG [com.alibaba.nacos.client.naming.updater][NacosRestTemplate.java:476] - HTTP method: GET, url: http://192.168.11.135:8848/nacos/v1/ns/instance/list?app=unknown&healthyOnly=false&namespaceId=a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6&clientIP=192.168.0.118&serviceName=dev%40%40mynote-note&udpPort=49665&clusters=DEFAULT, body: {}
+2023-12-29 13:39:04,210 DEBUG [com.alibaba.nacos.client.naming.updater][NacosRestTemplate.java:476] - HTTP method: GET, url: http://192.168.11.135:8848/nacos/v1/ns/instance/list?app=unknown&healthyOnly=false&namespaceId=a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6&clientIP=192.168.0.118&serviceName=dev%40%40mynote-note&udpPort=49665&clusters=DEFAULT, body: {}
+2023-12-29 13:39:04,214 INFO [com.alibaba.nacos.client.naming.updater][HostReactor.java:238] - removed ips(1) service: dev@@mynote-note@@DEFAULT -> [{"instanceId":"192.168.75.1#9001#DEFAULT#dev@@mynote-note","ip":"192.168.75.1","port":9001,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"dev@@mynote-note","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatTimeOut":15000,"instanceHeartBeatInterval":5000}]
+2023-12-29 13:39:04,214 INFO [com.alibaba.nacos.client.naming.updater][HostReactor.java:238] - removed ips(1) service: dev@@mynote-note@@DEFAULT -> [{"instanceId":"192.168.75.1#9001#DEFAULT#dev@@mynote-note","ip":"192.168.75.1","port":9001,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"dev@@mynote-note","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatTimeOut":15000,"instanceHeartBeatInterval":5000}]
+2023-12-29 13:39:04,214 DEBUG [nacos.publisher-com.alibaba.nacos.client.naming.event.InstancesChangeEvent][DefaultPublisher.java:193] - [NotifyCenter] the com.alibaba.nacos.client.naming.event.InstancesChangeEvent@7083d335 will received by com.alibaba.nacos.client.naming.event.InstancesChangeNotifier@71ce19ee
+2023-12-29 13:39:04,214 DEBUG [nacos.publisher-com.alibaba.nacos.client.naming.event.InstancesChangeEvent][DefaultPublisher.java:193] - [NotifyCenter] the com.alibaba.nacos.client.naming.event.InstancesChangeEvent@7083d335 will received by com.alibaba.nacos.client.naming.event.InstancesChangeNotifier@71ce19ee
+2023-12-29 13:39:04,218 INFO [com.alibaba.nacos.client.naming.updater][HostReactor.java:271] - current ips:(0) service: dev@@mynote-note@@DEFAULT -> []
+2023-12-29 13:39:04,218 INFO [com.alibaba.nacos.client.naming.updater][HostReactor.java:271] - current ips:(0) service: dev@@mynote-note@@DEFAULT -> []
+2023-12-29 13:39:04,626 DEBUG [com.alibaba.nacos.client.naming.updater][NamingProxy.java:195] - server list provided by user: [192.168.11.135:8848]
+2023-12-29 13:39:04,626 DEBUG [com.alibaba.nacos.client.naming.updater][NamingProxy.java:195] - server list provided by user: [192.168.11.135:8848]
+2023-12-29 13:39:04,785 INFO [com.alibaba.nacos.naming.push.receiver][PushReceiver.java:97] - received push data: {"type":"dom","data":"{\"name\":\"dev@@mynote-note\",\"clusters\":\"DEFAULT\",\"cacheMillis\":10000,\"hosts\":[],\"lastRefTime\":1703828344784,\"checksum\":\"\",\"allIPs\":false,\"reachProtectionThreshold\":false,\"valid\":true}","lastRefTime":12834147213246} from /192.168.0.118
+2023-12-29 13:39:04,785 INFO [com.alibaba.nacos.naming.push.receiver][PushReceiver.java:97] - received push data: {"type":"dom","data":"{\"name\":\"dev@@mynote-note\",\"clusters\":\"DEFAULT\",\"cacheMillis\":10000,\"hosts\":[],\"lastRefTime\":1703828344784,\"checksum\":\"\",\"allIPs\":false,\"reachProtectionThreshold\":false,\"valid\":true}","lastRefTime":12834147213246} from /192.168.0.118
+2023-12-29 13:39:04,786 INFO [com.alibaba.nacos.naming.push.receiver][PushReceiver.java:97] - received push data: {"type":"dom","data":"{\"name\":\"dev@@mynote-system\",\"clusters\":\"\",\"cacheMillis\":10000,\"hosts\":[{\"instanceId\":\"192.168.75.1#8001#DEFAULT#dev@@mynote-system\",\"ip\":\"192.168.75.1\",\"port\":8001,\"weight\":1.0,\"healthy\":true,\"enabled\":true,\"ephemeral\":true,\"clusterName\":\"DEFAULT\",\"serviceName\":\"dev@@mynote-system\",\"metadata\":{\"preserved.register.source\":\"SPRING_CLOUD\"},\"instanceHeartBeatInterval\":5000,\"instanceHeartBeatTimeOut\":15000,\"ipDeleteTimeout\":30000}],\"lastRefTime\":1703828344784,\"checksum\":\"\",\"allIPs\":false,\"reachProtectionThreshold\":false,\"valid\":true}","lastRefTime":12834147408016} from /192.168.0.118
+2023-12-29 13:39:04,786 INFO [com.alibaba.nacos.naming.push.receiver][PushReceiver.java:97] - received push data: {"type":"dom","data":"{\"name\":\"dev@@mynote-system\",\"clusters\":\"\",\"cacheMillis\":10000,\"hosts\":[{\"instanceId\":\"192.168.75.1#8001#DEFAULT#dev@@mynote-system\",\"ip\":\"192.168.75.1\",\"port\":8001,\"weight\":1.0,\"healthy\":true,\"enabled\":true,\"ephemeral\":true,\"clusterName\":\"DEFAULT\",\"serviceName\":\"dev@@mynote-system\",\"metadata\":{\"preserved.register.source\":\"SPRING_CLOUD\"},\"instanceHeartBeatInterval\":5000,\"instanceHeartBeatTimeOut\":15000,\"ipDeleteTimeout\":30000}],\"lastRefTime\":1703828344784,\"checksum\":\"\",\"allIPs\":false,\"reachProtectionThreshold\":false,\"valid\":true}","lastRefTime":12834147408016} from /192.168.0.118
+2023-12-29 13:39:04,934 DEBUG [com.alibaba.nacos.client.naming.updater][NamingProxy.java:195] - server list provided by user: [192.168.11.135:8848]
+2023-12-29 13:39:04,934 DEBUG [com.alibaba.nacos.client.naming.updater][NamingProxy.java:195] - server list provided by user: [192.168.11.135:8848]
+2023-12-29 13:39:05,365 DEBUG [com.alibaba.nacos.naming.failover][FailoverReactor.java:147] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
+2023-12-29 13:39:05,365 DEBUG [com.alibaba.nacos.naming.failover][FailoverReactor.java:147] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
+2023-12-29 13:39:05,658 DEBUG [com.alibaba.nacos.naming.failover][FailoverReactor.java:147] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
+2023-12-29 13:39:05,658 DEBUG [com.alibaba.nacos.naming.failover][FailoverReactor.java:147] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00

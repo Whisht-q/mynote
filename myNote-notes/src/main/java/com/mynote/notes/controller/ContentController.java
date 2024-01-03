@@ -7,6 +7,8 @@ import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import com.mynote.base.common.Result;
 import com.mynote.base.common.note.dto.ContentUpdateDto;
+import com.mynote.base.common.note.dto.NoteTitleDto;
+import com.mynote.base.common.note.vo.ContentTitleVo;
 import com.mynote.base.common.system.vo.UserVo;
 import com.mynote.base.constant.Enum.ResultCodeEnum;
 import com.mynote.base.exception.NoteException;
@@ -48,8 +50,7 @@ public class ContentController {
 
     @ApiOperation(value = "添加笔记")
     @PostMapping("/add")
-    public Result<?> add(ContentDto contentDto, @RequestParam(name = "categoryId") String categoryId,
-                         @RequestParam(name = "status", defaultValue = "0") String status) {
+    public Result<?> add(@RequestBody ContentDto contentDto) {
         Result<UserVo> userRes = systemFeignClient.getUserById(contentDto.getUserId());
         if (CommonUtil.isEmpty(userRes.getData())) {
             throw new NoteException(ResultCodeEnum.USER_NOT_EXIST);
@@ -64,22 +65,22 @@ public class ContentController {
         contentService.save(content);
         Content writedContent = contentService.getOne(new LambdaQueryWrapper<Content>()
                 .eq(Content::getTitle, contentDto.getTitle()));
-        contentService.saveCategoryAndStatus(writedContent.getId(), categoryId, status);
+        contentService.saveCategoryAndStatus(writedContent.getId(), contentDto.getCategoryId(), contentDto.getStatus());
         return Result.success();
     }
 
     @ApiOperation(value = "修改笔记")
     @PostMapping("/update")
-    public Result<?> update(ContentUpdateDto contentUpdateDto) {
+    public Result<?> update(@RequestBody ContentUpdateDto contentUpdateDto) {
         Content note = contentService.getOne(new LambdaQueryWrapper<Content>()
                 .eq(Content::getId, contentUpdateDto.getId()));
-        if (CommonUtil.isEmpty(note)){
+        if (CommonUtil.isEmpty(note)) {
             throw new NoteException(ResultCodeEnum.NOTE_IS_NONE);
         }
         note.setTitle(contentUpdateDto.getTitle());
         note.setContent(contentUpdateDto.getContent());
         note.setUpdatedTime(null);
-        contentService.updateNote(note,contentUpdateDto.getStatus());
+        contentService.updateNote(note, contentUpdateDto.getStatus());
 
         return Result.success();
     }
@@ -112,19 +113,11 @@ public class ContentController {
 
     @ApiOperation(value = "用户笔记列表")
     @PostMapping("/mynotes")
-    public Result<Page<ContentVo>> getMyNotes(@RequestParam("id") String id,
-                                              @RequestParam(name = "pageNo", defaultValue = "1") Integer pageNo,
-                                              @RequestParam(name = "pageSize", defaultValue = "10") Integer pageSize) {
-        Page<ContentVo> page = new Page<>(pageNo, pageSize);
-        List<Content> list = contentService.list(new LambdaQueryWrapper<Content>()
-                .eq(Content::getUserId, id));
-        List<ContentVo> collect = list.stream().map(content -> {
-            ContentVo contentVo = new ContentVo();
-            BeanUtils.copyProperties(content, contentVo);
-            return contentVo;
-        }).collect(Collectors.toList());
-        page.setRecords(collect);
-        page.setTotal(collect.size());
+    public Result<Page<ContentTitleVo>> getMyNotes(@RequestBody NoteTitleDto noteTitleDto) {
+        Page<ContentTitleVo> page = new Page<>(noteTitleDto.getPageNo(), noteTitleDto.getPageSize());
+        Page<ContentTitleVo> list = contentService.getContentTitleByUserId(page,noteTitleDto.getId(), noteTitleDto.getCategoryIds());
+        page.setRecords(list.getRecords());
+        page.setTotal(list.getTotal());
 
         return Result.success(page);
     }

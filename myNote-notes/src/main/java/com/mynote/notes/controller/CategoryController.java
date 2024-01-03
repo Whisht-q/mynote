@@ -4,12 +4,14 @@ package com.mynote.notes.controller;
 import com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import com.mynote.base.common.Result;
+import com.mynote.base.common.system.vo.UserVo;
 import com.mynote.base.constant.Enum.ResultCodeEnum;
 import com.mynote.base.constant.StringCode;
 import com.mynote.base.exception.NoteException;
 import com.mynote.base.utils.CommonUtil;
 import com.mynote.base.common.note.dto.CategoryDto;
 import com.mynote.base.common.note.entity.Category;
+import com.mynote.notes.feign.SystemFeignClient;
 import com.mynote.notes.service.CategoryService;
 import com.mynote.base.common.note.vo.CategoryVo;
 import io.swagger.annotations.Api;
@@ -18,6 +20,7 @@ import org.springframework.beans.BeanUtils;
 import org.springframework.web.bind.annotation.*;
 
 import javax.annotation.Resource;
+import java.util.List;
 
 /**
  * <p>
@@ -34,6 +37,9 @@ public class CategoryController {
 
     @Resource
     private CategoryService categoryService;
+
+    @Resource
+    private SystemFeignClient systemFeignClient;
 
     @ApiOperation(value = "添加笔记分类")
     @PostMapping("/add")
@@ -63,6 +69,18 @@ public class CategoryController {
         Page<CategoryVo> treeList = categoryService.getTreeList(page);
 
         return Result.success(treeList);
+    }
+
+    @ApiOperation(value = "根据id查询笔记分类")
+    @PostMapping("/mylist")
+    public Result<List<CategoryVo>> myList(@RequestParam("userId")String userId){
+        Result<UserVo> user = systemFeignClient.getUserById(userId);
+        if (CommonUtil.isEmpty(user.getData())){
+            throw new NoteException(ResultCodeEnum.USER_NOT_EXIST);
+        }
+        List<CategoryVo> res = categoryService.getTreeListByUserId(userId);
+
+        return Result.success(res);
     }
 
     /**

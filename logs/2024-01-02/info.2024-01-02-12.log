@@ -1,0 +1,244 @@
+2024-01-02 12:19:24,608 WARN [Thread-5][HttpClientBeanHolder.java:108] - [HttpClientBeanHolder] Start destroying common HttpClient
+2024-01-02 12:19:24,608 WARN [Thread-11][NotifyCenter.java:145] - [NotifyCenter] Start destroying Publisher
+2024-01-02 12:19:24,614 INFO [SpringApplicationShutdownHook][NacosServiceRegistry.java:94] - De-registering from Nacos Server now...
+2024-01-02 12:19:24,608 WARN [Thread-5][HttpClientBeanHolder.java:108] - [HttpClientBeanHolder] Start destroying common HttpClient
+2024-01-02 12:19:24,608 WARN [Thread-11][NotifyCenter.java:145] - [NotifyCenter] Start destroying Publisher
+2024-01-02 12:19:24,614 INFO [SpringApplicationShutdownHook][NacosServiceRegistry.java:94] - De-registering from Nacos Server now...
+2024-01-02 12:19:24,624 WARN [Thread-11][NotifyCenter.java:162] - [NotifyCenter] Destruction of the end
+2024-01-02 12:19:24,624 WARN [Thread-11][NotifyCenter.java:162] - [NotifyCenter] Destruction of the end
+2024-01-02 12:19:24,624 WARN [Thread-5][HttpClientBeanHolder.java:114] - [HttpClientBeanHolder] Destruction of the end
+2024-01-02 12:19:24,624 WARN [Thread-5][HttpClientBeanHolder.java:114] - [HttpClientBeanHolder] Destruction of the end
+2024-01-02 12:19:24,631 INFO [SpringApplicationShutdownHook][NacosServiceRegistry.java:114] - De-registration finished.
+2024-01-02 12:19:24,631 INFO [SpringApplicationShutdownHook][NacosServiceRegistry.java:114] - De-registration finished.
+2024-01-02 12:19:24,739 INFO [SpringApplicationShutdownHook][NacosServiceRegistry.java:94] - De-registering from Nacos Server now...
+2024-01-02 12:19:24,739 INFO [SpringApplicationShutdownHook][NacosServiceRegistry.java:94] - De-registering from Nacos Server now...
+2024-01-02 12:19:24,739 INFO [SpringApplicationShutdownHook][BeatReactor.java:101] - [BEAT] removing beat: dev@@mynote-note:192.168.75.1:9001 from beat map.
+2024-01-02 12:19:24,739 INFO [SpringApplicationShutdownHook][BeatReactor.java:101] - [BEAT] removing beat: dev@@mynote-note:192.168.75.1:9001 from beat map.
+2024-01-02 12:19:24,739 INFO [SpringApplicationShutdownHook][NamingProxy.java:260] - [DEREGISTER-SERVICE] a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6 deregistering service dev@@mynote-note with instance: Instance{instanceId='null', ip='192.168.75.1', port=9001, weight=1.0, healthy=true, enabled=true, ephemeral=true, clusterName='DEFAULT', serviceName='null', metadata={}}
+2024-01-02 12:19:24,739 INFO [SpringApplicationShutdownHook][NamingProxy.java:260] - [DEREGISTER-SERVICE] a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6 deregistering service dev@@mynote-note with instance: Instance{instanceId='null', ip='192.168.75.1', port=9001, weight=1.0, healthy=true, enabled=true, ephemeral=true, clusterName='DEFAULT', serviceName='null', metadata={}}
+2024-01-02 12:19:24,739 DEBUG [SpringApplicationShutdownHook][NacosRestTemplate.java:476] - HTTP method: DELETE, url: http://192.168.11.135:8848/nacos/v1/ns/instance?app=unknown&namespaceId=a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6&port=9001&clusterName=DEFAULT&ip=192.168.75.1&ephemeral=true&serviceName=dev%40%40mynote-note, body: {}
+2024-01-02 12:19:24,739 DEBUG [SpringApplicationShutdownHook][NacosRestTemplate.java:476] - HTTP method: DELETE, url: http://192.168.11.135:8848/nacos/v1/ns/instance?app=unknown&namespaceId=a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6&port=9001&clusterName=DEFAULT&ip=192.168.75.1&ephemeral=true&serviceName=dev%40%40mynote-note, body: {}
+2024-01-02 12:19:24,741 INFO [SpringApplicationShutdownHook][NacosServiceRegistry.java:114] - De-registration finished.
+2024-01-02 12:19:24,741 INFO [SpringApplicationShutdownHook][NacosServiceRegistry.java:114] - De-registration finished.
+2024-01-02 12:19:24,741 INFO [SpringApplicationShutdownHook][BeatReactor.java:147] - com.alibaba.nacos.client.naming.beat.BeatReactor do shutdown begin
+2024-01-02 12:19:24,741 INFO [SpringApplicationShutdownHook][BeatReactor.java:147] - com.alibaba.nacos.client.naming.beat.BeatReactor do shutdown begin
+2024-01-02 12:19:24,756 INFO [SpringApplicationShutdownHook][NacosServiceRegistry.java:94] - De-registering from Nacos Server now...
+2024-01-02 12:19:24,756 INFO [SpringApplicationShutdownHook][NacosServiceRegistry.java:94] - De-registering from Nacos Server now...
+2024-01-02 12:19:24,756 INFO [SpringApplicationShutdownHook][BeatReactor.java:101] - [BEAT] removing beat: dev@@mynote-system:192.168.75.1:8001 from beat map.
+2024-01-02 12:19:24,756 INFO [SpringApplicationShutdownHook][BeatReactor.java:101] - [BEAT] removing beat: dev@@mynote-system:192.168.75.1:8001 from beat map.
+2024-01-02 12:19:24,756 INFO [SpringApplicationShutdownHook][NamingProxy.java:260] - [DEREGISTER-SERVICE] a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6 deregistering service dev@@mynote-system with instance: Instance{instanceId='null', ip='192.168.75.1', port=8001, weight=1.0, healthy=true, enabled=true, ephemeral=true, clusterName='DEFAULT', serviceName='null', metadata={}}
+2024-01-02 12:19:24,756 INFO [SpringApplicationShutdownHook][NamingProxy.java:260] - [DEREGISTER-SERVICE] a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6 deregistering service dev@@mynote-system with instance: Instance{instanceId='null', ip='192.168.75.1', port=8001, weight=1.0, healthy=true, enabled=true, ephemeral=true, clusterName='DEFAULT', serviceName='null', metadata={}}
+2024-01-02 12:19:24,757 DEBUG [SpringApplicationShutdownHook][NacosRestTemplate.java:476] - HTTP method: DELETE, url: http://192.168.11.135:8848/nacos/v1/ns/instance?app=unknown&namespaceId=a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6&port=8001&clusterName=DEFAULT&ip=192.168.75.1&ephemeral=true&serviceName=dev%40%40mynote-system, body: {}
+2024-01-02 12:19:24,757 DEBUG [SpringApplicationShutdownHook][NacosRestTemplate.java:476] - HTTP method: DELETE, url: http://192.168.11.135:8848/nacos/v1/ns/instance?app=unknown&namespaceId=a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6&port=8001&clusterName=DEFAULT&ip=192.168.75.1&ephemeral=true&serviceName=dev%40%40mynote-system, body: {}
+2024-01-02 12:19:24,758 INFO [SpringApplicationShutdownHook][NacosServiceRegistry.java:114] - De-registration finished.
+2024-01-02 12:19:24,758 INFO [SpringApplicationShutdownHook][NacosServiceRegistry.java:114] - De-registration finished.
+2024-01-02 12:19:24,758 INFO [SpringApplicationShutdownHook][BeatReactor.java:147] - com.alibaba.nacos.client.naming.beat.BeatReactor do shutdown begin
+2024-01-02 12:19:24,758 INFO [SpringApplicationShutdownHook][BeatReactor.java:147] - com.alibaba.nacos.client.naming.beat.BeatReactor do shutdown begin
+2024-01-02 12:19:25,180 DEBUG [nacos.publisher-com.alibaba.nacos.client.naming.event.InstancesChangeEvent][DefaultPublisher.java:193] - [NotifyCenter] the com.alibaba.nacos.client.naming.event.InstancesChangeEvent@4aa7cd22 will received by com.alibaba.nacos.client.naming.event.InstancesChangeNotifier@73e93c3a
+2024-01-02 12:19:25,180 DEBUG [nacos.publisher-com.alibaba.nacos.client.naming.event.InstancesChangeEvent][DefaultPublisher.java:193] - [NotifyCenter] the com.alibaba.nacos.client.naming.event.InstancesChangeEvent@4aa7cd22 will received by com.alibaba.nacos.client.naming.event.InstancesChangeNotifier@73e93c3a
+2024-01-02 12:19:25,241 INFO [SpringApplicationShutdownHook][BeatReactor.java:149] - com.alibaba.nacos.client.naming.beat.BeatReactor do shutdown stop
+2024-01-02 12:19:25,241 INFO [SpringApplicationShutdownHook][BeatReactor.java:149] - com.alibaba.nacos.client.naming.beat.BeatReactor do shutdown stop
+2024-01-02 12:19:25,241 INFO [SpringApplicationShutdownHook][HostReactor.java:413] - com.alibaba.nacos.client.naming.core.HostReactor do shutdown begin
+2024-01-02 12:19:25,241 INFO [SpringApplicationShutdownHook][HostReactor.java:413] - com.alibaba.nacos.client.naming.core.HostReactor do shutdown begin
+2024-01-02 12:19:25,280 INFO [com.alibaba.nacos.naming.push.receiver][PushReceiver.java:97] - received push data: {"type":"dom","data":"{\"name\":\"dev@@mynote-note\",\"clusters\":\"DEFAULT\",\"cacheMillis\":10000,\"hosts\":[],\"lastRefTime\":1704169164915,\"checksum\":\"\",\"allIPs\":false,\"reachProtectionThreshold\":false,\"valid\":true}","lastRefTime":9003719678943} from /192.168.0.104
+2024-01-02 12:19:25,280 INFO [com.alibaba.nacos.naming.push.receiver][PushReceiver.java:97] - received push data: {"type":"dom","data":"{\"name\":\"dev@@mynote-note\",\"clusters\":\"DEFAULT\",\"cacheMillis\":10000,\"hosts\":[],\"lastRefTime\":1704169164915,\"checksum\":\"\",\"allIPs\":false,\"reachProtectionThreshold\":false,\"valid\":true}","lastRefTime":9003719678943} from /192.168.0.104
+2024-01-02 12:19:25,281 INFO [com.alibaba.nacos.naming.push.receiver][PushReceiver.java:97] - received push data: {"type":"dom","data":"{\"name\":\"dev@@mynote-system\",\"clusters\":\"DEFAULT\",\"cacheMillis\":10000,\"hosts\":[],\"lastRefTime\":1704169164916,\"checksum\":\"\",\"allIPs\":false,\"reachProtectionThreshold\":false,\"valid\":true}","lastRefTime":9003719880561} from /192.168.0.104
+2024-01-02 12:19:25,281 INFO [com.alibaba.nacos.naming.push.receiver][PushReceiver.java:97] - received push data: {"type":"dom","data":"{\"name\":\"dev@@mynote-system\",\"clusters\":\"DEFAULT\",\"cacheMillis\":10000,\"hosts\":[],\"lastRefTime\":1704169164916,\"checksum\":\"\",\"allIPs\":false,\"reachProtectionThreshold\":false,\"valid\":true}","lastRefTime":9003719880561} from /192.168.0.104
+2024-01-02 12:19:25,281 INFO [com.alibaba.nacos.naming.push.receiver][HostReactor.java:238] - removed ips(1) service: dev@@mynote-note@@DEFAULT -> [{"instanceId":"192.168.75.1#9001#DEFAULT#dev@@mynote-note","ip":"192.168.75.1","port":9001,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"dev@@mynote-note","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatTimeOut":15000,"instanceHeartBeatInterval":5000}]
+2024-01-02 12:19:25,281 INFO [com.alibaba.nacos.naming.push.receiver][HostReactor.java:238] - removed ips(1) service: dev@@mynote-note@@DEFAULT -> [{"instanceId":"192.168.75.1#9001#DEFAULT#dev@@mynote-note","ip":"192.168.75.1","port":9001,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"dev@@mynote-note","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatTimeOut":15000,"instanceHeartBeatInterval":5000}]
+2024-01-02 12:19:25,281 INFO [com.alibaba.nacos.naming.push.receiver][HostReactor.java:238] - removed ips(1) service: dev@@mynote-system@@DEFAULT -> [{"instanceId":"192.168.75.1#8001#DEFAULT#dev@@mynote-system","ip":"192.168.75.1","port":8001,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"dev@@mynote-system","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatTimeOut":15000,"instanceHeartBeatInterval":5000}]
+2024-01-02 12:19:25,281 INFO [com.alibaba.nacos.naming.push.receiver][HostReactor.java:238] - removed ips(1) service: dev@@mynote-system@@DEFAULT -> [{"instanceId":"192.168.75.1#8001#DEFAULT#dev@@mynote-system","ip":"192.168.75.1","port":8001,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"dev@@mynote-system","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatTimeOut":15000,"instanceHeartBeatInterval":5000}]
+2024-01-02 12:19:25,281 DEBUG [nacos.publisher-com.alibaba.nacos.client.naming.event.InstancesChangeEvent][DefaultPublisher.java:193] - [NotifyCenter] the com.alibaba.nacos.client.naming.event.InstancesChangeEvent@2dde0f86 will received by com.alibaba.nacos.client.naming.event.InstancesChangeNotifier@16b2d182
+2024-01-02 12:19:25,281 DEBUG [nacos.publisher-com.alibaba.nacos.client.naming.event.InstancesChangeEvent][DefaultPublisher.java:193] - [NotifyCenter] the com.alibaba.nacos.client.naming.event.InstancesChangeEvent@2dde0f86 will received by com.alibaba.nacos.client.naming.event.InstancesChangeNotifier@16b2d182
+2024-01-02 12:19:25,281 DEBUG [nacos.publisher-com.alibaba.nacos.client.naming.event.InstancesChangeEvent][DefaultPublisher.java:193] - [NotifyCenter] the com.alibaba.nacos.client.naming.event.InstancesChangeEvent@2bccb09c will received by com.alibaba.nacos.client.naming.event.InstancesChangeNotifier@1f235a0a
+2024-01-02 12:19:25,281 DEBUG [nacos.publisher-com.alibaba.nacos.client.naming.event.InstancesChangeEvent][DefaultPublisher.java:193] - [NotifyCenter] the com.alibaba.nacos.client.naming.event.InstancesChangeEvent@2bccb09c will received by com.alibaba.nacos.client.naming.event.InstancesChangeNotifier@1f235a0a
+2024-01-02 12:19:25,286 INFO [com.alibaba.nacos.naming.push.receiver][HostReactor.java:271] - current ips:(0) service: dev@@mynote-note@@DEFAULT -> []
+2024-01-02 12:19:25,286 INFO [com.alibaba.nacos.naming.push.receiver][HostReactor.java:271] - current ips:(0) service: dev@@mynote-note@@DEFAULT -> []
+2024-01-02 12:19:25,286 INFO [com.alibaba.nacos.naming.push.receiver][HostReactor.java:271] - current ips:(0) service: dev@@mynote-system@@DEFAULT -> []
+2024-01-02 12:19:25,286 INFO [com.alibaba.nacos.naming.push.receiver][HostReactor.java:271] - current ips:(0) service: dev@@mynote-system@@DEFAULT -> []
+2024-01-02 12:19:25,286 INFO [com.alibaba.nacos.naming.push.receiver][PushReceiver.java:97] - received push data: {"type":"dom","data":"{\"name\":\"dev@@mynote-system\",\"clusters\":\"\",\"cacheMillis\":10000,\"hosts\":[],\"lastRefTime\":1704169164915,\"checksum\":\"\",\"allIPs\":false,\"reachProtectionThreshold\":false,\"valid\":true}","lastRefTime":9003719669600} from /192.168.0.104
+2024-01-02 12:19:25,286 INFO [com.alibaba.nacos.naming.push.receiver][PushReceiver.java:97] - received push data: {"type":"dom","data":"{\"name\":\"dev@@mynote-system\",\"clusters\":\"\",\"cacheMillis\":10000,\"hosts\":[],\"lastRefTime\":1704169164915,\"checksum\":\"\",\"allIPs\":false,\"reachProtectionThreshold\":false,\"valid\":true}","lastRefTime":9003719669600} from /192.168.0.104
+2024-01-02 12:19:25,286 INFO [com.alibaba.nacos.naming.push.receiver][HostReactor.java:238] - removed ips(1) service: dev@@mynote-system -> [{"instanceId":"192.168.75.1#8001#DEFAULT#dev@@mynote-system","ip":"192.168.75.1","port":8001,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"dev@@mynote-system","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatTimeOut":15000,"instanceHeartBeatInterval":5000}]
+2024-01-02 12:19:25,286 INFO [com.alibaba.nacos.naming.push.receiver][HostReactor.java:238] - removed ips(1) service: dev@@mynote-system -> [{"instanceId":"192.168.75.1#8001#DEFAULT#dev@@mynote-system","ip":"192.168.75.1","port":8001,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"dev@@mynote-system","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatTimeOut":15000,"instanceHeartBeatInterval":5000}]
+2024-01-02 12:19:25,290 INFO [com.alibaba.nacos.naming.push.receiver][HostReactor.java:271] - current ips:(0) service: dev@@mynote-system -> []
+2024-01-02 12:19:25,290 INFO [com.alibaba.nacos.naming.push.receiver][HostReactor.java:271] - current ips:(0) service: dev@@mynote-system -> []
+2024-01-02 12:19:25,894 INFO [SpringApplicationShutdownHook][BeatReactor.java:149] - com.alibaba.nacos.client.naming.beat.BeatReactor do shutdown stop
+2024-01-02 12:19:25,894 INFO [SpringApplicationShutdownHook][BeatReactor.java:149] - com.alibaba.nacos.client.naming.beat.BeatReactor do shutdown stop
+2024-01-02 12:19:25,894 INFO [SpringApplicationShutdownHook][HostReactor.java:413] - com.alibaba.nacos.client.naming.core.HostReactor do shutdown begin
+2024-01-02 12:19:25,894 INFO [SpringApplicationShutdownHook][HostReactor.java:413] - com.alibaba.nacos.client.naming.core.HostReactor do shutdown begin
+2024-01-02 12:19:26,899 DEBUG [com.alibaba.nacos.client.naming.updater][NacosRestTemplate.java:476] - HTTP method: GET, url: http://192.168.11.135:8848/nacos/v1/ns/instance/list?app=unknown&healthyOnly=false&namespaceId=a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6&clientIP=192.168.0.104&serviceName=dev%40%40mynote-system&udpPort=57979&clusters=DEFAULT, body: {}
+2024-01-02 12:19:26,899 DEBUG [com.alibaba.nacos.client.naming.updater][NacosRestTemplate.java:476] - HTTP method: GET, url: http://192.168.11.135:8848/nacos/v1/ns/instance/list?app=unknown&healthyOnly=false&namespaceId=a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6&clientIP=192.168.0.104&serviceName=dev%40%40mynote-system&udpPort=57979&clusters=DEFAULT, body: {}
+2024-01-02 12:19:26,902 INFO [SpringApplicationShutdownHook][PushReceiver.java:132] - com.alibaba.nacos.client.naming.core.PushReceiver do shutdown begin
+2024-01-02 12:19:26,902 INFO [SpringApplicationShutdownHook][PushReceiver.java:132] - com.alibaba.nacos.client.naming.core.PushReceiver do shutdown begin
+2024-01-02 12:19:27,586 DEBUG [com.alibaba.nacos.naming.failover][FailoverReactor.java:147] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
+2024-01-02 12:19:27,586 DEBUG [com.alibaba.nacos.naming.failover][FailoverReactor.java:147] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
+2024-01-02 12:19:28,113 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-192.168.11.135_8848-a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6][NacosRestTemplate.java:476] - HTTP method: POST, url: http://192.168.11.135:8848/nacos/v1/cs/configs/listener, body: {Listening-Configs=note-other.yamldev83d185051730033c4736014110b7f3cea01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6mynote-note.yamldeva01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6mynote-notedeva01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6note-datasource.yamldev8d301230a139a7e0363d2d1962c42164a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6note-mybatisplus.yamldevbd958897385e9c630d37aedf29509d53a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6log4j-dev.yamldeve64d783bcfca30643e99618f46333797a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6mynote-note-dev.yamldeva01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6, tenant=a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6}
+2024-01-02 12:19:28,113 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-192.168.11.135_8848-a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6][NacosRestTemplate.java:476] - HTTP method: POST, url: http://192.168.11.135:8848/nacos/v1/cs/configs/listener, body: {Listening-Configs=note-other.yamldev83d185051730033c4736014110b7f3cea01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6mynote-note.yamldeva01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6mynote-notedeva01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6note-datasource.yamldev8d301230a139a7e0363d2d1962c42164a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6note-mybatisplus.yamldevbd958897385e9c630d37aedf29509d53a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6log4j-dev.yamldeve64d783bcfca30643e99618f46333797a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6mynote-note-dev.yamldeva01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6, tenant=a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6}
+2024-01-02 12:19:28,114 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-192.168.11.135_8848-a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6][NacosRestTemplate.java:494] - Execute via interceptors :[com.alibaba.nacos.client.config.impl.ConfigHttpClientManager$LimiterHttpClientRequestInterceptor@41f1fee9]
+2024-01-02 12:19:28,114 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-192.168.11.135_8848-a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6][NacosRestTemplate.java:494] - Execute via interceptors :[com.alibaba.nacos.client.config.impl.ConfigHttpClientManager$LimiterHttpClientRequestInterceptor@41f1fee9]
+2024-01-02 12:19:28,242 DEBUG [com.alibaba.nacos.naming.failover][FailoverReactor.java:147] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
+2024-01-02 12:19:28,242 DEBUG [com.alibaba.nacos.naming.failover][FailoverReactor.java:147] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
+2024-01-02 12:19:28,897 INFO [SpringApplicationShutdownHook][PushReceiver.java:132] - com.alibaba.nacos.client.naming.core.PushReceiver do shutdown begin
+2024-01-02 12:19:28,897 INFO [SpringApplicationShutdownHook][PushReceiver.java:132] - com.alibaba.nacos.client.naming.core.PushReceiver do shutdown begin
+2024-01-02 12:19:29,905 INFO [SpringApplicationShutdownHook][PushReceiver.java:136] - com.alibaba.nacos.client.naming.core.PushReceiver do shutdown stop
+2024-01-02 12:19:29,905 INFO [SpringApplicationShutdownHook][PushReceiver.java:136] - com.alibaba.nacos.client.naming.core.PushReceiver do shutdown stop
+2024-01-02 12:19:29,906 INFO [SpringApplicationShutdownHook][FailoverReactor.java:132] - com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown begin
+2024-01-02 12:19:29,906 INFO [SpringApplicationShutdownHook][FailoverReactor.java:132] - com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown begin
+2024-01-02 12:19:29,907 INFO [SpringApplicationShutdownHook][FailoverReactor.java:134] - com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown stop
+2024-01-02 12:19:29,907 INFO [SpringApplicationShutdownHook][HostReactor.java:418] - com.alibaba.nacos.client.naming.core.HostReactor do shutdown stop
+2024-01-02 12:19:29,907 INFO [SpringApplicationShutdownHook][FailoverReactor.java:134] - com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown stop
+2024-01-02 12:19:29,907 INFO [SpringApplicationShutdownHook][HostReactor.java:418] - com.alibaba.nacos.client.naming.core.HostReactor do shutdown stop
+2024-01-02 12:19:29,907 INFO [SpringApplicationShutdownHook][NamingProxy.java:719] - com.alibaba.nacos.client.naming.net.NamingProxy do shutdown begin
+2024-01-02 12:19:29,907 INFO [SpringApplicationShutdownHook][NamingProxy.java:719] - com.alibaba.nacos.client.naming.net.NamingProxy do shutdown begin
+2024-01-02 12:19:29,908 WARN [SpringApplicationShutdownHook][NamingHttpClientManager.java:72] - [NamingHttpClientManager] Start destroying NacosRestTemplate
+2024-01-02 12:19:29,908 WARN [SpringApplicationShutdownHook][NamingHttpClientManager.java:72] - [NamingHttpClientManager] Start destroying NacosRestTemplate
+2024-01-02 12:19:29,908 WARN [SpringApplicationShutdownHook][NamingHttpClientManager.java:79] - [NamingHttpClientManager] Destruction of the end
+2024-01-02 12:19:29,908 WARN [SpringApplicationShutdownHook][NamingHttpClientManager.java:79] - [NamingHttpClientManager] Destruction of the end
+2024-01-02 12:19:29,909 INFO [SpringApplicationShutdownHook][CredentialWatcher.java:105] - [null] CredentialWatcher is stopped
+2024-01-02 12:19:29,909 INFO [SpringApplicationShutdownHook][CredentialWatcher.java:105] - [null] CredentialWatcher is stopped
+2024-01-02 12:19:29,909 INFO [SpringApplicationShutdownHook][CredentialService.java:98] - [null] CredentialService is freed
+2024-01-02 12:19:29,909 INFO [SpringApplicationShutdownHook][CredentialService.java:98] - [null] CredentialService is freed
+2024-01-02 12:19:29,909 INFO [SpringApplicationShutdownHook][NamingProxy.java:723] - com.alibaba.nacos.client.naming.net.NamingProxy do shutdown stop
+2024-01-02 12:19:29,909 INFO [SpringApplicationShutdownHook][NamingProxy.java:723] - com.alibaba.nacos.client.naming.net.NamingProxy do shutdown stop
+2024-01-02 12:19:29,915 DEBUG [SpringApplicationShutdownHook][RedisChannelHandler.java:141] - closeAsync()
+2024-01-02 12:19:29,915 DEBUG [SpringApplicationShutdownHook][RedisChannelHandler.java:141] - closeAsync()
+2024-01-02 12:19:29,916 DEBUG [SpringApplicationShutdownHook][DefaultEndpoint.java:590] - [channel=0x56cdb3f4, /192.168.11.1:51851 -> /192.168.11.135:6379, epid=0x1] closeAsync()
+2024-01-02 12:19:29,916 DEBUG [SpringApplicationShutdownHook][DefaultEndpoint.java:590] - [channel=0x56cdb3f4, /192.168.11.1:51851 -> /192.168.11.135:6379, epid=0x1] closeAsync()
+2024-01-02 12:19:29,965 DEBUG [SpringApplicationShutdownHook][AbstractRedisClient.java:539] - Initiate shutdown (100, 100, MILLISECONDS)
+2024-01-02 12:19:29,965 DEBUG [SpringApplicationShutdownHook][AbstractRedisClient.java:539] - Initiate shutdown (100, 100, MILLISECONDS)
+2024-01-02 12:19:29,969 DEBUG [lettuce-nioEventLoop-4-1][CommandHandler.java:344] - [channel=0x56cdb3f4, /192.168.11.1:51851 -> /192.168.11.135:6379, epid=0x1, chid=0x1] channelInactive()
+2024-01-02 12:19:29,969 DEBUG [lettuce-nioEventLoop-4-1][CommandHandler.java:344] - [channel=0x56cdb3f4, /192.168.11.1:51851 -> /192.168.11.135:6379, epid=0x1, chid=0x1] channelInactive()
+2024-01-02 12:19:29,970 DEBUG [lettuce-nioEventLoop-4-1][DefaultEndpoint.java:504] - [channel=0x56cdb3f4, /192.168.11.1:51851 -> /192.168.11.135:6379, epid=0x1] deactivating endpoint handler
+2024-01-02 12:19:29,970 DEBUG [lettuce-nioEventLoop-4-1][DefaultEndpoint.java:504] - [channel=0x56cdb3f4, /192.168.11.1:51851 -> /192.168.11.135:6379, epid=0x1] deactivating endpoint handler
+2024-01-02 12:19:29,970 DEBUG [lettuce-nioEventLoop-4-1][CommandHandler.java:368] - [channel=0x56cdb3f4, /192.168.11.1:51851 -> /192.168.11.135:6379, epid=0x1, chid=0x1] channelInactive() done
+2024-01-02 12:19:29,970 DEBUG [lettuce-nioEventLoop-4-1][CommandHandler.java:368] - [channel=0x56cdb3f4, /192.168.11.1:51851 -> /192.168.11.135:6379, epid=0x1, chid=0x1] channelInactive() done
+2024-01-02 12:19:29,970 DEBUG [SpringApplicationShutdownHook][DefaultEventLoopGroupProvider.java:281] - Release executor io.netty.channel.nio.NioEventLoopGroup@64ed0896
+2024-01-02 12:19:29,970 DEBUG [SpringApplicationShutdownHook][DefaultEventLoopGroupProvider.java:281] - Release executor io.netty.channel.nio.NioEventLoopGroup@64ed0896
+2024-01-02 12:19:29,972 DEBUG [lettuce-nioEventLoop-4-1][ConnectionWatchdog.java:196] - [channel=0x56cdb3f4, /192.168.11.1:51851 -> /192.168.11.135:6379, last known addr=/192.168.11.135:6379] channelInactive()
+2024-01-02 12:19:29,972 DEBUG [lettuce-nioEventLoop-4-1][ConnectionWatchdog.java:207] - [channel=0x56cdb3f4, /192.168.11.1:51851 -> /192.168.11.135:6379, last known addr=/192.168.11.135:6379] Reconnect scheduling disabled
+2024-01-02 12:19:29,972 DEBUG [lettuce-nioEventLoop-4-1][ConnectionWatchdog.java:196] - [channel=0x56cdb3f4, /192.168.11.1:51851 -> /192.168.11.135:6379, last known addr=/192.168.11.135:6379] channelInactive()
+2024-01-02 12:19:29,972 DEBUG [lettuce-nioEventLoop-4-1][ConnectionWatchdog.java:207] - [channel=0x56cdb3f4, /192.168.11.1:51851 -> /192.168.11.135:6379, last known addr=/192.168.11.135:6379] Reconnect scheduling disabled
+2024-01-02 12:19:29,972 DEBUG [lettuce-nioEventLoop-4-1][CommandHandler.java:227] - [channel=0x56cdb3f4, /192.168.11.1:51851 -> /192.168.11.135:6379, epid=0x1, chid=0x1] channelUnregistered()
+2024-01-02 12:19:29,972 DEBUG [lettuce-nioEventLoop-4-1][CommandHandler.java:227] - [channel=0x56cdb3f4, /192.168.11.1:51851 -> /192.168.11.135:6379, epid=0x1, chid=0x1] channelUnregistered()
+2024-01-02 12:19:30,075 DEBUG [lettuce-nioEventLoop-4-1][PoolThreadCache.java:224] - Freed 7 thread-local buffer(s) from thread: lettuce-nioEventLoop-4-1
+2024-01-02 12:19:30,075 DEBUG [lettuce-nioEventLoop-4-1][PoolThreadCache.java:224] - Freed 7 thread-local buffer(s) from thread: lettuce-nioEventLoop-4-1
+2024-01-02 12:19:30,078 DEBUG [SpringApplicationShutdownHook][DefaultClientResources.java:735] - Initiate shutdown (0, 2, SECONDS)
+2024-01-02 12:19:30,078 DEBUG [SpringApplicationShutdownHook][DefaultClientResources.java:735] - Initiate shutdown (0, 2, SECONDS)
+2024-01-02 12:19:30,079 DEBUG [SpringApplicationShutdownHook][DefaultEventLoopGroupProvider.java:317] - Initiate shutdown (0, 2, SECONDS)
+2024-01-02 12:19:30,079 DEBUG [SpringApplicationShutdownHook][DefaultEventLoopGroupProvider.java:317] - Initiate shutdown (0, 2, SECONDS)
+2024-01-02 12:19:30,083 INFO [SpringApplicationShutdownHook][HikariDataSource.java:350] - HikariPool-1 - Shutdown initiated...
+2024-01-02 12:19:30,083 INFO [SpringApplicationShutdownHook][HikariDataSource.java:350] - HikariPool-1 - Shutdown initiated...
+2024-01-02 12:19:30,083 DEBUG [SpringApplicationShutdownHook][HikariPool.java:421] - HikariPool-1 - Before shutdown stats (total=10, active=0, idle=10, waiting=0)
+2024-01-02 12:19:30,083 DEBUG [SpringApplicationShutdownHook][HikariPool.java:421] - HikariPool-1 - Before shutdown stats (total=10, active=0, idle=10, waiting=0)
+2024-01-02 12:19:30,084 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@17028481: (connection evicted)
+2024-01-02 12:19:30,084 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@17028481: (connection evicted)
+2024-01-02 12:19:30,084 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@563f8eba: (connection evicted)
+2024-01-02 12:19:30,084 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@563f8eba: (connection evicted)
+2024-01-02 12:19:30,084 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@67a31808: (connection evicted)
+2024-01-02 12:19:30,084 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@67a31808: (connection evicted)
+2024-01-02 12:19:30,084 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@361071f5: (connection evicted)
+2024-01-02 12:19:30,084 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@361071f5: (connection evicted)
+2024-01-02 12:19:30,085 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@18afa492: (connection evicted)
+2024-01-02 12:19:30,085 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@18afa492: (connection evicted)
+2024-01-02 12:19:30,085 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@2ce1128f: (connection evicted)
+2024-01-02 12:19:30,085 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@2ce1128f: (connection evicted)
+2024-01-02 12:19:30,085 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@4b1a4c8c: (connection evicted)
+2024-01-02 12:19:30,085 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@4b1a4c8c: (connection evicted)
+2024-01-02 12:19:30,086 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@425d8acc: (connection evicted)
+2024-01-02 12:19:30,086 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@425d8acc: (connection evicted)
+2024-01-02 12:19:30,086 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@247db4cf: (connection evicted)
+2024-01-02 12:19:30,086 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@247db4cf: (connection evicted)
+2024-01-02 12:19:30,086 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@6540bef4: (connection evicted)
+2024-01-02 12:19:30,086 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@6540bef4: (connection evicted)
+2024-01-02 12:19:30,087 DEBUG [SpringApplicationShutdownHook][HikariPool.java:421] - HikariPool-1 - After shutdown stats (total=0, active=0, idle=0, waiting=0)
+2024-01-02 12:19:30,087 INFO [SpringApplicationShutdownHook][HikariDataSource.java:352] - HikariPool-1 - Shutdown completed.
+2024-01-02 12:19:30,087 DEBUG [SpringApplicationShutdownHook][HikariPool.java:421] - HikariPool-1 - After shutdown stats (total=0, active=0, idle=0, waiting=0)
+2024-01-02 12:19:30,087 INFO [SpringApplicationShutdownHook][HikariDataSource.java:352] - HikariPool-1 - Shutdown completed.
+2024-01-02 12:19:31,899 INFO [SpringApplicationShutdownHook][PushReceiver.java:136] - com.alibaba.nacos.client.naming.core.PushReceiver do shutdown stop
+2024-01-02 12:19:31,899 INFO [SpringApplicationShutdownHook][PushReceiver.java:136] - com.alibaba.nacos.client.naming.core.PushReceiver do shutdown stop
+2024-01-02 12:19:31,900 INFO [SpringApplicationShutdownHook][FailoverReactor.java:132] - com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown begin
+2024-01-02 12:19:31,900 INFO [SpringApplicationShutdownHook][FailoverReactor.java:132] - com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown begin
+2024-01-02 12:19:31,900 INFO [SpringApplicationShutdownHook][FailoverReactor.java:134] - com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown stop
+2024-01-02 12:19:31,900 INFO [SpringApplicationShutdownHook][FailoverReactor.java:134] - com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown stop
+2024-01-02 12:19:31,900 INFO [SpringApplicationShutdownHook][HostReactor.java:418] - com.alibaba.nacos.client.naming.core.HostReactor do shutdown stop
+2024-01-02 12:19:31,900 INFO [SpringApplicationShutdownHook][HostReactor.java:418] - com.alibaba.nacos.client.naming.core.HostReactor do shutdown stop
+2024-01-02 12:19:31,900 INFO [SpringApplicationShutdownHook][NamingProxy.java:719] - com.alibaba.nacos.client.naming.net.NamingProxy do shutdown begin
+2024-01-02 12:19:31,900 INFO [SpringApplicationShutdownHook][NamingProxy.java:719] - com.alibaba.nacos.client.naming.net.NamingProxy do shutdown begin
+2024-01-02 12:19:31,900 WARN [SpringApplicationShutdownHook][NamingHttpClientManager.java:72] - [NamingHttpClientManager] Start destroying NacosRestTemplate
+2024-01-02 12:19:31,900 WARN [SpringApplicationShutdownHook][NamingHttpClientManager.java:72] - [NamingHttpClientManager] Start destroying NacosRestTemplate
+2024-01-02 12:19:31,900 WARN [SpringApplicationShutdownHook][NamingHttpClientManager.java:79] - [NamingHttpClientManager] Destruction of the end
+2024-01-02 12:19:31,900 WARN [SpringApplicationShutdownHook][NamingHttpClientManager.java:79] - [NamingHttpClientManager] Destruction of the end
+2024-01-02 12:19:31,901 INFO [SpringApplicationShutdownHook][CredentialWatcher.java:105] - [null] CredentialWatcher is stopped
+2024-01-02 12:19:31,901 INFO [SpringApplicationShutdownHook][CredentialWatcher.java:105] - [null] CredentialWatcher is stopped
+2024-01-02 12:19:31,901 INFO [SpringApplicationShutdownHook][CredentialService.java:98] - [null] CredentialService is freed
+2024-01-02 12:19:31,901 INFO [SpringApplicationShutdownHook][NamingProxy.java:723] - com.alibaba.nacos.client.naming.net.NamingProxy do shutdown stop
+2024-01-02 12:19:31,901 INFO [SpringApplicationShutdownHook][CredentialService.java:98] - [null] CredentialService is freed
+2024-01-02 12:19:31,901 INFO [SpringApplicationShutdownHook][NamingProxy.java:723] - com.alibaba.nacos.client.naming.net.NamingProxy do shutdown stop
+2024-01-02 12:19:31,904 DEBUG [SpringApplicationShutdownHook][AbstractRedisClient.java:539] - Initiate shutdown (100, 100, MILLISECONDS)
+2024-01-02 12:19:31,904 DEBUG [SpringApplicationShutdownHook][AbstractRedisClient.java:539] - Initiate shutdown (100, 100, MILLISECONDS)
+2024-01-02 12:19:31,907 DEBUG [SpringApplicationShutdownHook][AbstractRedisClient.java:539] - Initiate shutdown (100, 100, MILLISECONDS)
+2024-01-02 12:19:31,907 DEBUG [SpringApplicationShutdownHook][AbstractRedisClient.java:539] - Initiate shutdown (100, 100, MILLISECONDS)
+2024-01-02 12:19:31,909 DEBUG [SpringApplicationShutdownHook][DefaultClientResources.java:735] - Initiate shutdown (0, 2, SECONDS)
+2024-01-02 12:19:31,909 DEBUG [SpringApplicationShutdownHook][DefaultClientResources.java:735] - Initiate shutdown (0, 2, SECONDS)
+2024-01-02 12:19:31,911 DEBUG [SpringApplicationShutdownHook][DefaultEventLoopGroupProvider.java:317] - Initiate shutdown (0, 2, SECONDS)
+2024-01-02 12:19:31,911 DEBUG [SpringApplicationShutdownHook][DefaultEventLoopGroupProvider.java:317] - Initiate shutdown (0, 2, SECONDS)
+2024-01-02 12:19:31,913 DEBUG [SpringApplicationShutdownHook][DefaultClientResources.java:735] - Initiate shutdown (0, 2, SECONDS)
+2024-01-02 12:19:31,913 DEBUG [SpringApplicationShutdownHook][DefaultClientResources.java:735] - Initiate shutdown (0, 2, SECONDS)
+2024-01-02 12:19:31,917 DEBUG [SpringApplicationShutdownHook][DefaultEventLoopGroupProvider.java:317] - Initiate shutdown (0, 2, SECONDS)
+2024-01-02 12:19:31,917 DEBUG [SpringApplicationShutdownHook][DefaultEventLoopGroupProvider.java:317] - Initiate shutdown (0, 2, SECONDS)
+2024-01-02 12:19:31,938 INFO [SpringApplicationShutdownHook][HikariDataSource.java:350] - HikariPool-1 - Shutdown initiated...
+2024-01-02 12:19:31,938 INFO [SpringApplicationShutdownHook][HikariDataSource.java:350] - HikariPool-1 - Shutdown initiated...
+2024-01-02 12:19:31,938 DEBUG [SpringApplicationShutdownHook][HikariPool.java:421] - HikariPool-1 - Before shutdown stats (total=10, active=0, idle=10, waiting=0)
+2024-01-02 12:19:31,938 DEBUG [SpringApplicationShutdownHook][HikariPool.java:421] - HikariPool-1 - Before shutdown stats (total=10, active=0, idle=10, waiting=0)
+2024-01-02 12:19:31,939 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@1f6188a2: (connection evicted)
+2024-01-02 12:19:31,939 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@1f6188a2: (connection evicted)
+2024-01-02 12:19:31,939 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@5e5c8299: (connection evicted)
+2024-01-02 12:19:31,939 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@5e5c8299: (connection evicted)
+2024-01-02 12:19:31,939 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@6f48ff55: (connection evicted)
+2024-01-02 12:19:31,939 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@6f48ff55: (connection evicted)
+2024-01-02 12:19:31,939 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@3e737dd6: (connection evicted)
+2024-01-02 12:19:31,939 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@3e737dd6: (connection evicted)
+2024-01-02 12:19:31,940 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@412f9150: (connection evicted)
+2024-01-02 12:19:31,940 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@412f9150: (connection evicted)
+2024-01-02 12:19:31,940 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@3158fef3: (connection evicted)
+2024-01-02 12:19:31,940 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@3158fef3: (connection evicted)
+2024-01-02 12:19:31,940 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@2ff401ce: (connection evicted)
+2024-01-02 12:19:31,940 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@2ff401ce: (connection evicted)
+2024-01-02 12:19:31,940 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@6af94ae5: (connection evicted)
+2024-01-02 12:19:31,940 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@6af94ae5: (connection evicted)
+2024-01-02 12:19:31,940 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@4b9af761: (connection evicted)
+2024-01-02 12:19:31,940 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@4b9af761: (connection evicted)
+2024-01-02 12:19:31,940 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@aa7fd5a: (connection evicted)
+2024-01-02 12:19:31,940 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@aa7fd5a: (connection evicted)
+2024-01-02 12:19:31,941 DEBUG [SpringApplicationShutdownHook][HikariPool.java:421] - HikariPool-1 - After shutdown stats (total=0, active=0, idle=0, waiting=0)
+2024-01-02 12:19:31,941 DEBUG [SpringApplicationShutdownHook][HikariPool.java:421] - HikariPool-1 - After shutdown stats (total=0, active=0, idle=0, waiting=0)
+2024-01-02 12:19:31,941 INFO [SpringApplicationShutdownHook][HikariDataSource.java:352] - HikariPool-1 - Shutdown completed.
+2024-01-02 12:19:31,941 INFO [SpringApplicationShutdownHook][HikariDataSource.java:352] - HikariPool-1 - Shutdown completed.
+2024-01-02 12:19:33,947 DEBUG [reactor-http-nio-10][PoolThreadCache.java:224] - Freed 5 thread-local buffer(s) from thread: reactor-http-nio-10
+2024-01-02 12:19:33,947 DEBUG [reactor-http-nio-10][PoolThreadCache.java:224] - Freed 5 thread-local buffer(s) from thread: reactor-http-nio-10
+2024-01-02 12:19:33,947 DEBUG [reactor-http-nio-13][PoolThreadCache.java:224] - Freed 6 thread-local buffer(s) from thread: reactor-http-nio-13
+2024-01-02 12:19:33,947 DEBUG [reactor-http-nio-13][PoolThreadCache.java:224] - Freed 6 thread-local buffer(s) from thread: reactor-http-nio-13
+2024-01-02 12:19:33,947 DEBUG [reactor-http-nio-11][PoolThreadCache.java:224] - Freed 3 thread-local buffer(s) from thread: reactor-http-nio-11
+2024-01-02 12:19:33,948 DEBUG [reactor-http-nio-6][PoolThreadCache.java:224] - Freed 8 thread-local buffer(s) from thread: reactor-http-nio-6
+2024-01-02 12:19:33,947 DEBUG [reactor-http-nio-11][PoolThreadCache.java:224] - Freed 3 thread-local buffer(s) from thread: reactor-http-nio-11
+2024-01-02 12:19:33,948 DEBUG [reactor-http-nio-2][PoolThreadCache.java:224] - Freed 3 thread-local buffer(s) from thread: reactor-http-nio-2
+2024-01-02 12:19:33,950 DEBUG [reactor-http-nio-16][PoolThreadCache.java:224] - Freed 17 thread-local buffer(s) from thread: reactor-http-nio-16
+2024-01-02 12:19:33,949 DEBUG [reactor-http-nio-8][PoolThreadCache.java:224] - Freed 5 thread-local buffer(s) from thread: reactor-http-nio-8
+2024-01-02 12:19:33,949 DEBUG [reactor-http-nio-12][PoolThreadCache.java:224] - Freed 5 thread-local buffer(s) from thread: reactor-http-nio-12
+2024-01-02 12:19:33,949 DEBUG [reactor-http-nio-15][PoolThreadCache.java:224] - Freed 17 thread-local buffer(s) from thread: reactor-http-nio-15
+2024-01-02 12:19:33,949 DEBUG [reactor-http-nio-4][PoolThreadCache.java:224] - Freed 5 thread-local buffer(s) from thread: reactor-http-nio-4
+2024-01-02 12:19:33,949 DEBUG [reactor-http-nio-14][PoolThreadCache.java:224] - Freed 5 thread-local buffer(s) from thread: reactor-http-nio-14
+2024-01-02 12:19:33,948 DEBUG [reactor-http-nio-7][PoolThreadCache.java:224] - Freed 3 thread-local buffer(s) from thread: reactor-http-nio-7
+2024-01-02 12:19:33,948 DEBUG [reactor-http-nio-7][PoolThreadCache.java:224] - Freed 3 thread-local buffer(s) from thread: reactor-http-nio-7
+2024-01-02 12:19:33,948 DEBUG [reactor-http-nio-6][PoolThreadCache.java:224] - Freed 8 thread-local buffer(s) from thread: reactor-http-nio-6
+2024-01-02 12:19:33,949 DEBUG [reactor-http-nio-9][PoolThreadCache.java:224] - Freed 3 thread-local buffer(s) from thread: reactor-http-nio-9
+2024-01-02 12:19:33,950 DEBUG [reactor-http-nio-5][PoolThreadCache.java:224] - Freed 5 thread-local buffer(s) from thread: reactor-http-nio-5
+2024-01-02 12:19:33,948 DEBUG [reactor-http-nio-2][PoolThreadCache.java:224] - Freed 3 thread-local buffer(s) from thread: reactor-http-nio-2
+2024-01-02 12:19:33,949 DEBUG [reactor-http-nio-9][PoolThreadCache.java:224] - Freed 3 thread-local buffer(s) from thread: reactor-http-nio-9
+2024-01-02 12:19:33,949 DEBUG [reactor-http-nio-15][PoolThreadCache.java:224] - Freed 17 thread-local buffer(s) from thread: reactor-http-nio-15
+2024-01-02 12:19:33,949 DEBUG [reactor-http-nio-12][PoolThreadCache.java:224] - Freed 5 thread-local buffer(s) from thread: reactor-http-nio-12
+2024-01-02 12:19:33,949 DEBUG [reactor-http-nio-8][PoolThreadCache.java:224] - Freed 5 thread-local buffer(s) from thread: reactor-http-nio-8
+2024-01-02 12:19:33,949 DEBUG [reactor-http-nio-4][PoolThreadCache.java:224] - Freed 5 thread-local buffer(s) from thread: reactor-http-nio-4
+2024-01-02 12:19:33,949 DEBUG [reactor-http-nio-14][PoolThreadCache.java:224] - Freed 5 thread-local buffer(s) from thread: reactor-http-nio-14
+2024-01-02 12:19:33,950 DEBUG [reactor-http-nio-5][PoolThreadCache.java:224] - Freed 5 thread-local buffer(s) from thread: reactor-http-nio-5
+2024-01-02 12:19:33,950 DEBUG [reactor-http-nio-16][PoolThreadCache.java:224] - Freed 17 thread-local buffer(s) from thread: reactor-http-nio-16

@@ -1,0 +1,1306 @@
+2023-12-28 10:26:07,088 INFO [main][SpringApplication.java:646] - The following 1 profile is active: "dev"
+2023-12-28 10:26:07,088 INFO [main][SpringApplication.java:646] - The following 1 profile is active: "dev"
+2023-12-28 10:26:07,432 DEBUG [main][MybatisPlusAutoConfiguration.java:309] - Searching for mappers annotated with @Mapper
+2023-12-28 10:26:07,432 DEBUG [main][MybatisPlusAutoConfiguration.java:309] - Searching for mappers annotated with @Mapper
+2023-12-28 10:26:07,433 DEBUG [main][MybatisPlusAutoConfiguration.java:313] - Using auto-configuration base package 'com.mynote.thirdparty'
+2023-12-28 10:26:07,433 DEBUG [main][MybatisPlusAutoConfiguration.java:313] - Using auto-configuration base package 'com.mynote.thirdparty'
+2023-12-28 10:26:07,472 INFO [main][RepositoryConfigurationDelegate.java:262] - Multiple Spring Data modules found, entering strict repository configuration mode!
+2023-12-28 10:26:07,472 INFO [main][RepositoryConfigurationDelegate.java:262] - Multiple Spring Data modules found, entering strict repository configuration mode!
+2023-12-28 10:26:07,473 INFO [main][RepositoryConfigurationDelegate.java:132] - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-12-28 10:26:07,473 INFO [main][RepositoryConfigurationDelegate.java:132] - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-12-28 10:26:07,483 INFO [main][RepositoryConfigurationDelegate.java:201] - Finished Spring Data repository scanning in 3 ms. Found 0 Redis repository interfaces.
+2023-12-28 10:26:07,483 INFO [main][RepositoryConfigurationDelegate.java:201] - Finished Spring Data repository scanning in 3 ms. Found 0 Redis repository interfaces.
+2023-12-28 10:26:07,535 DEBUG [main][LogFactory.java:109] - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2023-12-28 10:26:07,535 DEBUG [main][LogFactory.java:109] - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2023-12-28 10:26:07,572 INFO [main][GenericScope.java:283] - BeanFactory id=d7f851fe-60dd-3993-a15d-fb63c7cba905
+2023-12-28 10:26:07,572 INFO [main][GenericScope.java:283] - BeanFactory id=d7f851fe-60dd-3993-a15d-fb63c7cba905
+2023-12-28 10:26:07,729 INFO [main][TomcatWebServer.java:108] - Tomcat initialized with port(s): 10001 (http)
+2023-12-28 10:26:07,729 INFO [main][TomcatWebServer.java:108] - Tomcat initialized with port(s): 10001 (http)
+2023-12-28 10:26:07,729 INFO [main][DirectJDKLog.java:173] - Loaded Apache Tomcat Native library [1.2.38] using APR version [1.7.4].
+2023-12-28 10:26:07,729 INFO [main][DirectJDKLog.java:173] - Loaded Apache Tomcat Native library [1.2.38] using APR version [1.7.4].
+2023-12-28 10:26:07,730 INFO [main][DirectJDKLog.java:173] - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+2023-12-28 10:26:07,730 INFO [main][DirectJDKLog.java:173] - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+2023-12-28 10:26:07,730 INFO [main][DirectJDKLog.java:173] - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2023-12-28 10:26:07,730 INFO [main][DirectJDKLog.java:173] - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2023-12-28 10:26:07,731 INFO [main][DirectJDKLog.java:173] - OpenSSL successfully initialized [OpenSSL 1.1.1v  1 Aug 2023]
+2023-12-28 10:26:07,731 INFO [main][DirectJDKLog.java:173] - OpenSSL successfully initialized [OpenSSL 1.1.1v  1 Aug 2023]
+2023-12-28 10:26:07,736 INFO [main][DirectJDKLog.java:173] - Initializing ProtocolHandler ["http-nio-10001"]
+2023-12-28 10:26:07,736 INFO [main][DirectJDKLog.java:173] - Initializing ProtocolHandler ["http-nio-10001"]
+2023-12-28 10:26:07,736 INFO [main][DirectJDKLog.java:173] - Starting service [Tomcat]
+2023-12-28 10:26:07,736 INFO [main][DirectJDKLog.java:173] - Starting service [Tomcat]
+2023-12-28 10:26:07,736 INFO [main][DirectJDKLog.java:173] - Starting Servlet engine: [Apache Tomcat/9.0.60]
+2023-12-28 10:26:07,736 INFO [main][DirectJDKLog.java:173] - Starting Servlet engine: [Apache Tomcat/9.0.60]
+2023-12-28 10:26:07,805 INFO [main][DirectJDKLog.java:173] - Initializing Spring embedded WebApplicationContext
+2023-12-28 10:26:07,805 INFO [main][DirectJDKLog.java:173] - Initializing Spring embedded WebApplicationContext
+2023-12-28 10:26:07,805 INFO [main][ServletWebServerApplicationContext.java:290] - Root WebApplicationContext: initialization completed in 692 ms
+2023-12-28 10:26:07,805 INFO [main][ServletWebServerApplicationContext.java:290] - Root WebApplicationContext: initialization completed in 692 ms
+2023-12-28 10:26:07,877 DEBUG [main][HikariConfig.java:971] - Driver class com.mysql.cj.jdbc.Driver found in Thread context class loader jdk.internal.loader.ClassLoaders$AppClassLoader@61064425
+2023-12-28 10:26:07,877 DEBUG [main][HikariConfig.java:971] - Driver class com.mysql.cj.jdbc.Driver found in Thread context class loader jdk.internal.loader.ClassLoaders$AppClassLoader@61064425
+2023-12-28 10:26:07,908 DEBUG [main][Logger.java:49] - Property 'mapperLocations' was not specified.
+2023-12-28 10:26:07,908 DEBUG [main][Logger.java:49] - Property 'mapperLocations' was not specified.
+2023-12-28 10:26:08,323 DEBUG [main][InternalLoggerFactory.java:63] - Using SLF4J as the default logging framework
+2023-12-28 10:26:08,323 DEBUG [main][InternalLoggerFactory.java:63] - Using SLF4J as the default logging framework
+2023-12-28 10:26:08,324 DEBUG [main][AddressResolverGroupProvider.java:37] - Starting without optional netty's non-blocking DNS resolver library
+2023-12-28 10:26:08,324 DEBUG [main][AddressResolverGroupProvider.java:37] - Starting without optional netty's non-blocking DNS resolver library
+2023-12-28 10:26:08,325 DEBUG [main][DefaultClientResources.java:122] - -Dio.netty.eventLoopThreads: 16
+2023-12-28 10:26:08,325 DEBUG [main][DefaultClientResources.java:122] - -Dio.netty.eventLoopThreads: 16
+2023-12-28 10:26:08,329 DEBUG [main][DefaultEventLoopGroupProvider.java:231] - Creating executor io.netty.util.concurrent.DefaultEventExecutorGroup
+2023-12-28 10:26:08,329 DEBUG [main][DefaultEventLoopGroupProvider.java:231] - Creating executor io.netty.util.concurrent.DefaultEventExecutorGroup
+2023-12-28 10:26:08,336 DEBUG [main][InternalThreadLocalMap.java:86] - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2023-12-28 10:26:08,336 DEBUG [main][InternalThreadLocalMap.java:86] - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2023-12-28 10:26:08,336 DEBUG [main][InternalThreadLocalMap.java:89] - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2023-12-28 10:26:08,336 DEBUG [main][InternalThreadLocalMap.java:89] - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2023-12-28 10:26:08,338 DEBUG [main][ResourceLeakDetector.java:129] - -Dio.netty.leakDetection.level: simple
+2023-12-28 10:26:08,338 DEBUG [main][ResourceLeakDetector.java:129] - -Dio.netty.leakDetection.level: simple
+2023-12-28 10:26:08,338 DEBUG [main][ResourceLeakDetector.java:130] - -Dio.netty.leakDetection.targetRecords: 4
+2023-12-28 10:26:08,338 DEBUG [main][ResourceLeakDetector.java:130] - -Dio.netty.leakDetection.targetRecords: 4
+2023-12-28 10:26:08,339 DEBUG [main][ResourceLeakDetectorFactory.java:196] - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@70bc3a9c
+2023-12-28 10:26:08,339 DEBUG [main][ResourceLeakDetectorFactory.java:196] - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@70bc3a9c
+2023-12-28 10:26:08,341 DEBUG [main][PlatformDependent0.java:460] - -Dio.netty.noUnsafe: false
+2023-12-28 10:26:08,341 DEBUG [main][PlatformDependent0.java:460] - -Dio.netty.noUnsafe: false
+2023-12-28 10:26:08,341 DEBUG [main][PlatformDependent0.java:954] - Java version: 11
+2023-12-28 10:26:08,341 DEBUG [main][PlatformDependent0.java:954] - Java version: 11
+2023-12-28 10:26:08,341 DEBUG [main][PlatformDependent0.java:135] - sun.misc.Unsafe.theUnsafe: available
+2023-12-28 10:26:08,341 DEBUG [main][PlatformDependent0.java:135] - sun.misc.Unsafe.theUnsafe: available
+2023-12-28 10:26:08,342 DEBUG [main][PlatformDependent0.java:159] - sun.misc.Unsafe.copyMemory: available
+2023-12-28 10:26:08,342 DEBUG [main][PlatformDependent0.java:159] - sun.misc.Unsafe.copyMemory: available
+2023-12-28 10:26:08,342 DEBUG [main][PlatformDependent0.java:202] - java.nio.Buffer.address: available
+2023-12-28 10:26:08,342 DEBUG [main][PlatformDependent0.java:202] - java.nio.Buffer.address: available
+2023-12-28 10:26:08,342 DEBUG [main][PlatformDependent0.java:285] - direct buffer constructor: unavailable: Reflective setAccessible(true) disabled
+2023-12-28 10:26:08,342 DEBUG [main][PlatformDependent0.java:285] - direct buffer constructor: unavailable: Reflective setAccessible(true) disabled
+2023-12-28 10:26:08,343 DEBUG [main][PlatformDependent0.java:350] - java.nio.Bits.unaligned: available, true
+2023-12-28 10:26:08,343 DEBUG [main][PlatformDependent0.java:350] - java.nio.Bits.unaligned: available, true
+2023-12-28 10:26:08,343 DEBUG [main][PlatformDependent0.java:417] - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable: class io.netty.util.internal.PlatformDependent0$6 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @664db2ca
+2023-12-28 10:26:08,343 DEBUG [main][PlatformDependent0.java:417] - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable: class io.netty.util.internal.PlatformDependent0$6 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @664db2ca
+2023-12-28 10:26:08,344 DEBUG [main][PlatformDependent0.java:446] - java.nio.DirectByteBuffer.<init>(long, int): unavailable
+2023-12-28 10:26:08,344 DEBUG [main][PlatformDependent.java:1116] - sun.misc.Unsafe: available
+2023-12-28 10:26:08,344 DEBUG [main][PlatformDependent0.java:446] - java.nio.DirectByteBuffer.<init>(long, int): unavailable
+2023-12-28 10:26:08,344 DEBUG [main][PlatformDependent.java:1116] - sun.misc.Unsafe: available
+2023-12-28 10:26:08,344 DEBUG [main][PlatformDependent.java:1227] - maxDirectMemory: 8522825728 bytes (maybe)
+2023-12-28 10:26:08,344 DEBUG [main][PlatformDependent.java:1227] - maxDirectMemory: 8522825728 bytes (maybe)
+2023-12-28 10:26:08,344 DEBUG [main][PlatformDependent.java:1246] - -Dio.netty.tmpdir: C:\Users\ADMINI~1\AppData\Local\Temp (java.io.tmpdir)
+2023-12-28 10:26:08,344 DEBUG [main][PlatformDependent.java:1246] - -Dio.netty.tmpdir: C:\Users\ADMINI~1\AppData\Local\Temp (java.io.tmpdir)
+2023-12-28 10:26:08,344 DEBUG [main][PlatformDependent.java:1325] - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2023-12-28 10:26:08,344 DEBUG [main][PlatformDependent.java:1325] - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2023-12-28 10:26:08,344 DEBUG [main][PlatformDependent.java:1076] - Platform: Windows
+2023-12-28 10:26:08,344 DEBUG [main][PlatformDependent.java:1076] - Platform: Windows
+2023-12-28 10:26:08,345 DEBUG [main][PlatformDependent.java:178] - -Dio.netty.maxDirectMemory: -1 bytes
+2023-12-28 10:26:08,345 DEBUG [main][PlatformDependent.java:178] - -Dio.netty.maxDirectMemory: -1 bytes
+2023-12-28 10:26:08,345 DEBUG [main][PlatformDependent.java:185] - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2023-12-28 10:26:08,345 DEBUG [main][PlatformDependent.java:185] - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2023-12-28 10:26:08,345 DEBUG [main][CleanerJava9.java:71] - java.nio.ByteBuffer.cleaner(): available
+2023-12-28 10:26:08,345 DEBUG [main][CleanerJava9.java:71] - java.nio.ByteBuffer.cleaner(): available
+2023-12-28 10:26:08,345 DEBUG [main][PlatformDependent.java:205] - -Dio.netty.noPreferDirect: false
+2023-12-28 10:26:08,345 DEBUG [main][PlatformDependent.java:205] - -Dio.netty.noPreferDirect: false
+2023-12-28 10:26:08,346 DEBUG [main][PlatformDependent.java:967] - org.jctools-core.MpscChunkedArrayQueue: available
+2023-12-28 10:26:08,346 DEBUG [main][PlatformDependent.java:967] - org.jctools-core.MpscChunkedArrayQueue: available
+2023-12-28 10:26:08,351 DEBUG [main][Loggers.java:245] - Using Slf4j logging framework
+2023-12-28 10:26:08,351 DEBUG [main][Loggers.java:245] - Using Slf4j logging framework
+2023-12-28 10:26:08,352 DEBUG [main][EventRecorderHolder.java:47] - Starting with JFR support
+2023-12-28 10:26:08,352 DEBUG [main][EventRecorderHolder.java:47] - Starting with JFR support
+2023-12-28 10:26:08,359 DEBUG [main][DefaultClientResources.java:227] - LatencyUtils/HdrUtils are not available, metrics are disabled
+2023-12-28 10:26:08,359 DEBUG [main][DefaultClientResources.java:227] - LatencyUtils/HdrUtils are not available, metrics are disabled
+2023-12-28 10:26:08,525 DEBUG [main][AbstractHandlerMethodMapping.java:295] - 
+	c.m.t.m.c.MediaFilesController:
+	{POST [/third/party/minio/upload]}: upload(MultipartFile,String)
+2023-12-28 10:26:08,525 DEBUG [main][AbstractHandlerMethodMapping.java:295] - 
+	c.m.t.m.c.MediaFilesController:
+	{POST [/third/party/minio/upload]}: upload(MultipartFile,String)
+2023-12-28 10:26:08,528 DEBUG [main][AbstractHandlerMethodMapping.java:295] - 
+	s.d.s.w.Swagger2ControllerWebMvc:
+	{GET [/v2/api-docs], produces [application/json || application/hal+json]}: getDocumentation(String,HttpServletRequest)
+2023-12-28 10:26:08,528 DEBUG [main][AbstractHandlerMethodMapping.java:295] - 
+	s.d.s.w.Swagger2ControllerWebMvc:
+	{GET [/v2/api-docs], produces [application/json || application/hal+json]}: getDocumentation(String,HttpServletRequest)
+2023-12-28 10:26:08,529 DEBUG [main][AbstractHandlerMethodMapping.java:295] - 
+	s.d.s.w.ApiResourceController:
+	{GET [/swagger-resources], produces [application/json]}: swaggerResources()
+	{GET [/swagger-resources/configuration/ui], produces [application/json]}: uiConfiguration()
+	{GET [/swagger-resources/configuration/security], produces [application/json]}: securityConfiguration()
+2023-12-28 10:26:08,529 DEBUG [main][AbstractHandlerMethodMapping.java:295] - 
+	s.d.s.w.ApiResourceController:
+	{GET [/swagger-resources], produces [application/json]}: swaggerResources()
+	{GET [/swagger-resources/configuration/ui], produces [application/json]}: uiConfiguration()
+	{GET [/swagger-resources/configuration/security], produces [application/json]}: securityConfiguration()
+2023-12-28 10:26:08,530 DEBUG [main][AbstractHandlerMethodMapping.java:295] - 
+	s.d.o.w.OpenApiControllerWebMvc:
+	{GET [/v3/api-docs], produces [application/json || application/hal+json]}: getDocumentation(String,HttpServletRequest)
+2023-12-28 10:26:08,530 DEBUG [main][AbstractHandlerMethodMapping.java:295] - 
+	s.d.o.w.OpenApiControllerWebMvc:
+	{GET [/v3/api-docs], produces [application/json || application/hal+json]}: getDocumentation(String,HttpServletRequest)
+2023-12-28 10:26:08,531 DEBUG [main][AbstractHandlerMethodMapping.java:295] - 
+	o.s.b.a.w.s.e.BasicErrorController:
+	{ [/error]}: error(HttpServletRequest)
+	{ [/error], produces [text/html]}: errorHtml(HttpServletRequest,HttpServletResponse)
+2023-12-28 10:26:08,531 DEBUG [main][AbstractHandlerMethodMapping.java:295] - 
+	o.s.b.a.w.s.e.BasicErrorController:
+	{ [/error]}: error(HttpServletRequest)
+	{ [/error], produces [text/html]}: errorHtml(HttpServletRequest,HttpServletResponse)
+2023-12-28 10:26:08,569 DEBUG [main][OpenApiExtensionResolver.java:57] - Resolver method start...
+2023-12-28 10:26:08,569 DEBUG [main][OpenApiExtensionResolver.java:57] - Resolver method start...
+2023-12-28 10:26:08,675 DEBUG [main][SimpleUrlHandlerMapping.java:177] - 'viewControllerHandlerMapping' {/swagger-ui/=ParameterizableViewController [view="forward:/swagger-ui/index.html"]}
+2023-12-28 10:26:08,675 DEBUG [main][SimpleUrlHandlerMapping.java:177] - 'viewControllerHandlerMapping' {/swagger-ui/=ParameterizableViewController [view="forward:/swagger-ui/index.html"]}
+2023-12-28 10:26:08,676 DEBUG [main][AbstractDetectingUrlHandlerMapping.java:86] - 'beanNameHandlerMapping' {}
+2023-12-28 10:26:08,676 DEBUG [main][AbstractDetectingUrlHandlerMapping.java:86] - 'beanNameHandlerMapping' {}
+2023-12-28 10:26:08,682 DEBUG [main][SimpleUrlHandlerMapping.java:177] - 'resourceHandlerMapping' {/webjars/**=ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]], /**=ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]], /swagger-ui/**=ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/springfox-swagger-ui/]]}
+2023-12-28 10:26:08,682 DEBUG [main][SimpleUrlHandlerMapping.java:177] - 'resourceHandlerMapping' {/webjars/**=ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]], /**=ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]], /swagger-ui/**=ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/springfox-swagger-ui/]]}
+2023-12-28 10:26:09,829 INFO [main][InetUtils.java:170] - Cannot determine local hostname
+2023-12-28 10:26:09,829 INFO [main][InetUtils.java:170] - Cannot determine local hostname
+2023-12-28 10:26:09,837 DEBUG [main][MybatisPlusAutoConfiguration.java:381] - Not found configuration for registering mapper bean using @MapperScan, MapperFactoryBean and MapperScannerConfigurer.
+2023-12-28 10:26:09,837 DEBUG [main][MybatisPlusAutoConfiguration.java:381] - Not found configuration for registering mapper bean using @MapperScan, MapperFactoryBean and MapperScannerConfigurer.
+2023-12-28 10:26:11,031 INFO [main][InetUtils.java:170] - Cannot determine local hostname
+2023-12-28 10:26:11,031 INFO [main][InetUtils.java:170] - Cannot determine local hostname
+2023-12-28 10:26:11,162 INFO [main][DirectJDKLog.java:173] - Starting ProtocolHandler ["http-nio-10001"]
+2023-12-28 10:26:11,162 INFO [main][DirectJDKLog.java:173] - Starting ProtocolHandler ["http-nio-10001"]
+2023-12-28 10:26:11,173 INFO [main][TomcatWebServer.java:220] - Tomcat started on port(s): 10001 (http) with context path ''
+2023-12-28 10:26:11,173 INFO [main][TomcatWebServer.java:220] - Tomcat started on port(s): 10001 (http) with context path ''
+2023-12-28 10:26:11,181 INFO [main][NacosServiceRegistry.java:75] - nacos registry, dev mynote-third-party 192.168.75.1:10001 register finished
+2023-12-28 10:26:11,181 INFO [main][NacosServiceRegistry.java:75] - nacos registry, dev mynote-third-party 192.168.75.1:10001 register finished
+2023-12-28 10:26:12,112 DEBUG [nacos.publisher-com.alibaba.nacos.client.naming.event.InstancesChangeEvent][DefaultPublisher.java:193] - [NotifyCenter] the com.alibaba.nacos.client.naming.event.InstancesChangeEvent@375b5ef2 will received by com.alibaba.nacos.client.naming.event.InstancesChangeNotifier@12aa2cca
+2023-12-28 10:26:12,112 DEBUG [nacos.publisher-com.alibaba.nacos.client.naming.event.InstancesChangeEvent][DefaultPublisher.java:193] - [NotifyCenter] the com.alibaba.nacos.client.naming.event.InstancesChangeEvent@375b5ef2 will received by com.alibaba.nacos.client.naming.event.InstancesChangeNotifier@12aa2cca
+2023-12-28 10:26:12,298 INFO [main][InetUtils.java:170] - Cannot determine local hostname
+2023-12-28 10:26:12,298 INFO [main][InetUtils.java:170] - Cannot determine local hostname
+2023-12-28 10:26:12,361 DEBUG [main][NoopValidator.java:24] - ERROR [ModelSpecification.spec] At least one type of specification is required
+2023-12-28 10:26:12,361 DEBUG [main][NoopValidator.java:24] - ERROR [ModelSpecification.spec] At least one type of specification is required
+2023-12-28 10:26:12,383 INFO [main][StartupInfoLogger.java:61] - Started ThirdPartyApplication in 7.982 seconds (JVM running for 8.501)
+2023-12-28 10:26:12,383 INFO [main][StartupInfoLogger.java:61] - Started ThirdPartyApplication in 7.982 seconds (JVM running for 8.501)
+2023-12-28 10:26:12,387 INFO [main][ThirdPartyApplication.java:38] - 
+----------------------------------------------------------
+	Application MyNote-third-party is running! Access URLs:
+	local: 	http://localhost:10001/doc.html
+	Swagger文档: 	http://192.168.0.118:10001/doc.html
+----------------------------------------------------------
+2023-12-28 10:26:12,387 INFO [main][ThirdPartyApplication.java:38] - 
+----------------------------------------------------------
+	Application MyNote-third-party is running! Access URLs:
+	local: 	http://localhost:10001/doc.html
+	Swagger文档: 	http://192.168.0.118:10001/doc.html
+----------------------------------------------------------
+2023-12-28 10:26:16,966 INFO [http-nio-10001-exec-1][DirectJDKLog.java:173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-12-28 10:26:16,966 INFO [http-nio-10001-exec-1][DirectJDKLog.java:173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-12-28 10:26:16,967 INFO [http-nio-10001-exec-1][FrameworkServlet.java:525] - Initializing Servlet 'dispatcherServlet'
+2023-12-28 10:26:16,967 INFO [http-nio-10001-exec-1][FrameworkServlet.java:525] - Initializing Servlet 'dispatcherServlet'
+2023-12-28 10:26:16,967 INFO [http-nio-10001-exec-1][FrameworkServlet.java:547] - Completed initialization in 0 ms
+2023-12-28 10:26:16,967 INFO [http-nio-10001-exec-1][FrameworkServlet.java:547] - Completed initialization in 0 ms
+2023-12-28 10:37:44,257 WARN [Thread-10][NotifyCenter.java:145] - [NotifyCenter] Start destroying Publisher
+2023-12-28 10:37:44,257 WARN [Thread-4][HttpClientBeanHolder.java:108] - [HttpClientBeanHolder] Start destroying common HttpClient
+2023-12-28 10:37:44,257 WARN [Thread-4][HttpClientBeanHolder.java:108] - [HttpClientBeanHolder] Start destroying common HttpClient
+2023-12-28 10:37:44,257 WARN [Thread-10][NotifyCenter.java:145] - [NotifyCenter] Start destroying Publisher
+2023-12-28 10:37:44,257 WARN [Thread-10][NotifyCenter.java:162] - [NotifyCenter] Destruction of the end
+2023-12-28 10:37:44,257 WARN [Thread-10][NotifyCenter.java:162] - [NotifyCenter] Destruction of the end
+2023-12-28 10:37:44,258 WARN [Thread-4][HttpClientBeanHolder.java:114] - [HttpClientBeanHolder] Destruction of the end
+2023-12-28 10:37:44,258 WARN [Thread-4][HttpClientBeanHolder.java:114] - [HttpClientBeanHolder] Destruction of the end
+2023-12-28 10:37:44,398 INFO [SpringApplicationShutdownHook][NacosServiceRegistry.java:94] - De-registering from Nacos Server now...
+2023-12-28 10:37:44,398 INFO [SpringApplicationShutdownHook][NacosServiceRegistry.java:94] - De-registering from Nacos Server now...
+2023-12-28 10:37:44,400 INFO [SpringApplicationShutdownHook][NacosServiceRegistry.java:114] - De-registration finished.
+2023-12-28 10:37:44,400 INFO [SpringApplicationShutdownHook][NacosServiceRegistry.java:114] - De-registration finished.
+2023-12-28 10:37:44,948 DEBUG [nacos.publisher-com.alibaba.nacos.client.naming.event.InstancesChangeEvent][DefaultPublisher.java:193] - [NotifyCenter] the com.alibaba.nacos.client.naming.event.InstancesChangeEvent@7b78cc97 will received by com.alibaba.nacos.client.naming.event.InstancesChangeNotifier@12aa2cca
+2023-12-28 10:37:44,948 DEBUG [nacos.publisher-com.alibaba.nacos.client.naming.event.InstancesChangeEvent][DefaultPublisher.java:193] - [NotifyCenter] the com.alibaba.nacos.client.naming.event.InstancesChangeEvent@7b78cc97 will received by com.alibaba.nacos.client.naming.event.InstancesChangeNotifier@12aa2cca
+2023-12-28 10:37:53,519 DEBUG [SpringApplicationShutdownHook][AbstractRedisClient.java:539] - Initiate shutdown (100, 100, MILLISECONDS)
+2023-12-28 10:37:53,519 DEBUG [SpringApplicationShutdownHook][AbstractRedisClient.java:539] - Initiate shutdown (100, 100, MILLISECONDS)
+2023-12-28 10:37:53,524 DEBUG [SpringApplicationShutdownHook][DefaultClientResources.java:735] - Initiate shutdown (0, 2, SECONDS)
+2023-12-28 10:37:53,524 DEBUG [SpringApplicationShutdownHook][DefaultClientResources.java:735] - Initiate shutdown (0, 2, SECONDS)
+2023-12-28 10:37:53,526 DEBUG [SpringApplicationShutdownHook][DefaultEventLoopGroupProvider.java:317] - Initiate shutdown (0, 2, SECONDS)
+2023-12-28 10:37:53,526 DEBUG [SpringApplicationShutdownHook][DefaultEventLoopGroupProvider.java:317] - Initiate shutdown (0, 2, SECONDS)
+2023-12-28 10:38:02,288 INFO [main][SpringApplication.java:646] - The following 1 profile is active: "dev"
+2023-12-28 10:38:02,288 INFO [main][SpringApplication.java:646] - The following 1 profile is active: "dev"
+2023-12-28 10:38:02,612 DEBUG [main][MybatisPlusAutoConfiguration.java:309] - Searching for mappers annotated with @Mapper
+2023-12-28 10:38:02,612 DEBUG [main][MybatisPlusAutoConfiguration.java:309] - Searching for mappers annotated with @Mapper
+2023-12-28 10:38:02,615 DEBUG [main][MybatisPlusAutoConfiguration.java:313] - Using auto-configuration base package 'com.mynote.thirdparty'
+2023-12-28 10:38:02,615 DEBUG [main][MybatisPlusAutoConfiguration.java:313] - Using auto-configuration base package 'com.mynote.thirdparty'
+2023-12-28 10:38:02,645 INFO [main][RepositoryConfigurationDelegate.java:262] - Multiple Spring Data modules found, entering strict repository configuration mode!
+2023-12-28 10:38:02,645 INFO [main][RepositoryConfigurationDelegate.java:262] - Multiple Spring Data modules found, entering strict repository configuration mode!
+2023-12-28 10:38:02,646 INFO [main][RepositoryConfigurationDelegate.java:132] - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-12-28 10:38:02,646 INFO [main][RepositoryConfigurationDelegate.java:132] - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-12-28 10:38:02,655 INFO [main][RepositoryConfigurationDelegate.java:201] - Finished Spring Data repository scanning in 3 ms. Found 0 Redis repository interfaces.
+2023-12-28 10:38:02,655 INFO [main][RepositoryConfigurationDelegate.java:201] - Finished Spring Data repository scanning in 3 ms. Found 0 Redis repository interfaces.
+2023-12-28 10:38:02,702 DEBUG [main][LogFactory.java:109] - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2023-12-28 10:38:02,702 DEBUG [main][LogFactory.java:109] - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2023-12-28 10:38:02,738 INFO [main][GenericScope.java:283] - BeanFactory id=d7f851fe-60dd-3993-a15d-fb63c7cba905
+2023-12-28 10:38:02,738 INFO [main][GenericScope.java:283] - BeanFactory id=d7f851fe-60dd-3993-a15d-fb63c7cba905
+2023-12-28 10:38:02,892 INFO [main][TomcatWebServer.java:108] - Tomcat initialized with port(s): 10001 (http)
+2023-12-28 10:38:02,892 INFO [main][TomcatWebServer.java:108] - Tomcat initialized with port(s): 10001 (http)
+2023-12-28 10:38:02,892 INFO [main][DirectJDKLog.java:173] - Loaded Apache Tomcat Native library [1.2.38] using APR version [1.7.4].
+2023-12-28 10:38:02,892 INFO [main][DirectJDKLog.java:173] - Loaded Apache Tomcat Native library [1.2.38] using APR version [1.7.4].
+2023-12-28 10:38:02,893 INFO [main][DirectJDKLog.java:173] - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+2023-12-28 10:38:02,893 INFO [main][DirectJDKLog.java:173] - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+2023-12-28 10:38:02,893 INFO [main][DirectJDKLog.java:173] - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2023-12-28 10:38:02,893 INFO [main][DirectJDKLog.java:173] - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2023-12-28 10:38:02,894 INFO [main][DirectJDKLog.java:173] - OpenSSL successfully initialized [OpenSSL 1.1.1v  1 Aug 2023]
+2023-12-28 10:38:02,894 INFO [main][DirectJDKLog.java:173] - OpenSSL successfully initialized [OpenSSL 1.1.1v  1 Aug 2023]
+2023-12-28 10:38:02,899 INFO [main][DirectJDKLog.java:173] - Initializing ProtocolHandler ["http-nio-10001"]
+2023-12-28 10:38:02,899 INFO [main][DirectJDKLog.java:173] - Initializing ProtocolHandler ["http-nio-10001"]
+2023-12-28 10:38:02,899 INFO [main][DirectJDKLog.java:173] - Starting service [Tomcat]
+2023-12-28 10:38:02,899 INFO [main][DirectJDKLog.java:173] - Starting service [Tomcat]
+2023-12-28 10:38:02,900 INFO [main][DirectJDKLog.java:173] - Starting Servlet engine: [Apache Tomcat/9.0.60]
+2023-12-28 10:38:02,900 INFO [main][DirectJDKLog.java:173] - Starting Servlet engine: [Apache Tomcat/9.0.60]
+2023-12-28 10:38:02,966 INFO [main][DirectJDKLog.java:173] - Initializing Spring embedded WebApplicationContext
+2023-12-28 10:38:02,966 INFO [main][DirectJDKLog.java:173] - Initializing Spring embedded WebApplicationContext
+2023-12-28 10:38:02,966 INFO [main][ServletWebServerApplicationContext.java:290] - Root WebApplicationContext: initialization completed in 667 ms
+2023-12-28 10:38:02,966 INFO [main][ServletWebServerApplicationContext.java:290] - Root WebApplicationContext: initialization completed in 667 ms
+2023-12-28 10:38:03,069 DEBUG [main][HikariConfig.java:971] - Driver class com.mysql.cj.jdbc.Driver found in Thread context class loader jdk.internal.loader.ClassLoaders$AppClassLoader@61064425
+2023-12-28 10:38:03,069 DEBUG [main][HikariConfig.java:971] - Driver class com.mysql.cj.jdbc.Driver found in Thread context class loader jdk.internal.loader.ClassLoaders$AppClassLoader@61064425
+2023-12-28 10:38:03,494 DEBUG [main][InternalLoggerFactory.java:63] - Using SLF4J as the default logging framework
+2023-12-28 10:38:03,494 DEBUG [main][InternalLoggerFactory.java:63] - Using SLF4J as the default logging framework
+2023-12-28 10:38:03,495 DEBUG [main][AddressResolverGroupProvider.java:37] - Starting without optional netty's non-blocking DNS resolver library
+2023-12-28 10:38:03,495 DEBUG [main][AddressResolverGroupProvider.java:37] - Starting without optional netty's non-blocking DNS resolver library
+2023-12-28 10:38:03,496 DEBUG [main][DefaultClientResources.java:122] - -Dio.netty.eventLoopThreads: 16
+2023-12-28 10:38:03,496 DEBUG [main][DefaultClientResources.java:122] - -Dio.netty.eventLoopThreads: 16
+2023-12-28 10:38:03,500 DEBUG [main][DefaultEventLoopGroupProvider.java:231] - Creating executor io.netty.util.concurrent.DefaultEventExecutorGroup
+2023-12-28 10:38:03,500 DEBUG [main][DefaultEventLoopGroupProvider.java:231] - Creating executor io.netty.util.concurrent.DefaultEventExecutorGroup
+2023-12-28 10:38:03,506 DEBUG [main][InternalThreadLocalMap.java:86] - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2023-12-28 10:38:03,506 DEBUG [main][InternalThreadLocalMap.java:86] - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2023-12-28 10:38:03,507 DEBUG [main][InternalThreadLocalMap.java:89] - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2023-12-28 10:38:03,507 DEBUG [main][InternalThreadLocalMap.java:89] - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2023-12-28 10:38:03,508 DEBUG [main][ResourceLeakDetector.java:129] - -Dio.netty.leakDetection.level: simple
+2023-12-28 10:38:03,508 DEBUG [main][ResourceLeakDetector.java:129] - -Dio.netty.leakDetection.level: simple
+2023-12-28 10:38:03,509 DEBUG [main][ResourceLeakDetector.java:130] - -Dio.netty.leakDetection.targetRecords: 4
+2023-12-28 10:38:03,509 DEBUG [main][ResourceLeakDetector.java:130] - -Dio.netty.leakDetection.targetRecords: 4
+2023-12-28 10:38:03,510 DEBUG [main][ResourceLeakDetectorFactory.java:196] - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@7bc8ffbc
+2023-12-28 10:38:03,510 DEBUG [main][ResourceLeakDetectorFactory.java:196] - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@7bc8ffbc
+2023-12-28 10:38:03,512 DEBUG [main][PlatformDependent0.java:460] - -Dio.netty.noUnsafe: false
+2023-12-28 10:38:03,512 DEBUG [main][PlatformDependent0.java:460] - -Dio.netty.noUnsafe: false
+2023-12-28 10:38:03,513 DEBUG [main][PlatformDependent0.java:954] - Java version: 11
+2023-12-28 10:38:03,513 DEBUG [main][PlatformDependent0.java:954] - Java version: 11
+2023-12-28 10:38:03,513 DEBUG [main][PlatformDependent0.java:135] - sun.misc.Unsafe.theUnsafe: available
+2023-12-28 10:38:03,513 DEBUG [main][PlatformDependent0.java:135] - sun.misc.Unsafe.theUnsafe: available
+2023-12-28 10:38:03,514 DEBUG [main][PlatformDependent0.java:159] - sun.misc.Unsafe.copyMemory: available
+2023-12-28 10:38:03,514 DEBUG [main][PlatformDependent0.java:159] - sun.misc.Unsafe.copyMemory: available
+2023-12-28 10:38:03,514 DEBUG [main][PlatformDependent0.java:202] - java.nio.Buffer.address: available
+2023-12-28 10:38:03,514 DEBUG [main][PlatformDependent0.java:202] - java.nio.Buffer.address: available
+2023-12-28 10:38:03,514 DEBUG [main][PlatformDependent0.java:285] - direct buffer constructor: unavailable: Reflective setAccessible(true) disabled
+2023-12-28 10:38:03,514 DEBUG [main][PlatformDependent0.java:285] - direct buffer constructor: unavailable: Reflective setAccessible(true) disabled
+2023-12-28 10:38:03,514 DEBUG [main][PlatformDependent0.java:350] - java.nio.Bits.unaligned: available, true
+2023-12-28 10:38:03,514 DEBUG [main][PlatformDependent0.java:350] - java.nio.Bits.unaligned: available, true
+2023-12-28 10:38:03,515 DEBUG [main][PlatformDependent0.java:417] - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable: class io.netty.util.internal.PlatformDependent0$6 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @3b218c74
+2023-12-28 10:38:03,515 DEBUG [main][PlatformDependent0.java:417] - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable: class io.netty.util.internal.PlatformDependent0$6 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @3b218c74
+2023-12-28 10:38:03,515 DEBUG [main][PlatformDependent0.java:446] - java.nio.DirectByteBuffer.<init>(long, int): unavailable
+2023-12-28 10:38:03,515 DEBUG [main][PlatformDependent0.java:446] - java.nio.DirectByteBuffer.<init>(long, int): unavailable
+2023-12-28 10:38:03,516 DEBUG [main][PlatformDependent.java:1116] - sun.misc.Unsafe: available
+2023-12-28 10:38:03,516 DEBUG [main][PlatformDependent.java:1116] - sun.misc.Unsafe: available
+2023-12-28 10:38:03,516 DEBUG [main][PlatformDependent.java:1227] - maxDirectMemory: 8522825728 bytes (maybe)
+2023-12-28 10:38:03,516 DEBUG [main][PlatformDependent.java:1227] - maxDirectMemory: 8522825728 bytes (maybe)
+2023-12-28 10:38:03,516 DEBUG [main][PlatformDependent.java:1246] - -Dio.netty.tmpdir: C:\Users\ADMINI~1\AppData\Local\Temp (java.io.tmpdir)
+2023-12-28 10:38:03,516 DEBUG [main][PlatformDependent.java:1246] - -Dio.netty.tmpdir: C:\Users\ADMINI~1\AppData\Local\Temp (java.io.tmpdir)
+2023-12-28 10:38:03,516 DEBUG [main][PlatformDependent.java:1325] - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2023-12-28 10:38:03,516 DEBUG [main][PlatformDependent.java:1325] - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2023-12-28 10:38:03,516 DEBUG [main][PlatformDependent.java:1076] - Platform: Windows
+2023-12-28 10:38:03,516 DEBUG [main][PlatformDependent.java:1076] - Platform: Windows
+2023-12-28 10:38:03,517 DEBUG [main][PlatformDependent.java:178] - -Dio.netty.maxDirectMemory: -1 bytes
+2023-12-28 10:38:03,517 DEBUG [main][PlatformDependent.java:178] - -Dio.netty.maxDirectMemory: -1 bytes
+2023-12-28 10:38:03,517 DEBUG [main][PlatformDependent.java:185] - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2023-12-28 10:38:03,517 DEBUG [main][PlatformDependent.java:185] - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2023-12-28 10:38:03,517 DEBUG [main][CleanerJava9.java:71] - java.nio.ByteBuffer.cleaner(): available
+2023-12-28 10:38:03,517 DEBUG [main][CleanerJava9.java:71] - java.nio.ByteBuffer.cleaner(): available
+2023-12-28 10:38:03,518 DEBUG [main][PlatformDependent.java:205] - -Dio.netty.noPreferDirect: false
+2023-12-28 10:38:03,518 DEBUG [main][PlatformDependent.java:205] - -Dio.netty.noPreferDirect: false
+2023-12-28 10:38:03,518 DEBUG [main][PlatformDependent.java:967] - org.jctools-core.MpscChunkedArrayQueue: available
+2023-12-28 10:38:03,518 DEBUG [main][PlatformDependent.java:967] - org.jctools-core.MpscChunkedArrayQueue: available
+2023-12-28 10:38:03,523 DEBUG [main][Loggers.java:245] - Using Slf4j logging framework
+2023-12-28 10:38:03,523 DEBUG [main][Loggers.java:245] - Using Slf4j logging framework
+2023-12-28 10:38:03,524 DEBUG [main][EventRecorderHolder.java:47] - Starting with JFR support
+2023-12-28 10:38:03,524 DEBUG [main][EventRecorderHolder.java:47] - Starting with JFR support
+2023-12-28 10:38:03,531 DEBUG [main][DefaultClientResources.java:227] - LatencyUtils/HdrUtils are not available, metrics are disabled
+2023-12-28 10:38:03,531 DEBUG [main][DefaultClientResources.java:227] - LatencyUtils/HdrUtils are not available, metrics are disabled
+2023-12-28 10:38:03,688 DEBUG [main][AbstractHandlerMethodMapping.java:295] - 
+	c.m.t.m.c.MediaFilesController:
+	{POST [/third/party/minio/upload]}: upload(MultipartFile,String)
+2023-12-28 10:38:03,688 DEBUG [main][AbstractHandlerMethodMapping.java:295] - 
+	c.m.t.m.c.MediaFilesController:
+	{POST [/third/party/minio/upload]}: upload(MultipartFile,String)
+2023-12-28 10:38:03,690 DEBUG [main][AbstractHandlerMethodMapping.java:295] - 
+	s.d.s.w.Swagger2ControllerWebMvc:
+	{GET [/v2/api-docs], produces [application/json || application/hal+json]}: getDocumentation(String,HttpServletRequest)
+2023-12-28 10:38:03,690 DEBUG [main][AbstractHandlerMethodMapping.java:295] - 
+	s.d.s.w.Swagger2ControllerWebMvc:
+	{GET [/v2/api-docs], produces [application/json || application/hal+json]}: getDocumentation(String,HttpServletRequest)
+2023-12-28 10:38:03,690 DEBUG [main][AbstractHandlerMethodMapping.java:295] - 
+	s.d.s.w.ApiResourceController:
+	{GET [/swagger-resources/configuration/security], produces [application/json]}: securityConfiguration()
+	{GET [/swagger-resources], produces [application/json]}: swaggerResources()
+	{GET [/swagger-resources/configuration/ui], produces [application/json]}: uiConfiguration()
+2023-12-28 10:38:03,690 DEBUG [main][AbstractHandlerMethodMapping.java:295] - 
+	s.d.s.w.ApiResourceController:
+	{GET [/swagger-resources/configuration/security], produces [application/json]}: securityConfiguration()
+	{GET [/swagger-resources], produces [application/json]}: swaggerResources()
+	{GET [/swagger-resources/configuration/ui], produces [application/json]}: uiConfiguration()
+2023-12-28 10:38:03,691 DEBUG [main][AbstractHandlerMethodMapping.java:295] - 
+	s.d.o.w.OpenApiControllerWebMvc:
+	{GET [/v3/api-docs], produces [application/json || application/hal+json]}: getDocumentation(String,HttpServletRequest)
+2023-12-28 10:38:03,691 DEBUG [main][AbstractHandlerMethodMapping.java:295] - 
+	s.d.o.w.OpenApiControllerWebMvc:
+	{GET [/v3/api-docs], produces [application/json || application/hal+json]}: getDocumentation(String,HttpServletRequest)
+2023-12-28 10:38:03,692 DEBUG [main][AbstractHandlerMethodMapping.java:295] - 
+	o.s.b.a.w.s.e.BasicErrorController:
+	{ [/error]}: error(HttpServletRequest)
+	{ [/error], produces [text/html]}: errorHtml(HttpServletRequest,HttpServletResponse)
+2023-12-28 10:38:03,692 DEBUG [main][AbstractHandlerMethodMapping.java:295] - 
+	o.s.b.a.w.s.e.BasicErrorController:
+	{ [/error]}: error(HttpServletRequest)
+	{ [/error], produces [text/html]}: errorHtml(HttpServletRequest,HttpServletResponse)
+2023-12-28 10:38:03,720 DEBUG [main][OpenApiExtensionResolver.java:57] - Resolver method start...
+2023-12-28 10:38:03,720 DEBUG [main][OpenApiExtensionResolver.java:57] - Resolver method start...
+2023-12-28 10:38:03,828 DEBUG [main][SimpleUrlHandlerMapping.java:177] - 'viewControllerHandlerMapping' {/swagger-ui/=ParameterizableViewController [view="forward:/swagger-ui/index.html"]}
+2023-12-28 10:38:03,828 DEBUG [main][SimpleUrlHandlerMapping.java:177] - 'viewControllerHandlerMapping' {/swagger-ui/=ParameterizableViewController [view="forward:/swagger-ui/index.html"]}
+2023-12-28 10:38:03,829 DEBUG [main][AbstractDetectingUrlHandlerMapping.java:86] - 'beanNameHandlerMapping' {}
+2023-12-28 10:38:03,829 DEBUG [main][AbstractDetectingUrlHandlerMapping.java:86] - 'beanNameHandlerMapping' {}
+2023-12-28 10:38:03,835 DEBUG [main][SimpleUrlHandlerMapping.java:177] - 'resourceHandlerMapping' {/webjars/**=ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]], /**=ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]], /swagger-ui/**=ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/springfox-swagger-ui/]]}
+2023-12-28 10:38:03,835 DEBUG [main][SimpleUrlHandlerMapping.java:177] - 'resourceHandlerMapping' {/webjars/**=ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]], /**=ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]], /swagger-ui/**=ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/springfox-swagger-ui/]]}
+2023-12-28 10:38:04,967 INFO [main][InetUtils.java:170] - Cannot determine local hostname
+2023-12-28 10:38:04,967 INFO [main][InetUtils.java:170] - Cannot determine local hostname
+2023-12-28 10:38:04,979 DEBUG [main][MybatisPlusAutoConfiguration.java:381] - Not found configuration for registering mapper bean using @MapperScan, MapperFactoryBean and MapperScannerConfigurer.
+2023-12-28 10:38:04,979 DEBUG [main][MybatisPlusAutoConfiguration.java:381] - Not found configuration for registering mapper bean using @MapperScan, MapperFactoryBean and MapperScannerConfigurer.
+2023-12-28 10:38:06,217 INFO [main][InetUtils.java:170] - Cannot determine local hostname
+2023-12-28 10:38:06,217 INFO [main][InetUtils.java:170] - Cannot determine local hostname
+2023-12-28 10:38:06,329 INFO [main][DirectJDKLog.java:173] - Starting ProtocolHandler ["http-nio-10001"]
+2023-12-28 10:38:06,329 INFO [main][DirectJDKLog.java:173] - Starting ProtocolHandler ["http-nio-10001"]
+2023-12-28 10:38:06,338 INFO [main][TomcatWebServer.java:220] - Tomcat started on port(s): 10001 (http) with context path ''
+2023-12-28 10:38:06,338 INFO [main][TomcatWebServer.java:220] - Tomcat started on port(s): 10001 (http) with context path ''
+2023-12-28 10:38:06,346 INFO [main][NacosServiceRegistry.java:75] - nacos registry, dev mynote-third-party 192.168.75.1:10001 register finished
+2023-12-28 10:38:06,346 INFO [main][NacosServiceRegistry.java:75] - nacos registry, dev mynote-third-party 192.168.75.1:10001 register finished
+2023-12-28 10:38:07,285 DEBUG [nacos.publisher-com.alibaba.nacos.client.naming.event.InstancesChangeEvent][DefaultPublisher.java:193] - [NotifyCenter] the com.alibaba.nacos.client.naming.event.InstancesChangeEvent@30dcc1e0 will received by com.alibaba.nacos.client.naming.event.InstancesChangeNotifier@17d45cfb
+2023-12-28 10:38:07,285 DEBUG [nacos.publisher-com.alibaba.nacos.client.naming.event.InstancesChangeEvent][DefaultPublisher.java:193] - [NotifyCenter] the com.alibaba.nacos.client.naming.event.InstancesChangeEvent@30dcc1e0 will received by com.alibaba.nacos.client.naming.event.InstancesChangeNotifier@17d45cfb
+2023-12-28 10:38:07,469 INFO [main][InetUtils.java:170] - Cannot determine local hostname
+2023-12-28 10:38:07,469 INFO [main][InetUtils.java:170] - Cannot determine local hostname
+2023-12-28 10:38:07,529 DEBUG [main][NoopValidator.java:24] - ERROR [ModelSpecification.spec] At least one type of specification is required
+2023-12-28 10:38:07,529 DEBUG [main][NoopValidator.java:24] - ERROR [ModelSpecification.spec] At least one type of specification is required
+2023-12-28 10:38:07,551 INFO [main][StartupInfoLogger.java:61] - Started ThirdPartyApplication in 7.91 seconds (JVM running for 8.39)
+2023-12-28 10:38:07,551 INFO [main][StartupInfoLogger.java:61] - Started ThirdPartyApplication in 7.91 seconds (JVM running for 8.39)
+2023-12-28 10:38:07,554 INFO [main][ThirdPartyApplication.java:38] - 
+----------------------------------------------------------
+	Application MyNote-third-party is running! Access URLs:
+	local: 	http://localhost:10001/doc.html
+	Swagger文档: 	http://192.168.0.118:10001/doc.html
+----------------------------------------------------------
+2023-12-28 10:38:07,554 INFO [main][ThirdPartyApplication.java:38] - 
+----------------------------------------------------------
+	Application MyNote-third-party is running! Access URLs:
+	local: 	http://localhost:10001/doc.html
+	Swagger文档: 	http://192.168.0.118:10001/doc.html
+----------------------------------------------------------
+2023-12-28 10:38:11,387 INFO [http-nio-10001-exec-1][DirectJDKLog.java:173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-12-28 10:38:11,387 INFO [http-nio-10001-exec-1][DirectJDKLog.java:173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-12-28 10:38:11,387 INFO [http-nio-10001-exec-1][FrameworkServlet.java:525] - Initializing Servlet 'dispatcherServlet'
+2023-12-28 10:38:11,387 INFO [http-nio-10001-exec-1][FrameworkServlet.java:525] - Initializing Servlet 'dispatcherServlet'
+2023-12-28 10:38:11,388 INFO [http-nio-10001-exec-1][FrameworkServlet.java:547] - Completed initialization in 1 ms
+2023-12-28 10:38:11,388 INFO [http-nio-10001-exec-1][FrameworkServlet.java:547] - Completed initialization in 1 ms
+2023-12-28 10:38:19,297 DEBUG [http-nio-10001-exec-6][HikariConfig.java:1103] - HikariPool-1 - configuration:
+2023-12-28 10:38:19,297 DEBUG [http-nio-10001-exec-6][HikariConfig.java:1103] - HikariPool-1 - configuration:
+2023-12-28 10:38:19,298 DEBUG [http-nio-10001-exec-6][HikariConfig.java:1135] - allowPoolSuspension................................false
+2023-12-28 10:38:19,298 DEBUG [http-nio-10001-exec-6][HikariConfig.java:1135] - allowPoolSuspension................................false
+2023-12-28 10:38:19,299 DEBUG [http-nio-10001-exec-6][HikariConfig.java:1135] - autoCommit................................true
+2023-12-28 10:38:19,299 DEBUG [http-nio-10001-exec-6][HikariConfig.java:1135] - autoCommit................................true
+2023-12-28 10:38:19,299 DEBUG [http-nio-10001-exec-6][HikariConfig.java:1135] - catalog................................none
+2023-12-28 10:38:19,299 DEBUG [http-nio-10001-exec-6][HikariConfig.java:1135] - connectionInitSql................................none
+2023-12-28 10:38:19,299 DEBUG [http-nio-10001-exec-6][HikariConfig.java:1135] - connectionTestQuery................................none
+2023-12-28 10:38:19,299 DEBUG [http-nio-10001-exec-6][HikariConfig.java:1135] - catalog................................none
+2023-12-28 10:38:19,299 DEBUG [http-nio-10001-exec-6][HikariConfig.java:1135] - connectionInitSql................................none
+2023-12-28 10:38:19,299 DEBUG [http-nio-10001-exec-6][HikariConfig.java:1135] - connectionTestQuery................................none
+2023-12-28 10:38:19,299 DEBUG [http-nio-10001-exec-6][HikariConfig.java:1135] - connectionTimeout................................30000
+2023-12-28 10:38:19,299 DEBUG [http-nio-10001-exec-6][HikariConfig.java:1135] - connectionTimeout................................30000
+2023-12-28 10:38:19,300 DEBUG [http-nio-10001-exec-6][HikariConfig.java:1135] - dataSource................................none
+2023-12-28 10:38:19,300 DEBUG [http-nio-10001-exec-6][HikariConfig.java:1135] - dataSource................................none
+2023-12-28 10:38:19,300 DEBUG [http-nio-10001-exec-6][HikariConfig.java:1135] - dataSourceClassName................................none
+2023-12-28 10:38:19,300 DEBUG [http-nio-10001-exec-6][HikariConfig.java:1135] - dataSourceClassName................................none
+2023-12-28 10:38:19,300 DEBUG [http-nio-10001-exec-6][HikariConfig.java:1135] - dataSourceJNDI................................none
+2023-12-28 10:38:19,300 DEBUG [http-nio-10001-exec-6][HikariConfig.java:1135] - dataSourceJNDI................................none
+2023-12-28 10:38:19,300 DEBUG [http-nio-10001-exec-6][HikariConfig.java:1135] - dataSourceProperties................................{password=<masked>}
+2023-12-28 10:38:19,300 DEBUG [http-nio-10001-exec-6][HikariConfig.java:1135] - dataSourceProperties................................{password=<masked>}
+2023-12-28 10:38:19,301 DEBUG [http-nio-10001-exec-6][HikariConfig.java:1135] - driverClassName................................"com.mysql.cj.jdbc.Driver"
+2023-12-28 10:38:19,301 DEBUG [http-nio-10001-exec-6][HikariConfig.java:1135] - exceptionOverrideClassName................................none
+2023-12-28 10:38:19,301 DEBUG [http-nio-10001-exec-6][HikariConfig.java:1135] - driverClassName................................"com.mysql.cj.jdbc.Driver"
+2023-12-28 10:38:19,301 DEBUG [http-nio-10001-exec-6][HikariConfig.java:1135] - exceptionOverrideClassName................................none
+2023-12-28 10:38:19,301 DEBUG [http-nio-10001-exec-6][HikariConfig.java:1135] - healthCheckProperties................................{}
+2023-12-28 10:38:19,301 DEBUG [http-nio-10001-exec-6][HikariConfig.java:1135] - healthCheckProperties................................{}
+2023-12-28 10:38:19,301 DEBUG [http-nio-10001-exec-6][HikariConfig.java:1135] - healthCheckRegistry................................none
+2023-12-28 10:38:19,301 DEBUG [http-nio-10001-exec-6][HikariConfig.java:1135] - healthCheckRegistry................................none
+2023-12-28 10:38:19,302 DEBUG [http-nio-10001-exec-6][HikariConfig.java:1135] - idleTimeout................................600000
+2023-12-28 10:38:19,302 DEBUG [http-nio-10001-exec-6][HikariConfig.java:1135] - idleTimeout................................600000
+2023-12-28 10:38:19,302 DEBUG [http-nio-10001-exec-6][HikariConfig.java:1135] - initializationFailTimeout................................1
+2023-12-28 10:38:19,302 DEBUG [http-nio-10001-exec-6][HikariConfig.java:1135] - initializationFailTimeout................................1
+2023-12-28 10:38:19,302 DEBUG [http-nio-10001-exec-6][HikariConfig.java:1135] - isolateInternalQueries................................false
+2023-12-28 10:38:19,302 DEBUG [http-nio-10001-exec-6][HikariConfig.java:1135] - isolateInternalQueries................................false
+2023-12-28 10:38:19,302 DEBUG [http-nio-10001-exec-6][HikariConfig.java:1135] - jdbcUrl................................jdbc:mysql://192.168.11.135:3306/media?characterEncoding=UTF-8&useUnicode=true&useSSL=false&tinyInt1isBit=false&allowPublicKeyRetrieval=true&serverTimezone=Asia/Shanghai
+2023-12-28 10:38:19,302 DEBUG [http-nio-10001-exec-6][HikariConfig.java:1135] - jdbcUrl................................jdbc:mysql://192.168.11.135:3306/media?characterEncoding=UTF-8&useUnicode=true&useSSL=false&tinyInt1isBit=false&allowPublicKeyRetrieval=true&serverTimezone=Asia/Shanghai
+2023-12-28 10:38:19,302 DEBUG [http-nio-10001-exec-6][HikariConfig.java:1135] - keepaliveTime................................0
+2023-12-28 10:38:19,302 DEBUG [http-nio-10001-exec-6][HikariConfig.java:1135] - keepaliveTime................................0
+2023-12-28 10:38:19,303 DEBUG [http-nio-10001-exec-6][HikariConfig.java:1135] - leakDetectionThreshold................................0
+2023-12-28 10:38:19,303 DEBUG [http-nio-10001-exec-6][HikariConfig.java:1135] - leakDetectionThreshold................................0
+2023-12-28 10:38:19,303 DEBUG [http-nio-10001-exec-6][HikariConfig.java:1135] - maxLifetime................................1800000
+2023-12-28 10:38:19,303 DEBUG [http-nio-10001-exec-6][HikariConfig.java:1135] - maxLifetime................................1800000
+2023-12-28 10:38:19,303 DEBUG [http-nio-10001-exec-6][HikariConfig.java:1135] - maximumPoolSize................................10
+2023-12-28 10:38:19,303 DEBUG [http-nio-10001-exec-6][HikariConfig.java:1135] - maximumPoolSize................................10
+2023-12-28 10:38:19,303 DEBUG [http-nio-10001-exec-6][HikariConfig.java:1135] - metricRegistry................................none
+2023-12-28 10:38:19,303 DEBUG [http-nio-10001-exec-6][HikariConfig.java:1135] - metricRegistry................................none
+2023-12-28 10:38:19,303 DEBUG [http-nio-10001-exec-6][HikariConfig.java:1135] - metricsTrackerFactory................................none
+2023-12-28 10:38:19,303 DEBUG [http-nio-10001-exec-6][HikariConfig.java:1135] - metricsTrackerFactory................................none
+2023-12-28 10:38:19,303 DEBUG [http-nio-10001-exec-6][HikariConfig.java:1135] - minimumIdle................................10
+2023-12-28 10:38:19,303 DEBUG [http-nio-10001-exec-6][HikariConfig.java:1135] - minimumIdle................................10
+2023-12-28 10:38:19,303 DEBUG [http-nio-10001-exec-6][HikariConfig.java:1135] - password................................<masked>
+2023-12-28 10:38:19,303 DEBUG [http-nio-10001-exec-6][HikariConfig.java:1135] - password................................<masked>
+2023-12-28 10:38:19,303 DEBUG [http-nio-10001-exec-6][HikariConfig.java:1135] - poolName................................"HikariPool-1"
+2023-12-28 10:38:19,303 DEBUG [http-nio-10001-exec-6][HikariConfig.java:1135] - poolName................................"HikariPool-1"
+2023-12-28 10:38:19,304 DEBUG [http-nio-10001-exec-6][HikariConfig.java:1135] - readOnly................................false
+2023-12-28 10:38:19,304 DEBUG [http-nio-10001-exec-6][HikariConfig.java:1135] - readOnly................................false
+2023-12-28 10:38:19,304 DEBUG [http-nio-10001-exec-6][HikariConfig.java:1135] - registerMbeans................................false
+2023-12-28 10:38:19,304 DEBUG [http-nio-10001-exec-6][HikariConfig.java:1135] - registerMbeans................................false
+2023-12-28 10:38:19,304 DEBUG [http-nio-10001-exec-6][HikariConfig.java:1135] - scheduledExecutor................................none
+2023-12-28 10:38:19,304 DEBUG [http-nio-10001-exec-6][HikariConfig.java:1135] - scheduledExecutor................................none
+2023-12-28 10:38:19,304 DEBUG [http-nio-10001-exec-6][HikariConfig.java:1135] - schema................................none
+2023-12-28 10:38:19,304 DEBUG [http-nio-10001-exec-6][HikariConfig.java:1135] - schema................................none
+2023-12-28 10:38:19,304 DEBUG [http-nio-10001-exec-6][HikariConfig.java:1135] - threadFactory................................internal
+2023-12-28 10:38:19,304 DEBUG [http-nio-10001-exec-6][HikariConfig.java:1135] - threadFactory................................internal
+2023-12-28 10:38:19,305 DEBUG [http-nio-10001-exec-6][HikariConfig.java:1135] - transactionIsolation................................default
+2023-12-28 10:38:19,305 DEBUG [http-nio-10001-exec-6][HikariConfig.java:1135] - transactionIsolation................................default
+2023-12-28 10:38:19,305 DEBUG [http-nio-10001-exec-6][HikariConfig.java:1135] - username................................"root"
+2023-12-28 10:38:19,305 DEBUG [http-nio-10001-exec-6][HikariConfig.java:1135] - username................................"root"
+2023-12-28 10:38:19,305 DEBUG [http-nio-10001-exec-6][HikariConfig.java:1135] - validationTimeout................................5000
+2023-12-28 10:38:19,305 DEBUG [http-nio-10001-exec-6][HikariConfig.java:1135] - validationTimeout................................5000
+2023-12-28 10:38:19,305 INFO [http-nio-10001-exec-6][HikariDataSource.java:110] - HikariPool-1 - Starting...
+2023-12-28 10:38:19,305 INFO [http-nio-10001-exec-6][HikariDataSource.java:110] - HikariPool-1 - Starting...
+2023-12-28 10:38:19,430 DEBUG [http-nio-10001-exec-6][HikariPool.java:565] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4ad04f16
+2023-12-28 10:38:19,430 DEBUG [http-nio-10001-exec-6][HikariPool.java:565] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4ad04f16
+2023-12-28 10:38:19,433 INFO [http-nio-10001-exec-6][HikariDataSource.java:123] - HikariPool-1 - Start completed.
+2023-12-28 10:38:19,433 INFO [http-nio-10001-exec-6][HikariDataSource.java:123] - HikariPool-1 - Start completed.
+2023-12-28 10:38:19,541 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=1, active=0, idle=1, waiting=0)
+2023-12-28 10:38:19,541 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=1, active=0, idle=1, waiting=0)
+2023-12-28 10:38:19,548 DEBUG [HikariPool-1 connection adder][HikariPool.java:729] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@15279df8
+2023-12-28 10:38:19,548 DEBUG [HikariPool-1 connection adder][HikariPool.java:729] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@15279df8
+2023-12-28 10:38:19,554 DEBUG [HikariPool-1 connection adder][HikariPool.java:729] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@541a97c3
+2023-12-28 10:38:19,554 DEBUG [HikariPool-1 connection adder][HikariPool.java:729] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@541a97c3
+2023-12-28 10:38:19,559 DEBUG [HikariPool-1 connection adder][HikariPool.java:729] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6504a65d
+2023-12-28 10:38:19,559 DEBUG [HikariPool-1 connection adder][HikariPool.java:729] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6504a65d
+2023-12-28 10:38:19,565 DEBUG [HikariPool-1 connection adder][HikariPool.java:729] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3435688c
+2023-12-28 10:38:19,565 DEBUG [HikariPool-1 connection adder][HikariPool.java:729] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3435688c
+2023-12-28 10:38:19,574 DEBUG [HikariPool-1 connection adder][HikariPool.java:729] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1190b05b
+2023-12-28 10:38:19,574 DEBUG [HikariPool-1 connection adder][HikariPool.java:729] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1190b05b
+2023-12-28 10:38:19,580 DEBUG [HikariPool-1 connection adder][HikariPool.java:729] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@307bb018
+2023-12-28 10:38:19,580 DEBUG [HikariPool-1 connection adder][HikariPool.java:729] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@307bb018
+2023-12-28 10:38:19,586 DEBUG [HikariPool-1 connection adder][HikariPool.java:729] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2f8e805b
+2023-12-28 10:38:19,586 DEBUG [HikariPool-1 connection adder][HikariPool.java:729] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2f8e805b
+2023-12-28 10:38:19,590 DEBUG [HikariPool-1 connection adder][HikariPool.java:729] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@82983ca
+2023-12-28 10:38:19,590 DEBUG [HikariPool-1 connection adder][HikariPool.java:729] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@82983ca
+2023-12-28 10:38:19,594 DEBUG [HikariPool-1 connection adder][HikariPool.java:729] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@51ff47fa
+2023-12-28 10:38:19,594 DEBUG [HikariPool-1 connection adder][HikariPool.java:729] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@51ff47fa
+2023-12-28 10:38:19,595 DEBUG [HikariPool-1 connection adder][HikariPool.java:421] - HikariPool-1 - After adding stats (total=10, active=0, idle=10, waiting=0)
+2023-12-28 10:38:19,595 DEBUG [HikariPool-1 connection adder][HikariPool.java:421] - HikariPool-1 - After adding stats (total=10, active=0, idle=10, waiting=0)
+2023-12-28 10:38:49,548 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-12-28 10:38:49,548 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-12-28 10:38:49,549 DEBUG [HikariPool-1 housekeeper][HikariPool.java:518] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2023-12-28 10:38:49,549 DEBUG [HikariPool-1 housekeeper][HikariPool.java:518] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2023-12-28 10:39:19,562 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-12-28 10:39:19,562 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-12-28 10:39:19,563 DEBUG [HikariPool-1 housekeeper][HikariPool.java:518] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2023-12-28 10:39:19,563 DEBUG [HikariPool-1 housekeeper][HikariPool.java:518] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2023-12-28 10:39:49,573 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-12-28 10:39:49,573 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-12-28 10:39:49,574 DEBUG [HikariPool-1 housekeeper][HikariPool.java:518] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2023-12-28 10:39:49,574 DEBUG [HikariPool-1 housekeeper][HikariPool.java:518] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2023-12-28 10:40:19,583 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-12-28 10:40:19,583 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-12-28 10:40:19,584 DEBUG [HikariPool-1 housekeeper][HikariPool.java:518] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2023-12-28 10:40:19,584 DEBUG [HikariPool-1 housekeeper][HikariPool.java:518] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2023-12-28 10:40:49,594 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-12-28 10:40:49,594 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-12-28 10:40:49,595 DEBUG [HikariPool-1 housekeeper][HikariPool.java:518] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2023-12-28 10:40:49,595 DEBUG [HikariPool-1 housekeeper][HikariPool.java:518] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2023-12-28 10:41:19,598 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-12-28 10:41:19,598 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-12-28 10:41:19,599 DEBUG [HikariPool-1 housekeeper][HikariPool.java:518] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2023-12-28 10:41:19,599 DEBUG [HikariPool-1 housekeeper][HikariPool.java:518] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2023-12-28 10:41:49,611 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-12-28 10:41:49,611 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-12-28 10:41:49,612 DEBUG [HikariPool-1 housekeeper][HikariPool.java:518] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2023-12-28 10:41:49,612 DEBUG [HikariPool-1 housekeeper][HikariPool.java:518] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2023-12-28 10:42:19,625 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-12-28 10:42:19,625 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-12-28 10:42:19,625 DEBUG [HikariPool-1 housekeeper][HikariPool.java:518] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2023-12-28 10:42:19,625 DEBUG [HikariPool-1 housekeeper][HikariPool.java:518] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2023-12-28 10:42:49,630 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-12-28 10:42:49,630 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-12-28 10:42:49,630 DEBUG [HikariPool-1 housekeeper][HikariPool.java:518] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2023-12-28 10:42:49,630 DEBUG [HikariPool-1 housekeeper][HikariPool.java:518] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2023-12-28 10:43:19,636 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-12-28 10:43:19,636 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-12-28 10:43:19,636 DEBUG [HikariPool-1 housekeeper][HikariPool.java:518] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2023-12-28 10:43:19,636 DEBUG [HikariPool-1 housekeeper][HikariPool.java:518] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2023-12-28 10:43:49,637 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-12-28 10:43:49,637 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-12-28 10:43:49,637 DEBUG [HikariPool-1 housekeeper][HikariPool.java:518] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2023-12-28 10:43:49,637 DEBUG [HikariPool-1 housekeeper][HikariPool.java:518] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2023-12-28 10:44:19,651 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-12-28 10:44:19,651 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-12-28 10:44:19,651 DEBUG [HikariPool-1 housekeeper][HikariPool.java:518] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2023-12-28 10:44:19,651 DEBUG [HikariPool-1 housekeeper][HikariPool.java:518] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2023-12-28 10:44:49,663 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-12-28 10:44:49,663 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-12-28 10:44:49,664 DEBUG [HikariPool-1 housekeeper][HikariPool.java:518] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2023-12-28 10:44:49,664 DEBUG [HikariPool-1 housekeeper][HikariPool.java:518] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2023-12-28 10:45:19,668 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-12-28 10:45:19,668 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-12-28 10:45:19,669 DEBUG [HikariPool-1 housekeeper][HikariPool.java:518] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2023-12-28 10:45:19,669 DEBUG [HikariPool-1 housekeeper][HikariPool.java:518] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2023-12-28 10:45:39,463 WARN [Thread-4][HttpClientBeanHolder.java:108] - [HttpClientBeanHolder] Start destroying common HttpClient
+2023-12-28 10:45:39,463 WARN [Thread-10][NotifyCenter.java:145] - [NotifyCenter] Start destroying Publisher
+2023-12-28 10:45:39,463 WARN [Thread-10][NotifyCenter.java:145] - [NotifyCenter] Start destroying Publisher
+2023-12-28 10:45:39,463 WARN [Thread-4][HttpClientBeanHolder.java:108] - [HttpClientBeanHolder] Start destroying common HttpClient
+2023-12-28 10:45:39,463 WARN [Thread-10][NotifyCenter.java:162] - [NotifyCenter] Destruction of the end
+2023-12-28 10:45:39,463 WARN [Thread-10][NotifyCenter.java:162] - [NotifyCenter] Destruction of the end
+2023-12-28 10:45:39,464 WARN [Thread-4][HttpClientBeanHolder.java:114] - [HttpClientBeanHolder] Destruction of the end
+2023-12-28 10:45:39,464 WARN [Thread-4][HttpClientBeanHolder.java:114] - [HttpClientBeanHolder] Destruction of the end
+2023-12-28 10:45:39,588 INFO [SpringApplicationShutdownHook][NacosServiceRegistry.java:94] - De-registering from Nacos Server now...
+2023-12-28 10:45:39,588 INFO [SpringApplicationShutdownHook][NacosServiceRegistry.java:94] - De-registering from Nacos Server now...
+2023-12-28 10:45:39,591 INFO [SpringApplicationShutdownHook][NacosServiceRegistry.java:114] - De-registration finished.
+2023-12-28 10:45:39,591 INFO [SpringApplicationShutdownHook][NacosServiceRegistry.java:114] - De-registration finished.
+2023-12-28 10:45:40,110 DEBUG [nacos.publisher-com.alibaba.nacos.client.naming.event.InstancesChangeEvent][DefaultPublisher.java:193] - [NotifyCenter] the com.alibaba.nacos.client.naming.event.InstancesChangeEvent@15fe2b4 will received by com.alibaba.nacos.client.naming.event.InstancesChangeNotifier@17d45cfb
+2023-12-28 10:45:40,110 DEBUG [nacos.publisher-com.alibaba.nacos.client.naming.event.InstancesChangeEvent][DefaultPublisher.java:193] - [NotifyCenter] the com.alibaba.nacos.client.naming.event.InstancesChangeEvent@15fe2b4 will received by com.alibaba.nacos.client.naming.event.InstancesChangeNotifier@17d45cfb
+2023-12-28 10:45:48,494 DEBUG [SpringApplicationShutdownHook][AbstractRedisClient.java:539] - Initiate shutdown (100, 100, MILLISECONDS)
+2023-12-28 10:45:48,494 DEBUG [SpringApplicationShutdownHook][AbstractRedisClient.java:539] - Initiate shutdown (100, 100, MILLISECONDS)
+2023-12-28 10:45:48,498 DEBUG [SpringApplicationShutdownHook][DefaultClientResources.java:735] - Initiate shutdown (0, 2, SECONDS)
+2023-12-28 10:45:48,498 DEBUG [SpringApplicationShutdownHook][DefaultClientResources.java:735] - Initiate shutdown (0, 2, SECONDS)
+2023-12-28 10:45:48,500 DEBUG [SpringApplicationShutdownHook][DefaultEventLoopGroupProvider.java:317] - Initiate shutdown (0, 2, SECONDS)
+2023-12-28 10:45:48,500 DEBUG [SpringApplicationShutdownHook][DefaultEventLoopGroupProvider.java:317] - Initiate shutdown (0, 2, SECONDS)
+2023-12-28 10:45:48,505 INFO [SpringApplicationShutdownHook][HikariDataSource.java:350] - HikariPool-1 - Shutdown initiated...
+2023-12-28 10:45:48,505 INFO [SpringApplicationShutdownHook][HikariDataSource.java:350] - HikariPool-1 - Shutdown initiated...
+2023-12-28 10:45:48,505 DEBUG [SpringApplicationShutdownHook][HikariPool.java:421] - HikariPool-1 - Before shutdown stats (total=10, active=0, idle=10, waiting=0)
+2023-12-28 10:45:48,505 DEBUG [SpringApplicationShutdownHook][HikariPool.java:421] - HikariPool-1 - Before shutdown stats (total=10, active=0, idle=10, waiting=0)
+2023-12-28 10:45:48,506 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@4ad04f16: (connection evicted)
+2023-12-28 10:45:48,506 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@4ad04f16: (connection evicted)
+2023-12-28 10:45:48,509 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@15279df8: (connection evicted)
+2023-12-28 10:45:48,509 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@15279df8: (connection evicted)
+2023-12-28 10:45:48,509 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@541a97c3: (connection evicted)
+2023-12-28 10:45:48,509 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@541a97c3: (connection evicted)
+2023-12-28 10:45:48,509 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@6504a65d: (connection evicted)
+2023-12-28 10:45:48,509 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@6504a65d: (connection evicted)
+2023-12-28 10:45:48,510 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@3435688c: (connection evicted)
+2023-12-28 10:45:48,510 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@3435688c: (connection evicted)
+2023-12-28 10:45:48,510 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@1190b05b: (connection evicted)
+2023-12-28 10:45:48,510 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@1190b05b: (connection evicted)
+2023-12-28 10:45:48,511 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@307bb018: (connection evicted)
+2023-12-28 10:45:48,511 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@307bb018: (connection evicted)
+2023-12-28 10:45:48,511 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@2f8e805b: (connection evicted)
+2023-12-28 10:45:48,511 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@2f8e805b: (connection evicted)
+2023-12-28 10:45:48,512 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@82983ca: (connection evicted)
+2023-12-28 10:45:48,512 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@82983ca: (connection evicted)
+2023-12-28 10:45:48,512 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@51ff47fa: (connection evicted)
+2023-12-28 10:45:48,512 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@51ff47fa: (connection evicted)
+2023-12-28 10:45:48,512 DEBUG [SpringApplicationShutdownHook][HikariPool.java:421] - HikariPool-1 - After shutdown stats (total=0, active=0, idle=0, waiting=0)
+2023-12-28 10:45:48,512 DEBUG [SpringApplicationShutdownHook][HikariPool.java:421] - HikariPool-1 - After shutdown stats (total=0, active=0, idle=0, waiting=0)
+2023-12-28 10:45:48,513 INFO [SpringApplicationShutdownHook][HikariDataSource.java:352] - HikariPool-1 - Shutdown completed.
+2023-12-28 10:45:48,513 INFO [SpringApplicationShutdownHook][HikariDataSource.java:352] - HikariPool-1 - Shutdown completed.
+2023-12-28 10:45:54,486 INFO [main][SpringApplication.java:646] - The following 1 profile is active: "dev"
+2023-12-28 10:45:54,486 INFO [main][SpringApplication.java:646] - The following 1 profile is active: "dev"
+2023-12-28 10:45:54,806 DEBUG [main][MybatisPlusAutoConfiguration.java:309] - Searching for mappers annotated with @Mapper
+2023-12-28 10:45:54,806 DEBUG [main][MybatisPlusAutoConfiguration.java:309] - Searching for mappers annotated with @Mapper
+2023-12-28 10:45:54,807 DEBUG [main][MybatisPlusAutoConfiguration.java:313] - Using auto-configuration base package 'com.mynote.thirdparty'
+2023-12-28 10:45:54,807 DEBUG [main][MybatisPlusAutoConfiguration.java:313] - Using auto-configuration base package 'com.mynote.thirdparty'
+2023-12-28 10:45:54,842 INFO [main][RepositoryConfigurationDelegate.java:262] - Multiple Spring Data modules found, entering strict repository configuration mode!
+2023-12-28 10:45:54,842 INFO [main][RepositoryConfigurationDelegate.java:262] - Multiple Spring Data modules found, entering strict repository configuration mode!
+2023-12-28 10:45:54,844 INFO [main][RepositoryConfigurationDelegate.java:132] - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-12-28 10:45:54,844 INFO [main][RepositoryConfigurationDelegate.java:132] - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-12-28 10:45:54,853 INFO [main][RepositoryConfigurationDelegate.java:201] - Finished Spring Data repository scanning in 3 ms. Found 0 Redis repository interfaces.
+2023-12-28 10:45:54,853 INFO [main][RepositoryConfigurationDelegate.java:201] - Finished Spring Data repository scanning in 3 ms. Found 0 Redis repository interfaces.
+2023-12-28 10:45:54,901 DEBUG [main][LogFactory.java:109] - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2023-12-28 10:45:54,901 DEBUG [main][LogFactory.java:109] - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2023-12-28 10:45:54,939 INFO [main][GenericScope.java:283] - BeanFactory id=d7f851fe-60dd-3993-a15d-fb63c7cba905
+2023-12-28 10:45:54,939 INFO [main][GenericScope.java:283] - BeanFactory id=d7f851fe-60dd-3993-a15d-fb63c7cba905
+2023-12-28 10:45:55,089 INFO [main][TomcatWebServer.java:108] - Tomcat initialized with port(s): 10001 (http)
+2023-12-28 10:45:55,089 INFO [main][TomcatWebServer.java:108] - Tomcat initialized with port(s): 10001 (http)
+2023-12-28 10:45:55,089 INFO [main][DirectJDKLog.java:173] - Loaded Apache Tomcat Native library [1.2.38] using APR version [1.7.4].
+2023-12-28 10:45:55,089 INFO [main][DirectJDKLog.java:173] - Loaded Apache Tomcat Native library [1.2.38] using APR version [1.7.4].
+2023-12-28 10:45:55,090 INFO [main][DirectJDKLog.java:173] - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+2023-12-28 10:45:55,090 INFO [main][DirectJDKLog.java:173] - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+2023-12-28 10:45:55,090 INFO [main][DirectJDKLog.java:173] - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2023-12-28 10:45:55,090 INFO [main][DirectJDKLog.java:173] - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2023-12-28 10:45:55,091 INFO [main][DirectJDKLog.java:173] - OpenSSL successfully initialized [OpenSSL 1.1.1v  1 Aug 2023]
+2023-12-28 10:45:55,091 INFO [main][DirectJDKLog.java:173] - OpenSSL successfully initialized [OpenSSL 1.1.1v  1 Aug 2023]
+2023-12-28 10:45:55,095 INFO [main][DirectJDKLog.java:173] - Initializing ProtocolHandler ["http-nio-10001"]
+2023-12-28 10:45:55,095 INFO [main][DirectJDKLog.java:173] - Initializing ProtocolHandler ["http-nio-10001"]
+2023-12-28 10:45:55,096 INFO [main][DirectJDKLog.java:173] - Starting service [Tomcat]
+2023-12-28 10:45:55,096 INFO [main][DirectJDKLog.java:173] - Starting service [Tomcat]
+2023-12-28 10:45:55,096 INFO [main][DirectJDKLog.java:173] - Starting Servlet engine: [Apache Tomcat/9.0.60]
+2023-12-28 10:45:55,096 INFO [main][DirectJDKLog.java:173] - Starting Servlet engine: [Apache Tomcat/9.0.60]
+2023-12-28 10:45:55,164 INFO [main][DirectJDKLog.java:173] - Initializing Spring embedded WebApplicationContext
+2023-12-28 10:45:55,164 INFO [main][DirectJDKLog.java:173] - Initializing Spring embedded WebApplicationContext
+2023-12-28 10:45:55,164 INFO [main][ServletWebServerApplicationContext.java:290] - Root WebApplicationContext: initialization completed in 668 ms
+2023-12-28 10:45:55,164 INFO [main][ServletWebServerApplicationContext.java:290] - Root WebApplicationContext: initialization completed in 668 ms
+2023-12-28 10:45:55,253 DEBUG [main][HikariConfig.java:971] - Driver class com.mysql.cj.jdbc.Driver found in Thread context class loader jdk.internal.loader.ClassLoaders$AppClassLoader@61064425
+2023-12-28 10:45:55,253 DEBUG [main][HikariConfig.java:971] - Driver class com.mysql.cj.jdbc.Driver found in Thread context class loader jdk.internal.loader.ClassLoaders$AppClassLoader@61064425
+2023-12-28 10:45:55,689 DEBUG [main][InternalLoggerFactory.java:63] - Using SLF4J as the default logging framework
+2023-12-28 10:45:55,689 DEBUG [main][InternalLoggerFactory.java:63] - Using SLF4J as the default logging framework
+2023-12-28 10:45:55,690 DEBUG [main][AddressResolverGroupProvider.java:37] - Starting without optional netty's non-blocking DNS resolver library
+2023-12-28 10:45:55,690 DEBUG [main][AddressResolverGroupProvider.java:37] - Starting without optional netty's non-blocking DNS resolver library
+2023-12-28 10:45:55,691 DEBUG [main][DefaultClientResources.java:122] - -Dio.netty.eventLoopThreads: 16
+2023-12-28 10:45:55,691 DEBUG [main][DefaultClientResources.java:122] - -Dio.netty.eventLoopThreads: 16
+2023-12-28 10:45:55,695 DEBUG [main][DefaultEventLoopGroupProvider.java:231] - Creating executor io.netty.util.concurrent.DefaultEventExecutorGroup
+2023-12-28 10:45:55,695 DEBUG [main][DefaultEventLoopGroupProvider.java:231] - Creating executor io.netty.util.concurrent.DefaultEventExecutorGroup
+2023-12-28 10:45:55,702 DEBUG [main][InternalThreadLocalMap.java:86] - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2023-12-28 10:45:55,702 DEBUG [main][InternalThreadLocalMap.java:86] - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2023-12-28 10:45:55,702 DEBUG [main][InternalThreadLocalMap.java:89] - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2023-12-28 10:45:55,702 DEBUG [main][InternalThreadLocalMap.java:89] - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2023-12-28 10:45:55,735 DEBUG [main][ResourceLeakDetector.java:129] - -Dio.netty.leakDetection.level: simple
+2023-12-28 10:45:55,735 DEBUG [main][ResourceLeakDetector.java:130] - -Dio.netty.leakDetection.targetRecords: 4
+2023-12-28 10:45:55,735 DEBUG [main][ResourceLeakDetector.java:129] - -Dio.netty.leakDetection.level: simple
+2023-12-28 10:45:55,735 DEBUG [main][ResourceLeakDetector.java:130] - -Dio.netty.leakDetection.targetRecords: 4
+2023-12-28 10:45:55,736 DEBUG [main][ResourceLeakDetectorFactory.java:196] - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@60c4cf2b
+2023-12-28 10:45:55,736 DEBUG [main][ResourceLeakDetectorFactory.java:196] - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@60c4cf2b
+2023-12-28 10:45:55,738 DEBUG [main][PlatformDependent0.java:460] - -Dio.netty.noUnsafe: false
+2023-12-28 10:45:55,738 DEBUG [main][PlatformDependent0.java:460] - -Dio.netty.noUnsafe: false
+2023-12-28 10:45:55,738 DEBUG [main][PlatformDependent0.java:954] - Java version: 11
+2023-12-28 10:45:55,738 DEBUG [main][PlatformDependent0.java:954] - Java version: 11
+2023-12-28 10:45:55,739 DEBUG [main][PlatformDependent0.java:135] - sun.misc.Unsafe.theUnsafe: available
+2023-12-28 10:45:55,739 DEBUG [main][PlatformDependent0.java:135] - sun.misc.Unsafe.theUnsafe: available
+2023-12-28 10:45:55,739 DEBUG [main][PlatformDependent0.java:159] - sun.misc.Unsafe.copyMemory: available
+2023-12-28 10:45:55,739 DEBUG [main][PlatformDependent0.java:159] - sun.misc.Unsafe.copyMemory: available
+2023-12-28 10:45:55,740 DEBUG [main][PlatformDependent0.java:202] - java.nio.Buffer.address: available
+2023-12-28 10:45:55,740 DEBUG [main][PlatformDependent0.java:202] - java.nio.Buffer.address: available
+2023-12-28 10:45:55,740 DEBUG [main][PlatformDependent0.java:285] - direct buffer constructor: unavailable: Reflective setAccessible(true) disabled
+2023-12-28 10:45:55,740 DEBUG [main][PlatformDependent0.java:285] - direct buffer constructor: unavailable: Reflective setAccessible(true) disabled
+2023-12-28 10:45:55,740 DEBUG [main][PlatformDependent0.java:350] - java.nio.Bits.unaligned: available, true
+2023-12-28 10:45:55,740 DEBUG [main][PlatformDependent0.java:350] - java.nio.Bits.unaligned: available, true
+2023-12-28 10:45:55,741 DEBUG [main][PlatformDependent0.java:417] - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable: class io.netty.util.internal.PlatformDependent0$6 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @60b1ff3b
+2023-12-28 10:45:55,741 DEBUG [main][PlatformDependent0.java:417] - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable: class io.netty.util.internal.PlatformDependent0$6 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @60b1ff3b
+2023-12-28 10:45:55,741 DEBUG [main][PlatformDependent0.java:446] - java.nio.DirectByteBuffer.<init>(long, int): unavailable
+2023-12-28 10:45:55,741 DEBUG [main][PlatformDependent0.java:446] - java.nio.DirectByteBuffer.<init>(long, int): unavailable
+2023-12-28 10:45:55,742 DEBUG [main][PlatformDependent.java:1116] - sun.misc.Unsafe: available
+2023-12-28 10:45:55,742 DEBUG [main][PlatformDependent.java:1116] - sun.misc.Unsafe: available
+2023-12-28 10:45:55,742 DEBUG [main][PlatformDependent.java:1227] - maxDirectMemory: 8522825728 bytes (maybe)
+2023-12-28 10:45:55,742 DEBUG [main][PlatformDependent.java:1227] - maxDirectMemory: 8522825728 bytes (maybe)
+2023-12-28 10:45:55,743 DEBUG [main][PlatformDependent.java:1246] - -Dio.netty.tmpdir: C:\Users\ADMINI~1\AppData\Local\Temp (java.io.tmpdir)
+2023-12-28 10:45:55,743 DEBUG [main][PlatformDependent.java:1246] - -Dio.netty.tmpdir: C:\Users\ADMINI~1\AppData\Local\Temp (java.io.tmpdir)
+2023-12-28 10:45:55,743 DEBUG [main][PlatformDependent.java:1325] - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2023-12-28 10:45:55,743 DEBUG [main][PlatformDependent.java:1325] - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2023-12-28 10:45:55,743 DEBUG [main][PlatformDependent.java:1076] - Platform: Windows
+2023-12-28 10:45:55,743 DEBUG [main][PlatformDependent.java:1076] - Platform: Windows
+2023-12-28 10:45:55,744 DEBUG [main][PlatformDependent.java:178] - -Dio.netty.maxDirectMemory: -1 bytes
+2023-12-28 10:45:55,744 DEBUG [main][PlatformDependent.java:178] - -Dio.netty.maxDirectMemory: -1 bytes
+2023-12-28 10:45:55,744 DEBUG [main][PlatformDependent.java:185] - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2023-12-28 10:45:55,744 DEBUG [main][PlatformDependent.java:185] - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2023-12-28 10:45:55,744 DEBUG [main][CleanerJava9.java:71] - java.nio.ByteBuffer.cleaner(): available
+2023-12-28 10:45:55,744 DEBUG [main][CleanerJava9.java:71] - java.nio.ByteBuffer.cleaner(): available
+2023-12-28 10:45:55,745 DEBUG [main][PlatformDependent.java:205] - -Dio.netty.noPreferDirect: false
+2023-12-28 10:45:55,745 DEBUG [main][PlatformDependent.java:205] - -Dio.netty.noPreferDirect: false
+2023-12-28 10:45:55,745 DEBUG [main][PlatformDependent.java:967] - org.jctools-core.MpscChunkedArrayQueue: available
+2023-12-28 10:45:55,745 DEBUG [main][PlatformDependent.java:967] - org.jctools-core.MpscChunkedArrayQueue: available
+2023-12-28 10:45:55,750 DEBUG [main][Loggers.java:245] - Using Slf4j logging framework
+2023-12-28 10:45:55,750 DEBUG [main][Loggers.java:245] - Using Slf4j logging framework
+2023-12-28 10:45:55,750 DEBUG [main][EventRecorderHolder.java:47] - Starting with JFR support
+2023-12-28 10:45:55,750 DEBUG [main][EventRecorderHolder.java:47] - Starting with JFR support
+2023-12-28 10:45:55,758 DEBUG [main][DefaultClientResources.java:227] - LatencyUtils/HdrUtils are not available, metrics are disabled
+2023-12-28 10:45:55,758 DEBUG [main][DefaultClientResources.java:227] - LatencyUtils/HdrUtils are not available, metrics are disabled
+2023-12-28 10:45:55,930 DEBUG [main][AbstractHandlerMethodMapping.java:295] - 
+	c.m.t.m.c.MediaFilesController:
+	{POST [/third/party/minio/upload]}: upload(MultipartFile,String)
+2023-12-28 10:45:55,930 DEBUG [main][AbstractHandlerMethodMapping.java:295] - 
+	c.m.t.m.c.MediaFilesController:
+	{POST [/third/party/minio/upload]}: upload(MultipartFile,String)
+2023-12-28 10:45:55,933 DEBUG [main][AbstractHandlerMethodMapping.java:295] - 
+	s.d.s.w.Swagger2ControllerWebMvc:
+	{GET [/v2/api-docs], produces [application/json || application/hal+json]}: getDocumentation(String,HttpServletRequest)
+2023-12-28 10:45:55,933 DEBUG [main][AbstractHandlerMethodMapping.java:295] - 
+	s.d.s.w.Swagger2ControllerWebMvc:
+	{GET [/v2/api-docs], produces [application/json || application/hal+json]}: getDocumentation(String,HttpServletRequest)
+2023-12-28 10:45:55,933 DEBUG [main][AbstractHandlerMethodMapping.java:295] - 
+	s.d.s.w.ApiResourceController:
+	{GET [/swagger-resources], produces [application/json]}: swaggerResources()
+	{GET [/swagger-resources/configuration/ui], produces [application/json]}: uiConfiguration()
+	{GET [/swagger-resources/configuration/security], produces [application/json]}: securityConfiguration()
+2023-12-28 10:45:55,933 DEBUG [main][AbstractHandlerMethodMapping.java:295] - 
+	s.d.s.w.ApiResourceController:
+	{GET [/swagger-resources], produces [application/json]}: swaggerResources()
+	{GET [/swagger-resources/configuration/ui], produces [application/json]}: uiConfiguration()
+	{GET [/swagger-resources/configuration/security], produces [application/json]}: securityConfiguration()
+2023-12-28 10:45:55,934 DEBUG [main][AbstractHandlerMethodMapping.java:295] - 
+	s.d.o.w.OpenApiControllerWebMvc:
+	{GET [/v3/api-docs], produces [application/json || application/hal+json]}: getDocumentation(String,HttpServletRequest)
+2023-12-28 10:45:55,934 DEBUG [main][AbstractHandlerMethodMapping.java:295] - 
+	s.d.o.w.OpenApiControllerWebMvc:
+	{GET [/v3/api-docs], produces [application/json || application/hal+json]}: getDocumentation(String,HttpServletRequest)
+2023-12-28 10:45:55,936 DEBUG [main][AbstractHandlerMethodMapping.java:295] - 
+	o.s.b.a.w.s.e.BasicErrorController:
+	{ [/error]}: error(HttpServletRequest)
+	{ [/error], produces [text/html]}: errorHtml(HttpServletRequest,HttpServletResponse)
+2023-12-28 10:45:55,936 DEBUG [main][AbstractHandlerMethodMapping.java:295] - 
+	o.s.b.a.w.s.e.BasicErrorController:
+	{ [/error]}: error(HttpServletRequest)
+	{ [/error], produces [text/html]}: errorHtml(HttpServletRequest,HttpServletResponse)
+2023-12-28 10:45:55,965 DEBUG [main][OpenApiExtensionResolver.java:57] - Resolver method start...
+2023-12-28 10:45:55,965 DEBUG [main][OpenApiExtensionResolver.java:57] - Resolver method start...
+2023-12-28 10:45:56,059 DEBUG [main][SimpleUrlHandlerMapping.java:177] - 'viewControllerHandlerMapping' {/swagger-ui/=ParameterizableViewController [view="forward:/swagger-ui/index.html"]}
+2023-12-28 10:45:56,059 DEBUG [main][SimpleUrlHandlerMapping.java:177] - 'viewControllerHandlerMapping' {/swagger-ui/=ParameterizableViewController [view="forward:/swagger-ui/index.html"]}
+2023-12-28 10:45:56,061 DEBUG [main][AbstractDetectingUrlHandlerMapping.java:86] - 'beanNameHandlerMapping' {}
+2023-12-28 10:45:56,061 DEBUG [main][AbstractDetectingUrlHandlerMapping.java:86] - 'beanNameHandlerMapping' {}
+2023-12-28 10:45:56,067 DEBUG [main][SimpleUrlHandlerMapping.java:177] - 'resourceHandlerMapping' {/webjars/**=ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]], /**=ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]], /swagger-ui/**=ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/springfox-swagger-ui/]]}
+2023-12-28 10:45:56,067 DEBUG [main][SimpleUrlHandlerMapping.java:177] - 'resourceHandlerMapping' {/webjars/**=ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]], /**=ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]], /swagger-ui/**=ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/springfox-swagger-ui/]]}
+2023-12-28 10:45:57,193 INFO [main][InetUtils.java:170] - Cannot determine local hostname
+2023-12-28 10:45:57,193 INFO [main][InetUtils.java:170] - Cannot determine local hostname
+2023-12-28 10:45:57,207 DEBUG [main][MybatisPlusAutoConfiguration.java:381] - Not found configuration for registering mapper bean using @MapperScan, MapperFactoryBean and MapperScannerConfigurer.
+2023-12-28 10:45:57,207 DEBUG [main][MybatisPlusAutoConfiguration.java:381] - Not found configuration for registering mapper bean using @MapperScan, MapperFactoryBean and MapperScannerConfigurer.
+2023-12-28 10:45:58,380 INFO [main][InetUtils.java:170] - Cannot determine local hostname
+2023-12-28 10:45:58,380 INFO [main][InetUtils.java:170] - Cannot determine local hostname
+2023-12-28 10:45:58,515 INFO [main][DirectJDKLog.java:173] - Starting ProtocolHandler ["http-nio-10001"]
+2023-12-28 10:45:58,515 INFO [main][DirectJDKLog.java:173] - Starting ProtocolHandler ["http-nio-10001"]
+2023-12-28 10:45:58,524 INFO [main][TomcatWebServer.java:220] - Tomcat started on port(s): 10001 (http) with context path ''
+2023-12-28 10:45:58,524 INFO [main][TomcatWebServer.java:220] - Tomcat started on port(s): 10001 (http) with context path ''
+2023-12-28 10:45:58,531 INFO [main][NacosServiceRegistry.java:75] - nacos registry, dev mynote-third-party 192.168.75.1:10001 register finished
+2023-12-28 10:45:58,531 INFO [main][NacosServiceRegistry.java:75] - nacos registry, dev mynote-third-party 192.168.75.1:10001 register finished
+2023-12-28 10:45:59,474 DEBUG [nacos.publisher-com.alibaba.nacos.client.naming.event.InstancesChangeEvent][DefaultPublisher.java:193] - [NotifyCenter] the com.alibaba.nacos.client.naming.event.InstancesChangeEvent@277d5773 will received by com.alibaba.nacos.client.naming.event.InstancesChangeNotifier@71b32407
+2023-12-28 10:45:59,474 DEBUG [nacos.publisher-com.alibaba.nacos.client.naming.event.InstancesChangeEvent][DefaultPublisher.java:193] - [NotifyCenter] the com.alibaba.nacos.client.naming.event.InstancesChangeEvent@277d5773 will received by com.alibaba.nacos.client.naming.event.InstancesChangeNotifier@71b32407
+2023-12-28 10:45:59,658 INFO [main][InetUtils.java:170] - Cannot determine local hostname
+2023-12-28 10:45:59,658 INFO [main][InetUtils.java:170] - Cannot determine local hostname
+2023-12-28 10:45:59,710 DEBUG [main][NoopValidator.java:24] - ERROR [ModelSpecification.spec] At least one type of specification is required
+2023-12-28 10:45:59,710 DEBUG [main][NoopValidator.java:24] - ERROR [ModelSpecification.spec] At least one type of specification is required
+2023-12-28 10:45:59,732 INFO [main][StartupInfoLogger.java:61] - Started ThirdPartyApplication in 7.909 seconds (JVM running for 8.395)
+2023-12-28 10:45:59,732 INFO [main][StartupInfoLogger.java:61] - Started ThirdPartyApplication in 7.909 seconds (JVM running for 8.395)
+2023-12-28 10:45:59,735 INFO [main][ThirdPartyApplication.java:38] - 
+----------------------------------------------------------
+	Application MyNote-third-party is running! Access URLs:
+	local: 	http://localhost:10001/doc.html
+	Swagger文档: 	http://192.168.0.118:10001/doc.html
+----------------------------------------------------------
+2023-12-28 10:45:59,735 INFO [main][ThirdPartyApplication.java:38] - 
+----------------------------------------------------------
+	Application MyNote-third-party is running! Access URLs:
+	local: 	http://localhost:10001/doc.html
+	Swagger文档: 	http://192.168.0.118:10001/doc.html
+----------------------------------------------------------
+2023-12-28 10:46:04,659 INFO [http-nio-10001-exec-1][DirectJDKLog.java:173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-12-28 10:46:04,659 INFO [http-nio-10001-exec-1][DirectJDKLog.java:173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-12-28 10:46:04,659 INFO [http-nio-10001-exec-1][FrameworkServlet.java:525] - Initializing Servlet 'dispatcherServlet'
+2023-12-28 10:46:04,659 INFO [http-nio-10001-exec-1][FrameworkServlet.java:525] - Initializing Servlet 'dispatcherServlet'
+2023-12-28 10:46:04,660 INFO [http-nio-10001-exec-1][FrameworkServlet.java:547] - Completed initialization in 1 ms
+2023-12-28 10:46:04,660 INFO [http-nio-10001-exec-1][FrameworkServlet.java:547] - Completed initialization in 1 ms
+2023-12-28 10:46:23,727 DEBUG [http-nio-10001-exec-5][HikariConfig.java:1103] - HikariPool-1 - configuration:
+2023-12-28 10:46:23,727 DEBUG [http-nio-10001-exec-5][HikariConfig.java:1103] - HikariPool-1 - configuration:
+2023-12-28 10:46:23,729 DEBUG [http-nio-10001-exec-5][HikariConfig.java:1135] - allowPoolSuspension................................false
+2023-12-28 10:46:23,729 DEBUG [http-nio-10001-exec-5][HikariConfig.java:1135] - allowPoolSuspension................................false
+2023-12-28 10:46:23,729 DEBUG [http-nio-10001-exec-5][HikariConfig.java:1135] - autoCommit................................true
+2023-12-28 10:46:23,729 DEBUG [http-nio-10001-exec-5][HikariConfig.java:1135] - autoCommit................................true
+2023-12-28 10:46:23,729 DEBUG [http-nio-10001-exec-5][HikariConfig.java:1135] - catalog................................none
+2023-12-28 10:46:23,729 DEBUG [http-nio-10001-exec-5][HikariConfig.java:1135] - catalog................................none
+2023-12-28 10:46:23,730 DEBUG [http-nio-10001-exec-5][HikariConfig.java:1135] - connectionInitSql................................none
+2023-12-28 10:46:23,730 DEBUG [http-nio-10001-exec-5][HikariConfig.java:1135] - connectionInitSql................................none
+2023-12-28 10:46:23,730 DEBUG [http-nio-10001-exec-5][HikariConfig.java:1135] - connectionTestQuery................................none
+2023-12-28 10:46:23,730 DEBUG [http-nio-10001-exec-5][HikariConfig.java:1135] - connectionTestQuery................................none
+2023-12-28 10:46:23,730 DEBUG [http-nio-10001-exec-5][HikariConfig.java:1135] - connectionTimeout................................30000
+2023-12-28 10:46:23,730 DEBUG [http-nio-10001-exec-5][HikariConfig.java:1135] - connectionTimeout................................30000
+2023-12-28 10:46:23,730 DEBUG [http-nio-10001-exec-5][HikariConfig.java:1135] - dataSource................................none
+2023-12-28 10:46:23,730 DEBUG [http-nio-10001-exec-5][HikariConfig.java:1135] - dataSource................................none
+2023-12-28 10:46:23,730 DEBUG [http-nio-10001-exec-5][HikariConfig.java:1135] - dataSourceClassName................................none
+2023-12-28 10:46:23,730 DEBUG [http-nio-10001-exec-5][HikariConfig.java:1135] - dataSourceClassName................................none
+2023-12-28 10:46:23,730 DEBUG [http-nio-10001-exec-5][HikariConfig.java:1135] - dataSourceJNDI................................none
+2023-12-28 10:46:23,730 DEBUG [http-nio-10001-exec-5][HikariConfig.java:1135] - dataSourceJNDI................................none
+2023-12-28 10:46:23,731 DEBUG [http-nio-10001-exec-5][HikariConfig.java:1135] - dataSourceProperties................................{password=<masked>}
+2023-12-28 10:46:23,731 DEBUG [http-nio-10001-exec-5][HikariConfig.java:1135] - dataSourceProperties................................{password=<masked>}
+2023-12-28 10:46:23,731 DEBUG [http-nio-10001-exec-5][HikariConfig.java:1135] - driverClassName................................"com.mysql.cj.jdbc.Driver"
+2023-12-28 10:46:23,731 DEBUG [http-nio-10001-exec-5][HikariConfig.java:1135] - driverClassName................................"com.mysql.cj.jdbc.Driver"
+2023-12-28 10:46:23,731 DEBUG [http-nio-10001-exec-5][HikariConfig.java:1135] - exceptionOverrideClassName................................none
+2023-12-28 10:46:23,731 DEBUG [http-nio-10001-exec-5][HikariConfig.java:1135] - exceptionOverrideClassName................................none
+2023-12-28 10:46:23,731 DEBUG [http-nio-10001-exec-5][HikariConfig.java:1135] - healthCheckProperties................................{}
+2023-12-28 10:46:23,731 DEBUG [http-nio-10001-exec-5][HikariConfig.java:1135] - healthCheckProperties................................{}
+2023-12-28 10:46:23,732 DEBUG [http-nio-10001-exec-5][HikariConfig.java:1135] - healthCheckRegistry................................none
+2023-12-28 10:46:23,732 DEBUG [http-nio-10001-exec-5][HikariConfig.java:1135] - healthCheckRegistry................................none
+2023-12-28 10:46:23,732 DEBUG [http-nio-10001-exec-5][HikariConfig.java:1135] - idleTimeout................................600000
+2023-12-28 10:46:23,732 DEBUG [http-nio-10001-exec-5][HikariConfig.java:1135] - idleTimeout................................600000
+2023-12-28 10:46:23,732 DEBUG [http-nio-10001-exec-5][HikariConfig.java:1135] - initializationFailTimeout................................1
+2023-12-28 10:46:23,732 DEBUG [http-nio-10001-exec-5][HikariConfig.java:1135] - initializationFailTimeout................................1
+2023-12-28 10:46:23,732 DEBUG [http-nio-10001-exec-5][HikariConfig.java:1135] - isolateInternalQueries................................false
+2023-12-28 10:46:23,732 DEBUG [http-nio-10001-exec-5][HikariConfig.java:1135] - isolateInternalQueries................................false
+2023-12-28 10:46:23,732 DEBUG [http-nio-10001-exec-5][HikariConfig.java:1135] - jdbcUrl................................jdbc:mysql://192.168.11.135:3306/media?characterEncoding=UTF-8&useUnicode=true&useSSL=false&tinyInt1isBit=false&allowPublicKeyRetrieval=true&serverTimezone=Asia/Shanghai
+2023-12-28 10:46:23,732 DEBUG [http-nio-10001-exec-5][HikariConfig.java:1135] - jdbcUrl................................jdbc:mysql://192.168.11.135:3306/media?characterEncoding=UTF-8&useUnicode=true&useSSL=false&tinyInt1isBit=false&allowPublicKeyRetrieval=true&serverTimezone=Asia/Shanghai
+2023-12-28 10:46:23,732 DEBUG [http-nio-10001-exec-5][HikariConfig.java:1135] - keepaliveTime................................0
+2023-12-28 10:46:23,732 DEBUG [http-nio-10001-exec-5][HikariConfig.java:1135] - keepaliveTime................................0
+2023-12-28 10:46:23,733 DEBUG [http-nio-10001-exec-5][HikariConfig.java:1135] - leakDetectionThreshold................................0
+2023-12-28 10:46:23,733 DEBUG [http-nio-10001-exec-5][HikariConfig.java:1135] - leakDetectionThreshold................................0
+2023-12-28 10:46:23,733 DEBUG [http-nio-10001-exec-5][HikariConfig.java:1135] - maxLifetime................................1800000
+2023-12-28 10:46:23,733 DEBUG [http-nio-10001-exec-5][HikariConfig.java:1135] - maxLifetime................................1800000
+2023-12-28 10:46:23,733 DEBUG [http-nio-10001-exec-5][HikariConfig.java:1135] - maximumPoolSize................................10
+2023-12-28 10:46:23,733 DEBUG [http-nio-10001-exec-5][HikariConfig.java:1135] - maximumPoolSize................................10
+2023-12-28 10:46:23,733 DEBUG [http-nio-10001-exec-5][HikariConfig.java:1135] - metricRegistry................................none
+2023-12-28 10:46:23,733 DEBUG [http-nio-10001-exec-5][HikariConfig.java:1135] - metricRegistry................................none
+2023-12-28 10:46:23,733 DEBUG [http-nio-10001-exec-5][HikariConfig.java:1135] - metricsTrackerFactory................................none
+2023-12-28 10:46:23,733 DEBUG [http-nio-10001-exec-5][HikariConfig.java:1135] - metricsTrackerFactory................................none
+2023-12-28 10:46:23,733 DEBUG [http-nio-10001-exec-5][HikariConfig.java:1135] - minimumIdle................................10
+2023-12-28 10:46:23,733 DEBUG [http-nio-10001-exec-5][HikariConfig.java:1135] - minimumIdle................................10
+2023-12-28 10:46:23,733 DEBUG [http-nio-10001-exec-5][HikariConfig.java:1135] - password................................<masked>
+2023-12-28 10:46:23,733 DEBUG [http-nio-10001-exec-5][HikariConfig.java:1135] - password................................<masked>
+2023-12-28 10:46:23,734 DEBUG [http-nio-10001-exec-5][HikariConfig.java:1135] - poolName................................"HikariPool-1"
+2023-12-28 10:46:23,734 DEBUG [http-nio-10001-exec-5][HikariConfig.java:1135] - poolName................................"HikariPool-1"
+2023-12-28 10:46:23,734 DEBUG [http-nio-10001-exec-5][HikariConfig.java:1135] - readOnly................................false
+2023-12-28 10:46:23,734 DEBUG [http-nio-10001-exec-5][HikariConfig.java:1135] - readOnly................................false
+2023-12-28 10:46:23,734 DEBUG [http-nio-10001-exec-5][HikariConfig.java:1135] - registerMbeans................................false
+2023-12-28 10:46:23,734 DEBUG [http-nio-10001-exec-5][HikariConfig.java:1135] - registerMbeans................................false
+2023-12-28 10:46:23,734 DEBUG [http-nio-10001-exec-5][HikariConfig.java:1135] - scheduledExecutor................................none
+2023-12-28 10:46:23,734 DEBUG [http-nio-10001-exec-5][HikariConfig.java:1135] - scheduledExecutor................................none
+2023-12-28 10:46:23,734 DEBUG [http-nio-10001-exec-5][HikariConfig.java:1135] - schema................................none
+2023-12-28 10:46:23,734 DEBUG [http-nio-10001-exec-5][HikariConfig.java:1135] - schema................................none
+2023-12-28 10:46:23,734 DEBUG [http-nio-10001-exec-5][HikariConfig.java:1135] - threadFactory................................internal
+2023-12-28 10:46:23,734 DEBUG [http-nio-10001-exec-5][HikariConfig.java:1135] - threadFactory................................internal
+2023-12-28 10:46:23,735 DEBUG [http-nio-10001-exec-5][HikariConfig.java:1135] - transactionIsolation................................default
+2023-12-28 10:46:23,735 DEBUG [http-nio-10001-exec-5][HikariConfig.java:1135] - transactionIsolation................................default
+2023-12-28 10:46:23,735 DEBUG [http-nio-10001-exec-5][HikariConfig.java:1135] - username................................"root"
+2023-12-28 10:46:23,735 DEBUG [http-nio-10001-exec-5][HikariConfig.java:1135] - username................................"root"
+2023-12-28 10:46:23,735 DEBUG [http-nio-10001-exec-5][HikariConfig.java:1135] - validationTimeout................................5000
+2023-12-28 10:46:23,735 DEBUG [http-nio-10001-exec-5][HikariConfig.java:1135] - validationTimeout................................5000
+2023-12-28 10:46:23,735 INFO [http-nio-10001-exec-5][HikariDataSource.java:110] - HikariPool-1 - Starting...
+2023-12-28 10:46:23,735 INFO [http-nio-10001-exec-5][HikariDataSource.java:110] - HikariPool-1 - Starting...
+2023-12-28 10:46:23,850 DEBUG [http-nio-10001-exec-5][HikariPool.java:565] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5ce0679d
+2023-12-28 10:46:23,850 DEBUG [http-nio-10001-exec-5][HikariPool.java:565] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5ce0679d
+2023-12-28 10:46:23,852 INFO [http-nio-10001-exec-5][HikariDataSource.java:123] - HikariPool-1 - Start completed.
+2023-12-28 10:46:23,852 INFO [http-nio-10001-exec-5][HikariDataSource.java:123] - HikariPool-1 - Start completed.
+2023-12-28 10:46:23,957 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=1, active=0, idle=1, waiting=0)
+2023-12-28 10:46:23,957 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=1, active=0, idle=1, waiting=0)
+2023-12-28 10:46:23,963 DEBUG [HikariPool-1 connection adder][HikariPool.java:729] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1fe2448b
+2023-12-28 10:46:23,963 DEBUG [HikariPool-1 connection adder][HikariPool.java:729] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1fe2448b
+2023-12-28 10:46:23,968 DEBUG [HikariPool-1 connection adder][HikariPool.java:729] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5edf4eb0
+2023-12-28 10:46:23,968 DEBUG [HikariPool-1 connection adder][HikariPool.java:729] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5edf4eb0
+2023-12-28 10:46:23,973 DEBUG [HikariPool-1 connection adder][HikariPool.java:729] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6f4b3023
+2023-12-28 10:46:23,973 DEBUG [HikariPool-1 connection adder][HikariPool.java:729] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6f4b3023
+2023-12-28 10:46:23,977 DEBUG [HikariPool-1 connection adder][HikariPool.java:729] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3ef0b1ff
+2023-12-28 10:46:23,977 DEBUG [HikariPool-1 connection adder][HikariPool.java:729] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3ef0b1ff
+2023-12-28 10:46:23,983 DEBUG [HikariPool-1 connection adder][HikariPool.java:729] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6d5eaefc
+2023-12-28 10:46:23,983 DEBUG [HikariPool-1 connection adder][HikariPool.java:729] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6d5eaefc
+2023-12-28 10:46:23,989 DEBUG [HikariPool-1 connection adder][HikariPool.java:729] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3abeeba6
+2023-12-28 10:46:23,989 DEBUG [HikariPool-1 connection adder][HikariPool.java:729] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3abeeba6
+2023-12-28 10:46:23,993 DEBUG [HikariPool-1 connection adder][HikariPool.java:729] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@71b2506d
+2023-12-28 10:46:23,993 DEBUG [HikariPool-1 connection adder][HikariPool.java:729] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@71b2506d
+2023-12-28 10:46:23,998 DEBUG [HikariPool-1 connection adder][HikariPool.java:729] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@625eb9e4
+2023-12-28 10:46:23,998 DEBUG [HikariPool-1 connection adder][HikariPool.java:729] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@625eb9e4
+2023-12-28 10:46:24,002 DEBUG [HikariPool-1 connection adder][HikariPool.java:729] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5eb3bc32
+2023-12-28 10:46:24,002 DEBUG [HikariPool-1 connection adder][HikariPool.java:729] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5eb3bc32
+2023-12-28 10:46:24,002 DEBUG [HikariPool-1 connection adder][HikariPool.java:421] - HikariPool-1 - After adding stats (total=10, active=0, idle=10, waiting=0)
+2023-12-28 10:46:24,002 DEBUG [HikariPool-1 connection adder][HikariPool.java:421] - HikariPool-1 - After adding stats (total=10, active=0, idle=10, waiting=0)
+2023-12-28 10:46:53,967 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-12-28 10:46:53,967 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-12-28 10:46:53,967 DEBUG [HikariPool-1 housekeeper][HikariPool.java:518] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2023-12-28 10:46:53,967 DEBUG [HikariPool-1 housekeeper][HikariPool.java:518] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2023-12-28 10:47:23,969 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-12-28 10:47:23,969 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-12-28 10:47:23,970 DEBUG [HikariPool-1 housekeeper][HikariPool.java:518] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2023-12-28 10:47:23,970 DEBUG [HikariPool-1 housekeeper][HikariPool.java:518] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2023-12-28 10:47:24,322 WARN [Thread-4][HttpClientBeanHolder.java:108] - [HttpClientBeanHolder] Start destroying common HttpClient
+2023-12-28 10:47:24,322 WARN [Thread-10][NotifyCenter.java:145] - [NotifyCenter] Start destroying Publisher
+2023-12-28 10:47:24,322 WARN [Thread-4][HttpClientBeanHolder.java:108] - [HttpClientBeanHolder] Start destroying common HttpClient
+2023-12-28 10:47:24,322 WARN [Thread-10][NotifyCenter.java:162] - [NotifyCenter] Destruction of the end
+2023-12-28 10:47:24,322 WARN [Thread-10][NotifyCenter.java:145] - [NotifyCenter] Start destroying Publisher
+2023-12-28 10:47:24,322 WARN [Thread-10][NotifyCenter.java:162] - [NotifyCenter] Destruction of the end
+2023-12-28 10:47:24,322 WARN [Thread-4][HttpClientBeanHolder.java:114] - [HttpClientBeanHolder] Destruction of the end
+2023-12-28 10:47:24,322 WARN [Thread-4][HttpClientBeanHolder.java:114] - [HttpClientBeanHolder] Destruction of the end
+2023-12-28 10:47:24,424 INFO [SpringApplicationShutdownHook][NacosServiceRegistry.java:94] - De-registering from Nacos Server now...
+2023-12-28 10:47:24,424 INFO [SpringApplicationShutdownHook][NacosServiceRegistry.java:94] - De-registering from Nacos Server now...
+2023-12-28 10:47:24,426 INFO [SpringApplicationShutdownHook][NacosServiceRegistry.java:114] - De-registration finished.
+2023-12-28 10:47:24,426 INFO [SpringApplicationShutdownHook][NacosServiceRegistry.java:114] - De-registration finished.
+2023-12-28 10:47:25,002 DEBUG [nacos.publisher-com.alibaba.nacos.client.naming.event.InstancesChangeEvent][DefaultPublisher.java:193] - [NotifyCenter] the com.alibaba.nacos.client.naming.event.InstancesChangeEvent@4dab9376 will received by com.alibaba.nacos.client.naming.event.InstancesChangeNotifier@71b32407
+2023-12-28 10:47:25,002 DEBUG [nacos.publisher-com.alibaba.nacos.client.naming.event.InstancesChangeEvent][DefaultPublisher.java:193] - [NotifyCenter] the com.alibaba.nacos.client.naming.event.InstancesChangeEvent@4dab9376 will received by com.alibaba.nacos.client.naming.event.InstancesChangeNotifier@71b32407
+2023-12-28 10:47:32,675 DEBUG [SpringApplicationShutdownHook][AbstractRedisClient.java:539] - Initiate shutdown (100, 100, MILLISECONDS)
+2023-12-28 10:47:32,675 DEBUG [SpringApplicationShutdownHook][AbstractRedisClient.java:539] - Initiate shutdown (100, 100, MILLISECONDS)
+2023-12-28 10:47:32,679 DEBUG [SpringApplicationShutdownHook][DefaultClientResources.java:735] - Initiate shutdown (0, 2, SECONDS)
+2023-12-28 10:47:32,679 DEBUG [SpringApplicationShutdownHook][DefaultClientResources.java:735] - Initiate shutdown (0, 2, SECONDS)
+2023-12-28 10:47:32,680 DEBUG [SpringApplicationShutdownHook][DefaultEventLoopGroupProvider.java:317] - Initiate shutdown (0, 2, SECONDS)
+2023-12-28 10:47:32,680 DEBUG [SpringApplicationShutdownHook][DefaultEventLoopGroupProvider.java:317] - Initiate shutdown (0, 2, SECONDS)
+2023-12-28 10:47:32,686 INFO [SpringApplicationShutdownHook][HikariDataSource.java:350] - HikariPool-1 - Shutdown initiated...
+2023-12-28 10:47:32,686 INFO [SpringApplicationShutdownHook][HikariDataSource.java:350] - HikariPool-1 - Shutdown initiated...
+2023-12-28 10:47:32,686 DEBUG [SpringApplicationShutdownHook][HikariPool.java:421] - HikariPool-1 - Before shutdown stats (total=10, active=0, idle=10, waiting=0)
+2023-12-28 10:47:32,686 DEBUG [SpringApplicationShutdownHook][HikariPool.java:421] - HikariPool-1 - Before shutdown stats (total=10, active=0, idle=10, waiting=0)
+2023-12-28 10:47:32,687 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@5ce0679d: (connection evicted)
+2023-12-28 10:47:32,687 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@5ce0679d: (connection evicted)
+2023-12-28 10:47:32,689 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@1fe2448b: (connection evicted)
+2023-12-28 10:47:32,689 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@1fe2448b: (connection evicted)
+2023-12-28 10:47:32,689 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@5edf4eb0: (connection evicted)
+2023-12-28 10:47:32,689 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@5edf4eb0: (connection evicted)
+2023-12-28 10:47:32,690 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@6f4b3023: (connection evicted)
+2023-12-28 10:47:32,690 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@6f4b3023: (connection evicted)
+2023-12-28 10:47:32,690 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@3ef0b1ff: (connection evicted)
+2023-12-28 10:47:32,690 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@3ef0b1ff: (connection evicted)
+2023-12-28 10:47:32,690 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@6d5eaefc: (connection evicted)
+2023-12-28 10:47:32,690 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@6d5eaefc: (connection evicted)
+2023-12-28 10:47:32,691 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@3abeeba6: (connection evicted)
+2023-12-28 10:47:32,691 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@3abeeba6: (connection evicted)
+2023-12-28 10:47:32,691 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@71b2506d: (connection evicted)
+2023-12-28 10:47:32,691 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@71b2506d: (connection evicted)
+2023-12-28 10:47:32,692 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@625eb9e4: (connection evicted)
+2023-12-28 10:47:32,692 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@625eb9e4: (connection evicted)
+2023-12-28 10:47:32,693 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@5eb3bc32: (connection evicted)
+2023-12-28 10:47:32,693 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@5eb3bc32: (connection evicted)
+2023-12-28 10:47:32,693 DEBUG [SpringApplicationShutdownHook][HikariPool.java:421] - HikariPool-1 - After shutdown stats (total=0, active=0, idle=0, waiting=0)
+2023-12-28 10:47:32,693 DEBUG [SpringApplicationShutdownHook][HikariPool.java:421] - HikariPool-1 - After shutdown stats (total=0, active=0, idle=0, waiting=0)
+2023-12-28 10:47:32,693 INFO [SpringApplicationShutdownHook][HikariDataSource.java:352] - HikariPool-1 - Shutdown completed.
+2023-12-28 10:47:32,693 INFO [SpringApplicationShutdownHook][HikariDataSource.java:352] - HikariPool-1 - Shutdown completed.
+2023-12-28 10:47:38,832 INFO [main][SpringApplication.java:646] - The following 1 profile is active: "dev"
+2023-12-28 10:47:38,832 INFO [main][SpringApplication.java:646] - The following 1 profile is active: "dev"
+2023-12-28 10:47:39,138 DEBUG [main][MybatisPlusAutoConfiguration.java:309] - Searching for mappers annotated with @Mapper
+2023-12-28 10:47:39,138 DEBUG [main][MybatisPlusAutoConfiguration.java:309] - Searching for mappers annotated with @Mapper
+2023-12-28 10:47:39,139 DEBUG [main][MybatisPlusAutoConfiguration.java:313] - Using auto-configuration base package 'com.mynote.thirdparty'
+2023-12-28 10:47:39,139 DEBUG [main][MybatisPlusAutoConfiguration.java:313] - Using auto-configuration base package 'com.mynote.thirdparty'
+2023-12-28 10:47:39,178 INFO [main][RepositoryConfigurationDelegate.java:262] - Multiple Spring Data modules found, entering strict repository configuration mode!
+2023-12-28 10:47:39,178 INFO [main][RepositoryConfigurationDelegate.java:262] - Multiple Spring Data modules found, entering strict repository configuration mode!
+2023-12-28 10:47:39,179 INFO [main][RepositoryConfigurationDelegate.java:132] - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-12-28 10:47:39,179 INFO [main][RepositoryConfigurationDelegate.java:132] - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-12-28 10:47:39,188 INFO [main][RepositoryConfigurationDelegate.java:201] - Finished Spring Data repository scanning in 3 ms. Found 0 Redis repository interfaces.
+2023-12-28 10:47:39,188 INFO [main][RepositoryConfigurationDelegate.java:201] - Finished Spring Data repository scanning in 3 ms. Found 0 Redis repository interfaces.
+2023-12-28 10:47:39,236 DEBUG [main][LogFactory.java:109] - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2023-12-28 10:47:39,236 DEBUG [main][LogFactory.java:109] - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2023-12-28 10:47:39,272 INFO [main][GenericScope.java:283] - BeanFactory id=d7f851fe-60dd-3993-a15d-fb63c7cba905
+2023-12-28 10:47:39,272 INFO [main][GenericScope.java:283] - BeanFactory id=d7f851fe-60dd-3993-a15d-fb63c7cba905
+2023-12-28 10:47:39,426 INFO [main][TomcatWebServer.java:108] - Tomcat initialized with port(s): 10001 (http)
+2023-12-28 10:47:39,426 INFO [main][TomcatWebServer.java:108] - Tomcat initialized with port(s): 10001 (http)
+2023-12-28 10:47:39,427 INFO [main][DirectJDKLog.java:173] - Loaded Apache Tomcat Native library [1.2.38] using APR version [1.7.4].
+2023-12-28 10:47:39,427 INFO [main][DirectJDKLog.java:173] - Loaded Apache Tomcat Native library [1.2.38] using APR version [1.7.4].
+2023-12-28 10:47:39,427 INFO [main][DirectJDKLog.java:173] - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+2023-12-28 10:47:39,427 INFO [main][DirectJDKLog.java:173] - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+2023-12-28 10:47:39,427 INFO [main][DirectJDKLog.java:173] - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2023-12-28 10:47:39,427 INFO [main][DirectJDKLog.java:173] - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2023-12-28 10:47:39,429 INFO [main][DirectJDKLog.java:173] - OpenSSL successfully initialized [OpenSSL 1.1.1v  1 Aug 2023]
+2023-12-28 10:47:39,429 INFO [main][DirectJDKLog.java:173] - OpenSSL successfully initialized [OpenSSL 1.1.1v  1 Aug 2023]
+2023-12-28 10:47:39,434 INFO [main][DirectJDKLog.java:173] - Initializing ProtocolHandler ["http-nio-10001"]
+2023-12-28 10:47:39,434 INFO [main][DirectJDKLog.java:173] - Initializing ProtocolHandler ["http-nio-10001"]
+2023-12-28 10:47:39,434 INFO [main][DirectJDKLog.java:173] - Starting service [Tomcat]
+2023-12-28 10:47:39,434 INFO [main][DirectJDKLog.java:173] - Starting service [Tomcat]
+2023-12-28 10:47:39,434 INFO [main][DirectJDKLog.java:173] - Starting Servlet engine: [Apache Tomcat/9.0.60]
+2023-12-28 10:47:39,434 INFO [main][DirectJDKLog.java:173] - Starting Servlet engine: [Apache Tomcat/9.0.60]
+2023-12-28 10:47:39,505 INFO [main][DirectJDKLog.java:173] - Initializing Spring embedded WebApplicationContext
+2023-12-28 10:47:39,505 INFO [main][DirectJDKLog.java:173] - Initializing Spring embedded WebApplicationContext
+2023-12-28 10:47:39,505 INFO [main][ServletWebServerApplicationContext.java:290] - Root WebApplicationContext: initialization completed in 664 ms
+2023-12-28 10:47:39,505 INFO [main][ServletWebServerApplicationContext.java:290] - Root WebApplicationContext: initialization completed in 664 ms
+2023-12-28 10:47:39,597 DEBUG [main][HikariConfig.java:971] - Driver class com.mysql.cj.jdbc.Driver found in Thread context class loader jdk.internal.loader.ClassLoaders$AppClassLoader@61064425
+2023-12-28 10:47:39,597 DEBUG [main][HikariConfig.java:971] - Driver class com.mysql.cj.jdbc.Driver found in Thread context class loader jdk.internal.loader.ClassLoaders$AppClassLoader@61064425
+2023-12-28 10:47:40,036 DEBUG [main][InternalLoggerFactory.java:63] - Using SLF4J as the default logging framework
+2023-12-28 10:47:40,036 DEBUG [main][InternalLoggerFactory.java:63] - Using SLF4J as the default logging framework
+2023-12-28 10:47:40,038 DEBUG [main][AddressResolverGroupProvider.java:37] - Starting without optional netty's non-blocking DNS resolver library
+2023-12-28 10:47:40,038 DEBUG [main][AddressResolverGroupProvider.java:37] - Starting without optional netty's non-blocking DNS resolver library
+2023-12-28 10:47:40,039 DEBUG [main][DefaultClientResources.java:122] - -Dio.netty.eventLoopThreads: 16
+2023-12-28 10:47:40,039 DEBUG [main][DefaultClientResources.java:122] - -Dio.netty.eventLoopThreads: 16
+2023-12-28 10:47:40,043 DEBUG [main][DefaultEventLoopGroupProvider.java:231] - Creating executor io.netty.util.concurrent.DefaultEventExecutorGroup
+2023-12-28 10:47:40,043 DEBUG [main][DefaultEventLoopGroupProvider.java:231] - Creating executor io.netty.util.concurrent.DefaultEventExecutorGroup
+2023-12-28 10:47:40,050 DEBUG [main][InternalThreadLocalMap.java:86] - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2023-12-28 10:47:40,050 DEBUG [main][InternalThreadLocalMap.java:86] - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2023-12-28 10:47:40,050 DEBUG [main][InternalThreadLocalMap.java:89] - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2023-12-28 10:47:40,050 DEBUG [main][InternalThreadLocalMap.java:89] - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2023-12-28 10:47:40,052 DEBUG [main][ResourceLeakDetector.java:129] - -Dio.netty.leakDetection.level: simple
+2023-12-28 10:47:40,052 DEBUG [main][ResourceLeakDetector.java:129] - -Dio.netty.leakDetection.level: simple
+2023-12-28 10:47:40,053 DEBUG [main][ResourceLeakDetector.java:130] - -Dio.netty.leakDetection.targetRecords: 4
+2023-12-28 10:47:40,053 DEBUG [main][ResourceLeakDetector.java:130] - -Dio.netty.leakDetection.targetRecords: 4
+2023-12-28 10:47:40,053 DEBUG [main][ResourceLeakDetectorFactory.java:196] - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@4cd90c36
+2023-12-28 10:47:40,053 DEBUG [main][ResourceLeakDetectorFactory.java:196] - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@4cd90c36
+2023-12-28 10:47:40,055 DEBUG [main][PlatformDependent0.java:460] - -Dio.netty.noUnsafe: false
+2023-12-28 10:47:40,055 DEBUG [main][PlatformDependent0.java:460] - -Dio.netty.noUnsafe: false
+2023-12-28 10:47:40,056 DEBUG [main][PlatformDependent0.java:954] - Java version: 11
+2023-12-28 10:47:40,056 DEBUG [main][PlatformDependent0.java:954] - Java version: 11
+2023-12-28 10:47:40,056 DEBUG [main][PlatformDependent0.java:135] - sun.misc.Unsafe.theUnsafe: available
+2023-12-28 10:47:40,056 DEBUG [main][PlatformDependent0.java:135] - sun.misc.Unsafe.theUnsafe: available
+2023-12-28 10:47:40,057 DEBUG [main][PlatformDependent0.java:159] - sun.misc.Unsafe.copyMemory: available
+2023-12-28 10:47:40,057 DEBUG [main][PlatformDependent0.java:159] - sun.misc.Unsafe.copyMemory: available
+2023-12-28 10:47:40,057 DEBUG [main][PlatformDependent0.java:202] - java.nio.Buffer.address: available
+2023-12-28 10:47:40,057 DEBUG [main][PlatformDependent0.java:202] - java.nio.Buffer.address: available
+2023-12-28 10:47:40,057 DEBUG [main][PlatformDependent0.java:285] - direct buffer constructor: unavailable: Reflective setAccessible(true) disabled
+2023-12-28 10:47:40,057 DEBUG [main][PlatformDependent0.java:285] - direct buffer constructor: unavailable: Reflective setAccessible(true) disabled
+2023-12-28 10:47:40,057 DEBUG [main][PlatformDependent0.java:350] - java.nio.Bits.unaligned: available, true
+2023-12-28 10:47:40,057 DEBUG [main][PlatformDependent0.java:350] - java.nio.Bits.unaligned: available, true
+2023-12-28 10:47:40,058 DEBUG [main][PlatformDependent0.java:417] - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable: class io.netty.util.internal.PlatformDependent0$6 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @52aa7742
+2023-12-28 10:47:40,058 DEBUG [main][PlatformDependent0.java:417] - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable: class io.netty.util.internal.PlatformDependent0$6 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @52aa7742
+2023-12-28 10:47:40,059 DEBUG [main][PlatformDependent0.java:446] - java.nio.DirectByteBuffer.<init>(long, int): unavailable
+2023-12-28 10:47:40,059 DEBUG [main][PlatformDependent0.java:446] - java.nio.DirectByteBuffer.<init>(long, int): unavailable
+2023-12-28 10:47:40,059 DEBUG [main][PlatformDependent.java:1116] - sun.misc.Unsafe: available
+2023-12-28 10:47:40,059 DEBUG [main][PlatformDependent.java:1116] - sun.misc.Unsafe: available
+2023-12-28 10:47:40,059 DEBUG [main][PlatformDependent.java:1227] - maxDirectMemory: 8522825728 bytes (maybe)
+2023-12-28 10:47:40,059 DEBUG [main][PlatformDependent.java:1227] - maxDirectMemory: 8522825728 bytes (maybe)
+2023-12-28 10:47:40,059 DEBUG [main][PlatformDependent.java:1246] - -Dio.netty.tmpdir: C:\Users\ADMINI~1\AppData\Local\Temp (java.io.tmpdir)
+2023-12-28 10:47:40,059 DEBUG [main][PlatformDependent.java:1246] - -Dio.netty.tmpdir: C:\Users\ADMINI~1\AppData\Local\Temp (java.io.tmpdir)
+2023-12-28 10:47:40,059 DEBUG [main][PlatformDependent.java:1325] - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2023-12-28 10:47:40,059 DEBUG [main][PlatformDependent.java:1325] - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2023-12-28 10:47:40,060 DEBUG [main][PlatformDependent.java:1076] - Platform: Windows
+2023-12-28 10:47:40,060 DEBUG [main][PlatformDependent.java:1076] - Platform: Windows
+2023-12-28 10:47:40,060 DEBUG [main][PlatformDependent.java:178] - -Dio.netty.maxDirectMemory: -1 bytes
+2023-12-28 10:47:40,060 DEBUG [main][PlatformDependent.java:178] - -Dio.netty.maxDirectMemory: -1 bytes
+2023-12-28 10:47:40,060 DEBUG [main][PlatformDependent.java:185] - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2023-12-28 10:47:40,060 DEBUG [main][PlatformDependent.java:185] - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2023-12-28 10:47:40,061 DEBUG [main][CleanerJava9.java:71] - java.nio.ByteBuffer.cleaner(): available
+2023-12-28 10:47:40,061 DEBUG [main][CleanerJava9.java:71] - java.nio.ByteBuffer.cleaner(): available
+2023-12-28 10:47:40,061 DEBUG [main][PlatformDependent.java:205] - -Dio.netty.noPreferDirect: false
+2023-12-28 10:47:40,061 DEBUG [main][PlatformDependent.java:205] - -Dio.netty.noPreferDirect: false
+2023-12-28 10:47:40,061 DEBUG [main][PlatformDependent.java:967] - org.jctools-core.MpscChunkedArrayQueue: available
+2023-12-28 10:47:40,061 DEBUG [main][PlatformDependent.java:967] - org.jctools-core.MpscChunkedArrayQueue: available
+2023-12-28 10:47:40,066 DEBUG [main][Loggers.java:245] - Using Slf4j logging framework
+2023-12-28 10:47:40,066 DEBUG [main][Loggers.java:245] - Using Slf4j logging framework
+2023-12-28 10:47:40,067 DEBUG [main][EventRecorderHolder.java:47] - Starting with JFR support
+2023-12-28 10:47:40,067 DEBUG [main][EventRecorderHolder.java:47] - Starting with JFR support
+2023-12-28 10:47:40,075 DEBUG [main][DefaultClientResources.java:227] - LatencyUtils/HdrUtils are not available, metrics are disabled
+2023-12-28 10:47:40,075 DEBUG [main][DefaultClientResources.java:227] - LatencyUtils/HdrUtils are not available, metrics are disabled
+2023-12-28 10:47:40,239 DEBUG [main][AbstractHandlerMethodMapping.java:295] - 
+	c.m.t.m.c.MediaFilesController:
+	{POST [/third/party/minio/upload]}: upload(MultipartFile,String)
+2023-12-28 10:47:40,239 DEBUG [main][AbstractHandlerMethodMapping.java:295] - 
+	c.m.t.m.c.MediaFilesController:
+	{POST [/third/party/minio/upload]}: upload(MultipartFile,String)
+2023-12-28 10:47:40,242 DEBUG [main][AbstractHandlerMethodMapping.java:295] - 
+	s.d.s.w.Swagger2ControllerWebMvc:
+	{GET [/v2/api-docs], produces [application/json || application/hal+json]}: getDocumentation(String,HttpServletRequest)
+2023-12-28 10:47:40,242 DEBUG [main][AbstractHandlerMethodMapping.java:295] - 
+	s.d.s.w.Swagger2ControllerWebMvc:
+	{GET [/v2/api-docs], produces [application/json || application/hal+json]}: getDocumentation(String,HttpServletRequest)
+2023-12-28 10:47:40,243 DEBUG [main][AbstractHandlerMethodMapping.java:295] - 
+	s.d.s.w.ApiResourceController:
+	{GET [/swagger-resources/configuration/security], produces [application/json]}: securityConfiguration()
+	{GET [/swagger-resources], produces [application/json]}: swaggerResources()
+	{GET [/swagger-resources/configuration/ui], produces [application/json]}: uiConfiguration()
+2023-12-28 10:47:40,243 DEBUG [main][AbstractHandlerMethodMapping.java:295] - 
+	s.d.s.w.ApiResourceController:
+	{GET [/swagger-resources/configuration/security], produces [application/json]}: securityConfiguration()
+	{GET [/swagger-resources], produces [application/json]}: swaggerResources()
+	{GET [/swagger-resources/configuration/ui], produces [application/json]}: uiConfiguration()
+2023-12-28 10:47:40,243 DEBUG [main][AbstractHandlerMethodMapping.java:295] - 
+	s.d.o.w.OpenApiControllerWebMvc:
+	{GET [/v3/api-docs], produces [application/json || application/hal+json]}: getDocumentation(String,HttpServletRequest)
+2023-12-28 10:47:40,243 DEBUG [main][AbstractHandlerMethodMapping.java:295] - 
+	s.d.o.w.OpenApiControllerWebMvc:
+	{GET [/v3/api-docs], produces [application/json || application/hal+json]}: getDocumentation(String,HttpServletRequest)
+2023-12-28 10:47:40,246 DEBUG [main][AbstractHandlerMethodMapping.java:295] - 
+	o.s.b.a.w.s.e.BasicErrorController:
+	{ [/error]}: error(HttpServletRequest)
+	{ [/error], produces [text/html]}: errorHtml(HttpServletRequest,HttpServletResponse)
+2023-12-28 10:47:40,246 DEBUG [main][AbstractHandlerMethodMapping.java:295] - 
+	o.s.b.a.w.s.e.BasicErrorController:
+	{ [/error]}: error(HttpServletRequest)
+	{ [/error], produces [text/html]}: errorHtml(HttpServletRequest,HttpServletResponse)
+2023-12-28 10:47:40,280 DEBUG [main][OpenApiExtensionResolver.java:57] - Resolver method start...
+2023-12-28 10:47:40,280 DEBUG [main][OpenApiExtensionResolver.java:57] - Resolver method start...
+2023-12-28 10:47:40,383 DEBUG [main][SimpleUrlHandlerMapping.java:177] - 'viewControllerHandlerMapping' {/swagger-ui/=ParameterizableViewController [view="forward:/swagger-ui/index.html"]}
+2023-12-28 10:47:40,383 DEBUG [main][SimpleUrlHandlerMapping.java:177] - 'viewControllerHandlerMapping' {/swagger-ui/=ParameterizableViewController [view="forward:/swagger-ui/index.html"]}
+2023-12-28 10:47:40,385 DEBUG [main][AbstractDetectingUrlHandlerMapping.java:86] - 'beanNameHandlerMapping' {}
+2023-12-28 10:47:40,385 DEBUG [main][AbstractDetectingUrlHandlerMapping.java:86] - 'beanNameHandlerMapping' {}
+2023-12-28 10:47:40,390 DEBUG [main][SimpleUrlHandlerMapping.java:177] - 'resourceHandlerMapping' {/webjars/**=ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]], /**=ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]], /swagger-ui/**=ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/springfox-swagger-ui/]]}
+2023-12-28 10:47:40,390 DEBUG [main][SimpleUrlHandlerMapping.java:177] - 'resourceHandlerMapping' {/webjars/**=ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]], /**=ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]], /swagger-ui/**=ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/springfox-swagger-ui/]]}
+2023-12-28 10:47:41,527 INFO [main][InetUtils.java:170] - Cannot determine local hostname
+2023-12-28 10:47:41,527 INFO [main][InetUtils.java:170] - Cannot determine local hostname
+2023-12-28 10:47:41,541 DEBUG [main][MybatisPlusAutoConfiguration.java:381] - Not found configuration for registering mapper bean using @MapperScan, MapperFactoryBean and MapperScannerConfigurer.
+2023-12-28 10:47:41,541 DEBUG [main][MybatisPlusAutoConfiguration.java:381] - Not found configuration for registering mapper bean using @MapperScan, MapperFactoryBean and MapperScannerConfigurer.
+2023-12-28 10:47:42,713 INFO [main][InetUtils.java:170] - Cannot determine local hostname
+2023-12-28 10:47:42,713 INFO [main][InetUtils.java:170] - Cannot determine local hostname
+2023-12-28 10:47:42,856 INFO [main][DirectJDKLog.java:173] - Starting ProtocolHandler ["http-nio-10001"]
+2023-12-28 10:47:42,856 INFO [main][DirectJDKLog.java:173] - Starting ProtocolHandler ["http-nio-10001"]
+2023-12-28 10:47:42,866 INFO [main][TomcatWebServer.java:220] - Tomcat started on port(s): 10001 (http) with context path ''
+2023-12-28 10:47:42,866 INFO [main][TomcatWebServer.java:220] - Tomcat started on port(s): 10001 (http) with context path ''
+2023-12-28 10:47:42,874 INFO [main][NacosServiceRegistry.java:75] - nacos registry, dev mynote-third-party 192.168.75.1:10001 register finished
+2023-12-28 10:47:42,874 INFO [main][NacosServiceRegistry.java:75] - nacos registry, dev mynote-third-party 192.168.75.1:10001 register finished
+2023-12-28 10:47:43,824 DEBUG [nacos.publisher-com.alibaba.nacos.client.naming.event.InstancesChangeEvent][DefaultPublisher.java:193] - [NotifyCenter] the com.alibaba.nacos.client.naming.event.InstancesChangeEvent@2f4c123d will received by com.alibaba.nacos.client.naming.event.InstancesChangeNotifier@70044113
+2023-12-28 10:47:43,824 DEBUG [nacos.publisher-com.alibaba.nacos.client.naming.event.InstancesChangeEvent][DefaultPublisher.java:193] - [NotifyCenter] the com.alibaba.nacos.client.naming.event.InstancesChangeEvent@2f4c123d will received by com.alibaba.nacos.client.naming.event.InstancesChangeNotifier@70044113
+2023-12-28 10:47:43,993 INFO [main][InetUtils.java:170] - Cannot determine local hostname
+2023-12-28 10:47:43,993 INFO [main][InetUtils.java:170] - Cannot determine local hostname
+2023-12-28 10:47:44,061 DEBUG [main][NoopValidator.java:24] - ERROR [ModelSpecification.spec] At least one type of specification is required
+2023-12-28 10:47:44,061 DEBUG [main][NoopValidator.java:24] - ERROR [ModelSpecification.spec] At least one type of specification is required
+2023-12-28 10:47:44,083 INFO [main][StartupInfoLogger.java:61] - Started ThirdPartyApplication in 7.914 seconds (JVM running for 8.399)
+2023-12-28 10:47:44,083 INFO [main][StartupInfoLogger.java:61] - Started ThirdPartyApplication in 7.914 seconds (JVM running for 8.399)
+2023-12-28 10:47:44,087 INFO [main][ThirdPartyApplication.java:38] - 
+----------------------------------------------------------
+	Application MyNote-third-party is running! Access URLs:
+	local: 	http://localhost:10001/doc.html
+	Swagger文档: 	http://192.168.0.118:10001/doc.html
+----------------------------------------------------------
+2023-12-28 10:47:44,087 INFO [main][ThirdPartyApplication.java:38] - 
+----------------------------------------------------------
+	Application MyNote-third-party is running! Access URLs:
+	local: 	http://localhost:10001/doc.html
+	Swagger文档: 	http://192.168.0.118:10001/doc.html
+----------------------------------------------------------
+2023-12-28 10:47:46,888 INFO [http-nio-10001-exec-1][DirectJDKLog.java:173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-12-28 10:47:46,888 INFO [http-nio-10001-exec-1][DirectJDKLog.java:173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-12-28 10:47:46,888 INFO [http-nio-10001-exec-1][FrameworkServlet.java:525] - Initializing Servlet 'dispatcherServlet'
+2023-12-28 10:47:46,888 INFO [http-nio-10001-exec-1][FrameworkServlet.java:525] - Initializing Servlet 'dispatcherServlet'
+2023-12-28 10:47:46,889 INFO [http-nio-10001-exec-1][FrameworkServlet.java:547] - Completed initialization in 1 ms
+2023-12-28 10:47:46,889 INFO [http-nio-10001-exec-1][FrameworkServlet.java:547] - Completed initialization in 1 ms
+2023-12-28 10:47:56,420 DEBUG [http-nio-10001-exec-2][HikariConfig.java:1103] - HikariPool-1 - configuration:
+2023-12-28 10:47:56,420 DEBUG [http-nio-10001-exec-2][HikariConfig.java:1103] - HikariPool-1 - configuration:
+2023-12-28 10:47:56,422 DEBUG [http-nio-10001-exec-2][HikariConfig.java:1135] - allowPoolSuspension................................false
+2023-12-28 10:47:56,422 DEBUG [http-nio-10001-exec-2][HikariConfig.java:1135] - allowPoolSuspension................................false
+2023-12-28 10:47:56,422 DEBUG [http-nio-10001-exec-2][HikariConfig.java:1135] - autoCommit................................true
+2023-12-28 10:47:56,422 DEBUG [http-nio-10001-exec-2][HikariConfig.java:1135] - autoCommit................................true
+2023-12-28 10:47:56,422 DEBUG [http-nio-10001-exec-2][HikariConfig.java:1135] - catalog................................none
+2023-12-28 10:47:56,422 DEBUG [http-nio-10001-exec-2][HikariConfig.java:1135] - catalog................................none
+2023-12-28 10:47:56,423 DEBUG [http-nio-10001-exec-2][HikariConfig.java:1135] - connectionInitSql................................none
+2023-12-28 10:47:56,423 DEBUG [http-nio-10001-exec-2][HikariConfig.java:1135] - connectionInitSql................................none
+2023-12-28 10:47:56,423 DEBUG [http-nio-10001-exec-2][HikariConfig.java:1135] - connectionTestQuery................................none
+2023-12-28 10:47:56,423 DEBUG [http-nio-10001-exec-2][HikariConfig.java:1135] - connectionTestQuery................................none
+2023-12-28 10:47:56,423 DEBUG [http-nio-10001-exec-2][HikariConfig.java:1135] - connectionTimeout................................30000
+2023-12-28 10:47:56,423 DEBUG [http-nio-10001-exec-2][HikariConfig.java:1135] - connectionTimeout................................30000
+2023-12-28 10:47:56,423 DEBUG [http-nio-10001-exec-2][HikariConfig.java:1135] - dataSource................................none
+2023-12-28 10:47:56,423 DEBUG [http-nio-10001-exec-2][HikariConfig.java:1135] - dataSource................................none
+2023-12-28 10:47:56,424 DEBUG [http-nio-10001-exec-2][HikariConfig.java:1135] - dataSourceClassName................................none
+2023-12-28 10:47:56,424 DEBUG [http-nio-10001-exec-2][HikariConfig.java:1135] - dataSourceClassName................................none
+2023-12-28 10:47:56,424 DEBUG [http-nio-10001-exec-2][HikariConfig.java:1135] - dataSourceJNDI................................none
+2023-12-28 10:47:56,424 DEBUG [http-nio-10001-exec-2][HikariConfig.java:1135] - dataSourceJNDI................................none
+2023-12-28 10:47:56,424 DEBUG [http-nio-10001-exec-2][HikariConfig.java:1135] - dataSourceProperties................................{password=<masked>}
+2023-12-28 10:47:56,424 DEBUG [http-nio-10001-exec-2][HikariConfig.java:1135] - dataSourceProperties................................{password=<masked>}
+2023-12-28 10:47:56,425 DEBUG [http-nio-10001-exec-2][HikariConfig.java:1135] - driverClassName................................"com.mysql.cj.jdbc.Driver"
+2023-12-28 10:47:56,425 DEBUG [http-nio-10001-exec-2][HikariConfig.java:1135] - driverClassName................................"com.mysql.cj.jdbc.Driver"
+2023-12-28 10:47:56,425 DEBUG [http-nio-10001-exec-2][HikariConfig.java:1135] - exceptionOverrideClassName................................none
+2023-12-28 10:47:56,425 DEBUG [http-nio-10001-exec-2][HikariConfig.java:1135] - exceptionOverrideClassName................................none
+2023-12-28 10:47:56,425 DEBUG [http-nio-10001-exec-2][HikariConfig.java:1135] - healthCheckProperties................................{}
+2023-12-28 10:47:56,425 DEBUG [http-nio-10001-exec-2][HikariConfig.java:1135] - healthCheckProperties................................{}
+2023-12-28 10:47:56,425 DEBUG [http-nio-10001-exec-2][HikariConfig.java:1135] - healthCheckRegistry................................none
+2023-12-28 10:47:56,425 DEBUG [http-nio-10001-exec-2][HikariConfig.java:1135] - healthCheckRegistry................................none
+2023-12-28 10:47:56,425 DEBUG [http-nio-10001-exec-2][HikariConfig.java:1135] - idleTimeout................................600000
+2023-12-28 10:47:56,425 DEBUG [http-nio-10001-exec-2][HikariConfig.java:1135] - idleTimeout................................600000
+2023-12-28 10:47:56,425 DEBUG [http-nio-10001-exec-2][HikariConfig.java:1135] - initializationFailTimeout................................1
+2023-12-28 10:47:56,425 DEBUG [http-nio-10001-exec-2][HikariConfig.java:1135] - initializationFailTimeout................................1
+2023-12-28 10:47:56,426 DEBUG [http-nio-10001-exec-2][HikariConfig.java:1135] - isolateInternalQueries................................false
+2023-12-28 10:47:56,426 DEBUG [http-nio-10001-exec-2][HikariConfig.java:1135] - isolateInternalQueries................................false
+2023-12-28 10:47:56,426 DEBUG [http-nio-10001-exec-2][HikariConfig.java:1135] - jdbcUrl................................jdbc:mysql://192.168.11.135:3306/media?characterEncoding=UTF-8&useUnicode=true&useSSL=false&tinyInt1isBit=false&allowPublicKeyRetrieval=true&serverTimezone=Asia/Shanghai
+2023-12-28 10:47:56,426 DEBUG [http-nio-10001-exec-2][HikariConfig.java:1135] - jdbcUrl................................jdbc:mysql://192.168.11.135:3306/media?characterEncoding=UTF-8&useUnicode=true&useSSL=false&tinyInt1isBit=false&allowPublicKeyRetrieval=true&serverTimezone=Asia/Shanghai
+2023-12-28 10:47:56,426 DEBUG [http-nio-10001-exec-2][HikariConfig.java:1135] - keepaliveTime................................0
+2023-12-28 10:47:56,426 DEBUG [http-nio-10001-exec-2][HikariConfig.java:1135] - keepaliveTime................................0
+2023-12-28 10:47:56,426 DEBUG [http-nio-10001-exec-2][HikariConfig.java:1135] - leakDetectionThreshold................................0
+2023-12-28 10:47:56,426 DEBUG [http-nio-10001-exec-2][HikariConfig.java:1135] - leakDetectionThreshold................................0
+2023-12-28 10:47:56,426 DEBUG [http-nio-10001-exec-2][HikariConfig.java:1135] - maxLifetime................................1800000
+2023-12-28 10:47:56,426 DEBUG [http-nio-10001-exec-2][HikariConfig.java:1135] - maxLifetime................................1800000
+2023-12-28 10:47:56,426 DEBUG [http-nio-10001-exec-2][HikariConfig.java:1135] - maximumPoolSize................................10
+2023-12-28 10:47:56,426 DEBUG [http-nio-10001-exec-2][HikariConfig.java:1135] - maximumPoolSize................................10
+2023-12-28 10:47:56,427 DEBUG [http-nio-10001-exec-2][HikariConfig.java:1135] - metricRegistry................................none
+2023-12-28 10:47:56,427 DEBUG [http-nio-10001-exec-2][HikariConfig.java:1135] - metricRegistry................................none
+2023-12-28 10:47:56,427 DEBUG [http-nio-10001-exec-2][HikariConfig.java:1135] - metricsTrackerFactory................................none
+2023-12-28 10:47:56,427 DEBUG [http-nio-10001-exec-2][HikariConfig.java:1135] - metricsTrackerFactory................................none
+2023-12-28 10:47:56,427 DEBUG [http-nio-10001-exec-2][HikariConfig.java:1135] - minimumIdle................................10
+2023-12-28 10:47:56,427 DEBUG [http-nio-10001-exec-2][HikariConfig.java:1135] - minimumIdle................................10
+2023-12-28 10:47:56,427 DEBUG [http-nio-10001-exec-2][HikariConfig.java:1135] - password................................<masked>
+2023-12-28 10:47:56,427 DEBUG [http-nio-10001-exec-2][HikariConfig.java:1135] - password................................<masked>
+2023-12-28 10:47:56,427 DEBUG [http-nio-10001-exec-2][HikariConfig.java:1135] - poolName................................"HikariPool-1"
+2023-12-28 10:47:56,427 DEBUG [http-nio-10001-exec-2][HikariConfig.java:1135] - poolName................................"HikariPool-1"
+2023-12-28 10:47:56,427 DEBUG [http-nio-10001-exec-2][HikariConfig.java:1135] - readOnly................................false
+2023-12-28 10:47:56,427 DEBUG [http-nio-10001-exec-2][HikariConfig.java:1135] - readOnly................................false
+2023-12-28 10:47:56,428 DEBUG [http-nio-10001-exec-2][HikariConfig.java:1135] - registerMbeans................................false
+2023-12-28 10:47:56,428 DEBUG [http-nio-10001-exec-2][HikariConfig.java:1135] - registerMbeans................................false
+2023-12-28 10:47:56,428 DEBUG [http-nio-10001-exec-2][HikariConfig.java:1135] - scheduledExecutor................................none
+2023-12-28 10:47:56,428 DEBUG [http-nio-10001-exec-2][HikariConfig.java:1135] - scheduledExecutor................................none
+2023-12-28 10:47:56,428 DEBUG [http-nio-10001-exec-2][HikariConfig.java:1135] - schema................................none
+2023-12-28 10:47:56,428 DEBUG [http-nio-10001-exec-2][HikariConfig.java:1135] - schema................................none
+2023-12-28 10:47:56,428 DEBUG [http-nio-10001-exec-2][HikariConfig.java:1135] - threadFactory................................internal
+2023-12-28 10:47:56,428 DEBUG [http-nio-10001-exec-2][HikariConfig.java:1135] - threadFactory................................internal
+2023-12-28 10:47:56,429 DEBUG [http-nio-10001-exec-2][HikariConfig.java:1135] - transactionIsolation................................default
+2023-12-28 10:47:56,429 DEBUG [http-nio-10001-exec-2][HikariConfig.java:1135] - transactionIsolation................................default
+2023-12-28 10:47:56,429 DEBUG [http-nio-10001-exec-2][HikariConfig.java:1135] - username................................"root"
+2023-12-28 10:47:56,429 DEBUG [http-nio-10001-exec-2][HikariConfig.java:1135] - username................................"root"
+2023-12-28 10:47:56,429 DEBUG [http-nio-10001-exec-2][HikariConfig.java:1135] - validationTimeout................................5000
+2023-12-28 10:47:56,429 DEBUG [http-nio-10001-exec-2][HikariConfig.java:1135] - validationTimeout................................5000
+2023-12-28 10:47:56,429 INFO [http-nio-10001-exec-2][HikariDataSource.java:110] - HikariPool-1 - Starting...
+2023-12-28 10:47:56,429 INFO [http-nio-10001-exec-2][HikariDataSource.java:110] - HikariPool-1 - Starting...
+2023-12-28 10:47:56,549 DEBUG [http-nio-10001-exec-2][HikariPool.java:565] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5ce0679d
+2023-12-28 10:47:56,549 DEBUG [http-nio-10001-exec-2][HikariPool.java:565] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5ce0679d
+2023-12-28 10:47:56,551 INFO [http-nio-10001-exec-2][HikariDataSource.java:123] - HikariPool-1 - Start completed.
+2023-12-28 10:47:56,551 INFO [http-nio-10001-exec-2][HikariDataSource.java:123] - HikariPool-1 - Start completed.
+2023-12-28 10:47:56,661 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=1, active=0, idle=1, waiting=0)
+2023-12-28 10:47:56,661 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=1, active=0, idle=1, waiting=0)
+2023-12-28 10:47:56,671 DEBUG [HikariPool-1 connection adder][HikariPool.java:729] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@308b9b2e
+2023-12-28 10:47:56,671 DEBUG [HikariPool-1 connection adder][HikariPool.java:729] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@308b9b2e
+2023-12-28 10:47:56,681 DEBUG [HikariPool-1 connection adder][HikariPool.java:729] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@71b69115
+2023-12-28 10:47:56,681 DEBUG [HikariPool-1 connection adder][HikariPool.java:729] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@71b69115
+2023-12-28 10:47:56,689 DEBUG [HikariPool-1 connection adder][HikariPool.java:729] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@400da13d
+2023-12-28 10:47:56,689 DEBUG [HikariPool-1 connection adder][HikariPool.java:729] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@400da13d
+2023-12-28 10:47:56,697 DEBUG [HikariPool-1 connection adder][HikariPool.java:729] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@11996e5a
+2023-12-28 10:47:56,697 DEBUG [HikariPool-1 connection adder][HikariPool.java:729] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@11996e5a
+2023-12-28 10:47:56,703 DEBUG [HikariPool-1 connection adder][HikariPool.java:729] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@85c80a0
+2023-12-28 10:47:56,703 DEBUG [HikariPool-1 connection adder][HikariPool.java:729] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@85c80a0
+2023-12-28 10:47:56,706 DEBUG [HikariPool-1 connection adder][HikariPool.java:729] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@15d7136a
+2023-12-28 10:47:56,706 DEBUG [HikariPool-1 connection adder][HikariPool.java:729] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@15d7136a
+2023-12-28 10:47:56,712 DEBUG [HikariPool-1 connection adder][HikariPool.java:729] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2256be67
+2023-12-28 10:47:56,712 DEBUG [HikariPool-1 connection adder][HikariPool.java:729] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2256be67
+2023-12-28 10:47:56,717 DEBUG [HikariPool-1 connection adder][HikariPool.java:729] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@607667da
+2023-12-28 10:47:56,717 DEBUG [HikariPool-1 connection adder][HikariPool.java:729] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@607667da
+2023-12-28 10:47:56,721 DEBUG [HikariPool-1 connection adder][HikariPool.java:729] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@45c49033
+2023-12-28 10:47:56,721 DEBUG [HikariPool-1 connection adder][HikariPool.java:729] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@45c49033
+2023-12-28 10:47:56,722 DEBUG [HikariPool-1 connection adder][HikariPool.java:421] - HikariPool-1 - After adding stats (total=10, active=0, idle=10, waiting=0)
+2023-12-28 10:47:56,722 DEBUG [HikariPool-1 connection adder][HikariPool.java:421] - HikariPool-1 - After adding stats (total=10, active=0, idle=10, waiting=0)
+2023-12-28 10:48:26,675 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-12-28 10:48:26,675 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-12-28 10:48:26,677 DEBUG [HikariPool-1 housekeeper][HikariPool.java:518] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2023-12-28 10:48:26,677 DEBUG [HikariPool-1 housekeeper][HikariPool.java:518] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2023-12-28 10:48:56,691 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-12-28 10:48:56,691 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-12-28 10:48:56,693 DEBUG [HikariPool-1 housekeeper][HikariPool.java:518] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2023-12-28 10:48:56,693 DEBUG [HikariPool-1 housekeeper][HikariPool.java:518] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2023-12-28 10:49:26,705 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-12-28 10:49:26,705 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-12-28 10:49:26,706 DEBUG [HikariPool-1 housekeeper][HikariPool.java:518] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2023-12-28 10:49:26,706 DEBUG [HikariPool-1 housekeeper][HikariPool.java:518] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2023-12-28 10:49:56,708 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-12-28 10:49:56,708 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-12-28 10:49:56,710 DEBUG [HikariPool-1 housekeeper][HikariPool.java:518] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2023-12-28 10:49:56,710 DEBUG [HikariPool-1 housekeeper][HikariPool.java:518] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2023-12-28 10:50:26,717 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-12-28 10:50:26,717 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-12-28 10:50:26,719 DEBUG [HikariPool-1 housekeeper][HikariPool.java:518] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2023-12-28 10:50:26,719 DEBUG [HikariPool-1 housekeeper][HikariPool.java:518] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2023-12-28 10:50:56,730 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-12-28 10:50:56,730 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-12-28 10:50:56,731 DEBUG [HikariPool-1 housekeeper][HikariPool.java:518] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2023-12-28 10:50:56,731 DEBUG [HikariPool-1 housekeeper][HikariPool.java:518] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2023-12-28 10:51:26,744 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-12-28 10:51:26,744 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-12-28 10:51:26,745 DEBUG [HikariPool-1 housekeeper][HikariPool.java:518] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2023-12-28 10:51:26,745 DEBUG [HikariPool-1 housekeeper][HikariPool.java:518] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2023-12-28 10:51:56,751 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-12-28 10:51:56,751 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-12-28 10:51:56,752 DEBUG [HikariPool-1 housekeeper][HikariPool.java:518] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2023-12-28 10:51:56,752 DEBUG [HikariPool-1 housekeeper][HikariPool.java:518] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2023-12-28 10:52:26,767 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-12-28 10:52:26,767 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-12-28 10:52:26,768 DEBUG [HikariPool-1 housekeeper][HikariPool.java:518] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2023-12-28 10:52:26,768 DEBUG [HikariPool-1 housekeeper][HikariPool.java:518] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2023-12-28 10:52:56,781 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-12-28 10:52:56,781 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-12-28 10:52:56,782 DEBUG [HikariPool-1 housekeeper][HikariPool.java:518] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2023-12-28 10:52:56,782 DEBUG [HikariPool-1 housekeeper][HikariPool.java:518] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2023-12-28 10:53:26,793 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-12-28 10:53:26,793 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-12-28 10:53:26,794 DEBUG [HikariPool-1 housekeeper][HikariPool.java:518] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2023-12-28 10:53:26,794 DEBUG [HikariPool-1 housekeeper][HikariPool.java:518] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2023-12-28 10:53:56,803 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-12-28 10:53:56,803 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-12-28 10:53:56,803 DEBUG [HikariPool-1 housekeeper][HikariPool.java:518] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2023-12-28 10:53:56,803 DEBUG [HikariPool-1 housekeeper][HikariPool.java:518] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2023-12-28 10:54:26,810 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-12-28 10:54:26,810 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-12-28 10:54:26,810 DEBUG [HikariPool-1 housekeeper][HikariPool.java:518] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2023-12-28 10:54:26,810 DEBUG [HikariPool-1 housekeeper][HikariPool.java:518] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2023-12-28 10:54:56,820 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-12-28 10:54:56,820 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-12-28 10:54:56,821 DEBUG [HikariPool-1 housekeeper][HikariPool.java:518] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2023-12-28 10:54:56,821 DEBUG [HikariPool-1 housekeeper][HikariPool.java:518] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2023-12-28 10:55:26,830 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-12-28 10:55:26,830 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-12-28 10:55:26,830 DEBUG [HikariPool-1 housekeeper][HikariPool.java:518] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2023-12-28 10:55:26,830 DEBUG [HikariPool-1 housekeeper][HikariPool.java:518] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2023-12-28 10:55:56,837 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-12-28 10:55:56,837 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-12-28 10:55:56,837 DEBUG [HikariPool-1 housekeeper][HikariPool.java:518] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2023-12-28 10:55:56,837 DEBUG [HikariPool-1 housekeeper][HikariPool.java:518] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2023-12-28 10:56:26,843 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-12-28 10:56:26,843 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-12-28 10:56:26,844 DEBUG [HikariPool-1 housekeeper][HikariPool.java:518] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2023-12-28 10:56:26,844 DEBUG [HikariPool-1 housekeeper][HikariPool.java:518] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2023-12-28 10:56:56,859 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-12-28 10:56:56,859 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-12-28 10:56:56,860 DEBUG [HikariPool-1 housekeeper][HikariPool.java:518] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2023-12-28 10:56:56,860 DEBUG [HikariPool-1 housekeeper][HikariPool.java:518] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2023-12-28 10:57:26,866 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-12-28 10:57:26,866 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-12-28 10:57:26,867 DEBUG [HikariPool-1 housekeeper][HikariPool.java:518] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2023-12-28 10:57:26,867 DEBUG [HikariPool-1 housekeeper][HikariPool.java:518] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2023-12-28 10:57:56,868 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-12-28 10:57:56,868 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-12-28 10:57:56,869 DEBUG [HikariPool-1 housekeeper][HikariPool.java:518] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2023-12-28 10:57:56,869 DEBUG [HikariPool-1 housekeeper][HikariPool.java:518] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2023-12-28 10:58:26,879 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-12-28 10:58:26,879 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-12-28 10:58:26,880 DEBUG [HikariPool-1 housekeeper][HikariPool.java:518] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2023-12-28 10:58:26,880 DEBUG [HikariPool-1 housekeeper][HikariPool.java:518] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2023-12-28 10:58:56,893 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-12-28 10:58:56,893 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-12-28 10:58:56,894 DEBUG [HikariPool-1 housekeeper][HikariPool.java:518] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2023-12-28 10:58:56,894 DEBUG [HikariPool-1 housekeeper][HikariPool.java:518] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2023-12-28 10:59:26,901 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-12-28 10:59:26,901 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-12-28 10:59:26,902 DEBUG [HikariPool-1 housekeeper][HikariPool.java:518] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2023-12-28 10:59:26,902 DEBUG [HikariPool-1 housekeeper][HikariPool.java:518] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2023-12-28 10:59:56,912 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-12-28 10:59:56,912 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-12-28 10:59:56,914 DEBUG [HikariPool-1 housekeeper][HikariPool.java:518] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2023-12-28 10:59:56,914 DEBUG [HikariPool-1 housekeeper][HikariPool.java:518] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.

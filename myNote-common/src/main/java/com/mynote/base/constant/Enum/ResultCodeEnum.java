@@ -50,7 +50,9 @@ public enum ResultCodeEnum {
     //笔记不存在
     NOTE_IS_NONE(517,"笔记不存在"),
     //博客已存在
-    BLOG_IS_EXIST(518,"博客已存在")
+    BLOG_IS_EXIST(518,"博客已存在"),
+    //
+    PIC_UPLOAD_FAIL(519,"图片上传失败")
     ;
 
     private final Integer code;

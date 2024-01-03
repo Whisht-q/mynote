@@ -14,7 +14,7 @@ org.springframework.context.ApplicationContextException: Failed to start bean 'd
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1312)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1301)
-	at com.mynote.notes.NoteApplication.main(NoteApplication.java:32)
+	at com.mynote.notes.NoteApplicationTest.main(NoteApplication.java:32)
 Caused by: java.lang.NullPointerException
 	at springfox.documentation.spring.web.WebMvcPatternsRequestConditionWrapper.getPatterns(WebMvcPatternsRequestConditionWrapper.java:56)
 	at springfox.documentation.RequestHandler.sortedPaths(RequestHandler.java:113)

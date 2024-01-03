@@ -1,0 +1,5 @@
+spring:
+  application:
+    name: mynote-third-party
+  profiles:
+    active: '@profile.name@'

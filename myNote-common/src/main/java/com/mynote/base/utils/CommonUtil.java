@@ -1,5 +1,10 @@
 package com.mynote.base.utils;
 
+import org.apache.commons.codec.digest.DigestUtils;
+
+import java.io.File;
+import java.io.FileInputStream;
+
 /**
  * @author zhishubin
  * @date 2023/12/18 14:14
@@ -52,6 +57,15 @@ public class CommonUtil {
             return (Integer.parseInt(s));
         } catch (NumberFormatException e) {
             return 0;
+        }
+    }
+
+    public static String getFileMd5(File file) {
+        try (FileInputStream fileInputStream = new FileInputStream(file)) {
+            return DigestUtils.md5Hex(fileInputStream);
+        } catch (Exception e) {
+            e.printStackTrace();
+            return null;
         }
     }
 }

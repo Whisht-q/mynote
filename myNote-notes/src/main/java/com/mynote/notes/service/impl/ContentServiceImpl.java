@@ -1,9 +1,11 @@
 package com.mynote.notes.service.impl;
 
+import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import com.mynote.base.common.note.entity.Content;
 import com.mynote.base.common.note.entity.NoteCategory;
 import com.mynote.base.common.note.entity.NoteStatus;
+import com.mynote.base.common.note.vo.ContentTitleVo;
 import com.mynote.base.utils.CommonUtil;
 import com.mynote.notes.mapper.ContentMapper;
 import com.mynote.notes.mapper.NoteCategoryMapper;
@@ -34,6 +36,9 @@ public class ContentServiceImpl extends ServiceImpl<ContentMapper, Content> impl
     @Autowired
     private NoteStatusMapper noteStatusMapper;
 
+    @Autowired
+    private ContentMapper contentMapper;
+
     @Override
     @Transactional(rollbackFor = Exception.class)
     public void saveCategoryAndStatus(String id, String categoryId, String status) {
@@ -63,5 +68,13 @@ public class ContentServiceImpl extends ServiceImpl<ContentMapper, Content> impl
     public void updateNote(Content note, byte status) {
         baseMapper.updateById(note);
         noteStatusMapper.updateStstus(note.getId(), status);
+    }
+
+    @Override
+    public Page<ContentTitleVo> getContentTitleByUserId(Page<ContentTitleVo> page, String userId, List<String> categoryIds) {
+
+        Page<ContentTitleVo> list = contentMapper.getContentTitleByUserId(page,userId, categoryIds);
+
+        return list;
     }
 }

@@ -7,4 +7,8 @@ package com.mynote.base.constant;
  */
 public interface StringCode {
     String PARENT_IS_NULL = "0";
+
+    String MINIO_TEST_BUCKET= "test";
+
+    String MINIO_PICTURE_BUCKET = "pic";
 }

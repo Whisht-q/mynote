@@ -1,0 +1,1190 @@
+2023-12-28 09:21:06,188 INFO [main][SpringApplication.java:646] - The following 1 profile is active: "dev"
+2023-12-28 09:21:06,188 INFO [main][SpringApplication.java:646] - The following 1 profile is active: "dev"
+2023-12-28 09:21:06,567 INFO [main][RepositoryConfigurationDelegate.java:262] - Multiple Spring Data modules found, entering strict repository configuration mode!
+2023-12-28 09:21:06,567 INFO [main][RepositoryConfigurationDelegate.java:262] - Multiple Spring Data modules found, entering strict repository configuration mode!
+2023-12-28 09:21:06,571 INFO [main][RepositoryConfigurationDelegate.java:132] - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-12-28 09:21:06,571 INFO [main][RepositoryConfigurationDelegate.java:132] - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-12-28 09:21:06,583 INFO [main][RepositoryConfigurationDelegate.java:201] - Finished Spring Data repository scanning in 3 ms. Found 0 Redis repository interfaces.
+2023-12-28 09:21:06,583 INFO [main][RepositoryConfigurationDelegate.java:201] - Finished Spring Data repository scanning in 3 ms. Found 0 Redis repository interfaces.
+2023-12-28 09:21:06,665 INFO [main][GenericScope.java:283] - BeanFactory id=368cfb25-6c9c-3a5c-a099-5ae921f4599c
+2023-12-28 09:21:06,665 INFO [main][GenericScope.java:283] - BeanFactory id=368cfb25-6c9c-3a5c-a099-5ae921f4599c
+2023-12-28 09:21:06,822 INFO [main][TomcatWebServer.java:108] - Tomcat initialized with port(s): 10001 (http)
+2023-12-28 09:21:06,822 INFO [main][TomcatWebServer.java:108] - Tomcat initialized with port(s): 10001 (http)
+2023-12-28 09:21:06,823 INFO [main][DirectJDKLog.java:173] - Loaded Apache Tomcat Native library [1.2.38] using APR version [1.7.4].
+2023-12-28 09:21:06,823 INFO [main][DirectJDKLog.java:173] - Loaded Apache Tomcat Native library [1.2.38] using APR version [1.7.4].
+2023-12-28 09:21:06,824 INFO [main][DirectJDKLog.java:173] - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+2023-12-28 09:21:06,824 INFO [main][DirectJDKLog.java:173] - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+2023-12-28 09:21:06,824 INFO [main][DirectJDKLog.java:173] - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2023-12-28 09:21:06,824 INFO [main][DirectJDKLog.java:173] - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2023-12-28 09:21:06,831 INFO [main][DirectJDKLog.java:173] - OpenSSL successfully initialized [OpenSSL 1.1.1v  1 Aug 2023]
+2023-12-28 09:21:06,831 INFO [main][DirectJDKLog.java:173] - OpenSSL successfully initialized [OpenSSL 1.1.1v  1 Aug 2023]
+2023-12-28 09:21:06,838 INFO [main][DirectJDKLog.java:173] - Initializing ProtocolHandler ["http-nio-10001"]
+2023-12-28 09:21:06,838 INFO [main][DirectJDKLog.java:173] - Initializing ProtocolHandler ["http-nio-10001"]
+2023-12-28 09:21:06,838 INFO [main][DirectJDKLog.java:173] - Starting service [Tomcat]
+2023-12-28 09:21:06,838 INFO [main][DirectJDKLog.java:173] - Starting service [Tomcat]
+2023-12-28 09:21:06,838 INFO [main][DirectJDKLog.java:173] - Starting Servlet engine: [Apache Tomcat/9.0.60]
+2023-12-28 09:21:06,838 INFO [main][DirectJDKLog.java:173] - Starting Servlet engine: [Apache Tomcat/9.0.60]
+2023-12-28 09:21:06,936 INFO [main][DirectJDKLog.java:173] - Initializing Spring embedded WebApplicationContext
+2023-12-28 09:21:06,936 INFO [main][DirectJDKLog.java:173] - Initializing Spring embedded WebApplicationContext
+2023-12-28 09:21:06,937 INFO [main][ServletWebServerApplicationContext.java:290] - Root WebApplicationContext: initialization completed in 733 ms
+2023-12-28 09:21:06,937 INFO [main][ServletWebServerApplicationContext.java:290] - Root WebApplicationContext: initialization completed in 733 ms
+2023-12-28 09:21:07,332 DEBUG [main][AbstractHandlerMethodMapping.java:295] - 
+	c.m.t.m.c.FileController:
+	{POST [/third/party/upload]}: upload(MultipartFile)
+2023-12-28 09:21:07,332 DEBUG [main][AbstractHandlerMethodMapping.java:295] - 
+	c.m.t.m.c.FileController:
+	{POST [/third/party/upload]}: upload(MultipartFile)
+2023-12-28 09:21:07,335 DEBUG [main][AbstractHandlerMethodMapping.java:295] - 
+	s.d.s.w.Swagger2ControllerWebMvc:
+	{GET [/v2/api-docs], produces [application/json || application/hal+json]}: getDocumentation(String,HttpServletRequest)
+2023-12-28 09:21:07,335 DEBUG [main][AbstractHandlerMethodMapping.java:295] - 
+	s.d.s.w.Swagger2ControllerWebMvc:
+	{GET [/v2/api-docs], produces [application/json || application/hal+json]}: getDocumentation(String,HttpServletRequest)
+2023-12-28 09:21:07,336 DEBUG [main][AbstractHandlerMethodMapping.java:295] - 
+	s.d.s.w.ApiResourceController:
+	{GET [/swagger-resources/configuration/ui], produces [application/json]}: uiConfiguration()
+	{GET [/swagger-resources], produces [application/json]}: swaggerResources()
+	{GET [/swagger-resources/configuration/security], produces [application/json]}: securityConfiguration()
+2023-12-28 09:21:07,336 DEBUG [main][AbstractHandlerMethodMapping.java:295] - 
+	s.d.s.w.ApiResourceController:
+	{GET [/swagger-resources/configuration/ui], produces [application/json]}: uiConfiguration()
+	{GET [/swagger-resources], produces [application/json]}: swaggerResources()
+	{GET [/swagger-resources/configuration/security], produces [application/json]}: securityConfiguration()
+2023-12-28 09:21:07,337 DEBUG [main][AbstractHandlerMethodMapping.java:295] - 
+	s.d.o.w.OpenApiControllerWebMvc:
+	{GET [/v3/api-docs], produces [application/json || application/hal+json]}: getDocumentation(String,HttpServletRequest)
+2023-12-28 09:21:07,337 DEBUG [main][AbstractHandlerMethodMapping.java:295] - 
+	s.d.o.w.OpenApiControllerWebMvc:
+	{GET [/v3/api-docs], produces [application/json || application/hal+json]}: getDocumentation(String,HttpServletRequest)
+2023-12-28 09:21:07,341 DEBUG [main][AbstractHandlerMethodMapping.java:295] - 
+	o.s.b.a.w.s.e.BasicErrorController:
+	{ [/error]}: error(HttpServletRequest)
+	{ [/error], produces [text/html]}: errorHtml(HttpServletRequest,HttpServletResponse)
+2023-12-28 09:21:07,341 DEBUG [main][AbstractHandlerMethodMapping.java:295] - 
+	o.s.b.a.w.s.e.BasicErrorController:
+	{ [/error]}: error(HttpServletRequest)
+	{ [/error], produces [text/html]}: errorHtml(HttpServletRequest,HttpServletResponse)
+2023-12-28 09:21:07,368 DEBUG [main][OpenApiExtensionResolver.java:57] - Resolver method start...
+2023-12-28 09:21:07,368 DEBUG [main][OpenApiExtensionResolver.java:57] - Resolver method start...
+2023-12-28 09:21:07,470 DEBUG [main][SimpleUrlHandlerMapping.java:177] - 'viewControllerHandlerMapping' {/swagger-ui/=ParameterizableViewController [view="forward:/swagger-ui/index.html"]}
+2023-12-28 09:21:07,470 DEBUG [main][SimpleUrlHandlerMapping.java:177] - 'viewControllerHandlerMapping' {/swagger-ui/=ParameterizableViewController [view="forward:/swagger-ui/index.html"]}
+2023-12-28 09:21:07,472 DEBUG [main][AbstractDetectingUrlHandlerMapping.java:86] - 'beanNameHandlerMapping' {}
+2023-12-28 09:21:07,472 DEBUG [main][AbstractDetectingUrlHandlerMapping.java:86] - 'beanNameHandlerMapping' {}
+2023-12-28 09:21:07,479 DEBUG [main][SimpleUrlHandlerMapping.java:177] - 'resourceHandlerMapping' {/webjars/**=ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]], /**=ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]], /swagger-ui/**=ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/springfox-swagger-ui/]]}
+2023-12-28 09:21:07,479 DEBUG [main][SimpleUrlHandlerMapping.java:177] - 'resourceHandlerMapping' {/webjars/**=ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]], /**=ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]], /swagger-ui/**=ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/springfox-swagger-ui/]]}
+2023-12-28 09:21:08,611 INFO [main][InetUtils.java:170] - Cannot determine local hostname
+2023-12-28 09:21:08,611 INFO [main][InetUtils.java:170] - Cannot determine local hostname
+2023-12-28 09:21:08,627 DEBUG [main][InternalLoggerFactory.java:63] - Using SLF4J as the default logging framework
+2023-12-28 09:21:08,627 DEBUG [main][InternalLoggerFactory.java:63] - Using SLF4J as the default logging framework
+2023-12-28 09:21:08,629 DEBUG [main][AddressResolverGroupProvider.java:37] - Starting without optional netty's non-blocking DNS resolver library
+2023-12-28 09:21:08,629 DEBUG [main][AddressResolverGroupProvider.java:37] - Starting without optional netty's non-blocking DNS resolver library
+2023-12-28 09:21:08,631 DEBUG [main][DefaultClientResources.java:122] - -Dio.netty.eventLoopThreads: 16
+2023-12-28 09:21:08,631 DEBUG [main][DefaultClientResources.java:122] - -Dio.netty.eventLoopThreads: 16
+2023-12-28 09:21:08,637 DEBUG [main][DefaultEventLoopGroupProvider.java:231] - Creating executor io.netty.util.concurrent.DefaultEventExecutorGroup
+2023-12-28 09:21:08,637 DEBUG [main][DefaultEventLoopGroupProvider.java:231] - Creating executor io.netty.util.concurrent.DefaultEventExecutorGroup
+2023-12-28 09:21:08,649 DEBUG [main][InternalThreadLocalMap.java:86] - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2023-12-28 09:21:08,649 DEBUG [main][InternalThreadLocalMap.java:86] - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2023-12-28 09:21:08,649 DEBUG [main][InternalThreadLocalMap.java:89] - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2023-12-28 09:21:08,649 DEBUG [main][InternalThreadLocalMap.java:89] - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2023-12-28 09:21:08,653 DEBUG [main][ResourceLeakDetector.java:129] - -Dio.netty.leakDetection.level: simple
+2023-12-28 09:21:08,653 DEBUG [main][ResourceLeakDetector.java:129] - -Dio.netty.leakDetection.level: simple
+2023-12-28 09:21:08,653 DEBUG [main][ResourceLeakDetector.java:130] - -Dio.netty.leakDetection.targetRecords: 4
+2023-12-28 09:21:08,653 DEBUG [main][ResourceLeakDetector.java:130] - -Dio.netty.leakDetection.targetRecords: 4
+2023-12-28 09:21:08,654 DEBUG [main][ResourceLeakDetectorFactory.java:196] - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@142918a0
+2023-12-28 09:21:08,654 DEBUG [main][ResourceLeakDetectorFactory.java:196] - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@142918a0
+2023-12-28 09:21:08,657 DEBUG [main][PlatformDependent0.java:460] - -Dio.netty.noUnsafe: false
+2023-12-28 09:21:08,657 DEBUG [main][PlatformDependent0.java:460] - -Dio.netty.noUnsafe: false
+2023-12-28 09:21:08,657 DEBUG [main][PlatformDependent0.java:954] - Java version: 11
+2023-12-28 09:21:08,657 DEBUG [main][PlatformDependent0.java:954] - Java version: 11
+2023-12-28 09:21:08,658 DEBUG [main][PlatformDependent0.java:135] - sun.misc.Unsafe.theUnsafe: available
+2023-12-28 09:21:08,658 DEBUG [main][PlatformDependent0.java:135] - sun.misc.Unsafe.theUnsafe: available
+2023-12-28 09:21:08,658 DEBUG [main][PlatformDependent0.java:159] - sun.misc.Unsafe.copyMemory: available
+2023-12-28 09:21:08,658 DEBUG [main][PlatformDependent0.java:159] - sun.misc.Unsafe.copyMemory: available
+2023-12-28 09:21:08,659 DEBUG [main][PlatformDependent0.java:202] - java.nio.Buffer.address: available
+2023-12-28 09:21:08,659 DEBUG [main][PlatformDependent0.java:202] - java.nio.Buffer.address: available
+2023-12-28 09:21:08,659 DEBUG [main][PlatformDependent0.java:285] - direct buffer constructor: unavailable: Reflective setAccessible(true) disabled
+2023-12-28 09:21:08,659 DEBUG [main][PlatformDependent0.java:285] - direct buffer constructor: unavailable: Reflective setAccessible(true) disabled
+2023-12-28 09:21:08,660 DEBUG [main][PlatformDependent0.java:350] - java.nio.Bits.unaligned: available, true
+2023-12-28 09:21:08,660 DEBUG [main][PlatformDependent0.java:350] - java.nio.Bits.unaligned: available, true
+2023-12-28 09:21:08,660 DEBUG [main][PlatformDependent0.java:417] - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable: class io.netty.util.internal.PlatformDependent0$6 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @4aaecabd
+2023-12-28 09:21:08,660 DEBUG [main][PlatformDependent0.java:417] - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable: class io.netty.util.internal.PlatformDependent0$6 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @4aaecabd
+2023-12-28 09:21:08,661 DEBUG [main][PlatformDependent0.java:446] - java.nio.DirectByteBuffer.<init>(long, int): unavailable
+2023-12-28 09:21:08,661 DEBUG [main][PlatformDependent0.java:446] - java.nio.DirectByteBuffer.<init>(long, int): unavailable
+2023-12-28 09:21:08,661 DEBUG [main][PlatformDependent.java:1116] - sun.misc.Unsafe: available
+2023-12-28 09:21:08,661 DEBUG [main][PlatformDependent.java:1116] - sun.misc.Unsafe: available
+2023-12-28 09:21:08,661 DEBUG [main][PlatformDependent.java:1227] - maxDirectMemory: 8522825728 bytes (maybe)
+2023-12-28 09:21:08,661 DEBUG [main][PlatformDependent.java:1227] - maxDirectMemory: 8522825728 bytes (maybe)
+2023-12-28 09:21:08,661 DEBUG [main][PlatformDependent.java:1246] - -Dio.netty.tmpdir: C:\Users\ADMINI~1\AppData\Local\Temp (java.io.tmpdir)
+2023-12-28 09:21:08,661 DEBUG [main][PlatformDependent.java:1246] - -Dio.netty.tmpdir: C:\Users\ADMINI~1\AppData\Local\Temp (java.io.tmpdir)
+2023-12-28 09:21:08,661 DEBUG [main][PlatformDependent.java:1325] - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2023-12-28 09:21:08,661 DEBUG [main][PlatformDependent.java:1325] - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2023-12-28 09:21:08,662 DEBUG [main][PlatformDependent.java:1076] - Platform: Windows
+2023-12-28 09:21:08,662 DEBUG [main][PlatformDependent.java:1076] - Platform: Windows
+2023-12-28 09:21:08,662 DEBUG [main][PlatformDependent.java:178] - -Dio.netty.maxDirectMemory: -1 bytes
+2023-12-28 09:21:08,662 DEBUG [main][PlatformDependent.java:178] - -Dio.netty.maxDirectMemory: -1 bytes
+2023-12-28 09:21:08,662 DEBUG [main][PlatformDependent.java:185] - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2023-12-28 09:21:08,662 DEBUG [main][PlatformDependent.java:185] - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2023-12-28 09:21:08,663 DEBUG [main][CleanerJava9.java:71] - java.nio.ByteBuffer.cleaner(): available
+2023-12-28 09:21:08,663 DEBUG [main][CleanerJava9.java:71] - java.nio.ByteBuffer.cleaner(): available
+2023-12-28 09:21:08,663 DEBUG [main][PlatformDependent.java:205] - -Dio.netty.noPreferDirect: false
+2023-12-28 09:21:08,663 DEBUG [main][PlatformDependent.java:205] - -Dio.netty.noPreferDirect: false
+2023-12-28 09:21:08,664 DEBUG [main][PlatformDependent.java:967] - org.jctools-core.MpscChunkedArrayQueue: available
+2023-12-28 09:21:08,664 DEBUG [main][PlatformDependent.java:967] - org.jctools-core.MpscChunkedArrayQueue: available
+2023-12-28 09:21:08,672 DEBUG [main][Loggers.java:245] - Using Slf4j logging framework
+2023-12-28 09:21:08,672 DEBUG [main][Loggers.java:245] - Using Slf4j logging framework
+2023-12-28 09:21:08,674 DEBUG [main][EventRecorderHolder.java:47] - Starting with JFR support
+2023-12-28 09:21:08,674 DEBUG [main][EventRecorderHolder.java:47] - Starting with JFR support
+2023-12-28 09:21:08,686 DEBUG [main][DefaultClientResources.java:227] - LatencyUtils/HdrUtils are not available, metrics are disabled
+2023-12-28 09:21:08,686 DEBUG [main][DefaultClientResources.java:227] - LatencyUtils/HdrUtils are not available, metrics are disabled
+2023-12-28 09:21:09,937 INFO [main][InetUtils.java:170] - Cannot determine local hostname
+2023-12-28 09:21:09,937 INFO [main][InetUtils.java:170] - Cannot determine local hostname
+2023-12-28 09:21:10,288 INFO [main][DirectJDKLog.java:173] - Starting ProtocolHandler ["http-nio-10001"]
+2023-12-28 09:21:10,288 INFO [main][DirectJDKLog.java:173] - Starting ProtocolHandler ["http-nio-10001"]
+2023-12-28 09:21:10,299 INFO [main][TomcatWebServer.java:220] - Tomcat started on port(s): 10001 (http) with context path ''
+2023-12-28 09:21:10,299 INFO [main][TomcatWebServer.java:220] - Tomcat started on port(s): 10001 (http) with context path ''
+2023-12-28 09:21:10,334 INFO [main][NacosServiceRegistry.java:75] - nacos registry, dev mynote-third-party 192.168.75.1:10001 register finished
+2023-12-28 09:21:10,334 INFO [main][NacosServiceRegistry.java:75] - nacos registry, dev mynote-third-party 192.168.75.1:10001 register finished
+2023-12-28 09:21:11,050 DEBUG [nacos.publisher-com.alibaba.nacos.client.naming.event.InstancesChangeEvent][DefaultPublisher.java:193] - [NotifyCenter] the com.alibaba.nacos.client.naming.event.InstancesChangeEvent@413f5b99 will received by com.alibaba.nacos.client.naming.event.InstancesChangeNotifier@4d3990a5
+2023-12-28 09:21:11,050 DEBUG [nacos.publisher-com.alibaba.nacos.client.naming.event.InstancesChangeEvent][DefaultPublisher.java:193] - [NotifyCenter] the com.alibaba.nacos.client.naming.event.InstancesChangeEvent@413f5b99 will received by com.alibaba.nacos.client.naming.event.InstancesChangeNotifier@4d3990a5
+2023-12-28 09:21:11,449 INFO [main][InetUtils.java:170] - Cannot determine local hostname
+2023-12-28 09:21:11,449 INFO [main][InetUtils.java:170] - Cannot determine local hostname
+2023-12-28 09:21:11,566 INFO [main][StartupInfoLogger.java:61] - Started ThirdPartyApplication in 8.165 seconds (JVM running for 8.821)
+2023-12-28 09:21:11,566 INFO [main][StartupInfoLogger.java:61] - Started ThirdPartyApplication in 8.165 seconds (JVM running for 8.821)
+2023-12-28 09:21:17,228 INFO [http-nio-10001-exec-1][DirectJDKLog.java:173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-12-28 09:21:17,228 INFO [http-nio-10001-exec-1][DirectJDKLog.java:173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-12-28 09:21:17,228 INFO [http-nio-10001-exec-1][FrameworkServlet.java:525] - Initializing Servlet 'dispatcherServlet'
+2023-12-28 09:21:17,228 INFO [http-nio-10001-exec-1][FrameworkServlet.java:525] - Initializing Servlet 'dispatcherServlet'
+2023-12-28 09:21:17,229 INFO [http-nio-10001-exec-1][FrameworkServlet.java:547] - Completed initialization in 1 ms
+2023-12-28 09:21:17,229 INFO [http-nio-10001-exec-1][FrameworkServlet.java:547] - Completed initialization in 1 ms
+2023-12-28 09:21:24,491 WARN [http-nio-10001-exec-2][DirectJDKLog.java:173] - Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [133] milliseconds.
+2023-12-28 09:21:24,491 WARN [http-nio-10001-exec-2][DirectJDKLog.java:173] - Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [133] milliseconds.
+2023-12-28 09:23:02,418 ERROR [http-nio-10001-exec-7][DirectJDKLog.java:175] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.web.multipart.MultipartException: Current request is not a multipart request] with root cause
+org.springframework.web.multipart.MultipartException: Current request is not a multipart request
+	at org.springframework.web.method.annotation.RequestParamMethodArgumentResolver.handleMissingValueInternal(RequestParamMethodArgumentResolver.java:210)
+	at org.springframework.web.method.annotation.RequestParamMethodArgumentResolver.handleMissingValue(RequestParamMethodArgumentResolver.java:193)
+	at org.springframework.web.method.annotation.AbstractNamedValueMethodArgumentResolver.resolveArgument(AbstractNamedValueMethodArgumentResolver.java:114)
+	at org.springframework.web.method.support.HandlerMethodArgumentResolverComposite.resolveArgument(HandlerMethodArgumentResolverComposite.java:122)
+	at org.springframework.web.method.support.InvocableHandlerMethod.getMethodArgumentValues(InvocableHandlerMethod.java:179)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:146)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1067)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:681)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at com.github.xiaoymin.knife4j.spring.filter.SecurityBasicAuthFilter.doFilter(SecurityBasicAuthFilter.java:87)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:889)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2023-12-28 09:23:02,418 ERROR [http-nio-10001-exec-7][DirectJDKLog.java:175] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.web.multipart.MultipartException: Current request is not a multipart request] with root cause
+org.springframework.web.multipart.MultipartException: Current request is not a multipart request
+	at org.springframework.web.method.annotation.RequestParamMethodArgumentResolver.handleMissingValueInternal(RequestParamMethodArgumentResolver.java:210)
+	at org.springframework.web.method.annotation.RequestParamMethodArgumentResolver.handleMissingValue(RequestParamMethodArgumentResolver.java:193)
+	at org.springframework.web.method.annotation.AbstractNamedValueMethodArgumentResolver.resolveArgument(AbstractNamedValueMethodArgumentResolver.java:114)
+	at org.springframework.web.method.support.HandlerMethodArgumentResolverComposite.resolveArgument(HandlerMethodArgumentResolverComposite.java:122)
+	at org.springframework.web.method.support.InvocableHandlerMethod.getMethodArgumentValues(InvocableHandlerMethod.java:179)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:146)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1067)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:681)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at com.github.xiaoymin.knife4j.spring.filter.SecurityBasicAuthFilter.doFilter(SecurityBasicAuthFilter.java:87)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:889)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2023-12-28 09:23:25,822 WARN [Thread-4][HttpClientBeanHolder.java:108] - [HttpClientBeanHolder] Start destroying common HttpClient
+2023-12-28 09:23:25,823 WARN [Thread-4][HttpClientBeanHolder.java:114] - [HttpClientBeanHolder] Destruction of the end
+2023-12-28 09:23:25,822 WARN [Thread-4][HttpClientBeanHolder.java:108] - [HttpClientBeanHolder] Start destroying common HttpClient
+2023-12-28 09:23:25,823 WARN [Thread-4][HttpClientBeanHolder.java:114] - [HttpClientBeanHolder] Destruction of the end
+2023-12-28 09:23:25,831 WARN [Thread-10][NotifyCenter.java:145] - [NotifyCenter] Start destroying Publisher
+2023-12-28 09:23:25,831 WARN [Thread-10][NotifyCenter.java:145] - [NotifyCenter] Start destroying Publisher
+2023-12-28 09:23:25,832 WARN [Thread-10][NotifyCenter.java:162] - [NotifyCenter] Destruction of the end
+2023-12-28 09:23:25,832 WARN [Thread-10][NotifyCenter.java:162] - [NotifyCenter] Destruction of the end
+2023-12-28 09:23:25,947 DEBUG [SpringApplicationShutdownHook][AbstractRedisClient.java:539] - Initiate shutdown (100, 100, MILLISECONDS)
+2023-12-28 09:23:25,947 DEBUG [SpringApplicationShutdownHook][AbstractRedisClient.java:539] - Initiate shutdown (100, 100, MILLISECONDS)
+2023-12-28 09:23:25,952 DEBUG [SpringApplicationShutdownHook][DefaultClientResources.java:735] - Initiate shutdown (0, 2, SECONDS)
+2023-12-28 09:23:25,952 DEBUG [SpringApplicationShutdownHook][DefaultClientResources.java:735] - Initiate shutdown (0, 2, SECONDS)
+2023-12-28 09:23:25,953 DEBUG [SpringApplicationShutdownHook][DefaultEventLoopGroupProvider.java:317] - Initiate shutdown (0, 2, SECONDS)
+2023-12-28 09:23:25,953 DEBUG [SpringApplicationShutdownHook][DefaultEventLoopGroupProvider.java:317] - Initiate shutdown (0, 2, SECONDS)
+2023-12-28 09:23:25,957 INFO [SpringApplicationShutdownHook][NacosServiceRegistry.java:94] - De-registering from Nacos Server now...
+2023-12-28 09:23:25,957 INFO [SpringApplicationShutdownHook][NacosServiceRegistry.java:94] - De-registering from Nacos Server now...
+2023-12-28 09:23:25,960 INFO [SpringApplicationShutdownHook][NacosServiceRegistry.java:114] - De-registration finished.
+2023-12-28 09:23:25,960 INFO [SpringApplicationShutdownHook][NacosServiceRegistry.java:114] - De-registration finished.
+2023-12-28 09:23:26,510 DEBUG [nacos.publisher-com.alibaba.nacos.client.naming.event.InstancesChangeEvent][DefaultPublisher.java:193] - [NotifyCenter] the com.alibaba.nacos.client.naming.event.InstancesChangeEvent@476c2e82 will received by com.alibaba.nacos.client.naming.event.InstancesChangeNotifier@4d3990a5
+2023-12-28 09:23:26,510 DEBUG [nacos.publisher-com.alibaba.nacos.client.naming.event.InstancesChangeEvent][DefaultPublisher.java:193] - [NotifyCenter] the com.alibaba.nacos.client.naming.event.InstancesChangeEvent@476c2e82 will received by com.alibaba.nacos.client.naming.event.InstancesChangeNotifier@4d3990a5
+2023-12-28 09:23:44,944 INFO [main][SpringApplication.java:646] - The following 1 profile is active: "dev"
+2023-12-28 09:23:44,944 INFO [main][SpringApplication.java:646] - The following 1 profile is active: "dev"
+2023-12-28 09:23:45,291 INFO [main][RepositoryConfigurationDelegate.java:262] - Multiple Spring Data modules found, entering strict repository configuration mode!
+2023-12-28 09:23:45,291 INFO [main][RepositoryConfigurationDelegate.java:262] - Multiple Spring Data modules found, entering strict repository configuration mode!
+2023-12-28 09:23:45,296 INFO [main][RepositoryConfigurationDelegate.java:132] - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-12-28 09:23:45,296 INFO [main][RepositoryConfigurationDelegate.java:132] - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-12-28 09:23:45,306 INFO [main][RepositoryConfigurationDelegate.java:201] - Finished Spring Data repository scanning in 3 ms. Found 0 Redis repository interfaces.
+2023-12-28 09:23:45,306 INFO [main][RepositoryConfigurationDelegate.java:201] - Finished Spring Data repository scanning in 3 ms. Found 0 Redis repository interfaces.
+2023-12-28 09:23:45,381 INFO [main][GenericScope.java:283] - BeanFactory id=368cfb25-6c9c-3a5c-a099-5ae921f4599c
+2023-12-28 09:23:45,381 INFO [main][GenericScope.java:283] - BeanFactory id=368cfb25-6c9c-3a5c-a099-5ae921f4599c
+2023-12-28 09:23:45,522 INFO [main][TomcatWebServer.java:108] - Tomcat initialized with port(s): 10001 (http)
+2023-12-28 09:23:45,522 INFO [main][TomcatWebServer.java:108] - Tomcat initialized with port(s): 10001 (http)
+2023-12-28 09:23:45,523 INFO [main][DirectJDKLog.java:173] - Loaded Apache Tomcat Native library [1.2.38] using APR version [1.7.4].
+2023-12-28 09:23:45,523 INFO [main][DirectJDKLog.java:173] - Loaded Apache Tomcat Native library [1.2.38] using APR version [1.7.4].
+2023-12-28 09:23:45,523 INFO [main][DirectJDKLog.java:173] - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+2023-12-28 09:23:45,523 INFO [main][DirectJDKLog.java:173] - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+2023-12-28 09:23:45,523 INFO [main][DirectJDKLog.java:173] - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2023-12-28 09:23:45,523 INFO [main][DirectJDKLog.java:173] - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2023-12-28 09:23:45,525 INFO [main][DirectJDKLog.java:173] - OpenSSL successfully initialized [OpenSSL 1.1.1v  1 Aug 2023]
+2023-12-28 09:23:45,525 INFO [main][DirectJDKLog.java:173] - OpenSSL successfully initialized [OpenSSL 1.1.1v  1 Aug 2023]
+2023-12-28 09:23:45,530 INFO [main][DirectJDKLog.java:173] - Initializing ProtocolHandler ["http-nio-10001"]
+2023-12-28 09:23:45,530 INFO [main][DirectJDKLog.java:173] - Initializing ProtocolHandler ["http-nio-10001"]
+2023-12-28 09:23:45,530 INFO [main][DirectJDKLog.java:173] - Starting service [Tomcat]
+2023-12-28 09:23:45,530 INFO [main][DirectJDKLog.java:173] - Starting service [Tomcat]
+2023-12-28 09:23:45,530 INFO [main][DirectJDKLog.java:173] - Starting Servlet engine: [Apache Tomcat/9.0.60]
+2023-12-28 09:23:45,530 INFO [main][DirectJDKLog.java:173] - Starting Servlet engine: [Apache Tomcat/9.0.60]
+2023-12-28 09:23:45,626 INFO [main][DirectJDKLog.java:173] - Initializing Spring embedded WebApplicationContext
+2023-12-28 09:23:45,626 INFO [main][DirectJDKLog.java:173] - Initializing Spring embedded WebApplicationContext
+2023-12-28 09:23:45,626 INFO [main][ServletWebServerApplicationContext.java:290] - Root WebApplicationContext: initialization completed in 670 ms
+2023-12-28 09:23:45,626 INFO [main][ServletWebServerApplicationContext.java:290] - Root WebApplicationContext: initialization completed in 670 ms
+2023-12-28 09:23:45,981 DEBUG [main][AbstractHandlerMethodMapping.java:295] - 
+	c.m.t.m.c.FileController:
+	{ [/third/party/upload]}: upload(MultipartFile)
+2023-12-28 09:23:45,981 DEBUG [main][AbstractHandlerMethodMapping.java:295] - 
+	c.m.t.m.c.FileController:
+	{ [/third/party/upload]}: upload(MultipartFile)
+2023-12-28 09:23:45,983 DEBUG [main][AbstractHandlerMethodMapping.java:295] - 
+	s.d.s.w.Swagger2ControllerWebMvc:
+	{GET [/v2/api-docs], produces [application/json || application/hal+json]}: getDocumentation(String,HttpServletRequest)
+2023-12-28 09:23:45,983 DEBUG [main][AbstractHandlerMethodMapping.java:295] - 
+	s.d.s.w.Swagger2ControllerWebMvc:
+	{GET [/v2/api-docs], produces [application/json || application/hal+json]}: getDocumentation(String,HttpServletRequest)
+2023-12-28 09:23:45,983 DEBUG [main][AbstractHandlerMethodMapping.java:295] - 
+	s.d.s.w.ApiResourceController:
+	{GET [/swagger-resources/configuration/security], produces [application/json]}: securityConfiguration()
+	{GET [/swagger-resources/configuration/ui], produces [application/json]}: uiConfiguration()
+	{GET [/swagger-resources], produces [application/json]}: swaggerResources()
+2023-12-28 09:23:45,983 DEBUG [main][AbstractHandlerMethodMapping.java:295] - 
+	s.d.s.w.ApiResourceController:
+	{GET [/swagger-resources/configuration/security], produces [application/json]}: securityConfiguration()
+	{GET [/swagger-resources/configuration/ui], produces [application/json]}: uiConfiguration()
+	{GET [/swagger-resources], produces [application/json]}: swaggerResources()
+2023-12-28 09:23:45,984 DEBUG [main][AbstractHandlerMethodMapping.java:295] - 
+	s.d.o.w.OpenApiControllerWebMvc:
+	{GET [/v3/api-docs], produces [application/json || application/hal+json]}: getDocumentation(String,HttpServletRequest)
+2023-12-28 09:23:45,984 DEBUG [main][AbstractHandlerMethodMapping.java:295] - 
+	s.d.o.w.OpenApiControllerWebMvc:
+	{GET [/v3/api-docs], produces [application/json || application/hal+json]}: getDocumentation(String,HttpServletRequest)
+2023-12-28 09:23:45,987 DEBUG [main][AbstractHandlerMethodMapping.java:295] - 
+	o.s.b.a.w.s.e.BasicErrorController:
+	{ [/error]}: error(HttpServletRequest)
+	{ [/error], produces [text/html]}: errorHtml(HttpServletRequest,HttpServletResponse)
+2023-12-28 09:23:45,987 DEBUG [main][AbstractHandlerMethodMapping.java:295] - 
+	o.s.b.a.w.s.e.BasicErrorController:
+	{ [/error]}: error(HttpServletRequest)
+	{ [/error], produces [text/html]}: errorHtml(HttpServletRequest,HttpServletResponse)
+2023-12-28 09:23:46,018 DEBUG [main][OpenApiExtensionResolver.java:57] - Resolver method start...
+2023-12-28 09:23:46,018 DEBUG [main][OpenApiExtensionResolver.java:57] - Resolver method start...
+2023-12-28 09:23:46,113 DEBUG [main][SimpleUrlHandlerMapping.java:177] - 'viewControllerHandlerMapping' {/swagger-ui/=ParameterizableViewController [view="forward:/swagger-ui/index.html"]}
+2023-12-28 09:23:46,113 DEBUG [main][SimpleUrlHandlerMapping.java:177] - 'viewControllerHandlerMapping' {/swagger-ui/=ParameterizableViewController [view="forward:/swagger-ui/index.html"]}
+2023-12-28 09:23:46,114 DEBUG [main][AbstractDetectingUrlHandlerMapping.java:86] - 'beanNameHandlerMapping' {}
+2023-12-28 09:23:46,114 DEBUG [main][AbstractDetectingUrlHandlerMapping.java:86] - 'beanNameHandlerMapping' {}
+2023-12-28 09:23:46,120 DEBUG [main][SimpleUrlHandlerMapping.java:177] - 'resourceHandlerMapping' {/webjars/**=ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]], /**=ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]], /swagger-ui/**=ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/springfox-swagger-ui/]]}
+2023-12-28 09:23:46,120 DEBUG [main][SimpleUrlHandlerMapping.java:177] - 'resourceHandlerMapping' {/webjars/**=ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]], /**=ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]], /swagger-ui/**=ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/springfox-swagger-ui/]]}
+2023-12-28 09:23:47,268 INFO [main][InetUtils.java:170] - Cannot determine local hostname
+2023-12-28 09:23:47,268 INFO [main][InetUtils.java:170] - Cannot determine local hostname
+2023-12-28 09:23:47,284 DEBUG [main][InternalLoggerFactory.java:63] - Using SLF4J as the default logging framework
+2023-12-28 09:23:47,284 DEBUG [main][InternalLoggerFactory.java:63] - Using SLF4J as the default logging framework
+2023-12-28 09:23:47,287 DEBUG [main][AddressResolverGroupProvider.java:37] - Starting without optional netty's non-blocking DNS resolver library
+2023-12-28 09:23:47,287 DEBUG [main][AddressResolverGroupProvider.java:37] - Starting without optional netty's non-blocking DNS resolver library
+2023-12-28 09:23:47,290 DEBUG [main][DefaultClientResources.java:122] - -Dio.netty.eventLoopThreads: 16
+2023-12-28 09:23:47,290 DEBUG [main][DefaultClientResources.java:122] - -Dio.netty.eventLoopThreads: 16
+2023-12-28 09:23:47,296 DEBUG [main][DefaultEventLoopGroupProvider.java:231] - Creating executor io.netty.util.concurrent.DefaultEventExecutorGroup
+2023-12-28 09:23:47,296 DEBUG [main][DefaultEventLoopGroupProvider.java:231] - Creating executor io.netty.util.concurrent.DefaultEventExecutorGroup
+2023-12-28 09:23:47,306 DEBUG [main][InternalThreadLocalMap.java:86] - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2023-12-28 09:23:47,306 DEBUG [main][InternalThreadLocalMap.java:86] - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2023-12-28 09:23:47,307 DEBUG [main][InternalThreadLocalMap.java:89] - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2023-12-28 09:23:47,307 DEBUG [main][InternalThreadLocalMap.java:89] - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2023-12-28 09:23:47,309 DEBUG [main][ResourceLeakDetector.java:129] - -Dio.netty.leakDetection.level: simple
+2023-12-28 09:23:47,309 DEBUG [main][ResourceLeakDetector.java:129] - -Dio.netty.leakDetection.level: simple
+2023-12-28 09:23:47,309 DEBUG [main][ResourceLeakDetector.java:130] - -Dio.netty.leakDetection.targetRecords: 4
+2023-12-28 09:23:47,309 DEBUG [main][ResourceLeakDetector.java:130] - -Dio.netty.leakDetection.targetRecords: 4
+2023-12-28 09:23:47,309 DEBUG [main][ResourceLeakDetectorFactory.java:196] - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@4b99648a
+2023-12-28 09:23:47,309 DEBUG [main][ResourceLeakDetectorFactory.java:196] - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@4b99648a
+2023-12-28 09:23:47,311 DEBUG [main][PlatformDependent0.java:460] - -Dio.netty.noUnsafe: false
+2023-12-28 09:23:47,311 DEBUG [main][PlatformDependent0.java:460] - -Dio.netty.noUnsafe: false
+2023-12-28 09:23:47,311 DEBUG [main][PlatformDependent0.java:954] - Java version: 11
+2023-12-28 09:23:47,311 DEBUG [main][PlatformDependent0.java:954] - Java version: 11
+2023-12-28 09:23:47,312 DEBUG [main][PlatformDependent0.java:135] - sun.misc.Unsafe.theUnsafe: available
+2023-12-28 09:23:47,312 DEBUG [main][PlatformDependent0.java:135] - sun.misc.Unsafe.theUnsafe: available
+2023-12-28 09:23:47,312 DEBUG [main][PlatformDependent0.java:159] - sun.misc.Unsafe.copyMemory: available
+2023-12-28 09:23:47,312 DEBUG [main][PlatformDependent0.java:159] - sun.misc.Unsafe.copyMemory: available
+2023-12-28 09:23:47,313 DEBUG [main][PlatformDependent0.java:202] - java.nio.Buffer.address: available
+2023-12-28 09:23:47,313 DEBUG [main][PlatformDependent0.java:202] - java.nio.Buffer.address: available
+2023-12-28 09:23:47,313 DEBUG [main][PlatformDependent0.java:285] - direct buffer constructor: unavailable: Reflective setAccessible(true) disabled
+2023-12-28 09:23:47,313 DEBUG [main][PlatformDependent0.java:285] - direct buffer constructor: unavailable: Reflective setAccessible(true) disabled
+2023-12-28 09:23:47,313 DEBUG [main][PlatformDependent0.java:350] - java.nio.Bits.unaligned: available, true
+2023-12-28 09:23:47,313 DEBUG [main][PlatformDependent0.java:350] - java.nio.Bits.unaligned: available, true
+2023-12-28 09:23:47,314 DEBUG [main][PlatformDependent0.java:417] - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable: class io.netty.util.internal.PlatformDependent0$6 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @586cc15d
+2023-12-28 09:23:47,314 DEBUG [main][PlatformDependent0.java:417] - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable: class io.netty.util.internal.PlatformDependent0$6 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @586cc15d
+2023-12-28 09:23:47,314 DEBUG [main][PlatformDependent0.java:446] - java.nio.DirectByteBuffer.<init>(long, int): unavailable
+2023-12-28 09:23:47,314 DEBUG [main][PlatformDependent0.java:446] - java.nio.DirectByteBuffer.<init>(long, int): unavailable
+2023-12-28 09:23:47,315 DEBUG [main][PlatformDependent.java:1116] - sun.misc.Unsafe: available
+2023-12-28 09:23:47,315 DEBUG [main][PlatformDependent.java:1116] - sun.misc.Unsafe: available
+2023-12-28 09:23:47,315 DEBUG [main][PlatformDependent.java:1227] - maxDirectMemory: 8522825728 bytes (maybe)
+2023-12-28 09:23:47,315 DEBUG [main][PlatformDependent.java:1227] - maxDirectMemory: 8522825728 bytes (maybe)
+2023-12-28 09:23:47,315 DEBUG [main][PlatformDependent.java:1246] - -Dio.netty.tmpdir: C:\Users\ADMINI~1\AppData\Local\Temp (java.io.tmpdir)
+2023-12-28 09:23:47,315 DEBUG [main][PlatformDependent.java:1246] - -Dio.netty.tmpdir: C:\Users\ADMINI~1\AppData\Local\Temp (java.io.tmpdir)
+2023-12-28 09:23:47,315 DEBUG [main][PlatformDependent.java:1325] - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2023-12-28 09:23:47,315 DEBUG [main][PlatformDependent.java:1325] - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2023-12-28 09:23:47,316 DEBUG [main][PlatformDependent.java:1076] - Platform: Windows
+2023-12-28 09:23:47,316 DEBUG [main][PlatformDependent.java:1076] - Platform: Windows
+2023-12-28 09:23:47,316 DEBUG [main][PlatformDependent.java:178] - -Dio.netty.maxDirectMemory: -1 bytes
+2023-12-28 09:23:47,316 DEBUG [main][PlatformDependent.java:178] - -Dio.netty.maxDirectMemory: -1 bytes
+2023-12-28 09:23:47,316 DEBUG [main][PlatformDependent.java:185] - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2023-12-28 09:23:47,316 DEBUG [main][PlatformDependent.java:185] - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2023-12-28 09:23:47,317 DEBUG [main][CleanerJava9.java:71] - java.nio.ByteBuffer.cleaner(): available
+2023-12-28 09:23:47,317 DEBUG [main][CleanerJava9.java:71] - java.nio.ByteBuffer.cleaner(): available
+2023-12-28 09:23:47,317 DEBUG [main][PlatformDependent.java:205] - -Dio.netty.noPreferDirect: false
+2023-12-28 09:23:47,317 DEBUG [main][PlatformDependent.java:205] - -Dio.netty.noPreferDirect: false
+2023-12-28 09:23:47,318 DEBUG [main][PlatformDependent.java:967] - org.jctools-core.MpscChunkedArrayQueue: available
+2023-12-28 09:23:47,318 DEBUG [main][PlatformDependent.java:967] - org.jctools-core.MpscChunkedArrayQueue: available
+2023-12-28 09:23:47,323 DEBUG [main][Loggers.java:245] - Using Slf4j logging framework
+2023-12-28 09:23:47,323 DEBUG [main][Loggers.java:245] - Using Slf4j logging framework
+2023-12-28 09:23:47,323 DEBUG [main][EventRecorderHolder.java:47] - Starting with JFR support
+2023-12-28 09:23:47,323 DEBUG [main][EventRecorderHolder.java:47] - Starting with JFR support
+2023-12-28 09:23:47,332 DEBUG [main][DefaultClientResources.java:227] - LatencyUtils/HdrUtils are not available, metrics are disabled
+2023-12-28 09:23:47,332 DEBUG [main][DefaultClientResources.java:227] - LatencyUtils/HdrUtils are not available, metrics are disabled
+2023-12-28 09:23:48,579 INFO [main][InetUtils.java:170] - Cannot determine local hostname
+2023-12-28 09:23:48,579 INFO [main][InetUtils.java:170] - Cannot determine local hostname
+2023-12-28 09:23:48,714 INFO [main][DirectJDKLog.java:173] - Starting ProtocolHandler ["http-nio-10001"]
+2023-12-28 09:23:48,714 INFO [main][DirectJDKLog.java:173] - Starting ProtocolHandler ["http-nio-10001"]
+2023-12-28 09:23:48,727 INFO [main][TomcatWebServer.java:220] - Tomcat started on port(s): 10001 (http) with context path ''
+2023-12-28 09:23:48,727 INFO [main][TomcatWebServer.java:220] - Tomcat started on port(s): 10001 (http) with context path ''
+2023-12-28 09:23:48,736 INFO [main][NacosServiceRegistry.java:75] - nacos registry, dev mynote-third-party 192.168.75.1:10001 register finished
+2023-12-28 09:23:48,736 INFO [main][NacosServiceRegistry.java:75] - nacos registry, dev mynote-third-party 192.168.75.1:10001 register finished
+2023-12-28 09:23:49,660 DEBUG [nacos.publisher-com.alibaba.nacos.client.naming.event.InstancesChangeEvent][DefaultPublisher.java:193] - [NotifyCenter] the com.alibaba.nacos.client.naming.event.InstancesChangeEvent@29f25392 will received by com.alibaba.nacos.client.naming.event.InstancesChangeNotifier@2c7c898a
+2023-12-28 09:23:49,660 DEBUG [nacos.publisher-com.alibaba.nacos.client.naming.event.InstancesChangeEvent][DefaultPublisher.java:193] - [NotifyCenter] the com.alibaba.nacos.client.naming.event.InstancesChangeEvent@29f25392 will received by com.alibaba.nacos.client.naming.event.InstancesChangeNotifier@2c7c898a
+2023-12-28 09:23:49,861 INFO [main][InetUtils.java:170] - Cannot determine local hostname
+2023-12-28 09:23:49,861 INFO [main][InetUtils.java:170] - Cannot determine local hostname
+2023-12-28 09:23:50,031 INFO [main][StartupInfoLogger.java:61] - Started ThirdPartyApplication in 7.734 seconds (JVM running for 8.486)
+2023-12-28 09:23:50,031 INFO [main][StartupInfoLogger.java:61] - Started ThirdPartyApplication in 7.734 seconds (JVM running for 8.486)
+2023-12-28 09:23:56,148 INFO [http-nio-10001-exec-1][DirectJDKLog.java:173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-12-28 09:23:56,148 INFO [http-nio-10001-exec-1][DirectJDKLog.java:173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-12-28 09:23:56,148 INFO [http-nio-10001-exec-1][FrameworkServlet.java:525] - Initializing Servlet 'dispatcherServlet'
+2023-12-28 09:23:56,148 INFO [http-nio-10001-exec-1][FrameworkServlet.java:525] - Initializing Servlet 'dispatcherServlet'
+2023-12-28 09:23:56,149 INFO [http-nio-10001-exec-1][FrameworkServlet.java:547] - Completed initialization in 1 ms
+2023-12-28 09:23:56,149 INFO [http-nio-10001-exec-1][FrameworkServlet.java:547] - Completed initialization in 1 ms
+2023-12-28 09:24:58,347 WARN [Thread-4][HttpClientBeanHolder.java:108] - [HttpClientBeanHolder] Start destroying common HttpClient
+2023-12-28 09:24:58,347 WARN [Thread-4][HttpClientBeanHolder.java:108] - [HttpClientBeanHolder] Start destroying common HttpClient
+2023-12-28 09:24:58,347 WARN [Thread-10][NotifyCenter.java:145] - [NotifyCenter] Start destroying Publisher
+2023-12-28 09:24:58,347 WARN [Thread-10][NotifyCenter.java:145] - [NotifyCenter] Start destroying Publisher
+2023-12-28 09:24:58,347 WARN [Thread-4][HttpClientBeanHolder.java:114] - [HttpClientBeanHolder] Destruction of the end
+2023-12-28 09:24:58,347 WARN [Thread-4][HttpClientBeanHolder.java:114] - [HttpClientBeanHolder] Destruction of the end
+2023-12-28 09:24:58,348 WARN [Thread-10][NotifyCenter.java:162] - [NotifyCenter] Destruction of the end
+2023-12-28 09:24:58,348 WARN [Thread-10][NotifyCenter.java:162] - [NotifyCenter] Destruction of the end
+2023-12-28 09:24:58,447 DEBUG [SpringApplicationShutdownHook][AbstractRedisClient.java:539] - Initiate shutdown (100, 100, MILLISECONDS)
+2023-12-28 09:24:58,447 DEBUG [SpringApplicationShutdownHook][AbstractRedisClient.java:539] - Initiate shutdown (100, 100, MILLISECONDS)
+2023-12-28 09:24:58,450 DEBUG [SpringApplicationShutdownHook][DefaultClientResources.java:735] - Initiate shutdown (0, 2, SECONDS)
+2023-12-28 09:24:58,450 DEBUG [SpringApplicationShutdownHook][DefaultClientResources.java:735] - Initiate shutdown (0, 2, SECONDS)
+2023-12-28 09:24:58,452 DEBUG [SpringApplicationShutdownHook][DefaultEventLoopGroupProvider.java:317] - Initiate shutdown (0, 2, SECONDS)
+2023-12-28 09:24:58,452 DEBUG [SpringApplicationShutdownHook][DefaultEventLoopGroupProvider.java:317] - Initiate shutdown (0, 2, SECONDS)
+2023-12-28 09:24:58,455 INFO [SpringApplicationShutdownHook][NacosServiceRegistry.java:94] - De-registering from Nacos Server now...
+2023-12-28 09:24:58,455 INFO [SpringApplicationShutdownHook][NacosServiceRegistry.java:94] - De-registering from Nacos Server now...
+2023-12-28 09:24:58,458 INFO [SpringApplicationShutdownHook][NacosServiceRegistry.java:114] - De-registration finished.
+2023-12-28 09:24:58,458 INFO [SpringApplicationShutdownHook][NacosServiceRegistry.java:114] - De-registration finished.
+2023-12-28 09:24:58,964 DEBUG [nacos.publisher-com.alibaba.nacos.client.naming.event.InstancesChangeEvent][DefaultPublisher.java:193] - [NotifyCenter] the com.alibaba.nacos.client.naming.event.InstancesChangeEvent@772fe452 will received by com.alibaba.nacos.client.naming.event.InstancesChangeNotifier@2c7c898a
+2023-12-28 09:24:58,964 DEBUG [nacos.publisher-com.alibaba.nacos.client.naming.event.InstancesChangeEvent][DefaultPublisher.java:193] - [NotifyCenter] the com.alibaba.nacos.client.naming.event.InstancesChangeEvent@772fe452 will received by com.alibaba.nacos.client.naming.event.InstancesChangeNotifier@2c7c898a
+2023-12-28 09:25:09,070 INFO [main][SpringApplication.java:646] - The following 1 profile is active: "dev"
+2023-12-28 09:25:09,070 INFO [main][SpringApplication.java:646] - The following 1 profile is active: "dev"
+2023-12-28 09:25:09,386 INFO [main][RepositoryConfigurationDelegate.java:262] - Multiple Spring Data modules found, entering strict repository configuration mode!
+2023-12-28 09:25:09,386 INFO [main][RepositoryConfigurationDelegate.java:262] - Multiple Spring Data modules found, entering strict repository configuration mode!
+2023-12-28 09:25:09,388 INFO [main][RepositoryConfigurationDelegate.java:132] - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-12-28 09:25:09,388 INFO [main][RepositoryConfigurationDelegate.java:132] - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-12-28 09:25:09,398 INFO [main][RepositoryConfigurationDelegate.java:201] - Finished Spring Data repository scanning in 2 ms. Found 0 Redis repository interfaces.
+2023-12-28 09:25:09,398 INFO [main][RepositoryConfigurationDelegate.java:201] - Finished Spring Data repository scanning in 2 ms. Found 0 Redis repository interfaces.
+2023-12-28 09:25:09,471 INFO [main][GenericScope.java:283] - BeanFactory id=368cfb25-6c9c-3a5c-a099-5ae921f4599c
+2023-12-28 09:25:09,471 INFO [main][GenericScope.java:283] - BeanFactory id=368cfb25-6c9c-3a5c-a099-5ae921f4599c
+2023-12-28 09:25:09,581 INFO [main][TomcatWebServer.java:108] - Tomcat initialized with port(s): 10001 (http)
+2023-12-28 09:25:09,581 INFO [main][TomcatWebServer.java:108] - Tomcat initialized with port(s): 10001 (http)
+2023-12-28 09:25:09,581 INFO [main][DirectJDKLog.java:173] - Loaded Apache Tomcat Native library [1.2.38] using APR version [1.7.4].
+2023-12-28 09:25:09,581 INFO [main][DirectJDKLog.java:173] - Loaded Apache Tomcat Native library [1.2.38] using APR version [1.7.4].
+2023-12-28 09:25:09,582 INFO [main][DirectJDKLog.java:173] - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+2023-12-28 09:25:09,582 INFO [main][DirectJDKLog.java:173] - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+2023-12-28 09:25:09,582 INFO [main][DirectJDKLog.java:173] - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2023-12-28 09:25:09,582 INFO [main][DirectJDKLog.java:173] - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2023-12-28 09:25:09,583 INFO [main][DirectJDKLog.java:173] - OpenSSL successfully initialized [OpenSSL 1.1.1v  1 Aug 2023]
+2023-12-28 09:25:09,583 INFO [main][DirectJDKLog.java:173] - OpenSSL successfully initialized [OpenSSL 1.1.1v  1 Aug 2023]
+2023-12-28 09:25:09,587 INFO [main][DirectJDKLog.java:173] - Initializing ProtocolHandler ["http-nio-10001"]
+2023-12-28 09:25:09,587 INFO [main][DirectJDKLog.java:173] - Initializing ProtocolHandler ["http-nio-10001"]
+2023-12-28 09:25:09,588 INFO [main][DirectJDKLog.java:173] - Starting service [Tomcat]
+2023-12-28 09:25:09,588 INFO [main][DirectJDKLog.java:173] - Starting service [Tomcat]
+2023-12-28 09:25:09,588 INFO [main][DirectJDKLog.java:173] - Starting Servlet engine: [Apache Tomcat/9.0.60]
+2023-12-28 09:25:09,588 INFO [main][DirectJDKLog.java:173] - Starting Servlet engine: [Apache Tomcat/9.0.60]
+2023-12-28 09:25:09,661 INFO [main][DirectJDKLog.java:173] - Initializing Spring embedded WebApplicationContext
+2023-12-28 09:25:09,661 INFO [main][DirectJDKLog.java:173] - Initializing Spring embedded WebApplicationContext
+2023-12-28 09:25:09,661 INFO [main][ServletWebServerApplicationContext.java:290] - Root WebApplicationContext: initialization completed in 581 ms
+2023-12-28 09:25:09,661 INFO [main][ServletWebServerApplicationContext.java:290] - Root WebApplicationContext: initialization completed in 581 ms
+2023-12-28 09:25:09,991 DEBUG [main][AbstractHandlerMethodMapping.java:295] - 
+	c.m.t.m.c.FileController:
+	{POST [/third/party/upload]}: upload(MultipartFile)
+2023-12-28 09:25:09,991 DEBUG [main][AbstractHandlerMethodMapping.java:295] - 
+	c.m.t.m.c.FileController:
+	{POST [/third/party/upload]}: upload(MultipartFile)
+2023-12-28 09:25:09,993 DEBUG [main][AbstractHandlerMethodMapping.java:295] - 
+	s.d.s.w.Swagger2ControllerWebMvc:
+	{GET [/v2/api-docs], produces [application/json || application/hal+json]}: getDocumentation(String,HttpServletRequest)
+2023-12-28 09:25:09,993 DEBUG [main][AbstractHandlerMethodMapping.java:295] - 
+	s.d.s.w.Swagger2ControllerWebMvc:
+	{GET [/v2/api-docs], produces [application/json || application/hal+json]}: getDocumentation(String,HttpServletRequest)
+2023-12-28 09:25:09,994 DEBUG [main][AbstractHandlerMethodMapping.java:295] - 
+	s.d.s.w.ApiResourceController:
+	{GET [/swagger-resources], produces [application/json]}: swaggerResources()
+	{GET [/swagger-resources/configuration/ui], produces [application/json]}: uiConfiguration()
+	{GET [/swagger-resources/configuration/security], produces [application/json]}: securityConfiguration()
+2023-12-28 09:25:09,994 DEBUG [main][AbstractHandlerMethodMapping.java:295] - 
+	s.d.s.w.ApiResourceController:
+	{GET [/swagger-resources], produces [application/json]}: swaggerResources()
+	{GET [/swagger-resources/configuration/ui], produces [application/json]}: uiConfiguration()
+	{GET [/swagger-resources/configuration/security], produces [application/json]}: securityConfiguration()
+2023-12-28 09:25:09,995 DEBUG [main][AbstractHandlerMethodMapping.java:295] - 
+	s.d.o.w.OpenApiControllerWebMvc:
+	{GET [/v3/api-docs], produces [application/json || application/hal+json]}: getDocumentation(String,HttpServletRequest)
+2023-12-28 09:25:09,995 DEBUG [main][AbstractHandlerMethodMapping.java:295] - 
+	s.d.o.w.OpenApiControllerWebMvc:
+	{GET [/v3/api-docs], produces [application/json || application/hal+json]}: getDocumentation(String,HttpServletRequest)
+2023-12-28 09:25:09,998 DEBUG [main][AbstractHandlerMethodMapping.java:295] - 
+	o.s.b.a.w.s.e.BasicErrorController:
+	{ [/error]}: error(HttpServletRequest)
+	{ [/error], produces [text/html]}: errorHtml(HttpServletRequest,HttpServletResponse)
+2023-12-28 09:25:09,998 DEBUG [main][AbstractHandlerMethodMapping.java:295] - 
+	o.s.b.a.w.s.e.BasicErrorController:
+	{ [/error]}: error(HttpServletRequest)
+	{ [/error], produces [text/html]}: errorHtml(HttpServletRequest,HttpServletResponse)
+2023-12-28 09:25:10,022 DEBUG [main][OpenApiExtensionResolver.java:57] - Resolver method start...
+2023-12-28 09:25:10,022 DEBUG [main][OpenApiExtensionResolver.java:57] - Resolver method start...
+2023-12-28 09:25:10,107 DEBUG [main][SimpleUrlHandlerMapping.java:177] - 'viewControllerHandlerMapping' {/swagger-ui/=ParameterizableViewController [view="forward:/swagger-ui/index.html"]}
+2023-12-28 09:25:10,107 DEBUG [main][SimpleUrlHandlerMapping.java:177] - 'viewControllerHandlerMapping' {/swagger-ui/=ParameterizableViewController [view="forward:/swagger-ui/index.html"]}
+2023-12-28 09:25:10,108 DEBUG [main][AbstractDetectingUrlHandlerMapping.java:86] - 'beanNameHandlerMapping' {}
+2023-12-28 09:25:10,108 DEBUG [main][AbstractDetectingUrlHandlerMapping.java:86] - 'beanNameHandlerMapping' {}
+2023-12-28 09:25:10,113 DEBUG [main][SimpleUrlHandlerMapping.java:177] - 'resourceHandlerMapping' {/webjars/**=ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]], /**=ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]], /swagger-ui/**=ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/springfox-swagger-ui/]]}
+2023-12-28 09:25:10,113 DEBUG [main][SimpleUrlHandlerMapping.java:177] - 'resourceHandlerMapping' {/webjars/**=ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]], /**=ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]], /swagger-ui/**=ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/springfox-swagger-ui/]]}
+2023-12-28 09:25:11,243 INFO [main][InetUtils.java:170] - Cannot determine local hostname
+2023-12-28 09:25:11,243 INFO [main][InetUtils.java:170] - Cannot determine local hostname
+2023-12-28 09:25:11,262 DEBUG [main][InternalLoggerFactory.java:63] - Using SLF4J as the default logging framework
+2023-12-28 09:25:11,262 DEBUG [main][InternalLoggerFactory.java:63] - Using SLF4J as the default logging framework
+2023-12-28 09:25:11,264 DEBUG [main][AddressResolverGroupProvider.java:37] - Starting without optional netty's non-blocking DNS resolver library
+2023-12-28 09:25:11,264 DEBUG [main][AddressResolverGroupProvider.java:37] - Starting without optional netty's non-blocking DNS resolver library
+2023-12-28 09:25:11,267 DEBUG [main][DefaultClientResources.java:122] - -Dio.netty.eventLoopThreads: 16
+2023-12-28 09:25:11,267 DEBUG [main][DefaultClientResources.java:122] - -Dio.netty.eventLoopThreads: 16
+2023-12-28 09:25:11,274 DEBUG [main][DefaultEventLoopGroupProvider.java:231] - Creating executor io.netty.util.concurrent.DefaultEventExecutorGroup
+2023-12-28 09:25:11,274 DEBUG [main][DefaultEventLoopGroupProvider.java:231] - Creating executor io.netty.util.concurrent.DefaultEventExecutorGroup
+2023-12-28 09:25:11,281 DEBUG [main][InternalThreadLocalMap.java:86] - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2023-12-28 09:25:11,281 DEBUG [main][InternalThreadLocalMap.java:86] - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2023-12-28 09:25:11,281 DEBUG [main][InternalThreadLocalMap.java:89] - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2023-12-28 09:25:11,281 DEBUG [main][InternalThreadLocalMap.java:89] - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2023-12-28 09:25:11,283 DEBUG [main][ResourceLeakDetector.java:129] - -Dio.netty.leakDetection.level: simple
+2023-12-28 09:25:11,283 DEBUG [main][ResourceLeakDetector.java:129] - -Dio.netty.leakDetection.level: simple
+2023-12-28 09:25:11,283 DEBUG [main][ResourceLeakDetector.java:130] - -Dio.netty.leakDetection.targetRecords: 4
+2023-12-28 09:25:11,283 DEBUG [main][ResourceLeakDetector.java:130] - -Dio.netty.leakDetection.targetRecords: 4
+2023-12-28 09:25:11,284 DEBUG [main][ResourceLeakDetectorFactory.java:196] - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@7aa63f50
+2023-12-28 09:25:11,284 DEBUG [main][ResourceLeakDetectorFactory.java:196] - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@7aa63f50
+2023-12-28 09:25:11,286 DEBUG [main][PlatformDependent0.java:460] - -Dio.netty.noUnsafe: false
+2023-12-28 09:25:11,286 DEBUG [main][PlatformDependent0.java:460] - -Dio.netty.noUnsafe: false
+2023-12-28 09:25:11,286 DEBUG [main][PlatformDependent0.java:954] - Java version: 11
+2023-12-28 09:25:11,286 DEBUG [main][PlatformDependent0.java:954] - Java version: 11
+2023-12-28 09:25:11,287 DEBUG [main][PlatformDependent0.java:135] - sun.misc.Unsafe.theUnsafe: available
+2023-12-28 09:25:11,287 DEBUG [main][PlatformDependent0.java:135] - sun.misc.Unsafe.theUnsafe: available
+2023-12-28 09:25:11,287 DEBUG [main][PlatformDependent0.java:159] - sun.misc.Unsafe.copyMemory: available
+2023-12-28 09:25:11,287 DEBUG [main][PlatformDependent0.java:159] - sun.misc.Unsafe.copyMemory: available
+2023-12-28 09:25:11,287 DEBUG [main][PlatformDependent0.java:202] - java.nio.Buffer.address: available
+2023-12-28 09:25:11,287 DEBUG [main][PlatformDependent0.java:202] - java.nio.Buffer.address: available
+2023-12-28 09:25:11,288 DEBUG [main][PlatformDependent0.java:285] - direct buffer constructor: unavailable: Reflective setAccessible(true) disabled
+2023-12-28 09:25:11,288 DEBUG [main][PlatformDependent0.java:285] - direct buffer constructor: unavailable: Reflective setAccessible(true) disabled
+2023-12-28 09:25:11,288 DEBUG [main][PlatformDependent0.java:350] - java.nio.Bits.unaligned: available, true
+2023-12-28 09:25:11,288 DEBUG [main][PlatformDependent0.java:350] - java.nio.Bits.unaligned: available, true
+2023-12-28 09:25:11,289 DEBUG [main][PlatformDependent0.java:417] - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable: class io.netty.util.internal.PlatformDependent0$6 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @1332dec4
+2023-12-28 09:25:11,289 DEBUG [main][PlatformDependent0.java:417] - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable: class io.netty.util.internal.PlatformDependent0$6 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @1332dec4
+2023-12-28 09:25:11,289 DEBUG [main][PlatformDependent0.java:446] - java.nio.DirectByteBuffer.<init>(long, int): unavailable
+2023-12-28 09:25:11,289 DEBUG [main][PlatformDependent0.java:446] - java.nio.DirectByteBuffer.<init>(long, int): unavailable
+2023-12-28 09:25:11,289 DEBUG [main][PlatformDependent.java:1116] - sun.misc.Unsafe: available
+2023-12-28 09:25:11,289 DEBUG [main][PlatformDependent.java:1116] - sun.misc.Unsafe: available
+2023-12-28 09:25:11,290 DEBUG [main][PlatformDependent.java:1227] - maxDirectMemory: 8522825728 bytes (maybe)
+2023-12-28 09:25:11,290 DEBUG [main][PlatformDependent.java:1227] - maxDirectMemory: 8522825728 bytes (maybe)
+2023-12-28 09:25:11,290 DEBUG [main][PlatformDependent.java:1246] - -Dio.netty.tmpdir: C:\Users\ADMINI~1\AppData\Local\Temp (java.io.tmpdir)
+2023-12-28 09:25:11,290 DEBUG [main][PlatformDependent.java:1246] - -Dio.netty.tmpdir: C:\Users\ADMINI~1\AppData\Local\Temp (java.io.tmpdir)
+2023-12-28 09:25:11,290 DEBUG [main][PlatformDependent.java:1325] - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2023-12-28 09:25:11,290 DEBUG [main][PlatformDependent.java:1325] - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2023-12-28 09:25:11,290 DEBUG [main][PlatformDependent.java:1076] - Platform: Windows
+2023-12-28 09:25:11,290 DEBUG [main][PlatformDependent.java:1076] - Platform: Windows
+2023-12-28 09:25:11,291 DEBUG [main][PlatformDependent.java:178] - -Dio.netty.maxDirectMemory: -1 bytes
+2023-12-28 09:25:11,291 DEBUG [main][PlatformDependent.java:178] - -Dio.netty.maxDirectMemory: -1 bytes
+2023-12-28 09:25:11,291 DEBUG [main][PlatformDependent.java:185] - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2023-12-28 09:25:11,291 DEBUG [main][PlatformDependent.java:185] - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2023-12-28 09:25:11,291 DEBUG [main][CleanerJava9.java:71] - java.nio.ByteBuffer.cleaner(): available
+2023-12-28 09:25:11,291 DEBUG [main][CleanerJava9.java:71] - java.nio.ByteBuffer.cleaner(): available
+2023-12-28 09:25:11,291 DEBUG [main][PlatformDependent.java:205] - -Dio.netty.noPreferDirect: false
+2023-12-28 09:25:11,291 DEBUG [main][PlatformDependent.java:205] - -Dio.netty.noPreferDirect: false
+2023-12-28 09:25:11,293 DEBUG [main][PlatformDependent.java:967] - org.jctools-core.MpscChunkedArrayQueue: available
+2023-12-28 09:25:11,293 DEBUG [main][PlatformDependent.java:967] - org.jctools-core.MpscChunkedArrayQueue: available
+2023-12-28 09:25:11,297 DEBUG [main][Loggers.java:245] - Using Slf4j logging framework
+2023-12-28 09:25:11,297 DEBUG [main][Loggers.java:245] - Using Slf4j logging framework
+2023-12-28 09:25:11,298 DEBUG [main][EventRecorderHolder.java:47] - Starting with JFR support
+2023-12-28 09:25:11,298 DEBUG [main][EventRecorderHolder.java:47] - Starting with JFR support
+2023-12-28 09:25:11,306 DEBUG [main][DefaultClientResources.java:227] - LatencyUtils/HdrUtils are not available, metrics are disabled
+2023-12-28 09:25:11,306 DEBUG [main][DefaultClientResources.java:227] - LatencyUtils/HdrUtils are not available, metrics are disabled
+2023-12-28 09:25:12,490 INFO [main][InetUtils.java:170] - Cannot determine local hostname
+2023-12-28 09:25:12,490 INFO [main][InetUtils.java:170] - Cannot determine local hostname
+2023-12-28 09:25:12,614 INFO [main][DirectJDKLog.java:173] - Starting ProtocolHandler ["http-nio-10001"]
+2023-12-28 09:25:12,614 INFO [main][DirectJDKLog.java:173] - Starting ProtocolHandler ["http-nio-10001"]
+2023-12-28 09:25:12,623 INFO [main][TomcatWebServer.java:220] - Tomcat started on port(s): 10001 (http) with context path ''
+2023-12-28 09:25:12,623 INFO [main][TomcatWebServer.java:220] - Tomcat started on port(s): 10001 (http) with context path ''
+2023-12-28 09:25:12,631 INFO [main][NacosServiceRegistry.java:75] - nacos registry, dev mynote-third-party 192.168.75.1:10001 register finished
+2023-12-28 09:25:12,631 INFO [main][NacosServiceRegistry.java:75] - nacos registry, dev mynote-third-party 192.168.75.1:10001 register finished
+2023-12-28 09:25:13,584 DEBUG [nacos.publisher-com.alibaba.nacos.client.naming.event.InstancesChangeEvent][DefaultPublisher.java:193] - [NotifyCenter] the com.alibaba.nacos.client.naming.event.InstancesChangeEvent@29f25392 will received by com.alibaba.nacos.client.naming.event.InstancesChangeNotifier@39109603
+2023-12-28 09:25:13,584 DEBUG [nacos.publisher-com.alibaba.nacos.client.naming.event.InstancesChangeEvent][DefaultPublisher.java:193] - [NotifyCenter] the com.alibaba.nacos.client.naming.event.InstancesChangeEvent@29f25392 will received by com.alibaba.nacos.client.naming.event.InstancesChangeNotifier@39109603
+2023-12-28 09:25:13,753 INFO [main][InetUtils.java:170] - Cannot determine local hostname
+2023-12-28 09:25:13,753 INFO [main][InetUtils.java:170] - Cannot determine local hostname
+2023-12-28 09:25:13,814 DEBUG [main][NoopValidator.java:24] - ERROR [ModelSpecification.spec] At least one type of specification is required
+2023-12-28 09:25:13,814 DEBUG [main][NoopValidator.java:24] - ERROR [ModelSpecification.spec] At least one type of specification is required
+2023-12-28 09:25:13,854 INFO [main][StartupInfoLogger.java:61] - Started ThirdPartyApplication in 7.458 seconds (JVM running for 7.944)
+2023-12-28 09:25:13,854 INFO [main][StartupInfoLogger.java:61] - Started ThirdPartyApplication in 7.458 seconds (JVM running for 7.944)
+2023-12-28 09:25:20,959 INFO [http-nio-10001-exec-1][DirectJDKLog.java:173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-12-28 09:25:20,959 INFO [http-nio-10001-exec-1][DirectJDKLog.java:173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-12-28 09:25:20,959 INFO [http-nio-10001-exec-1][FrameworkServlet.java:525] - Initializing Servlet 'dispatcherServlet'
+2023-12-28 09:25:20,959 INFO [http-nio-10001-exec-1][FrameworkServlet.java:525] - Initializing Servlet 'dispatcherServlet'
+2023-12-28 09:25:20,960 INFO [http-nio-10001-exec-1][FrameworkServlet.java:547] - Completed initialization in 1 ms
+2023-12-28 09:25:20,960 INFO [http-nio-10001-exec-1][FrameworkServlet.java:547] - Completed initialization in 1 ms
+2023-12-28 09:26:16,105 WARN [Thread-4][HttpClientBeanHolder.java:108] - [HttpClientBeanHolder] Start destroying common HttpClient
+2023-12-28 09:26:16,105 WARN [Thread-10][NotifyCenter.java:145] - [NotifyCenter] Start destroying Publisher
+2023-12-28 09:26:16,105 WARN [Thread-10][NotifyCenter.java:145] - [NotifyCenter] Start destroying Publisher
+2023-12-28 09:26:16,105 WARN [Thread-4][HttpClientBeanHolder.java:108] - [HttpClientBeanHolder] Start destroying common HttpClient
+2023-12-28 09:26:16,105 WARN [Thread-10][NotifyCenter.java:162] - [NotifyCenter] Destruction of the end
+2023-12-28 09:26:16,105 WARN [Thread-10][NotifyCenter.java:162] - [NotifyCenter] Destruction of the end
+2023-12-28 09:26:16,105 WARN [Thread-4][HttpClientBeanHolder.java:114] - [HttpClientBeanHolder] Destruction of the end
+2023-12-28 09:26:16,105 WARN [Thread-4][HttpClientBeanHolder.java:114] - [HttpClientBeanHolder] Destruction of the end
+2023-12-28 09:26:16,245 DEBUG [SpringApplicationShutdownHook][AbstractRedisClient.java:539] - Initiate shutdown (100, 100, MILLISECONDS)
+2023-12-28 09:26:16,245 DEBUG [SpringApplicationShutdownHook][AbstractRedisClient.java:539] - Initiate shutdown (100, 100, MILLISECONDS)
+2023-12-28 09:26:16,249 DEBUG [SpringApplicationShutdownHook][DefaultClientResources.java:735] - Initiate shutdown (0, 2, SECONDS)
+2023-12-28 09:26:16,249 DEBUG [SpringApplicationShutdownHook][DefaultClientResources.java:735] - Initiate shutdown (0, 2, SECONDS)
+2023-12-28 09:26:16,250 DEBUG [SpringApplicationShutdownHook][DefaultEventLoopGroupProvider.java:317] - Initiate shutdown (0, 2, SECONDS)
+2023-12-28 09:26:16,250 DEBUG [SpringApplicationShutdownHook][DefaultEventLoopGroupProvider.java:317] - Initiate shutdown (0, 2, SECONDS)
+2023-12-28 09:26:16,255 INFO [SpringApplicationShutdownHook][NacosServiceRegistry.java:94] - De-registering from Nacos Server now...
+2023-12-28 09:26:16,255 INFO [SpringApplicationShutdownHook][NacosServiceRegistry.java:94] - De-registering from Nacos Server now...
+2023-12-28 09:26:16,258 INFO [SpringApplicationShutdownHook][NacosServiceRegistry.java:114] - De-registration finished.
+2023-12-28 09:26:16,258 INFO [SpringApplicationShutdownHook][NacosServiceRegistry.java:114] - De-registration finished.
+2023-12-28 09:26:16,774 DEBUG [nacos.publisher-com.alibaba.nacos.client.naming.event.InstancesChangeEvent][DefaultPublisher.java:193] - [NotifyCenter] the com.alibaba.nacos.client.naming.event.InstancesChangeEvent@772fe452 will received by com.alibaba.nacos.client.naming.event.InstancesChangeNotifier@39109603
+2023-12-28 09:26:16,774 DEBUG [nacos.publisher-com.alibaba.nacos.client.naming.event.InstancesChangeEvent][DefaultPublisher.java:193] - [NotifyCenter] the com.alibaba.nacos.client.naming.event.InstancesChangeEvent@772fe452 will received by com.alibaba.nacos.client.naming.event.InstancesChangeNotifier@39109603
+2023-12-28 09:26:30,207 INFO [main][SpringApplication.java:646] - The following 1 profile is active: "dev"
+2023-12-28 09:26:30,207 INFO [main][SpringApplication.java:646] - The following 1 profile is active: "dev"
+2023-12-28 09:26:30,553 INFO [main][RepositoryConfigurationDelegate.java:262] - Multiple Spring Data modules found, entering strict repository configuration mode!
+2023-12-28 09:26:30,553 INFO [main][RepositoryConfigurationDelegate.java:262] - Multiple Spring Data modules found, entering strict repository configuration mode!
+2023-12-28 09:26:30,555 INFO [main][RepositoryConfigurationDelegate.java:132] - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-12-28 09:26:30,555 INFO [main][RepositoryConfigurationDelegate.java:132] - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-12-28 09:26:30,568 INFO [main][RepositoryConfigurationDelegate.java:201] - Finished Spring Data repository scanning in 3 ms. Found 0 Redis repository interfaces.
+2023-12-28 09:26:30,568 INFO [main][RepositoryConfigurationDelegate.java:201] - Finished Spring Data repository scanning in 3 ms. Found 0 Redis repository interfaces.
+2023-12-28 09:26:30,646 INFO [main][GenericScope.java:283] - BeanFactory id=368cfb25-6c9c-3a5c-a099-5ae921f4599c
+2023-12-28 09:26:30,646 INFO [main][GenericScope.java:283] - BeanFactory id=368cfb25-6c9c-3a5c-a099-5ae921f4599c
+2023-12-28 09:26:30,760 INFO [main][TomcatWebServer.java:108] - Tomcat initialized with port(s): 10001 (http)
+2023-12-28 09:26:30,760 INFO [main][TomcatWebServer.java:108] - Tomcat initialized with port(s): 10001 (http)
+2023-12-28 09:26:30,761 INFO [main][DirectJDKLog.java:173] - Loaded Apache Tomcat Native library [1.2.38] using APR version [1.7.4].
+2023-12-28 09:26:30,761 INFO [main][DirectJDKLog.java:173] - Loaded Apache Tomcat Native library [1.2.38] using APR version [1.7.4].
+2023-12-28 09:26:30,761 INFO [main][DirectJDKLog.java:173] - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+2023-12-28 09:26:30,761 INFO [main][DirectJDKLog.java:173] - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+2023-12-28 09:26:30,762 INFO [main][DirectJDKLog.java:173] - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2023-12-28 09:26:30,762 INFO [main][DirectJDKLog.java:173] - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2023-12-28 09:26:30,763 INFO [main][DirectJDKLog.java:173] - OpenSSL successfully initialized [OpenSSL 1.1.1v  1 Aug 2023]
+2023-12-28 09:26:30,763 INFO [main][DirectJDKLog.java:173] - OpenSSL successfully initialized [OpenSSL 1.1.1v  1 Aug 2023]
+2023-12-28 09:26:30,769 INFO [main][DirectJDKLog.java:173] - Initializing ProtocolHandler ["http-nio-10001"]
+2023-12-28 09:26:30,769 INFO [main][DirectJDKLog.java:173] - Initializing ProtocolHandler ["http-nio-10001"]
+2023-12-28 09:26:30,769 INFO [main][DirectJDKLog.java:173] - Starting service [Tomcat]
+2023-12-28 09:26:30,769 INFO [main][DirectJDKLog.java:173] - Starting service [Tomcat]
+2023-12-28 09:26:30,769 INFO [main][DirectJDKLog.java:173] - Starting Servlet engine: [Apache Tomcat/9.0.60]
+2023-12-28 09:26:30,769 INFO [main][DirectJDKLog.java:173] - Starting Servlet engine: [Apache Tomcat/9.0.60]
+2023-12-28 09:26:30,842 INFO [main][DirectJDKLog.java:173] - Initializing Spring embedded WebApplicationContext
+2023-12-28 09:26:30,842 INFO [main][DirectJDKLog.java:173] - Initializing Spring embedded WebApplicationContext
+2023-12-28 09:26:30,842 INFO [main][ServletWebServerApplicationContext.java:290] - Root WebApplicationContext: initialization completed in 622 ms
+2023-12-28 09:26:30,842 INFO [main][ServletWebServerApplicationContext.java:290] - Root WebApplicationContext: initialization completed in 622 ms
+2023-12-28 09:26:31,194 DEBUG [main][AbstractHandlerMethodMapping.java:295] - 
+	c.m.t.m.c.FileController:
+	{POST [/third/party/upload]}: upload(MultipartFile)
+2023-12-28 09:26:31,194 DEBUG [main][AbstractHandlerMethodMapping.java:295] - 
+	c.m.t.m.c.FileController:
+	{POST [/third/party/upload]}: upload(MultipartFile)
+2023-12-28 09:26:31,196 DEBUG [main][AbstractHandlerMethodMapping.java:295] - 
+	s.d.s.w.Swagger2ControllerWebMvc:
+	{GET [/v2/api-docs], produces [application/json || application/hal+json]}: getDocumentation(String,HttpServletRequest)
+2023-12-28 09:26:31,196 DEBUG [main][AbstractHandlerMethodMapping.java:295] - 
+	s.d.s.w.Swagger2ControllerWebMvc:
+	{GET [/v2/api-docs], produces [application/json || application/hal+json]}: getDocumentation(String,HttpServletRequest)
+2023-12-28 09:26:31,197 DEBUG [main][AbstractHandlerMethodMapping.java:295] - 
+	s.d.s.w.ApiResourceController:
+	{GET [/swagger-resources/configuration/ui], produces [application/json]}: uiConfiguration()
+	{GET [/swagger-resources], produces [application/json]}: swaggerResources()
+	{GET [/swagger-resources/configuration/security], produces [application/json]}: securityConfiguration()
+2023-12-28 09:26:31,197 DEBUG [main][AbstractHandlerMethodMapping.java:295] - 
+	s.d.s.w.ApiResourceController:
+	{GET [/swagger-resources/configuration/ui], produces [application/json]}: uiConfiguration()
+	{GET [/swagger-resources], produces [application/json]}: swaggerResources()
+	{GET [/swagger-resources/configuration/security], produces [application/json]}: securityConfiguration()
+2023-12-28 09:26:31,198 DEBUG [main][AbstractHandlerMethodMapping.java:295] - 
+	s.d.o.w.OpenApiControllerWebMvc:
+	{GET [/v3/api-docs], produces [application/json || application/hal+json]}: getDocumentation(String,HttpServletRequest)
+2023-12-28 09:26:31,198 DEBUG [main][AbstractHandlerMethodMapping.java:295] - 
+	s.d.o.w.OpenApiControllerWebMvc:
+	{GET [/v3/api-docs], produces [application/json || application/hal+json]}: getDocumentation(String,HttpServletRequest)
+2023-12-28 09:26:31,201 DEBUG [main][AbstractHandlerMethodMapping.java:295] - 
+	o.s.b.a.w.s.e.BasicErrorController:
+	{ [/error]}: error(HttpServletRequest)
+	{ [/error], produces [text/html]}: errorHtml(HttpServletRequest,HttpServletResponse)
+2023-12-28 09:26:31,201 DEBUG [main][AbstractHandlerMethodMapping.java:295] - 
+	o.s.b.a.w.s.e.BasicErrorController:
+	{ [/error]}: error(HttpServletRequest)
+	{ [/error], produces [text/html]}: errorHtml(HttpServletRequest,HttpServletResponse)
+2023-12-28 09:26:31,223 DEBUG [main][OpenApiExtensionResolver.java:57] - Resolver method start...
+2023-12-28 09:26:31,223 DEBUG [main][OpenApiExtensionResolver.java:57] - Resolver method start...
+2023-12-28 09:26:31,302 DEBUG [main][SimpleUrlHandlerMapping.java:177] - 'viewControllerHandlerMapping' {/swagger-ui/=ParameterizableViewController [view="forward:/swagger-ui/index.html"]}
+2023-12-28 09:26:31,302 DEBUG [main][SimpleUrlHandlerMapping.java:177] - 'viewControllerHandlerMapping' {/swagger-ui/=ParameterizableViewController [view="forward:/swagger-ui/index.html"]}
+2023-12-28 09:26:31,304 DEBUG [main][AbstractDetectingUrlHandlerMapping.java:86] - 'beanNameHandlerMapping' {}
+2023-12-28 09:26:31,304 DEBUG [main][AbstractDetectingUrlHandlerMapping.java:86] - 'beanNameHandlerMapping' {}
+2023-12-28 09:26:31,309 DEBUG [main][SimpleUrlHandlerMapping.java:177] - 'resourceHandlerMapping' {/webjars/**=ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]], /**=ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]], /swagger-ui/**=ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/springfox-swagger-ui/]]}
+2023-12-28 09:26:31,309 DEBUG [main][SimpleUrlHandlerMapping.java:177] - 'resourceHandlerMapping' {/webjars/**=ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]], /**=ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]], /swagger-ui/**=ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/springfox-swagger-ui/]]}
+2023-12-28 09:26:32,443 INFO [main][InetUtils.java:170] - Cannot determine local hostname
+2023-12-28 09:26:32,443 INFO [main][InetUtils.java:170] - Cannot determine local hostname
+2023-12-28 09:26:32,452 DEBUG [main][InternalLoggerFactory.java:63] - Using SLF4J as the default logging framework
+2023-12-28 09:26:32,452 DEBUG [main][InternalLoggerFactory.java:63] - Using SLF4J as the default logging framework
+2023-12-28 09:26:32,453 DEBUG [main][AddressResolverGroupProvider.java:37] - Starting without optional netty's non-blocking DNS resolver library
+2023-12-28 09:26:32,453 DEBUG [main][AddressResolverGroupProvider.java:37] - Starting without optional netty's non-blocking DNS resolver library
+2023-12-28 09:26:32,455 DEBUG [main][DefaultClientResources.java:122] - -Dio.netty.eventLoopThreads: 16
+2023-12-28 09:26:32,455 DEBUG [main][DefaultClientResources.java:122] - -Dio.netty.eventLoopThreads: 16
+2023-12-28 09:26:32,459 DEBUG [main][DefaultEventLoopGroupProvider.java:231] - Creating executor io.netty.util.concurrent.DefaultEventExecutorGroup
+2023-12-28 09:26:32,459 DEBUG [main][DefaultEventLoopGroupProvider.java:231] - Creating executor io.netty.util.concurrent.DefaultEventExecutorGroup
+2023-12-28 09:26:32,466 DEBUG [main][InternalThreadLocalMap.java:86] - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2023-12-28 09:26:32,466 DEBUG [main][InternalThreadLocalMap.java:86] - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2023-12-28 09:26:32,466 DEBUG [main][InternalThreadLocalMap.java:89] - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2023-12-28 09:26:32,466 DEBUG [main][InternalThreadLocalMap.java:89] - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2023-12-28 09:26:32,469 DEBUG [main][ResourceLeakDetector.java:129] - -Dio.netty.leakDetection.level: simple
+2023-12-28 09:26:32,469 DEBUG [main][ResourceLeakDetector.java:129] - -Dio.netty.leakDetection.level: simple
+2023-12-28 09:26:32,469 DEBUG [main][ResourceLeakDetector.java:130] - -Dio.netty.leakDetection.targetRecords: 4
+2023-12-28 09:26:32,469 DEBUG [main][ResourceLeakDetector.java:130] - -Dio.netty.leakDetection.targetRecords: 4
+2023-12-28 09:26:32,470 DEBUG [main][ResourceLeakDetectorFactory.java:196] - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@570299e3
+2023-12-28 09:26:32,470 DEBUG [main][ResourceLeakDetectorFactory.java:196] - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@570299e3
+2023-12-28 09:26:32,472 DEBUG [main][PlatformDependent0.java:460] - -Dio.netty.noUnsafe: false
+2023-12-28 09:26:32,472 DEBUG [main][PlatformDependent0.java:460] - -Dio.netty.noUnsafe: false
+2023-12-28 09:26:32,472 DEBUG [main][PlatformDependent0.java:954] - Java version: 11
+2023-12-28 09:26:32,472 DEBUG [main][PlatformDependent0.java:954] - Java version: 11
+2023-12-28 09:26:32,473 DEBUG [main][PlatformDependent0.java:135] - sun.misc.Unsafe.theUnsafe: available
+2023-12-28 09:26:32,473 DEBUG [main][PlatformDependent0.java:135] - sun.misc.Unsafe.theUnsafe: available
+2023-12-28 09:26:32,473 DEBUG [main][PlatformDependent0.java:159] - sun.misc.Unsafe.copyMemory: available
+2023-12-28 09:26:32,473 DEBUG [main][PlatformDependent0.java:159] - sun.misc.Unsafe.copyMemory: available
+2023-12-28 09:26:32,474 DEBUG [main][PlatformDependent0.java:202] - java.nio.Buffer.address: available
+2023-12-28 09:26:32,474 DEBUG [main][PlatformDependent0.java:202] - java.nio.Buffer.address: available
+2023-12-28 09:26:32,474 DEBUG [main][PlatformDependent0.java:285] - direct buffer constructor: unavailable: Reflective setAccessible(true) disabled
+2023-12-28 09:26:32,474 DEBUG [main][PlatformDependent0.java:285] - direct buffer constructor: unavailable: Reflective setAccessible(true) disabled
+2023-12-28 09:26:32,475 DEBUG [main][PlatformDependent0.java:350] - java.nio.Bits.unaligned: available, true
+2023-12-28 09:26:32,475 DEBUG [main][PlatformDependent0.java:350] - java.nio.Bits.unaligned: available, true
+2023-12-28 09:26:32,475 DEBUG [main][PlatformDependent0.java:417] - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable: class io.netty.util.internal.PlatformDependent0$6 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @6c835217
+2023-12-28 09:26:32,475 DEBUG [main][PlatformDependent0.java:417] - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable: class io.netty.util.internal.PlatformDependent0$6 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @6c835217
+2023-12-28 09:26:32,476 DEBUG [main][PlatformDependent0.java:446] - java.nio.DirectByteBuffer.<init>(long, int): unavailable
+2023-12-28 09:26:32,476 DEBUG [main][PlatformDependent0.java:446] - java.nio.DirectByteBuffer.<init>(long, int): unavailable
+2023-12-28 09:26:32,476 DEBUG [main][PlatformDependent.java:1116] - sun.misc.Unsafe: available
+2023-12-28 09:26:32,476 DEBUG [main][PlatformDependent.java:1116] - sun.misc.Unsafe: available
+2023-12-28 09:26:32,476 DEBUG [main][PlatformDependent.java:1227] - maxDirectMemory: 8522825728 bytes (maybe)
+2023-12-28 09:26:32,476 DEBUG [main][PlatformDependent.java:1227] - maxDirectMemory: 8522825728 bytes (maybe)
+2023-12-28 09:26:32,476 DEBUG [main][PlatformDependent.java:1246] - -Dio.netty.tmpdir: C:\Users\ADMINI~1\AppData\Local\Temp (java.io.tmpdir)
+2023-12-28 09:26:32,476 DEBUG [main][PlatformDependent.java:1246] - -Dio.netty.tmpdir: C:\Users\ADMINI~1\AppData\Local\Temp (java.io.tmpdir)
+2023-12-28 09:26:32,476 DEBUG [main][PlatformDependent.java:1325] - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2023-12-28 09:26:32,476 DEBUG [main][PlatformDependent.java:1325] - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2023-12-28 09:26:32,476 DEBUG [main][PlatformDependent.java:1076] - Platform: Windows
+2023-12-28 09:26:32,476 DEBUG [main][PlatformDependent.java:1076] - Platform: Windows
+2023-12-28 09:26:32,477 DEBUG [main][PlatformDependent.java:178] - -Dio.netty.maxDirectMemory: -1 bytes
+2023-12-28 09:26:32,477 DEBUG [main][PlatformDependent.java:178] - -Dio.netty.maxDirectMemory: -1 bytes
+2023-12-28 09:26:32,477 DEBUG [main][PlatformDependent.java:185] - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2023-12-28 09:26:32,477 DEBUG [main][PlatformDependent.java:185] - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2023-12-28 09:26:32,477 DEBUG [main][CleanerJava9.java:71] - java.nio.ByteBuffer.cleaner(): available
+2023-12-28 09:26:32,477 DEBUG [main][CleanerJava9.java:71] - java.nio.ByteBuffer.cleaner(): available
+2023-12-28 09:26:32,477 DEBUG [main][PlatformDependent.java:205] - -Dio.netty.noPreferDirect: false
+2023-12-28 09:26:32,477 DEBUG [main][PlatformDependent.java:205] - -Dio.netty.noPreferDirect: false
+2023-12-28 09:26:32,478 DEBUG [main][PlatformDependent.java:967] - org.jctools-core.MpscChunkedArrayQueue: available
+2023-12-28 09:26:32,478 DEBUG [main][PlatformDependent.java:967] - org.jctools-core.MpscChunkedArrayQueue: available
+2023-12-28 09:26:32,483 DEBUG [main][Loggers.java:245] - Using Slf4j logging framework
+2023-12-28 09:26:32,483 DEBUG [main][Loggers.java:245] - Using Slf4j logging framework
+2023-12-28 09:26:32,483 DEBUG [main][EventRecorderHolder.java:47] - Starting with JFR support
+2023-12-28 09:26:32,483 DEBUG [main][EventRecorderHolder.java:47] - Starting with JFR support
+2023-12-28 09:26:32,491 DEBUG [main][DefaultClientResources.java:227] - LatencyUtils/HdrUtils are not available, metrics are disabled
+2023-12-28 09:26:32,491 DEBUG [main][DefaultClientResources.java:227] - LatencyUtils/HdrUtils are not available, metrics are disabled
+2023-12-28 09:26:33,690 INFO [main][InetUtils.java:170] - Cannot determine local hostname
+2023-12-28 09:26:33,690 INFO [main][InetUtils.java:170] - Cannot determine local hostname
+2023-12-28 09:26:33,804 INFO [main][DirectJDKLog.java:173] - Starting ProtocolHandler ["http-nio-10001"]
+2023-12-28 09:26:33,804 INFO [main][DirectJDKLog.java:173] - Starting ProtocolHandler ["http-nio-10001"]
+2023-12-28 09:26:33,813 INFO [main][TomcatWebServer.java:220] - Tomcat started on port(s): 10001 (http) with context path ''
+2023-12-28 09:26:33,813 INFO [main][TomcatWebServer.java:220] - Tomcat started on port(s): 10001 (http) with context path ''
+2023-12-28 09:26:33,820 INFO [main][NacosServiceRegistry.java:75] - nacos registry, dev mynote-third-party 192.168.75.1:10001 register finished
+2023-12-28 09:26:33,820 INFO [main][NacosServiceRegistry.java:75] - nacos registry, dev mynote-third-party 192.168.75.1:10001 register finished
+2023-12-28 09:26:34,361 DEBUG [nacos.publisher-com.alibaba.nacos.client.naming.event.InstancesChangeEvent][DefaultPublisher.java:193] - [NotifyCenter] the com.alibaba.nacos.client.naming.event.InstancesChangeEvent@299ae131 will received by com.alibaba.nacos.client.naming.event.InstancesChangeNotifier@23dc70c1
+2023-12-28 09:26:34,361 DEBUG [nacos.publisher-com.alibaba.nacos.client.naming.event.InstancesChangeEvent][DefaultPublisher.java:193] - [NotifyCenter] the com.alibaba.nacos.client.naming.event.InstancesChangeEvent@299ae131 will received by com.alibaba.nacos.client.naming.event.InstancesChangeNotifier@23dc70c1
+2023-12-28 09:26:34,940 INFO [main][InetUtils.java:170] - Cannot determine local hostname
+2023-12-28 09:26:34,940 INFO [main][InetUtils.java:170] - Cannot determine local hostname
+2023-12-28 09:26:35,003 DEBUG [main][NoopValidator.java:24] - ERROR [ModelSpecification.spec] At least one type of specification is required
+2023-12-28 09:26:35,003 DEBUG [main][NoopValidator.java:24] - ERROR [ModelSpecification.spec] At least one type of specification is required
+2023-12-28 09:26:35,046 INFO [main][StartupInfoLogger.java:61] - Started ThirdPartyApplication in 7.485 seconds (JVM running for 7.992)
+2023-12-28 09:26:35,046 INFO [main][StartupInfoLogger.java:61] - Started ThirdPartyApplication in 7.485 seconds (JVM running for 7.992)
+2023-12-28 09:26:38,184 INFO [http-nio-10001-exec-1][DirectJDKLog.java:173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-12-28 09:26:38,184 INFO [http-nio-10001-exec-1][DirectJDKLog.java:173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-12-28 09:26:38,184 INFO [http-nio-10001-exec-1][FrameworkServlet.java:525] - Initializing Servlet 'dispatcherServlet'
+2023-12-28 09:26:38,184 INFO [http-nio-10001-exec-1][FrameworkServlet.java:525] - Initializing Servlet 'dispatcherServlet'
+2023-12-28 09:26:38,185 INFO [http-nio-10001-exec-1][FrameworkServlet.java:547] - Completed initialization in 1 ms
+2023-12-28 09:26:38,185 INFO [http-nio-10001-exec-1][FrameworkServlet.java:547] - Completed initialization in 1 ms
+2023-12-28 09:28:21,504 WARN [Thread-10][NotifyCenter.java:145] - [NotifyCenter] Start destroying Publisher
+2023-12-28 09:28:21,504 WARN [Thread-4][HttpClientBeanHolder.java:108] - [HttpClientBeanHolder] Start destroying common HttpClient
+2023-12-28 09:28:21,504 WARN [Thread-4][HttpClientBeanHolder.java:108] - [HttpClientBeanHolder] Start destroying common HttpClient
+2023-12-28 09:28:21,504 WARN [Thread-10][NotifyCenter.java:145] - [NotifyCenter] Start destroying Publisher
+2023-12-28 09:28:21,504 WARN [Thread-10][NotifyCenter.java:162] - [NotifyCenter] Destruction of the end
+2023-12-28 09:28:21,504 WARN [Thread-10][NotifyCenter.java:162] - [NotifyCenter] Destruction of the end
+2023-12-28 09:28:21,505 WARN [Thread-4][HttpClientBeanHolder.java:114] - [HttpClientBeanHolder] Destruction of the end
+2023-12-28 09:28:21,505 WARN [Thread-4][HttpClientBeanHolder.java:114] - [HttpClientBeanHolder] Destruction of the end
+2023-12-28 09:28:21,629 DEBUG [SpringApplicationShutdownHook][AbstractRedisClient.java:539] - Initiate shutdown (100, 100, MILLISECONDS)
+2023-12-28 09:28:21,629 DEBUG [SpringApplicationShutdownHook][AbstractRedisClient.java:539] - Initiate shutdown (100, 100, MILLISECONDS)
+2023-12-28 09:28:21,632 DEBUG [SpringApplicationShutdownHook][DefaultClientResources.java:735] - Initiate shutdown (0, 2, SECONDS)
+2023-12-28 09:28:21,632 DEBUG [SpringApplicationShutdownHook][DefaultClientResources.java:735] - Initiate shutdown (0, 2, SECONDS)
+2023-12-28 09:28:21,633 DEBUG [SpringApplicationShutdownHook][DefaultEventLoopGroupProvider.java:317] - Initiate shutdown (0, 2, SECONDS)
+2023-12-28 09:28:21,633 DEBUG [SpringApplicationShutdownHook][DefaultEventLoopGroupProvider.java:317] - Initiate shutdown (0, 2, SECONDS)
+2023-12-28 09:28:21,637 INFO [SpringApplicationShutdownHook][NacosServiceRegistry.java:94] - De-registering from Nacos Server now...
+2023-12-28 09:28:21,637 INFO [SpringApplicationShutdownHook][NacosServiceRegistry.java:94] - De-registering from Nacos Server now...
+2023-12-28 09:28:21,640 INFO [SpringApplicationShutdownHook][NacosServiceRegistry.java:114] - De-registration finished.
+2023-12-28 09:28:21,640 INFO [SpringApplicationShutdownHook][NacosServiceRegistry.java:114] - De-registration finished.
+2023-12-28 09:28:22,149 DEBUG [nacos.publisher-com.alibaba.nacos.client.naming.event.InstancesChangeEvent][DefaultPublisher.java:193] - [NotifyCenter] the com.alibaba.nacos.client.naming.event.InstancesChangeEvent@3ec33181 will received by com.alibaba.nacos.client.naming.event.InstancesChangeNotifier@23dc70c1
+2023-12-28 09:28:22,149 DEBUG [nacos.publisher-com.alibaba.nacos.client.naming.event.InstancesChangeEvent][DefaultPublisher.java:193] - [NotifyCenter] the com.alibaba.nacos.client.naming.event.InstancesChangeEvent@3ec33181 will received by com.alibaba.nacos.client.naming.event.InstancesChangeNotifier@23dc70c1
+2023-12-28 09:28:34,269 INFO [main][SpringApplication.java:646] - The following 1 profile is active: "dev"
+2023-12-28 09:28:34,269 INFO [main][SpringApplication.java:646] - The following 1 profile is active: "dev"
+2023-12-28 09:28:34,587 INFO [main][RepositoryConfigurationDelegate.java:262] - Multiple Spring Data modules found, entering strict repository configuration mode!
+2023-12-28 09:28:34,587 INFO [main][RepositoryConfigurationDelegate.java:262] - Multiple Spring Data modules found, entering strict repository configuration mode!
+2023-12-28 09:28:34,589 INFO [main][RepositoryConfigurationDelegate.java:132] - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-12-28 09:28:34,589 INFO [main][RepositoryConfigurationDelegate.java:132] - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-12-28 09:28:34,599 INFO [main][RepositoryConfigurationDelegate.java:201] - Finished Spring Data repository scanning in 2 ms. Found 0 Redis repository interfaces.
+2023-12-28 09:28:34,599 INFO [main][RepositoryConfigurationDelegate.java:201] - Finished Spring Data repository scanning in 2 ms. Found 0 Redis repository interfaces.
+2023-12-28 09:28:34,669 INFO [main][GenericScope.java:283] - BeanFactory id=368cfb25-6c9c-3a5c-a099-5ae921f4599c
+2023-12-28 09:28:34,669 INFO [main][GenericScope.java:283] - BeanFactory id=368cfb25-6c9c-3a5c-a099-5ae921f4599c
+2023-12-28 09:28:34,779 INFO [main][TomcatWebServer.java:108] - Tomcat initialized with port(s): 10001 (http)
+2023-12-28 09:28:34,779 INFO [main][TomcatWebServer.java:108] - Tomcat initialized with port(s): 10001 (http)
+2023-12-28 09:28:34,779 INFO [main][DirectJDKLog.java:173] - Loaded Apache Tomcat Native library [1.2.38] using APR version [1.7.4].
+2023-12-28 09:28:34,779 INFO [main][DirectJDKLog.java:173] - Loaded Apache Tomcat Native library [1.2.38] using APR version [1.7.4].
+2023-12-28 09:28:34,779 INFO [main][DirectJDKLog.java:173] - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+2023-12-28 09:28:34,779 INFO [main][DirectJDKLog.java:173] - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+2023-12-28 09:28:34,780 INFO [main][DirectJDKLog.java:173] - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2023-12-28 09:28:34,780 INFO [main][DirectJDKLog.java:173] - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2023-12-28 09:28:34,781 INFO [main][DirectJDKLog.java:173] - OpenSSL successfully initialized [OpenSSL 1.1.1v  1 Aug 2023]
+2023-12-28 09:28:34,781 INFO [main][DirectJDKLog.java:173] - OpenSSL successfully initialized [OpenSSL 1.1.1v  1 Aug 2023]
+2023-12-28 09:28:34,785 INFO [main][DirectJDKLog.java:173] - Initializing ProtocolHandler ["http-nio-10001"]
+2023-12-28 09:28:34,785 INFO [main][DirectJDKLog.java:173] - Initializing ProtocolHandler ["http-nio-10001"]
+2023-12-28 09:28:34,785 INFO [main][DirectJDKLog.java:173] - Starting service [Tomcat]
+2023-12-28 09:28:34,785 INFO [main][DirectJDKLog.java:173] - Starting service [Tomcat]
+2023-12-28 09:28:34,785 INFO [main][DirectJDKLog.java:173] - Starting Servlet engine: [Apache Tomcat/9.0.60]
+2023-12-28 09:28:34,785 INFO [main][DirectJDKLog.java:173] - Starting Servlet engine: [Apache Tomcat/9.0.60]
+2023-12-28 09:28:34,861 INFO [main][DirectJDKLog.java:173] - Initializing Spring embedded WebApplicationContext
+2023-12-28 09:28:34,861 INFO [main][DirectJDKLog.java:173] - Initializing Spring embedded WebApplicationContext
+2023-12-28 09:28:34,861 INFO [main][ServletWebServerApplicationContext.java:290] - Root WebApplicationContext: initialization completed in 582 ms
+2023-12-28 09:28:34,861 INFO [main][ServletWebServerApplicationContext.java:290] - Root WebApplicationContext: initialization completed in 582 ms
+2023-12-28 09:28:35,192 DEBUG [main][AbstractHandlerMethodMapping.java:295] - 
+	c.m.t.m.c.FileController:
+	{POST [/third/party/upload]}: upload(MultipartFile)
+2023-12-28 09:28:35,192 DEBUG [main][AbstractHandlerMethodMapping.java:295] - 
+	c.m.t.m.c.FileController:
+	{POST [/third/party/upload]}: upload(MultipartFile)
+2023-12-28 09:28:35,194 DEBUG [main][AbstractHandlerMethodMapping.java:295] - 
+	s.d.s.w.Swagger2ControllerWebMvc:
+	{GET [/v2/api-docs], produces [application/json || application/hal+json]}: getDocumentation(String,HttpServletRequest)
+2023-12-28 09:28:35,194 DEBUG [main][AbstractHandlerMethodMapping.java:295] - 
+	s.d.s.w.Swagger2ControllerWebMvc:
+	{GET [/v2/api-docs], produces [application/json || application/hal+json]}: getDocumentation(String,HttpServletRequest)
+2023-12-28 09:28:35,195 DEBUG [main][AbstractHandlerMethodMapping.java:295] - 
+	s.d.s.w.ApiResourceController:
+	{GET [/swagger-resources/configuration/security], produces [application/json]}: securityConfiguration()
+	{GET [/swagger-resources/configuration/ui], produces [application/json]}: uiConfiguration()
+	{GET [/swagger-resources], produces [application/json]}: swaggerResources()
+2023-12-28 09:28:35,195 DEBUG [main][AbstractHandlerMethodMapping.java:295] - 
+	s.d.s.w.ApiResourceController:
+	{GET [/swagger-resources/configuration/security], produces [application/json]}: securityConfiguration()
+	{GET [/swagger-resources/configuration/ui], produces [application/json]}: uiConfiguration()
+	{GET [/swagger-resources], produces [application/json]}: swaggerResources()
+2023-12-28 09:28:35,196 DEBUG [main][AbstractHandlerMethodMapping.java:295] - 
+	s.d.o.w.OpenApiControllerWebMvc:
+	{GET [/v3/api-docs], produces [application/json || application/hal+json]}: getDocumentation(String,HttpServletRequest)
+2023-12-28 09:28:35,196 DEBUG [main][AbstractHandlerMethodMapping.java:295] - 
+	s.d.o.w.OpenApiControllerWebMvc:
+	{GET [/v3/api-docs], produces [application/json || application/hal+json]}: getDocumentation(String,HttpServletRequest)
+2023-12-28 09:28:35,198 DEBUG [main][AbstractHandlerMethodMapping.java:295] - 
+	o.s.b.a.w.s.e.BasicErrorController:
+	{ [/error]}: error(HttpServletRequest)
+	{ [/error], produces [text/html]}: errorHtml(HttpServletRequest,HttpServletResponse)
+2023-12-28 09:28:35,198 DEBUG [main][AbstractHandlerMethodMapping.java:295] - 
+	o.s.b.a.w.s.e.BasicErrorController:
+	{ [/error]}: error(HttpServletRequest)
+	{ [/error], produces [text/html]}: errorHtml(HttpServletRequest,HttpServletResponse)
+2023-12-28 09:28:35,220 DEBUG [main][OpenApiExtensionResolver.java:57] - Resolver method start...
+2023-12-28 09:28:35,220 DEBUG [main][OpenApiExtensionResolver.java:57] - Resolver method start...
+2023-12-28 09:28:35,302 DEBUG [main][SimpleUrlHandlerMapping.java:177] - 'viewControllerHandlerMapping' {/swagger-ui/=ParameterizableViewController [view="forward:/swagger-ui/index.html"]}
+2023-12-28 09:28:35,302 DEBUG [main][SimpleUrlHandlerMapping.java:177] - 'viewControllerHandlerMapping' {/swagger-ui/=ParameterizableViewController [view="forward:/swagger-ui/index.html"]}
+2023-12-28 09:28:35,303 DEBUG [main][AbstractDetectingUrlHandlerMapping.java:86] - 'beanNameHandlerMapping' {}
+2023-12-28 09:28:35,303 DEBUG [main][AbstractDetectingUrlHandlerMapping.java:86] - 'beanNameHandlerMapping' {}
+2023-12-28 09:28:35,308 DEBUG [main][SimpleUrlHandlerMapping.java:177] - 'resourceHandlerMapping' {/webjars/**=ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]], /**=ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]], /swagger-ui/**=ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/springfox-swagger-ui/]]}
+2023-12-28 09:28:35,308 DEBUG [main][SimpleUrlHandlerMapping.java:177] - 'resourceHandlerMapping' {/webjars/**=ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]], /**=ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]], /swagger-ui/**=ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/springfox-swagger-ui/]]}
+2023-12-28 09:28:36,440 INFO [main][InetUtils.java:170] - Cannot determine local hostname
+2023-12-28 09:28:36,440 INFO [main][InetUtils.java:170] - Cannot determine local hostname
+2023-12-28 09:28:36,449 DEBUG [main][InternalLoggerFactory.java:63] - Using SLF4J as the default logging framework
+2023-12-28 09:28:36,449 DEBUG [main][InternalLoggerFactory.java:63] - Using SLF4J as the default logging framework
+2023-12-28 09:28:36,451 DEBUG [main][AddressResolverGroupProvider.java:37] - Starting without optional netty's non-blocking DNS resolver library
+2023-12-28 09:28:36,451 DEBUG [main][AddressResolverGroupProvider.java:37] - Starting without optional netty's non-blocking DNS resolver library
+2023-12-28 09:28:36,453 DEBUG [main][DefaultClientResources.java:122] - -Dio.netty.eventLoopThreads: 16
+2023-12-28 09:28:36,453 DEBUG [main][DefaultClientResources.java:122] - -Dio.netty.eventLoopThreads: 16
+2023-12-28 09:28:36,456 DEBUG [main][DefaultEventLoopGroupProvider.java:231] - Creating executor io.netty.util.concurrent.DefaultEventExecutorGroup
+2023-12-28 09:28:36,456 DEBUG [main][DefaultEventLoopGroupProvider.java:231] - Creating executor io.netty.util.concurrent.DefaultEventExecutorGroup
+2023-12-28 09:28:36,462 DEBUG [main][InternalThreadLocalMap.java:86] - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2023-12-28 09:28:36,463 DEBUG [main][InternalThreadLocalMap.java:89] - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2023-12-28 09:28:36,462 DEBUG [main][InternalThreadLocalMap.java:86] - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2023-12-28 09:28:36,463 DEBUG [main][InternalThreadLocalMap.java:89] - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2023-12-28 09:28:36,464 DEBUG [main][ResourceLeakDetector.java:129] - -Dio.netty.leakDetection.level: simple
+2023-12-28 09:28:36,464 DEBUG [main][ResourceLeakDetector.java:129] - -Dio.netty.leakDetection.level: simple
+2023-12-28 09:28:36,465 DEBUG [main][ResourceLeakDetector.java:130] - -Dio.netty.leakDetection.targetRecords: 4
+2023-12-28 09:28:36,465 DEBUG [main][ResourceLeakDetector.java:130] - -Dio.netty.leakDetection.targetRecords: 4
+2023-12-28 09:28:36,465 DEBUG [main][ResourceLeakDetectorFactory.java:196] - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@5c703860
+2023-12-28 09:28:36,465 DEBUG [main][ResourceLeakDetectorFactory.java:196] - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@5c703860
+2023-12-28 09:28:36,467 DEBUG [main][PlatformDependent0.java:460] - -Dio.netty.noUnsafe: false
+2023-12-28 09:28:36,467 DEBUG [main][PlatformDependent0.java:954] - Java version: 11
+2023-12-28 09:28:36,467 DEBUG [main][PlatformDependent0.java:460] - -Dio.netty.noUnsafe: false
+2023-12-28 09:28:36,467 DEBUG [main][PlatformDependent0.java:954] - Java version: 11
+2023-12-28 09:28:36,468 DEBUG [main][PlatformDependent0.java:135] - sun.misc.Unsafe.theUnsafe: available
+2023-12-28 09:28:36,468 DEBUG [main][PlatformDependent0.java:135] - sun.misc.Unsafe.theUnsafe: available
+2023-12-28 09:28:36,468 DEBUG [main][PlatformDependent0.java:159] - sun.misc.Unsafe.copyMemory: available
+2023-12-28 09:28:36,468 DEBUG [main][PlatformDependent0.java:159] - sun.misc.Unsafe.copyMemory: available
+2023-12-28 09:28:36,469 DEBUG [main][PlatformDependent0.java:202] - java.nio.Buffer.address: available
+2023-12-28 09:28:36,469 DEBUG [main][PlatformDependent0.java:202] - java.nio.Buffer.address: available
+2023-12-28 09:28:36,469 DEBUG [main][PlatformDependent0.java:285] - direct buffer constructor: unavailable: Reflective setAccessible(true) disabled
+2023-12-28 09:28:36,469 DEBUG [main][PlatformDependent0.java:285] - direct buffer constructor: unavailable: Reflective setAccessible(true) disabled
+2023-12-28 09:28:36,469 DEBUG [main][PlatformDependent0.java:350] - java.nio.Bits.unaligned: available, true
+2023-12-28 09:28:36,469 DEBUG [main][PlatformDependent0.java:350] - java.nio.Bits.unaligned: available, true
+2023-12-28 09:28:36,470 DEBUG [main][PlatformDependent0.java:417] - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable: class io.netty.util.internal.PlatformDependent0$6 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @10d18696
+2023-12-28 09:28:36,470 DEBUG [main][PlatformDependent0.java:417] - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable: class io.netty.util.internal.PlatformDependent0$6 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @10d18696
+2023-12-28 09:28:36,470 DEBUG [main][PlatformDependent0.java:446] - java.nio.DirectByteBuffer.<init>(long, int): unavailable
+2023-12-28 09:28:36,470 DEBUG [main][PlatformDependent0.java:446] - java.nio.DirectByteBuffer.<init>(long, int): unavailable
+2023-12-28 09:28:36,470 DEBUG [main][PlatformDependent.java:1116] - sun.misc.Unsafe: available
+2023-12-28 09:28:36,470 DEBUG [main][PlatformDependent.java:1116] - sun.misc.Unsafe: available
+2023-12-28 09:28:36,471 DEBUG [main][PlatformDependent.java:1227] - maxDirectMemory: 8522825728 bytes (maybe)
+2023-12-28 09:28:36,471 DEBUG [main][PlatformDependent.java:1227] - maxDirectMemory: 8522825728 bytes (maybe)
+2023-12-28 09:28:36,471 DEBUG [main][PlatformDependent.java:1246] - -Dio.netty.tmpdir: C:\Users\ADMINI~1\AppData\Local\Temp (java.io.tmpdir)
+2023-12-28 09:28:36,471 DEBUG [main][PlatformDependent.java:1246] - -Dio.netty.tmpdir: C:\Users\ADMINI~1\AppData\Local\Temp (java.io.tmpdir)
+2023-12-28 09:28:36,471 DEBUG [main][PlatformDependent.java:1325] - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2023-12-28 09:28:36,471 DEBUG [main][PlatformDependent.java:1325] - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2023-12-28 09:28:36,471 DEBUG [main][PlatformDependent.java:1076] - Platform: Windows
+2023-12-28 09:28:36,471 DEBUG [main][PlatformDependent.java:1076] - Platform: Windows
+2023-12-28 09:28:36,471 DEBUG [main][PlatformDependent.java:178] - -Dio.netty.maxDirectMemory: -1 bytes
+2023-12-28 09:28:36,471 DEBUG [main][PlatformDependent.java:178] - -Dio.netty.maxDirectMemory: -1 bytes
+2023-12-28 09:28:36,472 DEBUG [main][PlatformDependent.java:185] - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2023-12-28 09:28:36,472 DEBUG [main][PlatformDependent.java:185] - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2023-12-28 09:28:36,472 DEBUG [main][CleanerJava9.java:71] - java.nio.ByteBuffer.cleaner(): available
+2023-12-28 09:28:36,472 DEBUG [main][CleanerJava9.java:71] - java.nio.ByteBuffer.cleaner(): available
+2023-12-28 09:28:36,472 DEBUG [main][PlatformDependent.java:205] - -Dio.netty.noPreferDirect: false
+2023-12-28 09:28:36,472 DEBUG [main][PlatformDependent.java:205] - -Dio.netty.noPreferDirect: false
+2023-12-28 09:28:36,473 DEBUG [main][PlatformDependent.java:967] - org.jctools-core.MpscChunkedArrayQueue: available
+2023-12-28 09:28:36,473 DEBUG [main][PlatformDependent.java:967] - org.jctools-core.MpscChunkedArrayQueue: available
+2023-12-28 09:28:36,477 DEBUG [main][Loggers.java:245] - Using Slf4j logging framework
+2023-12-28 09:28:36,477 DEBUG [main][Loggers.java:245] - Using Slf4j logging framework
+2023-12-28 09:28:36,478 DEBUG [main][EventRecorderHolder.java:47] - Starting with JFR support
+2023-12-28 09:28:36,478 DEBUG [main][EventRecorderHolder.java:47] - Starting with JFR support
+2023-12-28 09:28:36,485 DEBUG [main][DefaultClientResources.java:227] - LatencyUtils/HdrUtils are not available, metrics are disabled
+2023-12-28 09:28:36,485 DEBUG [main][DefaultClientResources.java:227] - LatencyUtils/HdrUtils are not available, metrics are disabled
+2023-12-28 09:28:37,675 INFO [main][InetUtils.java:170] - Cannot determine local hostname
+2023-12-28 09:28:37,675 INFO [main][InetUtils.java:170] - Cannot determine local hostname
+2023-12-28 09:28:37,791 INFO [main][DirectJDKLog.java:173] - Starting ProtocolHandler ["http-nio-10001"]
+2023-12-28 09:28:37,791 INFO [main][DirectJDKLog.java:173] - Starting ProtocolHandler ["http-nio-10001"]
+2023-12-28 09:28:37,800 INFO [main][TomcatWebServer.java:220] - Tomcat started on port(s): 10001 (http) with context path ''
+2023-12-28 09:28:37,800 INFO [main][TomcatWebServer.java:220] - Tomcat started on port(s): 10001 (http) with context path ''
+2023-12-28 09:28:37,808 INFO [main][NacosServiceRegistry.java:75] - nacos registry, dev mynote-third-party 192.168.75.1:10001 register finished
+2023-12-28 09:28:37,808 INFO [main][NacosServiceRegistry.java:75] - nacos registry, dev mynote-third-party 192.168.75.1:10001 register finished
+2023-12-28 09:28:38,752 DEBUG [nacos.publisher-com.alibaba.nacos.client.naming.event.InstancesChangeEvent][DefaultPublisher.java:193] - [NotifyCenter] the com.alibaba.nacos.client.naming.event.InstancesChangeEvent@42f1f91e will received by com.alibaba.nacos.client.naming.event.InstancesChangeNotifier@69cb134
+2023-12-28 09:28:38,752 DEBUG [nacos.publisher-com.alibaba.nacos.client.naming.event.InstancesChangeEvent][DefaultPublisher.java:193] - [NotifyCenter] the com.alibaba.nacos.client.naming.event.InstancesChangeEvent@42f1f91e will received by com.alibaba.nacos.client.naming.event.InstancesChangeNotifier@69cb134
+2023-12-28 09:28:38,922 INFO [main][InetUtils.java:170] - Cannot determine local hostname
+2023-12-28 09:28:38,922 INFO [main][InetUtils.java:170] - Cannot determine local hostname
+2023-12-28 09:28:38,992 DEBUG [main][NoopValidator.java:24] - ERROR [ModelSpecification.spec] At least one type of specification is required
+2023-12-28 09:28:38,992 DEBUG [main][NoopValidator.java:24] - ERROR [ModelSpecification.spec] At least one type of specification is required
+2023-12-28 09:28:39,033 INFO [main][StartupInfoLogger.java:61] - Started ThirdPartyApplication in 7.414 seconds (JVM running for 7.886)
+2023-12-28 09:28:39,033 INFO [main][StartupInfoLogger.java:61] - Started ThirdPartyApplication in 7.414 seconds (JVM running for 7.886)
+2023-12-28 09:28:45,001 INFO [http-nio-10001-exec-2][DirectJDKLog.java:173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-12-28 09:28:45,001 INFO [http-nio-10001-exec-2][DirectJDKLog.java:173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-12-28 09:28:45,002 INFO [http-nio-10001-exec-2][FrameworkServlet.java:525] - Initializing Servlet 'dispatcherServlet'
+2023-12-28 09:28:45,002 INFO [http-nio-10001-exec-2][FrameworkServlet.java:525] - Initializing Servlet 'dispatcherServlet'
+2023-12-28 09:28:45,002 INFO [http-nio-10001-exec-2][FrameworkServlet.java:547] - Completed initialization in 0 ms
+2023-12-28 09:28:45,002 INFO [http-nio-10001-exec-2][FrameworkServlet.java:547] - Completed initialization in 0 ms
+2023-12-28 09:36:14,810 WARN [Thread-10][NotifyCenter.java:145] - [NotifyCenter] Start destroying Publisher
+2023-12-28 09:36:14,810 WARN [Thread-4][HttpClientBeanHolder.java:108] - [HttpClientBeanHolder] Start destroying common HttpClient
+2023-12-28 09:36:14,810 WARN [Thread-4][HttpClientBeanHolder.java:108] - [HttpClientBeanHolder] Start destroying common HttpClient
+2023-12-28 09:36:14,810 WARN [Thread-10][NotifyCenter.java:145] - [NotifyCenter] Start destroying Publisher
+2023-12-28 09:36:14,810 WARN [Thread-10][NotifyCenter.java:162] - [NotifyCenter] Destruction of the end
+2023-12-28 09:36:14,810 WARN [Thread-10][NotifyCenter.java:162] - [NotifyCenter] Destruction of the end
+2023-12-28 09:36:14,810 WARN [Thread-4][HttpClientBeanHolder.java:114] - [HttpClientBeanHolder] Destruction of the end
+2023-12-28 09:36:14,810 WARN [Thread-4][HttpClientBeanHolder.java:114] - [HttpClientBeanHolder] Destruction of the end
+2023-12-28 09:36:14,963 DEBUG [SpringApplicationShutdownHook][AbstractRedisClient.java:539] - Initiate shutdown (100, 100, MILLISECONDS)
+2023-12-28 09:36:14,963 DEBUG [SpringApplicationShutdownHook][AbstractRedisClient.java:539] - Initiate shutdown (100, 100, MILLISECONDS)
+2023-12-28 09:36:14,966 DEBUG [SpringApplicationShutdownHook][DefaultClientResources.java:735] - Initiate shutdown (0, 2, SECONDS)
+2023-12-28 09:36:14,966 DEBUG [SpringApplicationShutdownHook][DefaultClientResources.java:735] - Initiate shutdown (0, 2, SECONDS)
+2023-12-28 09:36:14,967 DEBUG [SpringApplicationShutdownHook][DefaultEventLoopGroupProvider.java:317] - Initiate shutdown (0, 2, SECONDS)
+2023-12-28 09:36:14,967 DEBUG [SpringApplicationShutdownHook][DefaultEventLoopGroupProvider.java:317] - Initiate shutdown (0, 2, SECONDS)
+2023-12-28 09:36:14,970 INFO [SpringApplicationShutdownHook][NacosServiceRegistry.java:94] - De-registering from Nacos Server now...
+2023-12-28 09:36:14,970 INFO [SpringApplicationShutdownHook][NacosServiceRegistry.java:94] - De-registering from Nacos Server now...
+2023-12-28 09:36:14,973 INFO [SpringApplicationShutdownHook][NacosServiceRegistry.java:114] - De-registration finished.
+2023-12-28 09:36:14,973 INFO [SpringApplicationShutdownHook][NacosServiceRegistry.java:114] - De-registration finished.
+2023-12-28 09:36:15,477 DEBUG [nacos.publisher-com.alibaba.nacos.client.naming.event.InstancesChangeEvent][DefaultPublisher.java:193] - [NotifyCenter] the com.alibaba.nacos.client.naming.event.InstancesChangeEvent@3ad51e61 will received by com.alibaba.nacos.client.naming.event.InstancesChangeNotifier@69cb134
+2023-12-28 09:36:15,477 DEBUG [nacos.publisher-com.alibaba.nacos.client.naming.event.InstancesChangeEvent][DefaultPublisher.java:193] - [NotifyCenter] the com.alibaba.nacos.client.naming.event.InstancesChangeEvent@3ad51e61 will received by com.alibaba.nacos.client.naming.event.InstancesChangeNotifier@69cb134
+2023-12-28 09:36:28,715 INFO [main][SpringApplication.java:646] - The following 1 profile is active: "dev"
+2023-12-28 09:36:28,715 INFO [main][SpringApplication.java:646] - The following 1 profile is active: "dev"
+2023-12-28 09:36:29,041 INFO [main][RepositoryConfigurationDelegate.java:262] - Multiple Spring Data modules found, entering strict repository configuration mode!
+2023-12-28 09:36:29,041 INFO [main][RepositoryConfigurationDelegate.java:262] - Multiple Spring Data modules found, entering strict repository configuration mode!
+2023-12-28 09:36:29,042 INFO [main][RepositoryConfigurationDelegate.java:132] - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-12-28 09:36:29,042 INFO [main][RepositoryConfigurationDelegate.java:132] - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-12-28 09:36:29,053 INFO [main][RepositoryConfigurationDelegate.java:201] - Finished Spring Data repository scanning in 2 ms. Found 0 Redis repository interfaces.
+2023-12-28 09:36:29,053 INFO [main][RepositoryConfigurationDelegate.java:201] - Finished Spring Data repository scanning in 2 ms. Found 0 Redis repository interfaces.
+2023-12-28 09:36:29,121 INFO [main][GenericScope.java:283] - BeanFactory id=368cfb25-6c9c-3a5c-a099-5ae921f4599c
+2023-12-28 09:36:29,121 INFO [main][GenericScope.java:283] - BeanFactory id=368cfb25-6c9c-3a5c-a099-5ae921f4599c
+2023-12-28 09:36:29,231 INFO [main][TomcatWebServer.java:108] - Tomcat initialized with port(s): 10001 (http)
+2023-12-28 09:36:29,231 INFO [main][TomcatWebServer.java:108] - Tomcat initialized with port(s): 10001 (http)
+2023-12-28 09:36:29,232 INFO [main][DirectJDKLog.java:173] - Loaded Apache Tomcat Native library [1.2.38] using APR version [1.7.4].
+2023-12-28 09:36:29,232 INFO [main][DirectJDKLog.java:173] - Loaded Apache Tomcat Native library [1.2.38] using APR version [1.7.4].
+2023-12-28 09:36:29,232 INFO [main][DirectJDKLog.java:173] - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+2023-12-28 09:36:29,232 INFO [main][DirectJDKLog.java:173] - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+2023-12-28 09:36:29,233 INFO [main][DirectJDKLog.java:173] - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2023-12-28 09:36:29,233 INFO [main][DirectJDKLog.java:173] - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2023-12-28 09:36:29,234 INFO [main][DirectJDKLog.java:173] - OpenSSL successfully initialized [OpenSSL 1.1.1v  1 Aug 2023]
+2023-12-28 09:36:29,234 INFO [main][DirectJDKLog.java:173] - OpenSSL successfully initialized [OpenSSL 1.1.1v  1 Aug 2023]
+2023-12-28 09:36:29,238 INFO [main][DirectJDKLog.java:173] - Initializing ProtocolHandler ["http-nio-10001"]
+2023-12-28 09:36:29,238 INFO [main][DirectJDKLog.java:173] - Initializing ProtocolHandler ["http-nio-10001"]
+2023-12-28 09:36:29,238 INFO [main][DirectJDKLog.java:173] - Starting service [Tomcat]
+2023-12-28 09:36:29,238 INFO [main][DirectJDKLog.java:173] - Starting service [Tomcat]
+2023-12-28 09:36:29,239 INFO [main][DirectJDKLog.java:173] - Starting Servlet engine: [Apache Tomcat/9.0.60]
+2023-12-28 09:36:29,239 INFO [main][DirectJDKLog.java:173] - Starting Servlet engine: [Apache Tomcat/9.0.60]
+2023-12-28 09:36:29,316 INFO [main][DirectJDKLog.java:173] - Initializing Spring embedded WebApplicationContext
+2023-12-28 09:36:29,316 INFO [main][DirectJDKLog.java:173] - Initializing Spring embedded WebApplicationContext
+2023-12-28 09:36:29,317 INFO [main][ServletWebServerApplicationContext.java:290] - Root WebApplicationContext: initialization completed in 590 ms
+2023-12-28 09:36:29,317 INFO [main][ServletWebServerApplicationContext.java:290] - Root WebApplicationContext: initialization completed in 590 ms
+2023-12-28 09:36:29,643 DEBUG [main][AbstractHandlerMethodMapping.java:295] - 
+	c.m.t.m.c.FileController:
+	{POST [/third/party/upload]}: upload(MultipartFile)
+2023-12-28 09:36:29,643 DEBUG [main][AbstractHandlerMethodMapping.java:295] - 
+	c.m.t.m.c.FileController:
+	{POST [/third/party/upload]}: upload(MultipartFile)
+2023-12-28 09:36:29,645 DEBUG [main][AbstractHandlerMethodMapping.java:295] - 
+	s.d.s.w.Swagger2ControllerWebMvc:
+	{GET [/v2/api-docs], produces [application/json || application/hal+json]}: getDocumentation(String,HttpServletRequest)
+2023-12-28 09:36:29,645 DEBUG [main][AbstractHandlerMethodMapping.java:295] - 
+	s.d.s.w.Swagger2ControllerWebMvc:
+	{GET [/v2/api-docs], produces [application/json || application/hal+json]}: getDocumentation(String,HttpServletRequest)
+2023-12-28 09:36:29,646 DEBUG [main][AbstractHandlerMethodMapping.java:295] - 
+	s.d.s.w.ApiResourceController:
+	{GET [/swagger-resources/configuration/ui], produces [application/json]}: uiConfiguration()
+	{GET [/swagger-resources], produces [application/json]}: swaggerResources()
+	{GET [/swagger-resources/configuration/security], produces [application/json]}: securityConfiguration()
+2023-12-28 09:36:29,646 DEBUG [main][AbstractHandlerMethodMapping.java:295] - 
+	s.d.s.w.ApiResourceController:
+	{GET [/swagger-resources/configuration/ui], produces [application/json]}: uiConfiguration()
+	{GET [/swagger-resources], produces [application/json]}: swaggerResources()
+	{GET [/swagger-resources/configuration/security], produces [application/json]}: securityConfiguration()
+2023-12-28 09:36:29,647 DEBUG [main][AbstractHandlerMethodMapping.java:295] - 
+	s.d.o.w.OpenApiControllerWebMvc:
+	{GET [/v3/api-docs], produces [application/json || application/hal+json]}: getDocumentation(String,HttpServletRequest)
+2023-12-28 09:36:29,647 DEBUG [main][AbstractHandlerMethodMapping.java:295] - 
+	s.d.o.w.OpenApiControllerWebMvc:
+	{GET [/v3/api-docs], produces [application/json || application/hal+json]}: getDocumentation(String,HttpServletRequest)
+2023-12-28 09:36:29,649 DEBUG [main][AbstractHandlerMethodMapping.java:295] - 
+	o.s.b.a.w.s.e.BasicErrorController:
+	{ [/error]}: error(HttpServletRequest)
+	{ [/error], produces [text/html]}: errorHtml(HttpServletRequest,HttpServletResponse)
+2023-12-28 09:36:29,649 DEBUG [main][AbstractHandlerMethodMapping.java:295] - 
+	o.s.b.a.w.s.e.BasicErrorController:
+	{ [/error]}: error(HttpServletRequest)
+	{ [/error], produces [text/html]}: errorHtml(HttpServletRequest,HttpServletResponse)
+2023-12-28 09:36:29,672 DEBUG [main][OpenApiExtensionResolver.java:57] - Resolver method start...
+2023-12-28 09:36:29,672 DEBUG [main][OpenApiExtensionResolver.java:57] - Resolver method start...
+2023-12-28 09:36:29,751 DEBUG [main][SimpleUrlHandlerMapping.java:177] - 'viewControllerHandlerMapping' {/swagger-ui/=ParameterizableViewController [view="forward:/swagger-ui/index.html"]}
+2023-12-28 09:36:29,751 DEBUG [main][SimpleUrlHandlerMapping.java:177] - 'viewControllerHandlerMapping' {/swagger-ui/=ParameterizableViewController [view="forward:/swagger-ui/index.html"]}
+2023-12-28 09:36:29,752 DEBUG [main][AbstractDetectingUrlHandlerMapping.java:86] - 'beanNameHandlerMapping' {}
+2023-12-28 09:36:29,752 DEBUG [main][AbstractDetectingUrlHandlerMapping.java:86] - 'beanNameHandlerMapping' {}
+2023-12-28 09:36:29,757 DEBUG [main][SimpleUrlHandlerMapping.java:177] - 'resourceHandlerMapping' {/webjars/**=ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]], /**=ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]], /swagger-ui/**=ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/springfox-swagger-ui/]]}
+2023-12-28 09:36:29,757 DEBUG [main][SimpleUrlHandlerMapping.java:177] - 'resourceHandlerMapping' {/webjars/**=ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]], /**=ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]], /swagger-ui/**=ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/springfox-swagger-ui/]]}
+2023-12-28 09:36:30,886 INFO [main][InetUtils.java:170] - Cannot determine local hostname
+2023-12-28 09:36:30,886 INFO [main][InetUtils.java:170] - Cannot determine local hostname
+2023-12-28 09:36:30,904 DEBUG [main][InternalLoggerFactory.java:63] - Using SLF4J as the default logging framework
+2023-12-28 09:36:30,904 DEBUG [main][InternalLoggerFactory.java:63] - Using SLF4J as the default logging framework
+2023-12-28 09:36:30,906 DEBUG [main][AddressResolverGroupProvider.java:37] - Starting without optional netty's non-blocking DNS resolver library
+2023-12-28 09:36:30,906 DEBUG [main][AddressResolverGroupProvider.java:37] - Starting without optional netty's non-blocking DNS resolver library
+2023-12-28 09:36:30,910 DEBUG [main][DefaultClientResources.java:122] - -Dio.netty.eventLoopThreads: 16
+2023-12-28 09:36:30,910 DEBUG [main][DefaultClientResources.java:122] - -Dio.netty.eventLoopThreads: 16
+2023-12-28 09:36:30,915 DEBUG [main][DefaultEventLoopGroupProvider.java:231] - Creating executor io.netty.util.concurrent.DefaultEventExecutorGroup
+2023-12-28 09:36:30,915 DEBUG [main][DefaultEventLoopGroupProvider.java:231] - Creating executor io.netty.util.concurrent.DefaultEventExecutorGroup
+2023-12-28 09:36:30,928 DEBUG [main][InternalThreadLocalMap.java:86] - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2023-12-28 09:36:30,928 DEBUG [main][InternalThreadLocalMap.java:86] - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2023-12-28 09:36:30,928 DEBUG [main][InternalThreadLocalMap.java:89] - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2023-12-28 09:36:30,928 DEBUG [main][InternalThreadLocalMap.java:89] - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2023-12-28 09:36:30,930 DEBUG [main][ResourceLeakDetector.java:129] - -Dio.netty.leakDetection.level: simple
+2023-12-28 09:36:30,930 DEBUG [main][ResourceLeakDetector.java:129] - -Dio.netty.leakDetection.level: simple
+2023-12-28 09:36:30,930 DEBUG [main][ResourceLeakDetector.java:130] - -Dio.netty.leakDetection.targetRecords: 4
+2023-12-28 09:36:30,930 DEBUG [main][ResourceLeakDetector.java:130] - -Dio.netty.leakDetection.targetRecords: 4
+2023-12-28 09:36:30,931 DEBUG [main][ResourceLeakDetectorFactory.java:196] - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@142918a0
+2023-12-28 09:36:30,931 DEBUG [main][ResourceLeakDetectorFactory.java:196] - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@142918a0
+2023-12-28 09:36:30,933 DEBUG [main][PlatformDependent0.java:460] - -Dio.netty.noUnsafe: false
+2023-12-28 09:36:30,933 DEBUG [main][PlatformDependent0.java:460] - -Dio.netty.noUnsafe: false
+2023-12-28 09:36:30,933 DEBUG [main][PlatformDependent0.java:954] - Java version: 11
+2023-12-28 09:36:30,933 DEBUG [main][PlatformDependent0.java:954] - Java version: 11
+2023-12-28 09:36:30,934 DEBUG [main][PlatformDependent0.java:135] - sun.misc.Unsafe.theUnsafe: available
+2023-12-28 09:36:30,934 DEBUG [main][PlatformDependent0.java:135] - sun.misc.Unsafe.theUnsafe: available
+2023-12-28 09:36:30,934 DEBUG [main][PlatformDependent0.java:159] - sun.misc.Unsafe.copyMemory: available
+2023-12-28 09:36:30,934 DEBUG [main][PlatformDependent0.java:159] - sun.misc.Unsafe.copyMemory: available
+2023-12-28 09:36:30,934 DEBUG [main][PlatformDependent0.java:202] - java.nio.Buffer.address: available
+2023-12-28 09:36:30,934 DEBUG [main][PlatformDependent0.java:202] - java.nio.Buffer.address: available
+2023-12-28 09:36:30,934 DEBUG [main][PlatformDependent0.java:285] - direct buffer constructor: unavailable: Reflective setAccessible(true) disabled
+2023-12-28 09:36:30,934 DEBUG [main][PlatformDependent0.java:285] - direct buffer constructor: unavailable: Reflective setAccessible(true) disabled
+2023-12-28 09:36:30,935 DEBUG [main][PlatformDependent0.java:350] - java.nio.Bits.unaligned: available, true
+2023-12-28 09:36:30,935 DEBUG [main][PlatformDependent0.java:350] - java.nio.Bits.unaligned: available, true
+2023-12-28 09:36:30,935 DEBUG [main][PlatformDependent0.java:417] - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable: class io.netty.util.internal.PlatformDependent0$6 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @1332dec4
+2023-12-28 09:36:30,935 DEBUG [main][PlatformDependent0.java:417] - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable: class io.netty.util.internal.PlatformDependent0$6 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @1332dec4
+2023-12-28 09:36:30,936 DEBUG [main][PlatformDependent0.java:446] - java.nio.DirectByteBuffer.<init>(long, int): unavailable
+2023-12-28 09:36:30,936 DEBUG [main][PlatformDependent0.java:446] - java.nio.DirectByteBuffer.<init>(long, int): unavailable
+2023-12-28 09:36:30,936 DEBUG [main][PlatformDependent.java:1116] - sun.misc.Unsafe: available
+2023-12-28 09:36:30,936 DEBUG [main][PlatformDependent.java:1116] - sun.misc.Unsafe: available
+2023-12-28 09:36:30,936 DEBUG [main][PlatformDependent.java:1227] - maxDirectMemory: 8522825728 bytes (maybe)
+2023-12-28 09:36:30,936 DEBUG [main][PlatformDependent.java:1227] - maxDirectMemory: 8522825728 bytes (maybe)
+2023-12-28 09:36:30,936 DEBUG [main][PlatformDependent.java:1246] - -Dio.netty.tmpdir: C:\Users\ADMINI~1\AppData\Local\Temp (java.io.tmpdir)
+2023-12-28 09:36:30,936 DEBUG [main][PlatformDependent.java:1246] - -Dio.netty.tmpdir: C:\Users\ADMINI~1\AppData\Local\Temp (java.io.tmpdir)
+2023-12-28 09:36:30,936 DEBUG [main][PlatformDependent.java:1325] - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2023-12-28 09:36:30,936 DEBUG [main][PlatformDependent.java:1325] - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2023-12-28 09:36:30,937 DEBUG [main][PlatformDependent.java:1076] - Platform: Windows
+2023-12-28 09:36:30,937 DEBUG [main][PlatformDependent.java:1076] - Platform: Windows
+2023-12-28 09:36:30,937 DEBUG [main][PlatformDependent.java:178] - -Dio.netty.maxDirectMemory: -1 bytes
+2023-12-28 09:36:30,937 DEBUG [main][PlatformDependent.java:178] - -Dio.netty.maxDirectMemory: -1 bytes
+2023-12-28 09:36:30,937 DEBUG [main][PlatformDependent.java:185] - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2023-12-28 09:36:30,937 DEBUG [main][PlatformDependent.java:185] - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2023-12-28 09:36:30,938 DEBUG [main][CleanerJava9.java:71] - java.nio.ByteBuffer.cleaner(): available
+2023-12-28 09:36:30,938 DEBUG [main][CleanerJava9.java:71] - java.nio.ByteBuffer.cleaner(): available
+2023-12-28 09:36:30,938 DEBUG [main][PlatformDependent.java:205] - -Dio.netty.noPreferDirect: false
+2023-12-28 09:36:30,938 DEBUG [main][PlatformDependent.java:205] - -Dio.netty.noPreferDirect: false
+2023-12-28 09:36:30,938 DEBUG [main][PlatformDependent.java:967] - org.jctools-core.MpscChunkedArrayQueue: available
+2023-12-28 09:36:30,938 DEBUG [main][PlatformDependent.java:967] - org.jctools-core.MpscChunkedArrayQueue: available
+2023-12-28 09:36:30,943 DEBUG [main][Loggers.java:245] - Using Slf4j logging framework
+2023-12-28 09:36:30,943 DEBUG [main][Loggers.java:245] - Using Slf4j logging framework
+2023-12-28 09:36:30,944 DEBUG [main][EventRecorderHolder.java:47] - Starting with JFR support
+2023-12-28 09:36:30,944 DEBUG [main][EventRecorderHolder.java:47] - Starting with JFR support
+2023-12-28 09:36:30,952 DEBUG [main][DefaultClientResources.java:227] - LatencyUtils/HdrUtils are not available, metrics are disabled
+2023-12-28 09:36:30,952 DEBUG [main][DefaultClientResources.java:227] - LatencyUtils/HdrUtils are not available, metrics are disabled
+2023-12-28 09:36:32,133 INFO [main][InetUtils.java:170] - Cannot determine local hostname
+2023-12-28 09:36:32,133 INFO [main][InetUtils.java:170] - Cannot determine local hostname
+2023-12-28 09:36:32,243 INFO [main][DirectJDKLog.java:173] - Starting ProtocolHandler ["http-nio-10001"]
+2023-12-28 09:36:32,243 INFO [main][DirectJDKLog.java:173] - Starting ProtocolHandler ["http-nio-10001"]
+2023-12-28 09:36:32,252 INFO [main][TomcatWebServer.java:220] - Tomcat started on port(s): 10001 (http) with context path ''
+2023-12-28 09:36:32,252 INFO [main][TomcatWebServer.java:220] - Tomcat started on port(s): 10001 (http) with context path ''
+2023-12-28 09:36:32,258 INFO [main][NacosServiceRegistry.java:75] - nacos registry, dev mynote-third-party 192.168.75.1:10001 register finished
+2023-12-28 09:36:32,258 INFO [main][NacosServiceRegistry.java:75] - nacos registry, dev mynote-third-party 192.168.75.1:10001 register finished
+2023-12-28 09:36:33,213 DEBUG [nacos.publisher-com.alibaba.nacos.client.naming.event.InstancesChangeEvent][DefaultPublisher.java:193] - [NotifyCenter] the com.alibaba.nacos.client.naming.event.InstancesChangeEvent@31e31ddd will received by com.alibaba.nacos.client.naming.event.InstancesChangeNotifier@4d3990a5
+2023-12-28 09:36:33,213 DEBUG [nacos.publisher-com.alibaba.nacos.client.naming.event.InstancesChangeEvent][DefaultPublisher.java:193] - [NotifyCenter] the com.alibaba.nacos.client.naming.event.InstancesChangeEvent@31e31ddd will received by com.alibaba.nacos.client.naming.event.InstancesChangeNotifier@4d3990a5
+2023-12-28 09:36:33,366 INFO [main][InetUtils.java:170] - Cannot determine local hostname
+2023-12-28 09:36:33,366 INFO [main][InetUtils.java:170] - Cannot determine local hostname
+2023-12-28 09:36:33,426 DEBUG [main][NoopValidator.java:24] - ERROR [ModelSpecification.spec] At least one type of specification is required
+2023-12-28 09:36:33,426 DEBUG [main][NoopValidator.java:24] - ERROR [ModelSpecification.spec] At least one type of specification is required
+2023-12-28 09:36:33,474 INFO [main][StartupInfoLogger.java:61] - Started ThirdPartyApplication in 7.427 seconds (JVM running for 7.898)
+2023-12-28 09:36:33,474 INFO [main][StartupInfoLogger.java:61] - Started ThirdPartyApplication in 7.427 seconds (JVM running for 7.898)
+2023-12-28 09:36:43,836 INFO [http-nio-10001-exec-1][DirectJDKLog.java:173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-12-28 09:36:43,836 INFO [http-nio-10001-exec-1][DirectJDKLog.java:173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-12-28 09:36:43,837 INFO [http-nio-10001-exec-1][FrameworkServlet.java:525] - Initializing Servlet 'dispatcherServlet'
+2023-12-28 09:36:43,837 INFO [http-nio-10001-exec-1][FrameworkServlet.java:525] - Initializing Servlet 'dispatcherServlet'
+2023-12-28 09:36:43,839 INFO [http-nio-10001-exec-1][FrameworkServlet.java:547] - Completed initialization in 1 ms
+2023-12-28 09:36:43,839 INFO [http-nio-10001-exec-1][FrameworkServlet.java:547] - Completed initialization in 1 ms
+2023-12-28 09:36:43,875 WARN [http-nio-10001-exec-1][AbstractHandlerExceptionResolver.java:208] - Resolved [org.springframework.web.multipart.support.MissingServletRequestPartException: Required request part 'file' is not present]
+2023-12-28 09:36:43,875 WARN [http-nio-10001-exec-1][AbstractHandlerExceptionResolver.java:208] - Resolved [org.springframework.web.multipart.support.MissingServletRequestPartException: Required request part 'file' is not present]
+2023-12-28 09:50:53,116 WARN [Thread-4][HttpClientBeanHolder.java:108] - [HttpClientBeanHolder] Start destroying common HttpClient
+2023-12-28 09:50:53,116 WARN [Thread-10][NotifyCenter.java:145] - [NotifyCenter] Start destroying Publisher
+2023-12-28 09:50:53,116 WARN [Thread-10][NotifyCenter.java:145] - [NotifyCenter] Start destroying Publisher
+2023-12-28 09:50:53,116 WARN [Thread-4][HttpClientBeanHolder.java:108] - [HttpClientBeanHolder] Start destroying common HttpClient
+2023-12-28 09:50:53,117 WARN [Thread-10][NotifyCenter.java:162] - [NotifyCenter] Destruction of the end
+2023-12-28 09:50:53,117 WARN [Thread-10][NotifyCenter.java:162] - [NotifyCenter] Destruction of the end
+2023-12-28 09:50:53,117 WARN [Thread-4][HttpClientBeanHolder.java:114] - [HttpClientBeanHolder] Destruction of the end
+2023-12-28 09:50:53,117 WARN [Thread-4][HttpClientBeanHolder.java:114] - [HttpClientBeanHolder] Destruction of the end
+2023-12-28 09:50:53,253 DEBUG [SpringApplicationShutdownHook][AbstractRedisClient.java:539] - Initiate shutdown (100, 100, MILLISECONDS)
+2023-12-28 09:50:53,253 DEBUG [SpringApplicationShutdownHook][AbstractRedisClient.java:539] - Initiate shutdown (100, 100, MILLISECONDS)
+2023-12-28 09:50:53,256 DEBUG [SpringApplicationShutdownHook][DefaultClientResources.java:735] - Initiate shutdown (0, 2, SECONDS)
+2023-12-28 09:50:53,256 DEBUG [SpringApplicationShutdownHook][DefaultClientResources.java:735] - Initiate shutdown (0, 2, SECONDS)
+2023-12-28 09:50:53,257 DEBUG [SpringApplicationShutdownHook][DefaultEventLoopGroupProvider.java:317] - Initiate shutdown (0, 2, SECONDS)
+2023-12-28 09:50:53,257 DEBUG [SpringApplicationShutdownHook][DefaultEventLoopGroupProvider.java:317] - Initiate shutdown (0, 2, SECONDS)
+2023-12-28 09:50:53,261 INFO [SpringApplicationShutdownHook][NacosServiceRegistry.java:94] - De-registering from Nacos Server now...
+2023-12-28 09:50:53,261 INFO [SpringApplicationShutdownHook][NacosServiceRegistry.java:94] - De-registering from Nacos Server now...
+2023-12-28 09:50:53,263 INFO [SpringApplicationShutdownHook][NacosServiceRegistry.java:114] - De-registration finished.
+2023-12-28 09:50:53,263 INFO [SpringApplicationShutdownHook][NacosServiceRegistry.java:114] - De-registration finished.
+2023-12-28 09:50:53,796 DEBUG [nacos.publisher-com.alibaba.nacos.client.naming.event.InstancesChangeEvent][DefaultPublisher.java:193] - [NotifyCenter] the com.alibaba.nacos.client.naming.event.InstancesChangeEvent@831323d will received by com.alibaba.nacos.client.naming.event.InstancesChangeNotifier@4d3990a5
+2023-12-28 09:50:53,796 DEBUG [nacos.publisher-com.alibaba.nacos.client.naming.event.InstancesChangeEvent][DefaultPublisher.java:193] - [NotifyCenter] the com.alibaba.nacos.client.naming.event.InstancesChangeEvent@831323d will received by com.alibaba.nacos.client.naming.event.InstancesChangeNotifier@4d3990a5

@@ -21,4 +21,8 @@ public class ContentDto {
 
     @ApiModelProperty("内容")
     private String content;
+
+    private String categoryId;
+
+    private String status;
 }

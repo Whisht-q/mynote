@@ -3,6 +3,7 @@ package com.mynote.notes.service;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import com.mynote.base.common.note.entity.Content;
 import com.baomidou.mybatisplus.extension.service.IService;
+import com.mynote.base.common.note.vo.ContentTitleVo;
 import com.mynote.base.common.note.vo.ContentVo;
 
 import java.util.List;
@@ -24,4 +25,6 @@ public interface ContentService extends IService<Content> {
     List<Content> selectPublicNote();
 
     void updateNote(Content note, byte status);
+
+    Page<ContentTitleVo> getContentTitleByUserId(Page<ContentTitleVo> page,String userId, List<String> categoryIds);
 }

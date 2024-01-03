@@ -1,0 +1,60 @@
+2023-12-27 10:00:29,206 ERROR [main][LoggingFailureAnalysisReporter.java:40] - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+A component required a bean of type 'com.mynote.notes.service.CategoryService' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.mynote.notes.service.CategoryService' in your configuration.
+
+2023-12-27 10:00:47,223 ERROR [main][LoggingFailureAnalysisReporter.java:40] - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+A component required a bean of type 'com.mynote.notes.service.CategoryService' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.mynote.notes.service.CategoryService' in your configuration.
+
+2023-12-27 10:01:40,775 ERROR [main][LoggingFailureAnalysisReporter.java:40] - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+A component required a bean of type 'com.mynote.notes.service.CategoryService' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.mynote.notes.service.CategoryService' in your configuration.
+
+2023-12-27 10:39:38,962 ERROR [main][LoggingFailureAnalysisReporter.java:40] - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+A component required a bean of type 'com.mynote.notes.service.CategoryService' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.mynote.notes.service.CategoryService' in your configuration.
+

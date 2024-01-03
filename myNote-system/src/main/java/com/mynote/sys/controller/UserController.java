@@ -68,7 +68,7 @@ public class UserController {
      */
     @ApiOperation(value = "注册用户")
     @PostMapping("/add")
-    public Result<?> addUser(RegisterDto registerDto) {
+    public Result<?> addUser(@RequestBody RegisterDto registerDto) {
         Boolean exist = userService.isExist(registerDto.getUsername());
         if (!exist) {
             UserDto userDto = new UserDto();
@@ -88,7 +88,7 @@ public class UserController {
      */
     @ApiOperation(value = "登录")
     @PostMapping("/login")
-    public Result<?> login(LoginDto loginDto) {
+    public Result<?> login(@RequestBody LoginDto loginDto) {
         //生成key
         String key = DigestUtil.md5Hex(loginDto.getCaptcha().toLowerCase() + loginDto.getKey());
         Object checkCode = redisUtil.get(LOGIN_KEY + key);
@@ -142,7 +142,7 @@ public class UserController {
      */
     @ApiOperation(value = "用户信息修改")
     @PostMapping("/update")
-    public Result<?> updateUser(@RequestParam("id") String id, UserInfoDto userInfoDto) {
+    public Result<?> updateUser(@RequestParam("id") String id, @RequestBody UserInfoDto userInfoDto) {
         //查询原用户
         User userOld = userService.getOne(new LambdaQueryWrapper<User>().eq(User::getId, id));
         if (CommonUtil.isEmpty(userOld)) {

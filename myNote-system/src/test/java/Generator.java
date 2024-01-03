@@ -19,15 +19,15 @@ public class Generator {
         */
 
         //数据库连接
-        String url = "jdbc:mysql://192.168.11.135:3306/sys_admin";//数据库url
+        String url = "jdbc:mysql://192.168.11.135:3306/media";//数据库url
         String username = "root";//账号
         String password = "111111";//密码
         //全局配置参数
         String author = "zhishubin";//作者
-        String outputDir = "E:\\workspace\\java\\MyNote\\myNote-system\\src\\main\\java";//指定输出目录
+        String outputDir = "E:\\workspace\\java\\MyNote\\myNote-third-party\\src\\main\\java";//指定输出目录
         //包配置参数
-        String parent = "com.mynote";//父包名
-        String moduleName = "sys";//父包模块名
+        String parent = "com.mynote.thirdparty";//父包名
+        String moduleName = "minio";//父包模块名
         String entity = "entity";//Entity 实体类包名
         String mapper = "mapper";//Mapper 包名
         String mapperXml = "mapper.xml";//Mapper XML 包名
@@ -59,7 +59,7 @@ public class Generator {
                 //策略配置
                 .strategyConfig(builder -> {
                     builder.addInclude()
-                            .addTablePrefix("sys_")
+                            .addTablePrefix("")
                             //开启生成实体类
                             .entityBuilder()
                             .enableLombok()//开启 lombok 模型

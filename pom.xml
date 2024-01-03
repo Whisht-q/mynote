@@ -15,6 +15,7 @@
         <module>myNote-blog</module>
         <module>myNote-notes</module>
         <module>myNote-gateway</module>
+        <module>myNote-third-party</module>
     </modules>
 
     <parent>

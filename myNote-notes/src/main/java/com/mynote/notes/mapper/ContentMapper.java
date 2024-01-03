@@ -1,8 +1,12 @@
 package com.mynote.notes.mapper;
 
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
+import com.mynote.base.common.note.dto.TitleCategoryDto;
+import com.mynote.base.common.note.entity.Category;
 import com.mynote.base.common.note.entity.Content;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
+import com.mynote.base.common.note.vo.CategoryVo;
+import com.mynote.base.common.note.vo.ContentTitleVo;
 import com.mynote.base.common.note.vo.ContentVo;
 import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Param;
@@ -24,4 +28,8 @@ public interface ContentMapper extends BaseMapper<Content> {
 
     List<Content> selectPublicNote();
 
+    List<TitleCategoryDto> getTreeListByUserId(@Param("userId") String userId);
+
+    Page<ContentTitleVo> getContentTitleByUserId(Page<ContentTitleVo> page,@Param("userId") String userId,
+                                                 @Param("categoryIds") List<String> categoryIds);
 }

@@ -20,10 +20,50 @@
 
     <select id="selectPublicNote" resultMap="BaseResultMap">
         select nc.id, user_id, title, content, is_deleted, created_time, updated_time
-            from notes.notes_content nc
-        left join notes.notes_note_status nns on nc.id = nns.note_id
+        from notes.notes_content nc
+                 left join notes.notes_note_status nns on nc.id = nns.note_id
         where nns.status = '0'
-        and nc.is_deleted = '0'
+          and nc.is_deleted = '0'
     </select>
 
+    <select id="getTreeListByUserId" resultType="com.mynote.base.common.note.dto.TitleCategoryDto">
+        SELECT DISTINCT
+        na.id,
+        na.parent_id,
+        na.name,
+        na2.name AS parent_name,
+        na.created_time,
+        na.updated_time
+        FROM
+        notes.notes_content nc
+        INNER JOIN notes.notes_note_category nnc ON nc.id = nnc.note_id
+        INNER JOIN notes.notes_category na ON nnc.category_id = na.id
+        LEFT JOIN notes.notes_note_status nns ON nc.id = nns.note_id
+        LEFT JOIN notes.notes_category na2 ON na.parent_id = na2.id
+        WHERE
+        1 = 1
+        AND user_id = #{userId}
+        AND na.is_deleted = '0'
+        AND nns.status = '0'
+    </select>
+
+
+    <select id="getContentTitleByUserId" resultType="com.mynote.base.common.note.vo.ContentTitleVo">
+        select nc.id, nc.title, na.name, nc.updated_time
+        from notes.notes_content nc
+                 left join notes.notes_note_category nnc on nc.id = nnc.note_id
+                 left join notes.notes_category na on nnc.category_id = na.id
+                 left join notes.notes_note_status nns on nc.id = nns.note_id
+        where 1 = 1
+        <if test="userId != null and userId != ''">
+            AND nc.user_id = #{userId}
+        </if>
+        <if test="categoryIds != null and categoryIds.size() != 0">
+            <foreach item="id" collection="categoryIds" open="AND nnc.category_id in (" separator="," close=")">
+                #{id}
+            </foreach>
+        </if>
+        and nc.is_deleted = '0'
+        and nns.status = '0'
+    </select>
 </mapper>

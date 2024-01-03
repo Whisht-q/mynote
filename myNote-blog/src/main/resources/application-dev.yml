@@ -40,7 +40,7 @@
 #logging:
 #  config: classpath:log4j2-dev.xml
 #
-#server_port: ${SERVER_PORT:9001}
+#server_port: ${SERVER_PORT:10001}
 #db_ip: ${DB_IP:192.168.11.135}
 #db_port: ${DB_PORT:3306}
 #db_user: ${DB_USER:root}

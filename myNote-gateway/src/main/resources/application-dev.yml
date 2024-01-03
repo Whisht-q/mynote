@@ -12,6 +12,23 @@ spring:
         locator:
           enabled: true
       routes:
+        - id: mynote-system
+          uri: lb://mynote-system
+          predicates:
+            - Path=/sys/**
+        - id: mynote-note
+          uri: lb://mynote-note
+          predicates:
+            - Path=/note/**
+        - id: mynote-blog
+          uri: lb://mynote-blog
+          predicates:
+            - Path=/blog/**
+        - id: mynote-third-party
+          uri: lb://mynote-third-party
+          predicates:
+            - Path=/third/party/**
+
 
 
 logging:

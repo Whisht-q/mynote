@@ -1,0 +1,1108 @@
+2023-12-27 16:50:04,122 INFO [main][SpringApplication.java:646] - The following 1 profile is active: "dev"
+2023-12-27 16:50:04,122 INFO [main][SpringApplication.java:646] - The following 1 profile is active: "dev"
+2023-12-27 16:50:04,516 INFO [main][RepositoryConfigurationDelegate.java:262] - Multiple Spring Data modules found, entering strict repository configuration mode!
+2023-12-27 16:50:04,516 INFO [main][RepositoryConfigurationDelegate.java:262] - Multiple Spring Data modules found, entering strict repository configuration mode!
+2023-12-27 16:50:04,517 INFO [main][RepositoryConfigurationDelegate.java:132] - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-12-27 16:50:04,517 INFO [main][RepositoryConfigurationDelegate.java:132] - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-12-27 16:50:04,528 INFO [main][RepositoryConfigurationDelegate.java:201] - Finished Spring Data repository scanning in 4 ms. Found 0 Redis repository interfaces.
+2023-12-27 16:50:04,528 INFO [main][RepositoryConfigurationDelegate.java:201] - Finished Spring Data repository scanning in 4 ms. Found 0 Redis repository interfaces.
+2023-12-27 16:50:04,587 DEBUG [main][LogFactory.java:109] - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2023-12-27 16:50:04,587 DEBUG [main][LogFactory.java:109] - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2023-12-27 16:50:04,628 INFO [main][GenericScope.java:283] - BeanFactory id=07aba103-8b6e-33fa-9121-47767e06cd99
+2023-12-27 16:50:04,628 INFO [main][GenericScope.java:283] - BeanFactory id=07aba103-8b6e-33fa-9121-47767e06cd99
+2023-12-27 16:50:04,787 INFO [main][TomcatWebServer.java:108] - Tomcat initialized with port(s): 8001 (http)
+2023-12-27 16:50:04,787 INFO [main][TomcatWebServer.java:108] - Tomcat initialized with port(s): 8001 (http)
+2023-12-27 16:50:04,788 INFO [main][DirectJDKLog.java:173] - Loaded Apache Tomcat Native library [1.2.38] using APR version [1.7.4].
+2023-12-27 16:50:04,788 INFO [main][DirectJDKLog.java:173] - Loaded Apache Tomcat Native library [1.2.38] using APR version [1.7.4].
+2023-12-27 16:50:04,788 INFO [main][DirectJDKLog.java:173] - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+2023-12-27 16:50:04,788 INFO [main][DirectJDKLog.java:173] - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+2023-12-27 16:50:04,788 INFO [main][DirectJDKLog.java:173] - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2023-12-27 16:50:04,788 INFO [main][DirectJDKLog.java:173] - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2023-12-27 16:50:04,790 INFO [main][DirectJDKLog.java:173] - OpenSSL successfully initialized [OpenSSL 1.1.1v  1 Aug 2023]
+2023-12-27 16:50:04,790 INFO [main][DirectJDKLog.java:173] - OpenSSL successfully initialized [OpenSSL 1.1.1v  1 Aug 2023]
+2023-12-27 16:50:04,797 INFO [main][DirectJDKLog.java:173] - Initializing ProtocolHandler ["http-nio-8001"]
+2023-12-27 16:50:04,797 INFO [main][DirectJDKLog.java:173] - Initializing ProtocolHandler ["http-nio-8001"]
+2023-12-27 16:50:04,797 INFO [main][DirectJDKLog.java:173] - Starting service [Tomcat]
+2023-12-27 16:50:04,797 INFO [main][DirectJDKLog.java:173] - Starting service [Tomcat]
+2023-12-27 16:50:04,797 INFO [main][DirectJDKLog.java:173] - Starting Servlet engine: [Apache Tomcat/9.0.60]
+2023-12-27 16:50:04,797 INFO [main][DirectJDKLog.java:173] - Starting Servlet engine: [Apache Tomcat/9.0.60]
+2023-12-27 16:50:04,870 INFO [main][DirectJDKLog.java:173] - Initializing Spring embedded WebApplicationContext
+2023-12-27 16:50:04,870 INFO [main][DirectJDKLog.java:173] - Initializing Spring embedded WebApplicationContext
+2023-12-27 16:50:04,870 INFO [main][ServletWebServerApplicationContext.java:290] - Root WebApplicationContext: initialization completed in 735 ms
+2023-12-27 16:50:04,870 INFO [main][ServletWebServerApplicationContext.java:290] - Root WebApplicationContext: initialization completed in 735 ms
+2023-12-27 16:50:04,980 DEBUG [main][HikariConfig.java:971] - Driver class com.mysql.cj.jdbc.Driver found in Thread context class loader jdk.internal.loader.ClassLoaders$AppClassLoader@61064425
+2023-12-27 16:50:04,980 DEBUG [main][HikariConfig.java:971] - Driver class com.mysql.cj.jdbc.Driver found in Thread context class loader jdk.internal.loader.ClassLoaders$AppClassLoader@61064425
+2023-12-27 16:50:05,274 DEBUG [main][InternalLoggerFactory.java:63] - Using SLF4J as the default logging framework
+2023-12-27 16:50:05,274 DEBUG [main][InternalLoggerFactory.java:63] - Using SLF4J as the default logging framework
+2023-12-27 16:50:05,275 DEBUG [main][AddressResolverGroupProvider.java:37] - Starting without optional netty's non-blocking DNS resolver library
+2023-12-27 16:50:05,275 DEBUG [main][AddressResolverGroupProvider.java:37] - Starting without optional netty's non-blocking DNS resolver library
+2023-12-27 16:50:05,277 DEBUG [main][DefaultClientResources.java:122] - -Dio.netty.eventLoopThreads: 16
+2023-12-27 16:50:05,277 DEBUG [main][DefaultClientResources.java:122] - -Dio.netty.eventLoopThreads: 16
+2023-12-27 16:50:05,280 DEBUG [main][DefaultEventLoopGroupProvider.java:231] - Creating executor io.netty.util.concurrent.DefaultEventExecutorGroup
+2023-12-27 16:50:05,280 DEBUG [main][DefaultEventLoopGroupProvider.java:231] - Creating executor io.netty.util.concurrent.DefaultEventExecutorGroup
+2023-12-27 16:50:05,289 DEBUG [main][InternalThreadLocalMap.java:86] - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2023-12-27 16:50:05,289 DEBUG [main][InternalThreadLocalMap.java:86] - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2023-12-27 16:50:05,289 DEBUG [main][InternalThreadLocalMap.java:89] - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2023-12-27 16:50:05,289 DEBUG [main][InternalThreadLocalMap.java:89] - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2023-12-27 16:50:05,291 DEBUG [main][ResourceLeakDetector.java:129] - -Dio.netty.leakDetection.level: simple
+2023-12-27 16:50:05,291 DEBUG [main][ResourceLeakDetector.java:129] - -Dio.netty.leakDetection.level: simple
+2023-12-27 16:50:05,291 DEBUG [main][ResourceLeakDetector.java:130] - -Dio.netty.leakDetection.targetRecords: 4
+2023-12-27 16:50:05,291 DEBUG [main][ResourceLeakDetector.java:130] - -Dio.netty.leakDetection.targetRecords: 4
+2023-12-27 16:50:05,293 DEBUG [main][ResourceLeakDetectorFactory.java:196] - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@6c06b1bc
+2023-12-27 16:50:05,293 DEBUG [main][ResourceLeakDetectorFactory.java:196] - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@6c06b1bc
+2023-12-27 16:50:05,295 DEBUG [main][PlatformDependent0.java:460] - -Dio.netty.noUnsafe: false
+2023-12-27 16:50:05,295 DEBUG [main][PlatformDependent0.java:460] - -Dio.netty.noUnsafe: false
+2023-12-27 16:50:05,295 DEBUG [main][PlatformDependent0.java:954] - Java version: 11
+2023-12-27 16:50:05,295 DEBUG [main][PlatformDependent0.java:954] - Java version: 11
+2023-12-27 16:50:05,296 DEBUG [main][PlatformDependent0.java:135] - sun.misc.Unsafe.theUnsafe: available
+2023-12-27 16:50:05,296 DEBUG [main][PlatformDependent0.java:135] - sun.misc.Unsafe.theUnsafe: available
+2023-12-27 16:50:05,296 DEBUG [main][PlatformDependent0.java:159] - sun.misc.Unsafe.copyMemory: available
+2023-12-27 16:50:05,296 DEBUG [main][PlatformDependent0.java:159] - sun.misc.Unsafe.copyMemory: available
+2023-12-27 16:50:05,296 DEBUG [main][PlatformDependent0.java:202] - java.nio.Buffer.address: available
+2023-12-27 16:50:05,296 DEBUG [main][PlatformDependent0.java:202] - java.nio.Buffer.address: available
+2023-12-27 16:50:05,296 DEBUG [main][PlatformDependent0.java:285] - direct buffer constructor: unavailable: Reflective setAccessible(true) disabled
+2023-12-27 16:50:05,296 DEBUG [main][PlatformDependent0.java:285] - direct buffer constructor: unavailable: Reflective setAccessible(true) disabled
+2023-12-27 16:50:05,297 DEBUG [main][PlatformDependent0.java:350] - java.nio.Bits.unaligned: available, true
+2023-12-27 16:50:05,297 DEBUG [main][PlatformDependent0.java:350] - java.nio.Bits.unaligned: available, true
+2023-12-27 16:50:05,298 DEBUG [main][PlatformDependent0.java:417] - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable: class io.netty.util.internal.PlatformDependent0$6 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @9f9146d
+2023-12-27 16:50:05,298 DEBUG [main][PlatformDependent0.java:417] - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable: class io.netty.util.internal.PlatformDependent0$6 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @9f9146d
+2023-12-27 16:50:05,298 DEBUG [main][PlatformDependent0.java:446] - java.nio.DirectByteBuffer.<init>(long, int): unavailable
+2023-12-27 16:50:05,298 DEBUG [main][PlatformDependent0.java:446] - java.nio.DirectByteBuffer.<init>(long, int): unavailable
+2023-12-27 16:50:05,298 DEBUG [main][PlatformDependent.java:1116] - sun.misc.Unsafe: available
+2023-12-27 16:50:05,298 DEBUG [main][PlatformDependent.java:1116] - sun.misc.Unsafe: available
+2023-12-27 16:50:05,298 DEBUG [main][PlatformDependent.java:1227] - maxDirectMemory: 8522825728 bytes (maybe)
+2023-12-27 16:50:05,298 DEBUG [main][PlatformDependent.java:1227] - maxDirectMemory: 8522825728 bytes (maybe)
+2023-12-27 16:50:05,299 DEBUG [main][PlatformDependent.java:1246] - -Dio.netty.tmpdir: C:\Users\ADMINI~1\AppData\Local\Temp (java.io.tmpdir)
+2023-12-27 16:50:05,299 DEBUG [main][PlatformDependent.java:1246] - -Dio.netty.tmpdir: C:\Users\ADMINI~1\AppData\Local\Temp (java.io.tmpdir)
+2023-12-27 16:50:05,299 DEBUG [main][PlatformDependent.java:1325] - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2023-12-27 16:50:05,299 DEBUG [main][PlatformDependent.java:1325] - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2023-12-27 16:50:05,299 DEBUG [main][PlatformDependent.java:1076] - Platform: Windows
+2023-12-27 16:50:05,299 DEBUG [main][PlatformDependent.java:1076] - Platform: Windows
+2023-12-27 16:50:05,299 DEBUG [main][PlatformDependent.java:178] - -Dio.netty.maxDirectMemory: -1 bytes
+2023-12-27 16:50:05,299 DEBUG [main][PlatformDependent.java:178] - -Dio.netty.maxDirectMemory: -1 bytes
+2023-12-27 16:50:05,299 DEBUG [main][PlatformDependent.java:185] - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2023-12-27 16:50:05,299 DEBUG [main][PlatformDependent.java:185] - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2023-12-27 16:50:05,300 DEBUG [main][CleanerJava9.java:71] - java.nio.ByteBuffer.cleaner(): available
+2023-12-27 16:50:05,300 DEBUG [main][CleanerJava9.java:71] - java.nio.ByteBuffer.cleaner(): available
+2023-12-27 16:50:05,300 DEBUG [main][PlatformDependent.java:205] - -Dio.netty.noPreferDirect: false
+2023-12-27 16:50:05,300 DEBUG [main][PlatformDependent.java:205] - -Dio.netty.noPreferDirect: false
+2023-12-27 16:50:05,301 DEBUG [main][PlatformDependent.java:967] - org.jctools-core.MpscChunkedArrayQueue: available
+2023-12-27 16:50:05,301 DEBUG [main][PlatformDependent.java:967] - org.jctools-core.MpscChunkedArrayQueue: available
+2023-12-27 16:50:05,306 DEBUG [main][Loggers.java:245] - Using Slf4j logging framework
+2023-12-27 16:50:05,306 DEBUG [main][Loggers.java:245] - Using Slf4j logging framework
+2023-12-27 16:50:05,307 DEBUG [main][EventRecorderHolder.java:47] - Starting with JFR support
+2023-12-27 16:50:05,307 DEBUG [main][EventRecorderHolder.java:47] - Starting with JFR support
+2023-12-27 16:50:05,315 DEBUG [main][DefaultClientResources.java:227] - LatencyUtils/HdrUtils are not available, metrics are disabled
+2023-12-27 16:50:05,315 DEBUG [main][DefaultClientResources.java:227] - LatencyUtils/HdrUtils are not available, metrics are disabled
+2023-12-27 16:50:05,488 DEBUG [main][AbstractHandlerMethodMapping.java:295] - 
+	c.m.s.c.EventLogsController:
+	{GET [/sys/eventLogs/list]}: list(String,String,Integer,Integer)
+	{POST [/sys/eventLogs/addLog]}: addLog(String,String,HttpServletRequest)
+2023-12-27 16:50:05,488 DEBUG [main][AbstractHandlerMethodMapping.java:295] - 
+	c.m.s.c.EventLogsController:
+	{GET [/sys/eventLogs/list]}: list(String,String,Integer,Integer)
+	{POST [/sys/eventLogs/addLog]}: addLog(String,String,HttpServletRequest)
+2023-12-27 16:50:05,491 DEBUG [main][AbstractHandlerMethodMapping.java:295] - 
+	c.m.s.c.EventTypeController:
+	{GET [/sys/eventType/list]}: list()
+	{POST [/sys/eventType/addType]}: addType(String,String)
+	{POST [/sys/eventType/get/{id}]}: getEvent(String)
+	{POST [/sys/eventType/deleteType/{id}]}: deleteType(String)
+2023-12-27 16:50:05,491 DEBUG [main][AbstractHandlerMethodMapping.java:295] - 
+	c.m.s.c.EventTypeController:
+	{GET [/sys/eventType/list]}: list()
+	{POST [/sys/eventType/addType]}: addType(String,String)
+	{POST [/sys/eventType/get/{id}]}: getEvent(String)
+	{POST [/sys/eventType/deleteType/{id}]}: deleteType(String)
+2023-12-27 16:50:05,491 DEBUG [main][AbstractHandlerMethodMapping.java:295] - 
+	c.m.s.c.RoleController:
+	{POST [/sys/role/addRole]}: addRole(RoleDto)
+	{POST [/sys/role/deleteRole/{id}]}: deleteUser(String)
+2023-12-27 16:50:05,491 DEBUG [main][AbstractHandlerMethodMapping.java:295] - 
+	c.m.s.c.RoleController:
+	{POST [/sys/role/addRole]}: addRole(RoleDto)
+	{POST [/sys/role/deleteRole/{id}]}: deleteUser(String)
+2023-12-27 16:50:05,492 DEBUG [main][AbstractHandlerMethodMapping.java:295] - 
+	c.m.s.c.UserController:
+	{POST [/sys/user/login]}: login(LoginDto)
+	{POST [/sys/user/add]}: addUser(RegisterDto)
+	{GET [/sys/user/list]}: getList()
+	{POST [/sys/user/ban/{id}]}: banUser(String)
+	{POST [/sys/user/unban/{id}]}: unBanUser(String)
+	{GET [/sys/user/getCaptcha/{key}]}: getCaptcha(String)
+	{POST [/sys/user/getUser]}: getUserById(String)
+	{POST [/sys/user/update]}: updateUser(String,UserInfoDto)
+2023-12-27 16:50:05,492 DEBUG [main][AbstractHandlerMethodMapping.java:295] - 
+	c.m.s.c.UserController:
+	{POST [/sys/user/login]}: login(LoginDto)
+	{POST [/sys/user/add]}: addUser(RegisterDto)
+	{GET [/sys/user/list]}: getList()
+	{POST [/sys/user/ban/{id}]}: banUser(String)
+	{POST [/sys/user/unban/{id}]}: unBanUser(String)
+	{GET [/sys/user/getCaptcha/{key}]}: getCaptcha(String)
+	{POST [/sys/user/getUser]}: getUserById(String)
+	{POST [/sys/user/update]}: updateUser(String,UserInfoDto)
+2023-12-27 16:50:05,493 DEBUG [main][AbstractHandlerMethodMapping.java:295] - 
+	s.d.s.w.Swagger2ControllerWebMvc:
+	{GET [/v2/api-docs], produces [application/json || application/hal+json]}: getDocumentation(String,HttpServletRequest)
+2023-12-27 16:50:05,493 DEBUG [main][AbstractHandlerMethodMapping.java:295] - 
+	s.d.s.w.Swagger2ControllerWebMvc:
+	{GET [/v2/api-docs], produces [application/json || application/hal+json]}: getDocumentation(String,HttpServletRequest)
+2023-12-27 16:50:05,494 DEBUG [main][AbstractHandlerMethodMapping.java:295] - 
+	s.d.s.w.ApiResourceController:
+	{GET [/swagger-resources/configuration/security], produces [application/json]}: securityConfiguration()
+	{GET [/swagger-resources], produces [application/json]}: swaggerResources()
+	{GET [/swagger-resources/configuration/ui], produces [application/json]}: uiConfiguration()
+2023-12-27 16:50:05,494 DEBUG [main][AbstractHandlerMethodMapping.java:295] - 
+	s.d.s.w.ApiResourceController:
+	{GET [/swagger-resources/configuration/security], produces [application/json]}: securityConfiguration()
+	{GET [/swagger-resources], produces [application/json]}: swaggerResources()
+	{GET [/swagger-resources/configuration/ui], produces [application/json]}: uiConfiguration()
+2023-12-27 16:50:05,494 DEBUG [main][AbstractHandlerMethodMapping.java:295] - 
+	s.d.o.w.OpenApiControllerWebMvc:
+	{GET [/v3/api-docs], produces [application/json || application/hal+json]}: getDocumentation(String,HttpServletRequest)
+2023-12-27 16:50:05,494 DEBUG [main][AbstractHandlerMethodMapping.java:295] - 
+	s.d.o.w.OpenApiControllerWebMvc:
+	{GET [/v3/api-docs], produces [application/json || application/hal+json]}: getDocumentation(String,HttpServletRequest)
+2023-12-27 16:50:05,496 DEBUG [main][AbstractHandlerMethodMapping.java:295] - 
+	o.s.b.a.w.s.e.BasicErrorController:
+	{ [/error]}: error(HttpServletRequest)
+	{ [/error], produces [text/html]}: errorHtml(HttpServletRequest,HttpServletResponse)
+2023-12-27 16:50:05,496 DEBUG [main][AbstractHandlerMethodMapping.java:295] - 
+	o.s.b.a.w.s.e.BasicErrorController:
+	{ [/error]}: error(HttpServletRequest)
+	{ [/error], produces [text/html]}: errorHtml(HttpServletRequest,HttpServletResponse)
+2023-12-27 16:50:05,519 DEBUG [main][OpenApiExtensionResolver.java:57] - Resolver method start...
+2023-12-27 16:50:05,519 DEBUG [main][OpenApiExtensionResolver.java:57] - Resolver method start...
+2023-12-27 16:50:05,617 DEBUG [main][SimpleUrlHandlerMapping.java:177] - 'viewControllerHandlerMapping' {/swagger-ui/=ParameterizableViewController [view="forward:/swagger-ui/index.html"]}
+2023-12-27 16:50:05,617 DEBUG [main][SimpleUrlHandlerMapping.java:177] - 'viewControllerHandlerMapping' {/swagger-ui/=ParameterizableViewController [view="forward:/swagger-ui/index.html"]}
+2023-12-27 16:50:05,619 DEBUG [main][AbstractDetectingUrlHandlerMapping.java:86] - 'beanNameHandlerMapping' {}
+2023-12-27 16:50:05,619 DEBUG [main][AbstractDetectingUrlHandlerMapping.java:86] - 'beanNameHandlerMapping' {}
+2023-12-27 16:50:05,626 DEBUG [main][SimpleUrlHandlerMapping.java:177] - 'resourceHandlerMapping' {/webjars/**=ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]], /**=ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]], /swagger-ui/**=ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/springfox-swagger-ui/]]}
+2023-12-27 16:50:05,626 DEBUG [main][SimpleUrlHandlerMapping.java:177] - 'resourceHandlerMapping' {/webjars/**=ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]], /**=ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]], /swagger-ui/**=ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/springfox-swagger-ui/]]}
+2023-12-27 16:50:06,780 INFO [main][InetUtils.java:170] - Cannot determine local hostname
+2023-12-27 16:50:06,780 INFO [main][InetUtils.java:170] - Cannot determine local hostname
+2023-12-27 16:50:08,001 INFO [main][InetUtils.java:170] - Cannot determine local hostname
+2023-12-27 16:50:08,001 INFO [main][InetUtils.java:170] - Cannot determine local hostname
+2023-12-27 16:50:08,055 INFO [main][InitUtils.java:65] - initializer namespace from System Property :null
+2023-12-27 16:50:08,055 INFO [main][InitUtils.java:65] - initializer namespace from System Property :null
+2023-12-27 16:50:08,056 INFO [main][InitUtils.java:74] - initializer namespace from System Environment :null
+2023-12-27 16:50:08,056 INFO [main][InitUtils.java:74] - initializer namespace from System Environment :null
+2023-12-27 16:50:08,056 INFO [main][InitUtils.java:84] - initializer namespace from System Property :null
+2023-12-27 16:50:08,056 INFO [main][InitUtils.java:84] - initializer namespace from System Property :null
+2023-12-27 16:50:08,058 DEBUG [main][NamingProxy.java:195] - server list provided by user: [192.168.11.135:8848]
+2023-12-27 16:50:08,058 DEBUG [main][NamingProxy.java:195] - server list provided by user: [192.168.11.135:8848]
+2023-12-27 16:50:08,058 DEBUG [com.alibaba.nacos.client.naming.updater][NamingProxy.java:195] - server list provided by user: [192.168.11.135:8848]
+2023-12-27 16:50:08,058 DEBUG [com.alibaba.nacos.client.naming.updater][NamingProxy.java:195] - server list provided by user: [192.168.11.135:8848]
+2023-12-27 16:50:08,060 DEBUG [com.alibaba.nacos.naming.failover][FailoverReactor.java:147] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
+2023-12-27 16:50:08,060 DEBUG [com.alibaba.nacos.naming.failover][FailoverReactor.java:147] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
+2023-12-27 16:50:08,065 DEBUG [main][HostReactor.java:306] - failover-mode: false
+2023-12-27 16:50:08,065 DEBUG [main][HostReactor.java:306] - failover-mode: false
+2023-12-27 16:50:08,066 DEBUG [main][NacosRestTemplate.java:476] - HTTP method: GET, url: http://192.168.11.135:8848/nacos/v1/ns/instance/list?app=unknown&healthyOnly=false&namespaceId=a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6&clientIP=192.168.0.118&serviceName=dev%40%40mynote-system&udpPort=52087&clusters=DEFAULT, body: {}
+2023-12-27 16:50:08,066 DEBUG [main][NacosRestTemplate.java:476] - HTTP method: GET, url: http://192.168.11.135:8848/nacos/v1/ns/instance/list?app=unknown&healthyOnly=false&namespaceId=a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6&clientIP=192.168.0.118&serviceName=dev%40%40mynote-system&udpPort=52087&clusters=DEFAULT, body: {}
+2023-12-27 16:50:08,115 INFO [main][DirectJDKLog.java:173] - Starting ProtocolHandler ["http-nio-8001"]
+2023-12-27 16:50:08,115 INFO [main][DirectJDKLog.java:173] - Starting ProtocolHandler ["http-nio-8001"]
+2023-12-27 16:50:08,126 INFO [main][TomcatWebServer.java:220] - Tomcat started on port(s): 8001 (http) with context path ''
+2023-12-27 16:50:08,126 INFO [main][TomcatWebServer.java:220] - Tomcat started on port(s): 8001 (http) with context path ''
+2023-12-27 16:50:08,129 INFO [main][BeatReactor.java:81] - [BEAT] adding beat: BeatInfo{port=8001, ip='192.168.75.1', weight=1.0, serviceName='dev@@mynote-system', cluster='DEFAULT', metadata={preserved.register.source=SPRING_CLOUD}, scheduled=false, period=5000, stopped=false} to beat map.
+2023-12-27 16:50:08,129 INFO [main][BeatReactor.java:81] - [BEAT] adding beat: BeatInfo{port=8001, ip='192.168.75.1', weight=1.0, serviceName='dev@@mynote-system', cluster='DEFAULT', metadata={preserved.register.source=SPRING_CLOUD}, scheduled=false, period=5000, stopped=false} to beat map.
+2023-12-27 16:50:08,129 INFO [main][NamingProxy.java:230] - [REGISTER-SERVICE] a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6 registering service dev@@mynote-system with instance: Instance{instanceId='null', ip='192.168.75.1', port=8001, weight=1.0, healthy=true, enabled=true, ephemeral=true, clusterName='DEFAULT', serviceName='null', metadata={preserved.register.source=SPRING_CLOUD}}
+2023-12-27 16:50:08,129 INFO [main][NamingProxy.java:230] - [REGISTER-SERVICE] a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6 registering service dev@@mynote-system with instance: Instance{instanceId='null', ip='192.168.75.1', port=8001, weight=1.0, healthy=true, enabled=true, ephemeral=true, clusterName='DEFAULT', serviceName='null', metadata={preserved.register.source=SPRING_CLOUD}}
+2023-12-27 16:50:08,130 DEBUG [main][NacosRestTemplate.java:476] - HTTP method: POST, url: http://192.168.11.135:8848/nacos/v1/ns/instance?app=unknown&groupName=dev&metadata=%7B%22preserved.register.source%22%3A%22SPRING_CLOUD%22%7D&namespaceId=a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6&port=8001&enable=true&healthy=true&clusterName=DEFAULT&ip=192.168.75.1&weight=1.0&ephemeral=true&serviceName=dev%40%40mynote-system, body: {}
+2023-12-27 16:50:08,130 DEBUG [main][NacosRestTemplate.java:476] - HTTP method: POST, url: http://192.168.11.135:8848/nacos/v1/ns/instance?app=unknown&groupName=dev&metadata=%7B%22preserved.register.source%22%3A%22SPRING_CLOUD%22%7D&namespaceId=a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6&port=8001&enable=true&healthy=true&clusterName=DEFAULT&ip=192.168.75.1&weight=1.0&ephemeral=true&serviceName=dev%40%40mynote-system, body: {}
+2023-12-27 16:50:08,133 INFO [main][NacosServiceRegistry.java:75] - nacos registry, dev mynote-system 192.168.75.1:8001 register finished
+2023-12-27 16:50:08,133 INFO [main][NacosServiceRegistry.java:75] - nacos registry, dev mynote-system 192.168.75.1:8001 register finished
+2023-12-27 16:50:08,688 INFO [com.alibaba.nacos.naming.push.receiver][PushReceiver.java:97] - received push data: {"type":"dom","data":"{\"name\":\"dev@@mynote-system\",\"clusters\":\"DEFAULT\",\"cacheMillis\":10000,\"hosts\":[{\"instanceId\":\"192.168.75.1#8001#DEFAULT#dev@@mynote-system\",\"ip\":\"192.168.75.1\",\"port\":8001,\"weight\":1.0,\"healthy\":true,\"enabled\":true,\"ephemeral\":true,\"clusterName\":\"DEFAULT\",\"serviceName\":\"dev@@mynote-system\",\"metadata\":{\"preserved.register.source\":\"SPRING_CLOUD\"},\"instanceHeartBeatInterval\":5000,\"instanceHeartBeatTimeOut\":15000,\"ipDeleteTimeout\":30000}],\"lastRefTime\":1703667009611,\"checksum\":\"\",\"allIPs\":false,\"reachProtectionThreshold\":false,\"valid\":true}","lastRefTime":24967558687396} from /192.168.0.118
+2023-12-27 16:50:08,688 INFO [com.alibaba.nacos.naming.push.receiver][PushReceiver.java:97] - received push data: {"type":"dom","data":"{\"name\":\"dev@@mynote-system\",\"clusters\":\"DEFAULT\",\"cacheMillis\":10000,\"hosts\":[{\"instanceId\":\"192.168.75.1#8001#DEFAULT#dev@@mynote-system\",\"ip\":\"192.168.75.1\",\"port\":8001,\"weight\":1.0,\"healthy\":true,\"enabled\":true,\"ephemeral\":true,\"clusterName\":\"DEFAULT\",\"serviceName\":\"dev@@mynote-system\",\"metadata\":{\"preserved.register.source\":\"SPRING_CLOUD\"},\"instanceHeartBeatInterval\":5000,\"instanceHeartBeatTimeOut\":15000,\"ipDeleteTimeout\":30000}],\"lastRefTime\":1703667009611,\"checksum\":\"\",\"allIPs\":false,\"reachProtectionThreshold\":false,\"valid\":true}","lastRefTime":24967558687396} from /192.168.0.118
+2023-12-27 16:50:08,696 INFO [com.alibaba.nacos.naming.push.receiver][HostReactor.java:232] - new ips(1) service: dev@@mynote-system@@DEFAULT -> [{"instanceId":"192.168.75.1#8001#DEFAULT#dev@@mynote-system","ip":"192.168.75.1","port":8001,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"dev@@mynote-system","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatTimeOut":15000,"instanceHeartBeatInterval":5000}]
+2023-12-27 16:50:08,696 INFO [com.alibaba.nacos.naming.push.receiver][HostReactor.java:232] - new ips(1) service: dev@@mynote-system@@DEFAULT -> [{"instanceId":"192.168.75.1#8001#DEFAULT#dev@@mynote-system","ip":"192.168.75.1","port":8001,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"dev@@mynote-system","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatTimeOut":15000,"instanceHeartBeatInterval":5000}]
+2023-12-27 16:50:08,703 INFO [com.alibaba.nacos.naming.push.receiver][HostReactor.java:271] - current ips:(1) service: dev@@mynote-system@@DEFAULT -> [{"instanceId":"192.168.75.1#8001#DEFAULT#dev@@mynote-system","ip":"192.168.75.1","port":8001,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"dev@@mynote-system","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatTimeOut":15000,"instanceHeartBeatInterval":5000}]
+2023-12-27 16:50:08,703 INFO [com.alibaba.nacos.naming.push.receiver][HostReactor.java:271] - current ips:(1) service: dev@@mynote-system@@DEFAULT -> [{"instanceId":"192.168.75.1#8001#DEFAULT#dev@@mynote-system","ip":"192.168.75.1","port":8001,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"dev@@mynote-system","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatTimeOut":15000,"instanceHeartBeatInterval":5000}]
+2023-12-27 16:50:09,073 DEBUG [nacos.publisher-com.alibaba.nacos.client.naming.event.InstancesChangeEvent][DefaultPublisher.java:193] - [NotifyCenter] the com.alibaba.nacos.client.naming.event.InstancesChangeEvent@424abe6e will received by com.alibaba.nacos.client.naming.event.InstancesChangeNotifier@1f235a0a
+2023-12-27 16:50:09,073 DEBUG [nacos.publisher-com.alibaba.nacos.client.naming.event.InstancesChangeEvent][DefaultPublisher.java:193] - [NotifyCenter] the com.alibaba.nacos.client.naming.event.InstancesChangeEvent@424abe6e will received by com.alibaba.nacos.client.naming.event.InstancesChangeNotifier@1f235a0a
+2023-12-27 16:50:09,120 DEBUG [com.alibaba.nacos.client.naming.updater][NacosRestTemplate.java:476] - HTTP method: GET, url: http://192.168.11.135:8848/nacos/v1/ns/instance/list?app=unknown&healthyOnly=false&namespaceId=a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6&clientIP=192.168.0.118&serviceName=dev%40%40mynote-system&udpPort=52087&clusters=DEFAULT, body: {}
+2023-12-27 16:50:09,120 DEBUG [com.alibaba.nacos.client.naming.updater][NacosRestTemplate.java:476] - HTTP method: GET, url: http://192.168.11.135:8848/nacos/v1/ns/instance/list?app=unknown&healthyOnly=false&namespaceId=a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6&clientIP=192.168.0.118&serviceName=dev%40%40mynote-system&udpPort=52087&clusters=DEFAULT, body: {}
+2023-12-27 16:50:09,245 INFO [main][InetUtils.java:170] - Cannot determine local hostname
+2023-12-27 16:50:09,245 INFO [main][InetUtils.java:170] - Cannot determine local hostname
+2023-12-27 16:50:09,370 DEBUG [main][NoopValidator.java:24] - ERROR [ModelSpecification.spec] At least one type of specification is required
+2023-12-27 16:50:09,370 DEBUG [main][NoopValidator.java:24] - ERROR [ModelSpecification.spec] At least one type of specification is required
+2023-12-27 16:50:09,377 DEBUG [main][NoopValidator.java:24] - ERROR [ModelSpecification.spec] At least one type of specification is required
+2023-12-27 16:50:09,377 DEBUG [main][NoopValidator.java:24] - ERROR [ModelSpecification.spec] At least one type of specification is required
+2023-12-27 16:50:09,382 DEBUG [main][NoopValidator.java:24] - ERROR [ModelSpecification.spec] At least one type of specification is required
+2023-12-27 16:50:09,382 DEBUG [main][NoopValidator.java:24] - ERROR [ModelSpecification.spec] At least one type of specification is required
+2023-12-27 16:50:09,398 INFO [main][StartupInfoLogger.java:61] - Started SystemApplication in 8.046 seconds (JVM running for 8.53)
+2023-12-27 16:50:09,398 INFO [main][StartupInfoLogger.java:61] - Started SystemApplication in 8.046 seconds (JVM running for 8.53)
+2023-12-27 16:50:09,404 INFO [main][ClientWorker.java:169] - [fixed-192.168.11.135_8848-a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6] [subscribe] system-datasource.yaml+dev+a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6
+2023-12-27 16:50:09,404 INFO [main][ClientWorker.java:169] - [fixed-192.168.11.135_8848-a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6] [subscribe] system-datasource.yaml+dev+a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6
+2023-12-27 16:50:09,405 INFO [main][CacheData.java:92] - [fixed-192.168.11.135_8848-a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6] [add-listener] ok, tenant=a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6, dataId=system-datasource.yaml, group=dev, cnt=1
+2023-12-27 16:50:09,405 INFO [main][CacheData.java:92] - [fixed-192.168.11.135_8848-a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6] [add-listener] ok, tenant=a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6, dataId=system-datasource.yaml, group=dev, cnt=1
+2023-12-27 16:50:09,405 INFO [main][NacosContextRefresher.java:105] - listening config: dataId=system-datasource.yaml, group=dev
+2023-12-27 16:50:09,405 INFO [main][NacosContextRefresher.java:105] - listening config: dataId=system-datasource.yaml, group=dev
+2023-12-27 16:50:09,409 INFO [main][ClientWorker.java:169] - [fixed-192.168.11.135_8848-a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6] [subscribe] system-other.yaml+dev+a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6
+2023-12-27 16:50:09,409 INFO [main][ClientWorker.java:169] - [fixed-192.168.11.135_8848-a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6] [subscribe] system-other.yaml+dev+a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6
+2023-12-27 16:50:09,409 INFO [main][CacheData.java:92] - [fixed-192.168.11.135_8848-a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6] [add-listener] ok, tenant=a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6, dataId=system-other.yaml, group=dev, cnt=1
+2023-12-27 16:50:09,409 INFO [main][CacheData.java:92] - [fixed-192.168.11.135_8848-a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6] [add-listener] ok, tenant=a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6, dataId=system-other.yaml, group=dev, cnt=1
+2023-12-27 16:50:09,409 INFO [main][NacosContextRefresher.java:105] - listening config: dataId=system-other.yaml, group=dev
+2023-12-27 16:50:09,409 INFO [main][NacosContextRefresher.java:105] - listening config: dataId=system-other.yaml, group=dev
+2023-12-27 16:50:09,412 INFO [main][ClientWorker.java:169] - [fixed-192.168.11.135_8848-a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6] [subscribe] log4j-dev.yaml+dev+a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6
+2023-12-27 16:50:09,412 INFO [main][ClientWorker.java:169] - [fixed-192.168.11.135_8848-a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6] [subscribe] log4j-dev.yaml+dev+a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6
+2023-12-27 16:50:09,413 INFO [main][CacheData.java:92] - [fixed-192.168.11.135_8848-a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6] [add-listener] ok, tenant=a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6, dataId=log4j-dev.yaml, group=dev, cnt=1
+2023-12-27 16:50:09,413 INFO [main][CacheData.java:92] - [fixed-192.168.11.135_8848-a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6] [add-listener] ok, tenant=a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6, dataId=log4j-dev.yaml, group=dev, cnt=1
+2023-12-27 16:50:09,413 INFO [main][NacosContextRefresher.java:105] - listening config: dataId=log4j-dev.yaml, group=dev
+2023-12-27 16:50:09,413 INFO [main][NacosContextRefresher.java:105] - listening config: dataId=log4j-dev.yaml, group=dev
+2023-12-27 16:50:09,413 INFO [main][ClientWorker.java:169] - [fixed-192.168.11.135_8848-a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6] [subscribe] mynote-system.yaml+dev+a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6
+2023-12-27 16:50:09,413 INFO [main][ClientWorker.java:169] - [fixed-192.168.11.135_8848-a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6] [subscribe] mynote-system.yaml+dev+a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6
+2023-12-27 16:50:09,413 INFO [main][CacheData.java:92] - [fixed-192.168.11.135_8848-a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6] [add-listener] ok, tenant=a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6, dataId=mynote-system.yaml, group=dev, cnt=1
+2023-12-27 16:50:09,413 INFO [main][CacheData.java:92] - [fixed-192.168.11.135_8848-a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6] [add-listener] ok, tenant=a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6, dataId=mynote-system.yaml, group=dev, cnt=1
+2023-12-27 16:50:09,413 INFO [main][NacosContextRefresher.java:105] - listening config: dataId=mynote-system.yaml, group=dev
+2023-12-27 16:50:09,413 INFO [main][NacosContextRefresher.java:105] - listening config: dataId=mynote-system.yaml, group=dev
+2023-12-27 16:50:09,413 INFO [main][ClientWorker.java:169] - [fixed-192.168.11.135_8848-a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6] [subscribe] mynote-system+dev+a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6
+2023-12-27 16:50:09,413 INFO [main][ClientWorker.java:169] - [fixed-192.168.11.135_8848-a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6] [subscribe] mynote-system+dev+a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6
+2023-12-27 16:50:09,413 INFO [main][CacheData.java:92] - [fixed-192.168.11.135_8848-a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6] [add-listener] ok, tenant=a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6, dataId=mynote-system, group=dev, cnt=1
+2023-12-27 16:50:09,413 INFO [main][CacheData.java:92] - [fixed-192.168.11.135_8848-a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6] [add-listener] ok, tenant=a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6, dataId=mynote-system, group=dev, cnt=1
+2023-12-27 16:50:09,413 INFO [main][NacosContextRefresher.java:105] - listening config: dataId=mynote-system, group=dev
+2023-12-27 16:50:09,413 INFO [main][NacosContextRefresher.java:105] - listening config: dataId=mynote-system, group=dev
+2023-12-27 16:50:09,414 INFO [main][ClientWorker.java:169] - [fixed-192.168.11.135_8848-a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6] [subscribe] mynote-system-dev.yaml+dev+a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6
+2023-12-27 16:50:09,414 INFO [main][ClientWorker.java:169] - [fixed-192.168.11.135_8848-a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6] [subscribe] mynote-system-dev.yaml+dev+a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6
+2023-12-27 16:50:09,414 INFO [main][CacheData.java:92] - [fixed-192.168.11.135_8848-a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6] [add-listener] ok, tenant=a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6, dataId=mynote-system-dev.yaml, group=dev, cnt=1
+2023-12-27 16:50:09,414 INFO [main][CacheData.java:92] - [fixed-192.168.11.135_8848-a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6] [add-listener] ok, tenant=a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6, dataId=mynote-system-dev.yaml, group=dev, cnt=1
+2023-12-27 16:50:09,414 INFO [main][NacosContextRefresher.java:105] - listening config: dataId=mynote-system-dev.yaml, group=dev
+2023-12-27 16:50:09,414 INFO [main][NacosContextRefresher.java:105] - listening config: dataId=mynote-system-dev.yaml, group=dev
+2023-12-27 16:50:09,418 INFO [main][ClientWorker.java:169] - [fixed-192.168.11.135_8848-a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6] [subscribe] system-mybatisplus.yaml+dev+a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6
+2023-12-27 16:50:09,418 INFO [main][ClientWorker.java:169] - [fixed-192.168.11.135_8848-a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6] [subscribe] system-mybatisplus.yaml+dev+a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6
+2023-12-27 16:50:09,418 INFO [main][CacheData.java:92] - [fixed-192.168.11.135_8848-a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6] [add-listener] ok, tenant=a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6, dataId=system-mybatisplus.yaml, group=dev, cnt=1
+2023-12-27 16:50:09,418 INFO [main][CacheData.java:92] - [fixed-192.168.11.135_8848-a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6] [add-listener] ok, tenant=a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6, dataId=system-mybatisplus.yaml, group=dev, cnt=1
+2023-12-27 16:50:09,418 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-192.168.11.135_8848-a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6][NacosRestTemplate.java:476] - HTTP method: POST, url: http://192.168.11.135:8848/nacos/v1/cs/configs/listener, body: {Listening-Configs=mynote-system-dev.yamldeva01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6mynote-system.yamldeva01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6system-other.yamldev8b0305a0e50ba85bb1c4bc8a3fcb19f9a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6log4j-dev.yamldeve64d783bcfca30643e99618f46333797a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6mynote-systemdeva01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6system-datasource.yamldev0987b9699e8a76491c986463e4cf478ba01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6, tenant=a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6}
+2023-12-27 16:50:09,418 INFO [main][NacosContextRefresher.java:105] - listening config: dataId=system-mybatisplus.yaml, group=dev
+2023-12-27 16:50:09,418 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-192.168.11.135_8848-a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6][NacosRestTemplate.java:476] - HTTP method: POST, url: http://192.168.11.135:8848/nacos/v1/cs/configs/listener, body: {Listening-Configs=mynote-system-dev.yamldeva01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6mynote-system.yamldeva01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6system-other.yamldev8b0305a0e50ba85bb1c4bc8a3fcb19f9a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6log4j-dev.yamldeve64d783bcfca30643e99618f46333797a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6mynote-systemdeva01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6system-datasource.yamldev0987b9699e8a76491c986463e4cf478ba01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6, tenant=a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6}
+2023-12-27 16:50:09,418 INFO [main][NacosContextRefresher.java:105] - listening config: dataId=system-mybatisplus.yaml, group=dev
+2023-12-27 16:50:09,418 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-192.168.11.135_8848-a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6][NacosRestTemplate.java:494] - Execute via interceptors :[com.alibaba.nacos.client.config.impl.ConfigHttpClientManager$LimiterHttpClientRequestInterceptor@1d214b9c]
+2023-12-27 16:50:09,418 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-192.168.11.135_8848-a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6][NacosRestTemplate.java:494] - Execute via interceptors :[com.alibaba.nacos.client.config.impl.ConfigHttpClientManager$LimiterHttpClientRequestInterceptor@1d214b9c]
+2023-12-27 16:50:09,421 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-192.168.11.135_8848-a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6][NacosRestTemplate.java:476] - HTTP method: POST, url: http://192.168.11.135:8848/nacos/v1/cs/configs/listener, body: {Listening-Configs=mynote-system-dev.yamldeva01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6system-mybatisplus.yamldevbe6b800cd0b4b933ff385e28c53afec7a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6mynote-system.yamldeva01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6system-other.yamldev8b0305a0e50ba85bb1c4bc8a3fcb19f9a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6log4j-dev.yamldeve64d783bcfca30643e99618f46333797a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6mynote-systemdeva01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6system-datasource.yamldev0987b9699e8a76491c986463e4cf478ba01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6, tenant=a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6}
+2023-12-27 16:50:09,421 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-192.168.11.135_8848-a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6][NacosRestTemplate.java:476] - HTTP method: POST, url: http://192.168.11.135:8848/nacos/v1/cs/configs/listener, body: {Listening-Configs=mynote-system-dev.yamldeva01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6system-mybatisplus.yamldevbe6b800cd0b4b933ff385e28c53afec7a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6mynote-system.yamldeva01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6system-other.yamldev8b0305a0e50ba85bb1c4bc8a3fcb19f9a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6log4j-dev.yamldeve64d783bcfca30643e99618f46333797a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6mynote-systemdeva01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6system-datasource.yamldev0987b9699e8a76491c986463e4cf478ba01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6, tenant=a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6}
+2023-12-27 16:50:09,421 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-192.168.11.135_8848-a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6][NacosRestTemplate.java:494] - Execute via interceptors :[com.alibaba.nacos.client.config.impl.ConfigHttpClientManager$LimiterHttpClientRequestInterceptor@1d214b9c]
+2023-12-27 16:50:09,421 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-192.168.11.135_8848-a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6][NacosRestTemplate.java:494] - Execute via interceptors :[com.alibaba.nacos.client.config.impl.ConfigHttpClientManager$LimiterHttpClientRequestInterceptor@1d214b9c]
+2023-12-27 16:50:09,421 INFO [main][SystemApplication.java:38] - 
+----------------------------------------------------------
+	Application MyNote-system is running! Access URLs:
+	local: 	http://localhost:8001/doc.html
+	Swagger文档: 	http://192.168.0.118:8001/doc.html
+----------------------------------------------------------
+2023-12-27 16:50:09,421 INFO [main][SystemApplication.java:38] - 
+----------------------------------------------------------
+	Application MyNote-system is running! Access URLs:
+	local: 	http://localhost:8001/doc.html
+	Swagger文档: 	http://192.168.0.118:8001/doc.html
+----------------------------------------------------------
+2023-12-27 16:50:09,423 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-192.168.11.135_8848-a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6][NacosRestTemplate.java:476] - HTTP method: POST, url: http://192.168.11.135:8848/nacos/v1/cs/configs/listener, body: {Listening-Configs=mynote-system-dev.yamldeva01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6system-mybatisplus.yamldevbe6b800cd0b4b933ff385e28c53afec7a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6mynote-system.yamldeva01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6system-other.yamldev8b0305a0e50ba85bb1c4bc8a3fcb19f9a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6log4j-dev.yamldeve64d783bcfca30643e99618f46333797a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6mynote-systemdeva01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6system-datasource.yamldev0987b9699e8a76491c986463e4cf478ba01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6, tenant=a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6}
+2023-12-27 16:50:09,423 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-192.168.11.135_8848-a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6][NacosRestTemplate.java:476] - HTTP method: POST, url: http://192.168.11.135:8848/nacos/v1/cs/configs/listener, body: {Listening-Configs=mynote-system-dev.yamldeva01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6system-mybatisplus.yamldevbe6b800cd0b4b933ff385e28c53afec7a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6mynote-system.yamldeva01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6system-other.yamldev8b0305a0e50ba85bb1c4bc8a3fcb19f9a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6log4j-dev.yamldeve64d783bcfca30643e99618f46333797a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6mynote-systemdeva01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6system-datasource.yamldev0987b9699e8a76491c986463e4cf478ba01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6, tenant=a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6}
+2023-12-27 16:50:09,423 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-192.168.11.135_8848-a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6][NacosRestTemplate.java:494] - Execute via interceptors :[com.alibaba.nacos.client.config.impl.ConfigHttpClientManager$LimiterHttpClientRequestInterceptor@1d214b9c]
+2023-12-27 16:50:09,423 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-192.168.11.135_8848-a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6][NacosRestTemplate.java:494] - Execute via interceptors :[com.alibaba.nacos.client.config.impl.ConfigHttpClientManager$LimiterHttpClientRequestInterceptor@1d214b9c]
+2023-12-27 16:50:10,630 INFO [main][SpringApplication.java:646] - The following 1 profile is active: "dev"
+2023-12-27 16:50:10,630 INFO [main][SpringApplication.java:646] - The following 1 profile is active: "dev"
+2023-12-27 16:50:11,047 INFO [main][RepositoryConfigurationDelegate.java:262] - Multiple Spring Data modules found, entering strict repository configuration mode!
+2023-12-27 16:50:11,047 INFO [main][RepositoryConfigurationDelegate.java:262] - Multiple Spring Data modules found, entering strict repository configuration mode!
+2023-12-27 16:50:11,048 INFO [main][RepositoryConfigurationDelegate.java:132] - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-12-27 16:50:11,048 INFO [main][RepositoryConfigurationDelegate.java:132] - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-12-27 16:50:11,060 INFO [main][RepositoryConfigurationDelegate.java:201] - Finished Spring Data repository scanning in 5 ms. Found 0 Redis repository interfaces.
+2023-12-27 16:50:11,060 INFO [main][RepositoryConfigurationDelegate.java:201] - Finished Spring Data repository scanning in 5 ms. Found 0 Redis repository interfaces.
+2023-12-27 16:50:11,137 DEBUG [main][LogFactory.java:109] - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2023-12-27 16:50:11,137 DEBUG [main][LogFactory.java:109] - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2023-12-27 16:50:11,177 INFO [main][GenericScope.java:283] - BeanFactory id=7d0f1b5c-3f82-35e2-b25a-32b6edc9043d
+2023-12-27 16:50:11,177 INFO [main][GenericScope.java:283] - BeanFactory id=7d0f1b5c-3f82-35e2-b25a-32b6edc9043d
+2023-12-27 16:50:11,350 INFO [main][TomcatWebServer.java:108] - Tomcat initialized with port(s): 9001 (http)
+2023-12-27 16:50:11,350 INFO [main][TomcatWebServer.java:108] - Tomcat initialized with port(s): 9001 (http)
+2023-12-27 16:50:11,351 INFO [main][DirectJDKLog.java:173] - Loaded Apache Tomcat Native library [1.2.38] using APR version [1.7.4].
+2023-12-27 16:50:11,351 INFO [main][DirectJDKLog.java:173] - Loaded Apache Tomcat Native library [1.2.38] using APR version [1.7.4].
+2023-12-27 16:50:11,351 INFO [main][DirectJDKLog.java:173] - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+2023-12-27 16:50:11,351 INFO [main][DirectJDKLog.java:173] - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+2023-12-27 16:50:11,351 INFO [main][DirectJDKLog.java:173] - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2023-12-27 16:50:11,351 INFO [main][DirectJDKLog.java:173] - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2023-12-27 16:50:11,353 INFO [main][DirectJDKLog.java:173] - OpenSSL successfully initialized [OpenSSL 1.1.1v  1 Aug 2023]
+2023-12-27 16:50:11,353 INFO [main][DirectJDKLog.java:173] - OpenSSL successfully initialized [OpenSSL 1.1.1v  1 Aug 2023]
+2023-12-27 16:50:11,357 INFO [main][DirectJDKLog.java:173] - Initializing ProtocolHandler ["http-nio-9001"]
+2023-12-27 16:50:11,357 INFO [main][DirectJDKLog.java:173] - Initializing ProtocolHandler ["http-nio-9001"]
+2023-12-27 16:50:11,358 INFO [main][DirectJDKLog.java:173] - Starting service [Tomcat]
+2023-12-27 16:50:11,358 INFO [main][DirectJDKLog.java:173] - Starting service [Tomcat]
+2023-12-27 16:50:11,358 INFO [main][DirectJDKLog.java:173] - Starting Servlet engine: [Apache Tomcat/9.0.60]
+2023-12-27 16:50:11,358 INFO [main][DirectJDKLog.java:173] - Starting Servlet engine: [Apache Tomcat/9.0.60]
+2023-12-27 16:50:11,431 INFO [main][DirectJDKLog.java:173] - Initializing Spring embedded WebApplicationContext
+2023-12-27 16:50:11,431 INFO [main][DirectJDKLog.java:173] - Initializing Spring embedded WebApplicationContext
+2023-12-27 16:50:11,431 INFO [main][ServletWebServerApplicationContext.java:290] - Root WebApplicationContext: initialization completed in 789 ms
+2023-12-27 16:50:11,431 INFO [main][ServletWebServerApplicationContext.java:290] - Root WebApplicationContext: initialization completed in 789 ms
+2023-12-27 16:50:11,534 DEBUG [main][HikariConfig.java:971] - Driver class com.mysql.cj.jdbc.Driver found in Thread context class loader jdk.internal.loader.ClassLoaders$AppClassLoader@61064425
+2023-12-27 16:50:11,534 DEBUG [main][HikariConfig.java:971] - Driver class com.mysql.cj.jdbc.Driver found in Thread context class loader jdk.internal.loader.ClassLoaders$AppClassLoader@61064425
+2023-12-27 16:50:11,908 INFO [main][FeignClientFactoryBean.java:418] - For 'mynote-system' URL not provided. Will try picking an instance via load-balancing.
+2023-12-27 16:50:11,908 INFO [main][FeignClientFactoryBean.java:418] - For 'mynote-system' URL not provided. Will try picking an instance via load-balancing.
+2023-12-27 16:50:11,932 DEBUG [main][InternalLoggerFactory.java:63] - Using SLF4J as the default logging framework
+2023-12-27 16:50:11,932 DEBUG [main][InternalLoggerFactory.java:63] - Using SLF4J as the default logging framework
+2023-12-27 16:50:11,934 DEBUG [main][AddressResolverGroupProvider.java:37] - Starting without optional netty's non-blocking DNS resolver library
+2023-12-27 16:50:11,934 DEBUG [main][AddressResolverGroupProvider.java:37] - Starting without optional netty's non-blocking DNS resolver library
+2023-12-27 16:50:11,935 DEBUG [main][DefaultClientResources.java:122] - -Dio.netty.eventLoopThreads: 16
+2023-12-27 16:50:11,935 DEBUG [main][DefaultClientResources.java:122] - -Dio.netty.eventLoopThreads: 16
+2023-12-27 16:50:11,938 DEBUG [main][DefaultEventLoopGroupProvider.java:231] - Creating executor io.netty.util.concurrent.DefaultEventExecutorGroup
+2023-12-27 16:50:11,938 DEBUG [main][DefaultEventLoopGroupProvider.java:231] - Creating executor io.netty.util.concurrent.DefaultEventExecutorGroup
+2023-12-27 16:50:11,947 DEBUG [main][InternalThreadLocalMap.java:86] - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2023-12-27 16:50:11,947 DEBUG [main][InternalThreadLocalMap.java:86] - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2023-12-27 16:50:11,947 DEBUG [main][InternalThreadLocalMap.java:89] - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2023-12-27 16:50:11,947 DEBUG [main][InternalThreadLocalMap.java:89] - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2023-12-27 16:50:11,949 DEBUG [main][ResourceLeakDetector.java:129] - -Dio.netty.leakDetection.level: simple
+2023-12-27 16:50:11,949 DEBUG [main][ResourceLeakDetector.java:129] - -Dio.netty.leakDetection.level: simple
+2023-12-27 16:50:11,949 DEBUG [main][ResourceLeakDetector.java:130] - -Dio.netty.leakDetection.targetRecords: 4
+2023-12-27 16:50:11,949 DEBUG [main][ResourceLeakDetector.java:130] - -Dio.netty.leakDetection.targetRecords: 4
+2023-12-27 16:50:11,951 DEBUG [main][ResourceLeakDetectorFactory.java:196] - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@20171cdc
+2023-12-27 16:50:11,951 DEBUG [main][ResourceLeakDetectorFactory.java:196] - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@20171cdc
+2023-12-27 16:50:11,953 DEBUG [main][PlatformDependent0.java:460] - -Dio.netty.noUnsafe: false
+2023-12-27 16:50:11,953 DEBUG [main][PlatformDependent0.java:460] - -Dio.netty.noUnsafe: false
+2023-12-27 16:50:11,953 DEBUG [main][PlatformDependent0.java:954] - Java version: 11
+2023-12-27 16:50:11,953 DEBUG [main][PlatformDependent0.java:954] - Java version: 11
+2023-12-27 16:50:11,953 DEBUG [main][PlatformDependent0.java:135] - sun.misc.Unsafe.theUnsafe: available
+2023-12-27 16:50:11,953 DEBUG [main][PlatformDependent0.java:135] - sun.misc.Unsafe.theUnsafe: available
+2023-12-27 16:50:11,953 DEBUG [main][PlatformDependent0.java:159] - sun.misc.Unsafe.copyMemory: available
+2023-12-27 16:50:11,953 DEBUG [main][PlatformDependent0.java:159] - sun.misc.Unsafe.copyMemory: available
+2023-12-27 16:50:11,954 DEBUG [main][PlatformDependent0.java:202] - java.nio.Buffer.address: available
+2023-12-27 16:50:11,954 DEBUG [main][PlatformDependent0.java:202] - java.nio.Buffer.address: available
+2023-12-27 16:50:11,954 DEBUG [main][PlatformDependent0.java:285] - direct buffer constructor: unavailable: Reflective setAccessible(true) disabled
+2023-12-27 16:50:11,954 DEBUG [main][PlatformDependent0.java:285] - direct buffer constructor: unavailable: Reflective setAccessible(true) disabled
+2023-12-27 16:50:11,955 DEBUG [main][PlatformDependent0.java:350] - java.nio.Bits.unaligned: available, true
+2023-12-27 16:50:11,955 DEBUG [main][PlatformDependent0.java:350] - java.nio.Bits.unaligned: available, true
+2023-12-27 16:50:11,955 DEBUG [main][PlatformDependent0.java:417] - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable: class io.netty.util.internal.PlatformDependent0$6 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @153cfd86
+2023-12-27 16:50:11,955 DEBUG [main][PlatformDependent0.java:417] - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable: class io.netty.util.internal.PlatformDependent0$6 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @153cfd86
+2023-12-27 16:50:11,956 DEBUG [main][PlatformDependent0.java:446] - java.nio.DirectByteBuffer.<init>(long, int): unavailable
+2023-12-27 16:50:11,956 DEBUG [main][PlatformDependent0.java:446] - java.nio.DirectByteBuffer.<init>(long, int): unavailable
+2023-12-27 16:50:11,956 DEBUG [main][PlatformDependent.java:1116] - sun.misc.Unsafe: available
+2023-12-27 16:50:11,956 DEBUG [main][PlatformDependent.java:1116] - sun.misc.Unsafe: available
+2023-12-27 16:50:11,956 DEBUG [main][PlatformDependent.java:1227] - maxDirectMemory: 8522825728 bytes (maybe)
+2023-12-27 16:50:11,956 DEBUG [main][PlatformDependent.java:1227] - maxDirectMemory: 8522825728 bytes (maybe)
+2023-12-27 16:50:11,956 DEBUG [main][PlatformDependent.java:1246] - -Dio.netty.tmpdir: C:\Users\ADMINI~1\AppData\Local\Temp (java.io.tmpdir)
+2023-12-27 16:50:11,956 DEBUG [main][PlatformDependent.java:1246] - -Dio.netty.tmpdir: C:\Users\ADMINI~1\AppData\Local\Temp (java.io.tmpdir)
+2023-12-27 16:50:11,956 DEBUG [main][PlatformDependent.java:1325] - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2023-12-27 16:50:11,956 DEBUG [main][PlatformDependent.java:1325] - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2023-12-27 16:50:11,957 DEBUG [main][PlatformDependent.java:1076] - Platform: Windows
+2023-12-27 16:50:11,957 DEBUG [main][PlatformDependent.java:1076] - Platform: Windows
+2023-12-27 16:50:11,957 DEBUG [main][PlatformDependent.java:178] - -Dio.netty.maxDirectMemory: -1 bytes
+2023-12-27 16:50:11,957 DEBUG [main][PlatformDependent.java:178] - -Dio.netty.maxDirectMemory: -1 bytes
+2023-12-27 16:50:11,957 DEBUG [main][PlatformDependent.java:185] - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2023-12-27 16:50:11,957 DEBUG [main][PlatformDependent.java:185] - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2023-12-27 16:50:11,958 DEBUG [main][CleanerJava9.java:71] - java.nio.ByteBuffer.cleaner(): available
+2023-12-27 16:50:11,958 DEBUG [main][CleanerJava9.java:71] - java.nio.ByteBuffer.cleaner(): available
+2023-12-27 16:50:11,958 DEBUG [main][PlatformDependent.java:205] - -Dio.netty.noPreferDirect: false
+2023-12-27 16:50:11,958 DEBUG [main][PlatformDependent.java:205] - -Dio.netty.noPreferDirect: false
+2023-12-27 16:50:11,959 DEBUG [main][PlatformDependent.java:967] - org.jctools-core.MpscChunkedArrayQueue: available
+2023-12-27 16:50:11,959 DEBUG [main][PlatformDependent.java:967] - org.jctools-core.MpscChunkedArrayQueue: available
+2023-12-27 16:50:11,964 DEBUG [main][Loggers.java:245] - Using Slf4j logging framework
+2023-12-27 16:50:11,964 DEBUG [main][Loggers.java:245] - Using Slf4j logging framework
+2023-12-27 16:50:11,965 DEBUG [main][EventRecorderHolder.java:47] - Starting with JFR support
+2023-12-27 16:50:11,965 DEBUG [main][EventRecorderHolder.java:47] - Starting with JFR support
+2023-12-27 16:50:11,974 DEBUG [main][DefaultClientResources.java:227] - LatencyUtils/HdrUtils are not available, metrics are disabled
+2023-12-27 16:50:11,974 DEBUG [main][DefaultClientResources.java:227] - LatencyUtils/HdrUtils are not available, metrics are disabled
+2023-12-27 16:50:12,140 DEBUG [main][AbstractHandlerMethodMapping.java:295] - 
+	c.m.n.c.CategoryController:
+	{POST [/note/category/add]}: add(String,String)
+	{POST [/note/category/update]}: update(CategoryDto)
+	{GET [/note/category/list]}: list(Integer,Integer)
+	{POST [/note/category/delete]}: delete(String)
+2023-12-27 16:50:12,140 DEBUG [main][AbstractHandlerMethodMapping.java:295] - 
+	c.m.n.c.CategoryController:
+	{POST [/note/category/add]}: add(String,String)
+	{POST [/note/category/update]}: update(CategoryDto)
+	{GET [/note/category/list]}: list(Integer,Integer)
+	{POST [/note/category/delete]}: delete(String)
+2023-12-27 16:50:12,143 DEBUG [main][AbstractHandlerMethodMapping.java:295] - 
+	c.m.n.c.ContentController:
+	{POST [/note/content/add]}: add(ContentDto,String,String)
+	{POST [/note/content/get]}: get(String)
+	{POST [/note/content/update]}: update(ContentUpdateDto)
+	{GET [/note/content/list]}: list(Integer,Integer)
+	{POST [/note/content/delete/{id}]}: delete(String)
+	{POST [/note/content/mynotes]}: getMyNotes(String,Integer,Integer)
+2023-12-27 16:50:12,143 DEBUG [main][AbstractHandlerMethodMapping.java:295] - 
+	c.m.n.c.ContentController:
+	{POST [/note/content/add]}: add(ContentDto,String,String)
+	{POST [/note/content/get]}: get(String)
+	{POST [/note/content/update]}: update(ContentUpdateDto)
+	{GET [/note/content/list]}: list(Integer,Integer)
+	{POST [/note/content/delete/{id}]}: delete(String)
+	{POST [/note/content/mynotes]}: getMyNotes(String,Integer,Integer)
+2023-12-27 16:50:12,144 DEBUG [main][AbstractHandlerMethodMapping.java:295] - 
+	s.d.s.w.Swagger2ControllerWebMvc:
+	{GET [/v2/api-docs], produces [application/json || application/hal+json]}: getDocumentation(String,HttpServletRequest)
+2023-12-27 16:50:12,144 DEBUG [main][AbstractHandlerMethodMapping.java:295] - 
+	s.d.s.w.Swagger2ControllerWebMvc:
+	{GET [/v2/api-docs], produces [application/json || application/hal+json]}: getDocumentation(String,HttpServletRequest)
+2023-12-27 16:50:12,144 DEBUG [main][AbstractHandlerMethodMapping.java:295] - 
+	s.d.s.w.ApiResourceController:
+	{GET [/swagger-resources/configuration/ui], produces [application/json]}: uiConfiguration()
+	{GET [/swagger-resources], produces [application/json]}: swaggerResources()
+	{GET [/swagger-resources/configuration/security], produces [application/json]}: securityConfiguration()
+2023-12-27 16:50:12,144 DEBUG [main][AbstractHandlerMethodMapping.java:295] - 
+	s.d.s.w.ApiResourceController:
+	{GET [/swagger-resources/configuration/ui], produces [application/json]}: uiConfiguration()
+	{GET [/swagger-resources], produces [application/json]}: swaggerResources()
+	{GET [/swagger-resources/configuration/security], produces [application/json]}: securityConfiguration()
+2023-12-27 16:50:12,145 DEBUG [main][AbstractHandlerMethodMapping.java:295] - 
+	s.d.o.w.OpenApiControllerWebMvc:
+	{GET [/v3/api-docs], produces [application/json || application/hal+json]}: getDocumentation(String,HttpServletRequest)
+2023-12-27 16:50:12,145 DEBUG [main][AbstractHandlerMethodMapping.java:295] - 
+	s.d.o.w.OpenApiControllerWebMvc:
+	{GET [/v3/api-docs], produces [application/json || application/hal+json]}: getDocumentation(String,HttpServletRequest)
+2023-12-27 16:50:12,147 DEBUG [main][AbstractHandlerMethodMapping.java:295] - 
+	o.s.b.a.w.s.e.BasicErrorController:
+	{ [/error]}: error(HttpServletRequest)
+	{ [/error], produces [text/html]}: errorHtml(HttpServletRequest,HttpServletResponse)
+2023-12-27 16:50:12,147 DEBUG [main][AbstractHandlerMethodMapping.java:295] - 
+	o.s.b.a.w.s.e.BasicErrorController:
+	{ [/error]}: error(HttpServletRequest)
+	{ [/error], produces [text/html]}: errorHtml(HttpServletRequest,HttpServletResponse)
+2023-12-27 16:50:12,249 DEBUG [main][SimpleUrlHandlerMapping.java:177] - 'viewControllerHandlerMapping' {/swagger-ui/=ParameterizableViewController [view="forward:/swagger-ui/index.html"]}
+2023-12-27 16:50:12,249 DEBUG [main][SimpleUrlHandlerMapping.java:177] - 'viewControllerHandlerMapping' {/swagger-ui/=ParameterizableViewController [view="forward:/swagger-ui/index.html"]}
+2023-12-27 16:50:12,251 DEBUG [main][AbstractDetectingUrlHandlerMapping.java:86] - 'beanNameHandlerMapping' {}
+2023-12-27 16:50:12,251 DEBUG [main][AbstractDetectingUrlHandlerMapping.java:86] - 'beanNameHandlerMapping' {}
+2023-12-27 16:50:12,258 DEBUG [main][SimpleUrlHandlerMapping.java:177] - 'resourceHandlerMapping' {/webjars/**=ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]], /**=ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]], /swagger-ui/**=ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/springfox-swagger-ui/]]}
+2023-12-27 16:50:12,258 DEBUG [main][SimpleUrlHandlerMapping.java:177] - 'resourceHandlerMapping' {/webjars/**=ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]], /**=ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]], /swagger-ui/**=ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/springfox-swagger-ui/]]}
+2023-12-27 16:50:13,074 DEBUG [com.alibaba.nacos.naming.failover][FailoverReactor.java:147] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
+2023-12-27 16:50:13,074 DEBUG [com.alibaba.nacos.naming.failover][FailoverReactor.java:147] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
+2023-12-27 16:50:13,136 DEBUG [com.alibaba.nacos.naming.beat.sender][NamingProxy.java:421] - [BEAT] a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6 sending beat to server: BeatInfo{port=8001, ip='192.168.75.1', weight=1.0, serviceName='dev@@mynote-system', cluster='DEFAULT', metadata={preserved.register.source=SPRING_CLOUD}, scheduled=false, period=5000, stopped=false}
+2023-12-27 16:50:13,136 DEBUG [com.alibaba.nacos.naming.beat.sender][NamingProxy.java:421] - [BEAT] a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6 sending beat to server: BeatInfo{port=8001, ip='192.168.75.1', weight=1.0, serviceName='dev@@mynote-system', cluster='DEFAULT', metadata={preserved.register.source=SPRING_CLOUD}, scheduled=false, period=5000, stopped=false}
+2023-12-27 16:50:13,138 DEBUG [com.alibaba.nacos.naming.beat.sender][NacosRestTemplate.java:476] - HTTP method: PUT, url: http://192.168.11.135:8848/nacos/v1/ns/instance/beat?app=unknown&serviceName=dev%40%40mynote-system&namespaceId=a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6&port=8001&clusterName=DEFAULT&ip=192.168.75.1, body: {beat={"port":8001,"ip":"192.168.75.1","weight":1.0,"serviceName":"dev@@mynote-system","cluster":"DEFAULT","metadata":{"preserved.register.source":"SPRING_CLOUD"},"scheduled":false,"period":5000,"stopped":false}}
+2023-12-27 16:50:13,138 DEBUG [com.alibaba.nacos.naming.beat.sender][NacosRestTemplate.java:476] - HTTP method: PUT, url: http://192.168.11.135:8848/nacos/v1/ns/instance/beat?app=unknown&serviceName=dev%40%40mynote-system&namespaceId=a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6&port=8001&clusterName=DEFAULT&ip=192.168.75.1, body: {beat={"port":8001,"ip":"192.168.75.1","weight":1.0,"serviceName":"dev@@mynote-system","cluster":"DEFAULT","metadata":{"preserved.register.source":"SPRING_CLOUD"},"scheduled":false,"period":5000,"stopped":false}}
+2023-12-27 16:50:13,390 INFO [main][InetUtils.java:170] - Cannot determine local hostname
+2023-12-27 16:50:13,390 INFO [main][InetUtils.java:170] - Cannot determine local hostname
+2023-12-27 16:50:14,562 INFO [main][InetUtils.java:170] - Cannot determine local hostname
+2023-12-27 16:50:14,562 INFO [main][InetUtils.java:170] - Cannot determine local hostname
+2023-12-27 16:50:14,583 WARN [main][LoadBalancerCacheAutoConfiguration.java:82] - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2023-12-27 16:50:14,583 WARN [main][LoadBalancerCacheAutoConfiguration.java:82] - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2023-12-27 16:50:14,627 INFO [main][InitUtils.java:65] - initializer namespace from System Property :null
+2023-12-27 16:50:14,627 INFO [main][InitUtils.java:65] - initializer namespace from System Property :null
+2023-12-27 16:50:14,628 INFO [main][InitUtils.java:74] - initializer namespace from System Environment :null
+2023-12-27 16:50:14,628 INFO [main][InitUtils.java:74] - initializer namespace from System Environment :null
+2023-12-27 16:50:14,628 INFO [main][InitUtils.java:84] - initializer namespace from System Property :null
+2023-12-27 16:50:14,628 INFO [main][InitUtils.java:84] - initializer namespace from System Property :null
+2023-12-27 16:50:14,630 DEBUG [main][NamingProxy.java:195] - server list provided by user: [192.168.11.135:8848]
+2023-12-27 16:50:14,630 DEBUG [main][NamingProxy.java:195] - server list provided by user: [192.168.11.135:8848]
+2023-12-27 16:50:14,630 DEBUG [com.alibaba.nacos.client.naming.updater][NamingProxy.java:195] - server list provided by user: [192.168.11.135:8848]
+2023-12-27 16:50:14,630 DEBUG [com.alibaba.nacos.client.naming.updater][NamingProxy.java:195] - server list provided by user: [192.168.11.135:8848]
+2023-12-27 16:50:14,632 DEBUG [com.alibaba.nacos.naming.failover][FailoverReactor.java:147] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
+2023-12-27 16:50:14,632 DEBUG [com.alibaba.nacos.naming.failover][FailoverReactor.java:147] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
+2023-12-27 16:50:14,637 DEBUG [main][HostReactor.java:306] - failover-mode: false
+2023-12-27 16:50:14,637 DEBUG [main][HostReactor.java:306] - failover-mode: false
+2023-12-27 16:50:14,638 DEBUG [main][NacosRestTemplate.java:476] - HTTP method: GET, url: http://192.168.11.135:8848/nacos/v1/ns/instance/list?app=unknown&healthyOnly=false&namespaceId=a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6&clientIP=192.168.0.118&serviceName=dev%40%40mynote-note&udpPort=61998&clusters=DEFAULT, body: {}
+2023-12-27 16:50:14,638 DEBUG [main][NacosRestTemplate.java:476] - HTTP method: GET, url: http://192.168.11.135:8848/nacos/v1/ns/instance/list?app=unknown&healthyOnly=false&namespaceId=a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6&clientIP=192.168.0.118&serviceName=dev%40%40mynote-note&udpPort=61998&clusters=DEFAULT, body: {}
+2023-12-27 16:50:14,684 INFO [main][DirectJDKLog.java:173] - Starting ProtocolHandler ["http-nio-9001"]
+2023-12-27 16:50:14,684 INFO [main][DirectJDKLog.java:173] - Starting ProtocolHandler ["http-nio-9001"]
+2023-12-27 16:50:14,695 INFO [main][TomcatWebServer.java:220] - Tomcat started on port(s): 9001 (http) with context path ''
+2023-12-27 16:50:14,695 INFO [main][TomcatWebServer.java:220] - Tomcat started on port(s): 9001 (http) with context path ''
+2023-12-27 16:50:14,698 INFO [main][BeatReactor.java:81] - [BEAT] adding beat: BeatInfo{port=9001, ip='192.168.75.1', weight=1.0, serviceName='dev@@mynote-note', cluster='DEFAULT', metadata={preserved.register.source=SPRING_CLOUD}, scheduled=false, period=5000, stopped=false} to beat map.
+2023-12-27 16:50:14,698 INFO [main][BeatReactor.java:81] - [BEAT] adding beat: BeatInfo{port=9001, ip='192.168.75.1', weight=1.0, serviceName='dev@@mynote-note', cluster='DEFAULT', metadata={preserved.register.source=SPRING_CLOUD}, scheduled=false, period=5000, stopped=false} to beat map.
+2023-12-27 16:50:14,698 INFO [main][NamingProxy.java:230] - [REGISTER-SERVICE] a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6 registering service dev@@mynote-note with instance: Instance{instanceId='null', ip='192.168.75.1', port=9001, weight=1.0, healthy=true, enabled=true, ephemeral=true, clusterName='DEFAULT', serviceName='null', metadata={preserved.register.source=SPRING_CLOUD}}
+2023-12-27 16:50:14,698 INFO [main][NamingProxy.java:230] - [REGISTER-SERVICE] a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6 registering service dev@@mynote-note with instance: Instance{instanceId='null', ip='192.168.75.1', port=9001, weight=1.0, healthy=true, enabled=true, ephemeral=true, clusterName='DEFAULT', serviceName='null', metadata={preserved.register.source=SPRING_CLOUD}}
+2023-12-27 16:50:14,699 DEBUG [main][NacosRestTemplate.java:476] - HTTP method: POST, url: http://192.168.11.135:8848/nacos/v1/ns/instance?app=unknown&groupName=dev&metadata=%7B%22preserved.register.source%22%3A%22SPRING_CLOUD%22%7D&namespaceId=a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6&port=9001&enable=true&healthy=true&clusterName=DEFAULT&ip=192.168.75.1&weight=1.0&ephemeral=true&serviceName=dev%40%40mynote-note, body: {}
+2023-12-27 16:50:14,699 DEBUG [main][NacosRestTemplate.java:476] - HTTP method: POST, url: http://192.168.11.135:8848/nacos/v1/ns/instance?app=unknown&groupName=dev&metadata=%7B%22preserved.register.source%22%3A%22SPRING_CLOUD%22%7D&namespaceId=a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6&port=9001&enable=true&healthy=true&clusterName=DEFAULT&ip=192.168.75.1&weight=1.0&ephemeral=true&serviceName=dev%40%40mynote-note, body: {}
+2023-12-27 16:50:14,701 INFO [main][NacosServiceRegistry.java:75] - nacos registry, dev mynote-note 192.168.75.1:9001 register finished
+2023-12-27 16:50:14,701 INFO [main][NacosServiceRegistry.java:75] - nacos registry, dev mynote-note 192.168.75.1:9001 register finished
+2023-12-27 16:50:15,165 INFO [com.alibaba.nacos.naming.push.receiver][PushReceiver.java:97] - received push data: {"type":"dom","data":"{\"name\":\"dev@@mynote-note\",\"clusters\":\"DEFAULT\",\"cacheMillis\":10000,\"hosts\":[{\"instanceId\":\"192.168.75.1#9001#DEFAULT#dev@@mynote-note\",\"ip\":\"192.168.75.1\",\"port\":9001,\"weight\":1.0,\"healthy\":true,\"enabled\":true,\"ephemeral\":true,\"clusterName\":\"DEFAULT\",\"serviceName\":\"dev@@mynote-note\",\"metadata\":{\"preserved.register.source\":\"SPRING_CLOUD\"},\"instanceHeartBeatInterval\":5000,\"instanceHeartBeatTimeOut\":15000,\"ipDeleteTimeout\":30000}],\"lastRefTime\":1703667016090,\"checksum\":\"\",\"allIPs\":false,\"reachProtectionThreshold\":false,\"valid\":true}","lastRefTime":24974037178325} from /192.168.0.118
+2023-12-27 16:50:15,165 INFO [com.alibaba.nacos.naming.push.receiver][PushReceiver.java:97] - received push data: {"type":"dom","data":"{\"name\":\"dev@@mynote-note\",\"clusters\":\"DEFAULT\",\"cacheMillis\":10000,\"hosts\":[{\"instanceId\":\"192.168.75.1#9001#DEFAULT#dev@@mynote-note\",\"ip\":\"192.168.75.1\",\"port\":9001,\"weight\":1.0,\"healthy\":true,\"enabled\":true,\"ephemeral\":true,\"clusterName\":\"DEFAULT\",\"serviceName\":\"dev@@mynote-note\",\"metadata\":{\"preserved.register.source\":\"SPRING_CLOUD\"},\"instanceHeartBeatInterval\":5000,\"instanceHeartBeatTimeOut\":15000,\"ipDeleteTimeout\":30000}],\"lastRefTime\":1703667016090,\"checksum\":\"\",\"allIPs\":false,\"reachProtectionThreshold\":false,\"valid\":true}","lastRefTime":24974037178325} from /192.168.0.118
+2023-12-27 16:50:15,178 INFO [com.alibaba.nacos.naming.push.receiver][HostReactor.java:232] - new ips(1) service: dev@@mynote-note@@DEFAULT -> [{"instanceId":"192.168.75.1#9001#DEFAULT#dev@@mynote-note","ip":"192.168.75.1","port":9001,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"dev@@mynote-note","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatTimeOut":15000,"instanceHeartBeatInterval":5000}]
+2023-12-27 16:50:15,178 INFO [com.alibaba.nacos.naming.push.receiver][HostReactor.java:232] - new ips(1) service: dev@@mynote-note@@DEFAULT -> [{"instanceId":"192.168.75.1#9001#DEFAULT#dev@@mynote-note","ip":"192.168.75.1","port":9001,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"dev@@mynote-note","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatTimeOut":15000,"instanceHeartBeatInterval":5000}]
+2023-12-27 16:50:15,190 INFO [com.alibaba.nacos.naming.push.receiver][HostReactor.java:271] - current ips:(1) service: dev@@mynote-note@@DEFAULT -> [{"instanceId":"192.168.75.1#9001#DEFAULT#dev@@mynote-note","ip":"192.168.75.1","port":9001,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"dev@@mynote-note","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatTimeOut":15000,"instanceHeartBeatInterval":5000}]
+2023-12-27 16:50:15,190 INFO [com.alibaba.nacos.naming.push.receiver][HostReactor.java:271] - current ips:(1) service: dev@@mynote-note@@DEFAULT -> [{"instanceId":"192.168.75.1#9001#DEFAULT#dev@@mynote-note","ip":"192.168.75.1","port":9001,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"dev@@mynote-note","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatTimeOut":15000,"instanceHeartBeatInterval":5000}]
+2023-12-27 16:50:15,649 DEBUG [nacos.publisher-com.alibaba.nacos.client.naming.event.InstancesChangeEvent][DefaultPublisher.java:193] - [NotifyCenter] the com.alibaba.nacos.client.naming.event.InstancesChangeEvent@46dca36b will received by com.alibaba.nacos.client.naming.event.InstancesChangeNotifier@78805df3
+2023-12-27 16:50:15,649 DEBUG [nacos.publisher-com.alibaba.nacos.client.naming.event.InstancesChangeEvent][DefaultPublisher.java:193] - [NotifyCenter] the com.alibaba.nacos.client.naming.event.InstancesChangeEvent@46dca36b will received by com.alibaba.nacos.client.naming.event.InstancesChangeNotifier@78805df3
+2023-12-27 16:50:15,697 DEBUG [com.alibaba.nacos.client.naming.updater][NacosRestTemplate.java:476] - HTTP method: GET, url: http://192.168.11.135:8848/nacos/v1/ns/instance/list?app=unknown&healthyOnly=false&namespaceId=a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6&clientIP=192.168.0.118&serviceName=dev%40%40mynote-note&udpPort=61998&clusters=DEFAULT, body: {}
+2023-12-27 16:50:15,697 DEBUG [com.alibaba.nacos.client.naming.updater][NacosRestTemplate.java:476] - HTTP method: GET, url: http://192.168.11.135:8848/nacos/v1/ns/instance/list?app=unknown&healthyOnly=false&namespaceId=a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6&clientIP=192.168.0.118&serviceName=dev%40%40mynote-note&udpPort=61998&clusters=DEFAULT, body: {}
+2023-12-27 16:50:15,822 INFO [main][InetUtils.java:170] - Cannot determine local hostname
+2023-12-27 16:50:15,822 INFO [main][InetUtils.java:170] - Cannot determine local hostname
+2023-12-27 16:50:15,935 INFO [main][StartupInfoLogger.java:61] - Started NoteApplication in 8.119 seconds (JVM running for 8.612)
+2023-12-27 16:50:15,935 INFO [main][StartupInfoLogger.java:61] - Started NoteApplication in 8.119 seconds (JVM running for 8.612)
+2023-12-27 16:50:15,937 INFO [main][ClientWorker.java:169] - [fixed-192.168.11.135_8848-a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6] [subscribe] mynote-note.yaml+dev+a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6
+2023-12-27 16:50:15,937 INFO [main][ClientWorker.java:169] - [fixed-192.168.11.135_8848-a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6] [subscribe] mynote-note.yaml+dev+a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6
+2023-12-27 16:50:15,938 INFO [main][CacheData.java:92] - [fixed-192.168.11.135_8848-a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6] [add-listener] ok, tenant=a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6, dataId=mynote-note.yaml, group=dev, cnt=1
+2023-12-27 16:50:15,938 INFO [main][CacheData.java:92] - [fixed-192.168.11.135_8848-a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6] [add-listener] ok, tenant=a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6, dataId=mynote-note.yaml, group=dev, cnt=1
+2023-12-27 16:50:15,938 INFO [main][NacosContextRefresher.java:105] - listening config: dataId=mynote-note.yaml, group=dev
+2023-12-27 16:50:15,938 INFO [main][NacosContextRefresher.java:105] - listening config: dataId=mynote-note.yaml, group=dev
+2023-12-27 16:50:15,939 INFO [main][ClientWorker.java:169] - [fixed-192.168.11.135_8848-a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6] [subscribe] log4j-dev.yaml+dev+a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6
+2023-12-27 16:50:15,939 INFO [main][ClientWorker.java:169] - [fixed-192.168.11.135_8848-a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6] [subscribe] log4j-dev.yaml+dev+a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6
+2023-12-27 16:50:15,939 INFO [main][CacheData.java:92] - [fixed-192.168.11.135_8848-a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6] [add-listener] ok, tenant=a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6, dataId=log4j-dev.yaml, group=dev, cnt=1
+2023-12-27 16:50:15,939 INFO [main][CacheData.java:92] - [fixed-192.168.11.135_8848-a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6] [add-listener] ok, tenant=a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6, dataId=log4j-dev.yaml, group=dev, cnt=1
+2023-12-27 16:50:15,939 INFO [main][NacosContextRefresher.java:105] - listening config: dataId=log4j-dev.yaml, group=dev
+2023-12-27 16:50:15,939 INFO [main][NacosContextRefresher.java:105] - listening config: dataId=log4j-dev.yaml, group=dev
+2023-12-27 16:50:15,943 INFO [main][ClientWorker.java:169] - [fixed-192.168.11.135_8848-a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6] [subscribe] note-other.yaml+dev+a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6
+2023-12-27 16:50:15,943 INFO [main][ClientWorker.java:169] - [fixed-192.168.11.135_8848-a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6] [subscribe] note-other.yaml+dev+a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6
+2023-12-27 16:50:15,943 INFO [main][CacheData.java:92] - [fixed-192.168.11.135_8848-a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6] [add-listener] ok, tenant=a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6, dataId=note-other.yaml, group=dev, cnt=1
+2023-12-27 16:50:15,943 INFO [main][CacheData.java:92] - [fixed-192.168.11.135_8848-a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6] [add-listener] ok, tenant=a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6, dataId=note-other.yaml, group=dev, cnt=1
+2023-12-27 16:50:15,943 INFO [main][NacosContextRefresher.java:105] - listening config: dataId=note-other.yaml, group=dev
+2023-12-27 16:50:15,943 INFO [main][NacosContextRefresher.java:105] - listening config: dataId=note-other.yaml, group=dev
+2023-12-27 16:50:15,943 INFO [main][ClientWorker.java:169] - [fixed-192.168.11.135_8848-a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6] [subscribe] mynote-note+dev+a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6
+2023-12-27 16:50:15,943 INFO [main][ClientWorker.java:169] - [fixed-192.168.11.135_8848-a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6] [subscribe] mynote-note+dev+a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6
+2023-12-27 16:50:15,943 INFO [main][CacheData.java:92] - [fixed-192.168.11.135_8848-a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6] [add-listener] ok, tenant=a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6, dataId=mynote-note, group=dev, cnt=1
+2023-12-27 16:50:15,943 INFO [main][CacheData.java:92] - [fixed-192.168.11.135_8848-a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6] [add-listener] ok, tenant=a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6, dataId=mynote-note, group=dev, cnt=1
+2023-12-27 16:50:15,943 INFO [main][NacosContextRefresher.java:105] - listening config: dataId=mynote-note, group=dev
+2023-12-27 16:50:15,943 INFO [main][NacosContextRefresher.java:105] - listening config: dataId=mynote-note, group=dev
+2023-12-27 16:50:15,943 INFO [main][ClientWorker.java:169] - [fixed-192.168.11.135_8848-a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6] [subscribe] mynote-note-dev.yaml+dev+a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6
+2023-12-27 16:50:15,943 INFO [main][ClientWorker.java:169] - [fixed-192.168.11.135_8848-a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6] [subscribe] mynote-note-dev.yaml+dev+a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6
+2023-12-27 16:50:15,943 INFO [main][CacheData.java:92] - [fixed-192.168.11.135_8848-a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6] [add-listener] ok, tenant=a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6, dataId=mynote-note-dev.yaml, group=dev, cnt=1
+2023-12-27 16:50:15,943 INFO [main][CacheData.java:92] - [fixed-192.168.11.135_8848-a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6] [add-listener] ok, tenant=a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6, dataId=mynote-note-dev.yaml, group=dev, cnt=1
+2023-12-27 16:50:15,943 INFO [main][NacosContextRefresher.java:105] - listening config: dataId=mynote-note-dev.yaml, group=dev
+2023-12-27 16:50:15,943 INFO [main][NacosContextRefresher.java:105] - listening config: dataId=mynote-note-dev.yaml, group=dev
+2023-12-27 16:50:15,946 INFO [main][ClientWorker.java:169] - [fixed-192.168.11.135_8848-a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6] [subscribe] note-datasource.yaml+dev+a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6
+2023-12-27 16:50:15,946 INFO [main][ClientWorker.java:169] - [fixed-192.168.11.135_8848-a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6] [subscribe] note-datasource.yaml+dev+a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6
+2023-12-27 16:50:15,947 INFO [main][CacheData.java:92] - [fixed-192.168.11.135_8848-a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6] [add-listener] ok, tenant=a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6, dataId=note-datasource.yaml, group=dev, cnt=1
+2023-12-27 16:50:15,947 INFO [main][CacheData.java:92] - [fixed-192.168.11.135_8848-a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6] [add-listener] ok, tenant=a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6, dataId=note-datasource.yaml, group=dev, cnt=1
+2023-12-27 16:50:15,947 INFO [main][NacosContextRefresher.java:105] - listening config: dataId=note-datasource.yaml, group=dev
+2023-12-27 16:50:15,947 INFO [main][NacosContextRefresher.java:105] - listening config: dataId=note-datasource.yaml, group=dev
+2023-12-27 16:50:15,950 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-192.168.11.135_8848-a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6][NacosRestTemplate.java:476] - HTTP method: POST, url: http://192.168.11.135:8848/nacos/v1/cs/configs/listener, body: {Listening-Configs=note-other.yamldev83d185051730033c4736014110b7f3cea01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6mynote-note.yamldeva01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6mynote-notedeva01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6note-datasource.yamldev8d301230a139a7e0363d2d1962c42164a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6log4j-dev.yamldeve64d783bcfca30643e99618f46333797a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6mynote-note-dev.yamldeva01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6, tenant=a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6}
+2023-12-27 16:50:15,950 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-192.168.11.135_8848-a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6][NacosRestTemplate.java:476] - HTTP method: POST, url: http://192.168.11.135:8848/nacos/v1/cs/configs/listener, body: {Listening-Configs=note-other.yamldev83d185051730033c4736014110b7f3cea01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6mynote-note.yamldeva01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6mynote-notedeva01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6note-datasource.yamldev8d301230a139a7e0363d2d1962c42164a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6log4j-dev.yamldeve64d783bcfca30643e99618f46333797a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6mynote-note-dev.yamldeva01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6, tenant=a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6}
+2023-12-27 16:50:15,950 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-192.168.11.135_8848-a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6][NacosRestTemplate.java:494] - Execute via interceptors :[com.alibaba.nacos.client.config.impl.ConfigHttpClientManager$LimiterHttpClientRequestInterceptor@255c8e25]
+2023-12-27 16:50:15,950 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-192.168.11.135_8848-a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6][NacosRestTemplate.java:494] - Execute via interceptors :[com.alibaba.nacos.client.config.impl.ConfigHttpClientManager$LimiterHttpClientRequestInterceptor@255c8e25]
+2023-12-27 16:50:15,950 INFO [main][ClientWorker.java:169] - [fixed-192.168.11.135_8848-a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6] [subscribe] note-mybatisplus.yaml+dev+a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6
+2023-12-27 16:50:15,950 INFO [main][ClientWorker.java:169] - [fixed-192.168.11.135_8848-a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6] [subscribe] note-mybatisplus.yaml+dev+a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6
+2023-12-27 16:50:15,950 INFO [main][CacheData.java:92] - [fixed-192.168.11.135_8848-a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6] [add-listener] ok, tenant=a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6, dataId=note-mybatisplus.yaml, group=dev, cnt=1
+2023-12-27 16:50:15,950 INFO [main][NacosContextRefresher.java:105] - listening config: dataId=note-mybatisplus.yaml, group=dev
+2023-12-27 16:50:15,950 INFO [main][CacheData.java:92] - [fixed-192.168.11.135_8848-a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6] [add-listener] ok, tenant=a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6, dataId=note-mybatisplus.yaml, group=dev, cnt=1
+2023-12-27 16:50:15,950 INFO [main][NacosContextRefresher.java:105] - listening config: dataId=note-mybatisplus.yaml, group=dev
+2023-12-27 16:50:15,952 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-192.168.11.135_8848-a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6][NacosRestTemplate.java:476] - HTTP method: POST, url: http://192.168.11.135:8848/nacos/v1/cs/configs/listener, body: {Listening-Configs=note-other.yamldev83d185051730033c4736014110b7f3cea01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6mynote-note.yamldeva01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6mynote-notedeva01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6note-datasource.yamldev8d301230a139a7e0363d2d1962c42164a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6note-mybatisplus.yamldevbd958897385e9c630d37aedf29509d53a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6log4j-dev.yamldeve64d783bcfca30643e99618f46333797a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6mynote-note-dev.yamldeva01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6, tenant=a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6}
+2023-12-27 16:50:15,952 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-192.168.11.135_8848-a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6][NacosRestTemplate.java:476] - HTTP method: POST, url: http://192.168.11.135:8848/nacos/v1/cs/configs/listener, body: {Listening-Configs=note-other.yamldev83d185051730033c4736014110b7f3cea01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6mynote-note.yamldeva01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6mynote-notedeva01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6note-datasource.yamldev8d301230a139a7e0363d2d1962c42164a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6note-mybatisplus.yamldevbd958897385e9c630d37aedf29509d53a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6log4j-dev.yamldeve64d783bcfca30643e99618f46333797a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6mynote-note-dev.yamldeva01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6, tenant=a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6}
+2023-12-27 16:50:15,953 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-192.168.11.135_8848-a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6][NacosRestTemplate.java:494] - Execute via interceptors :[com.alibaba.nacos.client.config.impl.ConfigHttpClientManager$LimiterHttpClientRequestInterceptor@255c8e25]
+2023-12-27 16:50:15,953 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-192.168.11.135_8848-a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6][NacosRestTemplate.java:494] - Execute via interceptors :[com.alibaba.nacos.client.config.impl.ConfigHttpClientManager$LimiterHttpClientRequestInterceptor@255c8e25]
+2023-12-27 16:50:15,953 INFO [main][NoteApplication.java:42] - 
+----------------------------------------------------------
+	Application MyNote-note is running! Access URLs:
+	local: 	http://localhost:9001/doc.html
+	Swagger文档: 	http://192.168.0.118:9001/doc.html
+----------------------------------------------------------
+2023-12-27 16:50:15,953 INFO [main][NoteApplication.java:42] - 
+----------------------------------------------------------
+	Application MyNote-note is running! Access URLs:
+	local: 	http://localhost:9001/doc.html
+	Swagger文档: 	http://192.168.0.118:9001/doc.html
+----------------------------------------------------------
+2023-12-27 16:50:15,954 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-192.168.11.135_8848-a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6][NacosRestTemplate.java:476] - HTTP method: POST, url: http://192.168.11.135:8848/nacos/v1/cs/configs/listener, body: {Listening-Configs=note-other.yamldev83d185051730033c4736014110b7f3cea01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6mynote-note.yamldeva01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6mynote-notedeva01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6note-datasource.yamldev8d301230a139a7e0363d2d1962c42164a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6note-mybatisplus.yamldevbd958897385e9c630d37aedf29509d53a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6log4j-dev.yamldeve64d783bcfca30643e99618f46333797a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6mynote-note-dev.yamldeva01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6, tenant=a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6}
+2023-12-27 16:50:15,954 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-192.168.11.135_8848-a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6][NacosRestTemplate.java:476] - HTTP method: POST, url: http://192.168.11.135:8848/nacos/v1/cs/configs/listener, body: {Listening-Configs=note-other.yamldev83d185051730033c4736014110b7f3cea01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6mynote-note.yamldeva01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6mynote-notedeva01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6note-datasource.yamldev8d301230a139a7e0363d2d1962c42164a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6note-mybatisplus.yamldevbd958897385e9c630d37aedf29509d53a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6log4j-dev.yamldeve64d783bcfca30643e99618f46333797a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6mynote-note-dev.yamldeva01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6, tenant=a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6}
+2023-12-27 16:50:15,954 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-192.168.11.135_8848-a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6][NacosRestTemplate.java:494] - Execute via interceptors :[com.alibaba.nacos.client.config.impl.ConfigHttpClientManager$LimiterHttpClientRequestInterceptor@255c8e25]
+2023-12-27 16:50:15,954 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-192.168.11.135_8848-a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6][NacosRestTemplate.java:494] - Execute via interceptors :[com.alibaba.nacos.client.config.impl.ConfigHttpClientManager$LimiterHttpClientRequestInterceptor@255c8e25]
+2023-12-27 16:50:17,009 INFO [main][SpringApplication.java:646] - The following 1 profile is active: "dev"
+2023-12-27 16:50:17,009 INFO [main][SpringApplication.java:646] - The following 1 profile is active: "dev"
+2023-12-27 16:50:17,385 INFO [main][RepositoryConfigurationDelegate.java:262] - Multiple Spring Data modules found, entering strict repository configuration mode!
+2023-12-27 16:50:17,385 INFO [main][RepositoryConfigurationDelegate.java:262] - Multiple Spring Data modules found, entering strict repository configuration mode!
+2023-12-27 16:50:17,386 INFO [main][RepositoryConfigurationDelegate.java:132] - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-12-27 16:50:17,386 INFO [main][RepositoryConfigurationDelegate.java:132] - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-12-27 16:50:17,396 INFO [main][RepositoryConfigurationDelegate.java:201] - Finished Spring Data repository scanning in 3 ms. Found 0 Redis repository interfaces.
+2023-12-27 16:50:17,396 INFO [main][RepositoryConfigurationDelegate.java:201] - Finished Spring Data repository scanning in 3 ms. Found 0 Redis repository interfaces.
+2023-12-27 16:50:17,463 DEBUG [main][LogFactory.java:109] - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2023-12-27 16:50:17,463 DEBUG [main][LogFactory.java:109] - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2023-12-27 16:50:17,500 INFO [main][GenericScope.java:283] - BeanFactory id=95761bf1-52b4-3e36-b2e9-f51400c4e187
+2023-12-27 16:50:17,500 INFO [main][GenericScope.java:283] - BeanFactory id=95761bf1-52b4-3e36-b2e9-f51400c4e187
+2023-12-27 16:50:17,666 INFO [main][TomcatWebServer.java:108] - Tomcat initialized with port(s): 10001 (http)
+2023-12-27 16:50:17,666 INFO [main][TomcatWebServer.java:108] - Tomcat initialized with port(s): 10001 (http)
+2023-12-27 16:50:17,667 INFO [main][DirectJDKLog.java:173] - Loaded Apache Tomcat Native library [1.2.38] using APR version [1.7.4].
+2023-12-27 16:50:17,667 INFO [main][DirectJDKLog.java:173] - Loaded Apache Tomcat Native library [1.2.38] using APR version [1.7.4].
+2023-12-27 16:50:17,667 INFO [main][DirectJDKLog.java:173] - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+2023-12-27 16:50:17,667 INFO [main][DirectJDKLog.java:173] - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+2023-12-27 16:50:17,667 INFO [main][DirectJDKLog.java:173] - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2023-12-27 16:50:17,667 INFO [main][DirectJDKLog.java:173] - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2023-12-27 16:50:17,669 INFO [main][DirectJDKLog.java:173] - OpenSSL successfully initialized [OpenSSL 1.1.1v  1 Aug 2023]
+2023-12-27 16:50:17,669 INFO [main][DirectJDKLog.java:173] - OpenSSL successfully initialized [OpenSSL 1.1.1v  1 Aug 2023]
+2023-12-27 16:50:17,675 INFO [main][DirectJDKLog.java:173] - Initializing ProtocolHandler ["http-nio-10001"]
+2023-12-27 16:50:17,675 INFO [main][DirectJDKLog.java:173] - Initializing ProtocolHandler ["http-nio-10001"]
+2023-12-27 16:50:17,675 INFO [main][DirectJDKLog.java:173] - Starting service [Tomcat]
+2023-12-27 16:50:17,675 INFO [main][DirectJDKLog.java:173] - Starting service [Tomcat]
+2023-12-27 16:50:17,675 INFO [main][DirectJDKLog.java:173] - Starting Servlet engine: [Apache Tomcat/9.0.60]
+2023-12-27 16:50:17,675 INFO [main][DirectJDKLog.java:173] - Starting Servlet engine: [Apache Tomcat/9.0.60]
+2023-12-27 16:50:17,746 INFO [main][DirectJDKLog.java:173] - Initializing Spring embedded WebApplicationContext
+2023-12-27 16:50:17,746 INFO [main][DirectJDKLog.java:173] - Initializing Spring embedded WebApplicationContext
+2023-12-27 16:50:17,746 INFO [main][ServletWebServerApplicationContext.java:290] - Root WebApplicationContext: initialization completed in 727 ms
+2023-12-27 16:50:17,746 INFO [main][ServletWebServerApplicationContext.java:290] - Root WebApplicationContext: initialization completed in 727 ms
+2023-12-27 16:50:17,848 DEBUG [main][HikariConfig.java:971] - Driver class com.mysql.cj.jdbc.Driver found in Thread context class loader jdk.internal.loader.ClassLoaders$AppClassLoader@61064425
+2023-12-27 16:50:17,848 DEBUG [main][HikariConfig.java:971] - Driver class com.mysql.cj.jdbc.Driver found in Thread context class loader jdk.internal.loader.ClassLoaders$AppClassLoader@61064425
+2023-12-27 16:50:18,082 DEBUG [com.alibaba.nacos.naming.failover][FailoverReactor.java:147] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
+2023-12-27 16:50:18,082 DEBUG [com.alibaba.nacos.naming.failover][FailoverReactor.java:147] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
+2023-12-27 16:50:18,160 DEBUG [com.alibaba.nacos.naming.beat.sender][NamingProxy.java:421] - [BEAT] a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6 sending beat to server: BeatInfo{port=8001, ip='192.168.75.1', weight=1.0, serviceName='dev@@mynote-system', cluster='DEFAULT', metadata={preserved.register.source=SPRING_CLOUD}, scheduled=false, period=5000, stopped=false}
+2023-12-27 16:50:18,160 DEBUG [com.alibaba.nacos.naming.beat.sender][NamingProxy.java:421] - [BEAT] a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6 sending beat to server: BeatInfo{port=8001, ip='192.168.75.1', weight=1.0, serviceName='dev@@mynote-system', cluster='DEFAULT', metadata={preserved.register.source=SPRING_CLOUD}, scheduled=false, period=5000, stopped=false}
+2023-12-27 16:50:18,160 DEBUG [com.alibaba.nacos.naming.beat.sender][NacosRestTemplate.java:476] - HTTP method: PUT, url: http://192.168.11.135:8848/nacos/v1/ns/instance/beat?app=unknown&serviceName=dev%40%40mynote-system&namespaceId=a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6&port=8001&clusterName=DEFAULT&ip=192.168.75.1, body: {}
+2023-12-27 16:50:18,160 DEBUG [com.alibaba.nacos.naming.beat.sender][NacosRestTemplate.java:476] - HTTP method: PUT, url: http://192.168.11.135:8848/nacos/v1/ns/instance/beat?app=unknown&serviceName=dev%40%40mynote-system&namespaceId=a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6&port=8001&clusterName=DEFAULT&ip=192.168.75.1, body: {}
+2023-12-27 16:50:18,231 INFO [main][FeignClientFactoryBean.java:418] - For 'mynote-system' URL not provided. Will try picking an instance via load-balancing.
+2023-12-27 16:50:18,231 INFO [main][FeignClientFactoryBean.java:418] - For 'mynote-system' URL not provided. Will try picking an instance via load-balancing.
+2023-12-27 16:50:18,264 DEBUG [main][InternalLoggerFactory.java:63] - Using SLF4J as the default logging framework
+2023-12-27 16:50:18,264 DEBUG [main][InternalLoggerFactory.java:63] - Using SLF4J as the default logging framework
+2023-12-27 16:50:18,265 DEBUG [main][AddressResolverGroupProvider.java:37] - Starting without optional netty's non-blocking DNS resolver library
+2023-12-27 16:50:18,265 DEBUG [main][AddressResolverGroupProvider.java:37] - Starting without optional netty's non-blocking DNS resolver library
+2023-12-27 16:50:18,267 DEBUG [main][DefaultClientResources.java:122] - -Dio.netty.eventLoopThreads: 16
+2023-12-27 16:50:18,267 DEBUG [main][DefaultClientResources.java:122] - -Dio.netty.eventLoopThreads: 16
+2023-12-27 16:50:18,270 DEBUG [main][DefaultEventLoopGroupProvider.java:231] - Creating executor io.netty.util.concurrent.DefaultEventExecutorGroup
+2023-12-27 16:50:18,270 DEBUG [main][DefaultEventLoopGroupProvider.java:231] - Creating executor io.netty.util.concurrent.DefaultEventExecutorGroup
+2023-12-27 16:50:18,277 DEBUG [main][InternalThreadLocalMap.java:86] - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2023-12-27 16:50:18,277 DEBUG [main][InternalThreadLocalMap.java:86] - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2023-12-27 16:50:18,278 DEBUG [main][InternalThreadLocalMap.java:89] - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2023-12-27 16:50:18,278 DEBUG [main][InternalThreadLocalMap.java:89] - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2023-12-27 16:50:18,280 DEBUG [main][ResourceLeakDetector.java:129] - -Dio.netty.leakDetection.level: simple
+2023-12-27 16:50:18,280 DEBUG [main][ResourceLeakDetector.java:129] - -Dio.netty.leakDetection.level: simple
+2023-12-27 16:50:18,280 DEBUG [main][ResourceLeakDetector.java:130] - -Dio.netty.leakDetection.targetRecords: 4
+2023-12-27 16:50:18,280 DEBUG [main][ResourceLeakDetector.java:130] - -Dio.netty.leakDetection.targetRecords: 4
+2023-12-27 16:50:18,281 DEBUG [main][ResourceLeakDetectorFactory.java:196] - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@e2f6a45
+2023-12-27 16:50:18,281 DEBUG [main][ResourceLeakDetectorFactory.java:196] - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@e2f6a45
+2023-12-27 16:50:18,283 DEBUG [main][PlatformDependent0.java:460] - -Dio.netty.noUnsafe: false
+2023-12-27 16:50:18,283 DEBUG [main][PlatformDependent0.java:460] - -Dio.netty.noUnsafe: false
+2023-12-27 16:50:18,283 DEBUG [main][PlatformDependent0.java:954] - Java version: 11
+2023-12-27 16:50:18,283 DEBUG [main][PlatformDependent0.java:954] - Java version: 11
+2023-12-27 16:50:18,283 DEBUG [main][PlatformDependent0.java:135] - sun.misc.Unsafe.theUnsafe: available
+2023-12-27 16:50:18,283 DEBUG [main][PlatformDependent0.java:135] - sun.misc.Unsafe.theUnsafe: available
+2023-12-27 16:50:18,284 DEBUG [main][PlatformDependent0.java:159] - sun.misc.Unsafe.copyMemory: available
+2023-12-27 16:50:18,284 DEBUG [main][PlatformDependent0.java:159] - sun.misc.Unsafe.copyMemory: available
+2023-12-27 16:50:18,284 DEBUG [main][PlatformDependent0.java:202] - java.nio.Buffer.address: available
+2023-12-27 16:50:18,284 DEBUG [main][PlatformDependent0.java:202] - java.nio.Buffer.address: available
+2023-12-27 16:50:18,284 DEBUG [main][PlatformDependent0.java:285] - direct buffer constructor: unavailable: Reflective setAccessible(true) disabled
+2023-12-27 16:50:18,284 DEBUG [main][PlatformDependent0.java:285] - direct buffer constructor: unavailable: Reflective setAccessible(true) disabled
+2023-12-27 16:50:18,285 DEBUG [main][PlatformDependent0.java:350] - java.nio.Bits.unaligned: available, true
+2023-12-27 16:50:18,285 DEBUG [main][PlatformDependent0.java:350] - java.nio.Bits.unaligned: available, true
+2023-12-27 16:50:18,285 DEBUG [main][PlatformDependent0.java:417] - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable: class io.netty.util.internal.PlatformDependent0$6 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @176333ee
+2023-12-27 16:50:18,285 DEBUG [main][PlatformDependent0.java:417] - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable: class io.netty.util.internal.PlatformDependent0$6 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @176333ee
+2023-12-27 16:50:18,286 DEBUG [main][PlatformDependent0.java:446] - java.nio.DirectByteBuffer.<init>(long, int): unavailable
+2023-12-27 16:50:18,286 DEBUG [main][PlatformDependent0.java:446] - java.nio.DirectByteBuffer.<init>(long, int): unavailable
+2023-12-27 16:50:18,286 DEBUG [main][PlatformDependent.java:1116] - sun.misc.Unsafe: available
+2023-12-27 16:50:18,286 DEBUG [main][PlatformDependent.java:1116] - sun.misc.Unsafe: available
+2023-12-27 16:50:18,286 DEBUG [main][PlatformDependent.java:1227] - maxDirectMemory: 8522825728 bytes (maybe)
+2023-12-27 16:50:18,286 DEBUG [main][PlatformDependent.java:1227] - maxDirectMemory: 8522825728 bytes (maybe)
+2023-12-27 16:50:18,287 DEBUG [main][PlatformDependent.java:1246] - -Dio.netty.tmpdir: C:\Users\ADMINI~1\AppData\Local\Temp (java.io.tmpdir)
+2023-12-27 16:50:18,287 DEBUG [main][PlatformDependent.java:1246] - -Dio.netty.tmpdir: C:\Users\ADMINI~1\AppData\Local\Temp (java.io.tmpdir)
+2023-12-27 16:50:18,287 DEBUG [main][PlatformDependent.java:1325] - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2023-12-27 16:50:18,287 DEBUG [main][PlatformDependent.java:1325] - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2023-12-27 16:50:18,287 DEBUG [main][PlatformDependent.java:1076] - Platform: Windows
+2023-12-27 16:50:18,287 DEBUG [main][PlatformDependent.java:1076] - Platform: Windows
+2023-12-27 16:50:18,287 DEBUG [main][PlatformDependent.java:178] - -Dio.netty.maxDirectMemory: -1 bytes
+2023-12-27 16:50:18,287 DEBUG [main][PlatformDependent.java:178] - -Dio.netty.maxDirectMemory: -1 bytes
+2023-12-27 16:50:18,287 DEBUG [main][PlatformDependent.java:185] - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2023-12-27 16:50:18,287 DEBUG [main][PlatformDependent.java:185] - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2023-12-27 16:50:18,288 DEBUG [main][CleanerJava9.java:71] - java.nio.ByteBuffer.cleaner(): available
+2023-12-27 16:50:18,288 DEBUG [main][CleanerJava9.java:71] - java.nio.ByteBuffer.cleaner(): available
+2023-12-27 16:50:18,288 DEBUG [main][PlatformDependent.java:205] - -Dio.netty.noPreferDirect: false
+2023-12-27 16:50:18,288 DEBUG [main][PlatformDependent.java:205] - -Dio.netty.noPreferDirect: false
+2023-12-27 16:50:18,289 DEBUG [main][PlatformDependent.java:967] - org.jctools-core.MpscChunkedArrayQueue: available
+2023-12-27 16:50:18,289 DEBUG [main][PlatformDependent.java:967] - org.jctools-core.MpscChunkedArrayQueue: available
+2023-12-27 16:50:18,294 DEBUG [main][Loggers.java:245] - Using Slf4j logging framework
+2023-12-27 16:50:18,294 DEBUG [main][Loggers.java:245] - Using Slf4j logging framework
+2023-12-27 16:50:18,295 DEBUG [main][EventRecorderHolder.java:47] - Starting with JFR support
+2023-12-27 16:50:18,295 DEBUG [main][EventRecorderHolder.java:47] - Starting with JFR support
+2023-12-27 16:50:18,303 DEBUG [main][DefaultClientResources.java:227] - LatencyUtils/HdrUtils are not available, metrics are disabled
+2023-12-27 16:50:18,303 DEBUG [main][DefaultClientResources.java:227] - LatencyUtils/HdrUtils are not available, metrics are disabled
+2023-12-27 16:50:18,480 DEBUG [main][AbstractHandlerMethodMapping.java:295] - 
+	c.m.b.c.CategoryController:
+	{POST [/blog/category/add]}: add(String,String)
+	{POST [/blog/category/update]}: update(String,String)
+	{GET [/blog/category/list]}: list(Integer,Integer)
+2023-12-27 16:50:18,480 DEBUG [main][AbstractHandlerMethodMapping.java:295] - 
+	c.m.b.c.CategoryController:
+	{POST [/blog/category/add]}: add(String,String)
+	{POST [/blog/category/update]}: update(String,String)
+	{GET [/blog/category/list]}: list(Integer,Integer)
+2023-12-27 16:50:18,481 DEBUG [main][AbstractHandlerMethodMapping.java:295] - 
+	c.m.b.c.CommentController:
+	
+2023-12-27 16:50:18,481 DEBUG [main][AbstractHandlerMethodMapping.java:295] - 
+	c.m.b.c.CommentController:
+	
+2023-12-27 16:50:18,482 DEBUG [main][AbstractHandlerMethodMapping.java:295] - 
+	c.m.b.c.ContentController:
+	{POST [/blog/content/addContent]}: addContent(BlogContentDto)
+	{POST [/blog/content/list/{id}]}: listById(String,Integer,Integer)
+	{GET [/blog/content/publicList]}: publicList(String,String,Integer,Integer)
+2023-12-27 16:50:18,482 DEBUG [main][AbstractHandlerMethodMapping.java:295] - 
+	c.m.b.c.ContentController:
+	{POST [/blog/content/addContent]}: addContent(BlogContentDto)
+	{POST [/blog/content/list/{id}]}: listById(String,Integer,Integer)
+	{GET [/blog/content/publicList]}: publicList(String,String,Integer,Integer)
+2023-12-27 16:50:18,482 DEBUG [main][AbstractHandlerMethodMapping.java:295] - 
+	c.m.b.c.ReplyController:
+	
+2023-12-27 16:50:18,482 DEBUG [main][AbstractHandlerMethodMapping.java:295] - 
+	c.m.b.c.ReplyController:
+	
+2023-12-27 16:50:18,482 DEBUG [main][AbstractHandlerMethodMapping.java:295] - 
+	c.m.b.c.StatusController:
+	
+2023-12-27 16:50:18,482 DEBUG [main][AbstractHandlerMethodMapping.java:295] - 
+	c.m.b.c.StatusController:
+	
+2023-12-27 16:50:18,482 DEBUG [main][AbstractHandlerMethodMapping.java:295] - 
+	c.m.b.c.UnionCategoryController:
+	
+2023-12-27 16:50:18,482 DEBUG [main][AbstractHandlerMethodMapping.java:295] - 
+	c.m.b.c.UnionCategoryController:
+	
+2023-12-27 16:50:18,483 DEBUG [main][AbstractHandlerMethodMapping.java:295] - 
+	s.d.s.w.Swagger2ControllerWebMvc:
+	{GET [/v2/api-docs], produces [application/json || application/hal+json]}: getDocumentation(String,HttpServletRequest)
+2023-12-27 16:50:18,483 DEBUG [main][AbstractHandlerMethodMapping.java:295] - 
+	s.d.s.w.Swagger2ControllerWebMvc:
+	{GET [/v2/api-docs], produces [application/json || application/hal+json]}: getDocumentation(String,HttpServletRequest)
+2023-12-27 16:50:18,484 DEBUG [main][AbstractHandlerMethodMapping.java:295] - 
+	s.d.s.w.ApiResourceController:
+	{GET [/swagger-resources/configuration/ui], produces [application/json]}: uiConfiguration()
+	{GET [/swagger-resources], produces [application/json]}: swaggerResources()
+	{GET [/swagger-resources/configuration/security], produces [application/json]}: securityConfiguration()
+2023-12-27 16:50:18,484 DEBUG [main][AbstractHandlerMethodMapping.java:295] - 
+	s.d.s.w.ApiResourceController:
+	{GET [/swagger-resources/configuration/ui], produces [application/json]}: uiConfiguration()
+	{GET [/swagger-resources], produces [application/json]}: swaggerResources()
+	{GET [/swagger-resources/configuration/security], produces [application/json]}: securityConfiguration()
+2023-12-27 16:50:18,484 DEBUG [main][AbstractHandlerMethodMapping.java:295] - 
+	s.d.o.w.OpenApiControllerWebMvc:
+	{GET [/v3/api-docs], produces [application/json || application/hal+json]}: getDocumentation(String,HttpServletRequest)
+2023-12-27 16:50:18,484 DEBUG [main][AbstractHandlerMethodMapping.java:295] - 
+	s.d.o.w.OpenApiControllerWebMvc:
+	{GET [/v3/api-docs], produces [application/json || application/hal+json]}: getDocumentation(String,HttpServletRequest)
+2023-12-27 16:50:18,486 DEBUG [main][AbstractHandlerMethodMapping.java:295] - 
+	o.s.b.a.w.s.e.BasicErrorController:
+	{ [/error]}: error(HttpServletRequest)
+	{ [/error], produces [text/html]}: errorHtml(HttpServletRequest,HttpServletResponse)
+2023-12-27 16:50:18,486 DEBUG [main][AbstractHandlerMethodMapping.java:295] - 
+	o.s.b.a.w.s.e.BasicErrorController:
+	{ [/error]}: error(HttpServletRequest)
+	{ [/error], produces [text/html]}: errorHtml(HttpServletRequest,HttpServletResponse)
+2023-12-27 16:50:18,576 DEBUG [main][SimpleUrlHandlerMapping.java:177] - 'viewControllerHandlerMapping' {/swagger-ui/=ParameterizableViewController [view="forward:/swagger-ui/index.html"]}
+2023-12-27 16:50:18,576 DEBUG [main][SimpleUrlHandlerMapping.java:177] - 'viewControllerHandlerMapping' {/swagger-ui/=ParameterizableViewController [view="forward:/swagger-ui/index.html"]}
+2023-12-27 16:50:18,578 DEBUG [main][AbstractDetectingUrlHandlerMapping.java:86] - 'beanNameHandlerMapping' {}
+2023-12-27 16:50:18,578 DEBUG [main][AbstractDetectingUrlHandlerMapping.java:86] - 'beanNameHandlerMapping' {}
+2023-12-27 16:50:18,584 DEBUG [main][SimpleUrlHandlerMapping.java:177] - 'resourceHandlerMapping' {/webjars/**=ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]], /**=ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]], /swagger-ui/**=ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/springfox-swagger-ui/]]}
+2023-12-27 16:50:18,584 DEBUG [main][SimpleUrlHandlerMapping.java:177] - 'resourceHandlerMapping' {/webjars/**=ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]], /**=ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]], /swagger-ui/**=ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/springfox-swagger-ui/]]}
+2023-12-27 16:50:19,137 DEBUG [com.alibaba.nacos.client.naming.updater][NacosRestTemplate.java:476] - HTTP method: GET, url: http://192.168.11.135:8848/nacos/v1/ns/instance/list?app=unknown&healthyOnly=false&namespaceId=a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6&clientIP=192.168.0.118&serviceName=dev%40%40mynote-system&udpPort=52087&clusters=DEFAULT, body: {}
+2023-12-27 16:50:19,137 DEBUG [com.alibaba.nacos.client.naming.updater][NacosRestTemplate.java:476] - HTTP method: GET, url: http://192.168.11.135:8848/nacos/v1/ns/instance/list?app=unknown&healthyOnly=false&namespaceId=a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6&clientIP=192.168.0.118&serviceName=dev%40%40mynote-system&udpPort=52087&clusters=DEFAULT, body: {}
+2023-12-27 16:50:19,643 DEBUG [com.alibaba.nacos.naming.failover][FailoverReactor.java:147] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
+2023-12-27 16:50:19,643 DEBUG [com.alibaba.nacos.naming.failover][FailoverReactor.java:147] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
+2023-12-27 16:50:19,709 DEBUG [com.alibaba.nacos.naming.beat.sender][NamingProxy.java:421] - [BEAT] a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6 sending beat to server: BeatInfo{port=9001, ip='192.168.75.1', weight=1.0, serviceName='dev@@mynote-note', cluster='DEFAULT', metadata={preserved.register.source=SPRING_CLOUD}, scheduled=false, period=5000, stopped=false}
+2023-12-27 16:50:19,709 DEBUG [com.alibaba.nacos.naming.beat.sender][NamingProxy.java:421] - [BEAT] a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6 sending beat to server: BeatInfo{port=9001, ip='192.168.75.1', weight=1.0, serviceName='dev@@mynote-note', cluster='DEFAULT', metadata={preserved.register.source=SPRING_CLOUD}, scheduled=false, period=5000, stopped=false}
+2023-12-27 16:50:19,710 INFO [main][InetUtils.java:170] - Cannot determine local hostname
+2023-12-27 16:50:19,710 INFO [main][InetUtils.java:170] - Cannot determine local hostname
+2023-12-27 16:50:19,713 DEBUG [com.alibaba.nacos.naming.beat.sender][NacosRestTemplate.java:476] - HTTP method: PUT, url: http://192.168.11.135:8848/nacos/v1/ns/instance/beat?app=unknown&serviceName=dev%40%40mynote-note&namespaceId=a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6&port=9001&clusterName=DEFAULT&ip=192.168.75.1, body: {beat={"port":9001,"ip":"192.168.75.1","weight":1.0,"serviceName":"dev@@mynote-note","cluster":"DEFAULT","metadata":{"preserved.register.source":"SPRING_CLOUD"},"scheduled":false,"period":5000,"stopped":false}}
+2023-12-27 16:50:19,713 DEBUG [com.alibaba.nacos.naming.beat.sender][NacosRestTemplate.java:476] - HTTP method: PUT, url: http://192.168.11.135:8848/nacos/v1/ns/instance/beat?app=unknown&serviceName=dev%40%40mynote-note&namespaceId=a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6&port=9001&clusterName=DEFAULT&ip=192.168.75.1, body: {beat={"port":9001,"ip":"192.168.75.1","weight":1.0,"serviceName":"dev@@mynote-note","cluster":"DEFAULT","metadata":{"preserved.register.source":"SPRING_CLOUD"},"scheduled":false,"period":5000,"stopped":false}}
+2023-12-27 16:50:20,897 INFO [main][InetUtils.java:170] - Cannot determine local hostname
+2023-12-27 16:50:20,897 INFO [main][InetUtils.java:170] - Cannot determine local hostname
+2023-12-27 16:50:20,926 WARN [main][LoadBalancerCacheAutoConfiguration.java:82] - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2023-12-27 16:50:20,926 WARN [main][LoadBalancerCacheAutoConfiguration.java:82] - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2023-12-27 16:50:20,979 INFO [main][InitUtils.java:65] - initializer namespace from System Property :null
+2023-12-27 16:50:20,979 INFO [main][InitUtils.java:65] - initializer namespace from System Property :null
+2023-12-27 16:50:20,979 INFO [main][InitUtils.java:74] - initializer namespace from System Environment :null
+2023-12-27 16:50:20,979 INFO [main][InitUtils.java:74] - initializer namespace from System Environment :null
+2023-12-27 16:50:20,979 INFO [main][InitUtils.java:84] - initializer namespace from System Property :null
+2023-12-27 16:50:20,979 INFO [main][InitUtils.java:84] - initializer namespace from System Property :null
+2023-12-27 16:50:20,981 DEBUG [main][NamingProxy.java:195] - server list provided by user: [192.168.11.135:8848]
+2023-12-27 16:50:20,981 DEBUG [main][NamingProxy.java:195] - server list provided by user: [192.168.11.135:8848]
+2023-12-27 16:50:20,982 DEBUG [com.alibaba.nacos.client.naming.updater][NamingProxy.java:195] - server list provided by user: [192.168.11.135:8848]
+2023-12-27 16:50:20,982 DEBUG [com.alibaba.nacos.client.naming.updater][NamingProxy.java:195] - server list provided by user: [192.168.11.135:8848]
+2023-12-27 16:50:20,983 DEBUG [com.alibaba.nacos.naming.failover][FailoverReactor.java:147] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
+2023-12-27 16:50:20,983 DEBUG [com.alibaba.nacos.naming.failover][FailoverReactor.java:147] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
+2023-12-27 16:50:20,987 DEBUG [main][HostReactor.java:306] - failover-mode: false
+2023-12-27 16:50:20,987 DEBUG [main][HostReactor.java:306] - failover-mode: false
+2023-12-27 16:50:20,988 DEBUG [main][NacosRestTemplate.java:476] - HTTP method: GET, url: http://192.168.11.135:8848/nacos/v1/ns/instance/list?app=unknown&healthyOnly=false&namespaceId=a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6&clientIP=192.168.0.118&serviceName=dev%40%40mynote-blog&udpPort=53247&clusters=DEFAULT, body: {}
+2023-12-27 16:50:20,988 DEBUG [main][NacosRestTemplate.java:476] - HTTP method: GET, url: http://192.168.11.135:8848/nacos/v1/ns/instance/list?app=unknown&healthyOnly=false&namespaceId=a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6&clientIP=192.168.0.118&serviceName=dev%40%40mynote-blog&udpPort=53247&clusters=DEFAULT, body: {}
+2023-12-27 16:50:21,034 INFO [main][DirectJDKLog.java:173] - Starting ProtocolHandler ["http-nio-10001"]
+2023-12-27 16:50:21,034 INFO [main][DirectJDKLog.java:173] - Starting ProtocolHandler ["http-nio-10001"]
+2023-12-27 16:50:21,044 INFO [main][TomcatWebServer.java:220] - Tomcat started on port(s): 10001 (http) with context path ''
+2023-12-27 16:50:21,044 INFO [main][TomcatWebServer.java:220] - Tomcat started on port(s): 10001 (http) with context path ''
+2023-12-27 16:50:21,046 INFO [main][BeatReactor.java:81] - [BEAT] adding beat: BeatInfo{port=10001, ip='192.168.75.1', weight=1.0, serviceName='dev@@mynote-blog', cluster='DEFAULT', metadata={preserved.register.source=SPRING_CLOUD}, scheduled=false, period=5000, stopped=false} to beat map.
+2023-12-27 16:50:21,046 INFO [main][BeatReactor.java:81] - [BEAT] adding beat: BeatInfo{port=10001, ip='192.168.75.1', weight=1.0, serviceName='dev@@mynote-blog', cluster='DEFAULT', metadata={preserved.register.source=SPRING_CLOUD}, scheduled=false, period=5000, stopped=false} to beat map.
+2023-12-27 16:50:21,046 INFO [main][NamingProxy.java:230] - [REGISTER-SERVICE] a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6 registering service dev@@mynote-blog with instance: Instance{instanceId='null', ip='192.168.75.1', port=10001, weight=1.0, healthy=true, enabled=true, ephemeral=true, clusterName='DEFAULT', serviceName='null', metadata={preserved.register.source=SPRING_CLOUD}}
+2023-12-27 16:50:21,046 INFO [main][NamingProxy.java:230] - [REGISTER-SERVICE] a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6 registering service dev@@mynote-blog with instance: Instance{instanceId='null', ip='192.168.75.1', port=10001, weight=1.0, healthy=true, enabled=true, ephemeral=true, clusterName='DEFAULT', serviceName='null', metadata={preserved.register.source=SPRING_CLOUD}}
+2023-12-27 16:50:21,047 DEBUG [main][NacosRestTemplate.java:476] - HTTP method: POST, url: http://192.168.11.135:8848/nacos/v1/ns/instance?app=unknown&groupName=dev&metadata=%7B%22preserved.register.source%22%3A%22SPRING_CLOUD%22%7D&namespaceId=a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6&port=10001&enable=true&healthy=true&clusterName=DEFAULT&ip=192.168.75.1&weight=1.0&ephemeral=true&serviceName=dev%40%40mynote-blog, body: {}
+2023-12-27 16:50:21,047 DEBUG [main][NacosRestTemplate.java:476] - HTTP method: POST, url: http://192.168.11.135:8848/nacos/v1/ns/instance?app=unknown&groupName=dev&metadata=%7B%22preserved.register.source%22%3A%22SPRING_CLOUD%22%7D&namespaceId=a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6&port=10001&enable=true&healthy=true&clusterName=DEFAULT&ip=192.168.75.1&weight=1.0&ephemeral=true&serviceName=dev%40%40mynote-blog, body: {}
+2023-12-27 16:50:21,049 INFO [main][NacosServiceRegistry.java:75] - nacos registry, dev mynote-blog 192.168.75.1:10001 register finished
+2023-12-27 16:50:21,049 INFO [main][NacosServiceRegistry.java:75] - nacos registry, dev mynote-blog 192.168.75.1:10001 register finished
+2023-12-27 16:50:21,561 INFO [com.alibaba.nacos.naming.push.receiver][PushReceiver.java:97] - received push data: {"type":"dom","data":"{\"name\":\"dev@@mynote-blog\",\"clusters\":\"DEFAULT\",\"cacheMillis\":10000,\"hosts\":[{\"instanceId\":\"192.168.75.1#10001#DEFAULT#dev@@mynote-blog\",\"ip\":\"192.168.75.1\",\"port\":10001,\"weight\":1.0,\"healthy\":true,\"enabled\":true,\"ephemeral\":true,\"clusterName\":\"DEFAULT\",\"serviceName\":\"dev@@mynote-blog\",\"metadata\":{\"preserved.register.source\":\"SPRING_CLOUD\"},\"instanceHeartBeatInterval\":5000,\"instanceHeartBeatTimeOut\":15000,\"ipDeleteTimeout\":30000}],\"lastRefTime\":1703667022486,\"checksum\":\"\",\"allIPs\":false,\"reachProtectionThreshold\":false,\"valid\":true}","lastRefTime":24980433239037} from /192.168.0.118
+2023-12-27 16:50:21,561 INFO [com.alibaba.nacos.naming.push.receiver][PushReceiver.java:97] - received push data: {"type":"dom","data":"{\"name\":\"dev@@mynote-blog\",\"clusters\":\"DEFAULT\",\"cacheMillis\":10000,\"hosts\":[{\"instanceId\":\"192.168.75.1#10001#DEFAULT#dev@@mynote-blog\",\"ip\":\"192.168.75.1\",\"port\":10001,\"weight\":1.0,\"healthy\":true,\"enabled\":true,\"ephemeral\":true,\"clusterName\":\"DEFAULT\",\"serviceName\":\"dev@@mynote-blog\",\"metadata\":{\"preserved.register.source\":\"SPRING_CLOUD\"},\"instanceHeartBeatInterval\":5000,\"instanceHeartBeatTimeOut\":15000,\"ipDeleteTimeout\":30000}],\"lastRefTime\":1703667022486,\"checksum\":\"\",\"allIPs\":false,\"reachProtectionThreshold\":false,\"valid\":true}","lastRefTime":24980433239037} from /192.168.0.118
+2023-12-27 16:50:21,571 INFO [com.alibaba.nacos.naming.push.receiver][HostReactor.java:232] - new ips(1) service: dev@@mynote-blog@@DEFAULT -> [{"instanceId":"192.168.75.1#10001#DEFAULT#dev@@mynote-blog","ip":"192.168.75.1","port":10001,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"dev@@mynote-blog","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatTimeOut":15000,"instanceHeartBeatInterval":5000}]
+2023-12-27 16:50:21,571 INFO [com.alibaba.nacos.naming.push.receiver][HostReactor.java:232] - new ips(1) service: dev@@mynote-blog@@DEFAULT -> [{"instanceId":"192.168.75.1#10001#DEFAULT#dev@@mynote-blog","ip":"192.168.75.1","port":10001,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"dev@@mynote-blog","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatTimeOut":15000,"instanceHeartBeatInterval":5000}]
+2023-12-27 16:50:21,571 DEBUG [nacos.publisher-com.alibaba.nacos.client.naming.event.InstancesChangeEvent][DefaultPublisher.java:193] - [NotifyCenter] the com.alibaba.nacos.client.naming.event.InstancesChangeEvent@2fb80698 will received by com.alibaba.nacos.client.naming.event.InstancesChangeNotifier@5b827796
+2023-12-27 16:50:21,571 DEBUG [nacos.publisher-com.alibaba.nacos.client.naming.event.InstancesChangeEvent][DefaultPublisher.java:193] - [NotifyCenter] the com.alibaba.nacos.client.naming.event.InstancesChangeEvent@2fb80698 will received by com.alibaba.nacos.client.naming.event.InstancesChangeNotifier@5b827796
+2023-12-27 16:50:21,579 INFO [com.alibaba.nacos.naming.push.receiver][HostReactor.java:271] - current ips:(1) service: dev@@mynote-blog@@DEFAULT -> [{"instanceId":"192.168.75.1#10001#DEFAULT#dev@@mynote-blog","ip":"192.168.75.1","port":10001,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"dev@@mynote-blog","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatTimeOut":15000,"instanceHeartBeatInterval":5000}]
+2023-12-27 16:50:21,579 INFO [com.alibaba.nacos.naming.push.receiver][HostReactor.java:271] - current ips:(1) service: dev@@mynote-blog@@DEFAULT -> [{"instanceId":"192.168.75.1#10001#DEFAULT#dev@@mynote-blog","ip":"192.168.75.1","port":10001,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"dev@@mynote-blog","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatTimeOut":15000,"instanceHeartBeatInterval":5000}]
+2023-12-27 16:50:22,048 DEBUG [com.alibaba.nacos.client.naming.updater][NacosRestTemplate.java:476] - HTTP method: GET, url: http://192.168.11.135:8848/nacos/v1/ns/instance/list?app=unknown&healthyOnly=false&namespaceId=a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6&clientIP=192.168.0.118&serviceName=dev%40%40mynote-blog&udpPort=53247&clusters=DEFAULT, body: {}
+2023-12-27 16:50:22,048 DEBUG [com.alibaba.nacos.client.naming.updater][NacosRestTemplate.java:476] - HTTP method: GET, url: http://192.168.11.135:8848/nacos/v1/ns/instance/list?app=unknown&healthyOnly=false&namespaceId=a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6&clientIP=192.168.0.118&serviceName=dev%40%40mynote-blog&udpPort=53247&clusters=DEFAULT, body: {}
+2023-12-27 16:50:22,172 INFO [main][InetUtils.java:170] - Cannot determine local hostname
+2023-12-27 16:50:22,172 INFO [main][InetUtils.java:170] - Cannot determine local hostname
+2023-12-27 16:50:22,295 INFO [main][StartupInfoLogger.java:61] - Started BlogApplication in 8.056 seconds (JVM running for 8.54)
+2023-12-27 16:50:22,295 INFO [main][StartupInfoLogger.java:61] - Started BlogApplication in 8.056 seconds (JVM running for 8.54)
+2023-12-27 16:50:22,297 INFO [main][ClientWorker.java:169] - [fixed-192.168.11.135_8848-a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6] [subscribe] mynote-blog-dev.yaml+dev+a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6
+2023-12-27 16:50:22,297 INFO [main][ClientWorker.java:169] - [fixed-192.168.11.135_8848-a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6] [subscribe] mynote-blog-dev.yaml+dev+a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6
+2023-12-27 16:50:22,297 INFO [main][CacheData.java:92] - [fixed-192.168.11.135_8848-a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6] [add-listener] ok, tenant=a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6, dataId=mynote-blog-dev.yaml, group=dev, cnt=1
+2023-12-27 16:50:22,297 INFO [main][CacheData.java:92] - [fixed-192.168.11.135_8848-a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6] [add-listener] ok, tenant=a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6, dataId=mynote-blog-dev.yaml, group=dev, cnt=1
+2023-12-27 16:50:22,297 INFO [main][NacosContextRefresher.java:105] - listening config: dataId=mynote-blog-dev.yaml, group=dev
+2023-12-27 16:50:22,297 INFO [main][NacosContextRefresher.java:105] - listening config: dataId=mynote-blog-dev.yaml, group=dev
+2023-12-27 16:50:22,301 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-192.168.11.135_8848-a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6][NacosRestTemplate.java:476] - HTTP method: POST, url: http://192.168.11.135:8848/nacos/v1/cs/configs/listener, body: {Listening-Configs=mynote-blog-dev.yamldeva01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6, tenant=a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6}
+2023-12-27 16:50:22,301 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-192.168.11.135_8848-a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6][NacosRestTemplate.java:476] - HTTP method: POST, url: http://192.168.11.135:8848/nacos/v1/cs/configs/listener, body: {Listening-Configs=mynote-blog-dev.yamldeva01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6, tenant=a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6}
+2023-12-27 16:50:22,301 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-192.168.11.135_8848-a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6][NacosRestTemplate.java:494] - Execute via interceptors :[com.alibaba.nacos.client.config.impl.ConfigHttpClientManager$LimiterHttpClientRequestInterceptor@9be55a2]
+2023-12-27 16:50:22,301 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-192.168.11.135_8848-a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6][NacosRestTemplate.java:494] - Execute via interceptors :[com.alibaba.nacos.client.config.impl.ConfigHttpClientManager$LimiterHttpClientRequestInterceptor@9be55a2]
+2023-12-27 16:50:22,302 INFO [main][ClientWorker.java:169] - [fixed-192.168.11.135_8848-a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6] [subscribe] blog-mybatisplus.yaml+dev+a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6
+2023-12-27 16:50:22,302 INFO [main][ClientWorker.java:169] - [fixed-192.168.11.135_8848-a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6] [subscribe] blog-mybatisplus.yaml+dev+a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6
+2023-12-27 16:50:22,302 INFO [main][CacheData.java:92] - [fixed-192.168.11.135_8848-a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6] [add-listener] ok, tenant=a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6, dataId=blog-mybatisplus.yaml, group=dev, cnt=1
+2023-12-27 16:50:22,302 INFO [main][CacheData.java:92] - [fixed-192.168.11.135_8848-a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6] [add-listener] ok, tenant=a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6, dataId=blog-mybatisplus.yaml, group=dev, cnt=1
+2023-12-27 16:50:22,302 INFO [main][NacosContextRefresher.java:105] - listening config: dataId=blog-mybatisplus.yaml, group=dev
+2023-12-27 16:50:22,302 INFO [main][NacosContextRefresher.java:105] - listening config: dataId=blog-mybatisplus.yaml, group=dev
+2023-12-27 16:50:22,303 INFO [main][ClientWorker.java:169] - [fixed-192.168.11.135_8848-a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6] [subscribe] log4j-dev.yaml+dev+a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6
+2023-12-27 16:50:22,303 INFO [main][ClientWorker.java:169] - [fixed-192.168.11.135_8848-a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6] [subscribe] log4j-dev.yaml+dev+a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6
+2023-12-27 16:50:22,303 INFO [main][CacheData.java:92] - [fixed-192.168.11.135_8848-a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6] [add-listener] ok, tenant=a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6, dataId=log4j-dev.yaml, group=dev, cnt=1
+2023-12-27 16:50:22,303 INFO [main][CacheData.java:92] - [fixed-192.168.11.135_8848-a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6] [add-listener] ok, tenant=a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6, dataId=log4j-dev.yaml, group=dev, cnt=1
+2023-12-27 16:50:22,303 INFO [main][NacosContextRefresher.java:105] - listening config: dataId=log4j-dev.yaml, group=dev
+2023-12-27 16:50:22,303 INFO [main][NacosContextRefresher.java:105] - listening config: dataId=log4j-dev.yaml, group=dev
+2023-12-27 16:50:22,304 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-192.168.11.135_8848-a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6][NacosRestTemplate.java:476] - HTTP method: POST, url: http://192.168.11.135:8848/nacos/v1/cs/configs/listener, body: {Listening-Configs=blog-mybatisplus.yamldev2a14630a91b4c3880acc0833417c3825a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6mynote-blog-dev.yamldeva01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6log4j-dev.yamldeve64d783bcfca30643e99618f46333797a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6, tenant=a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6}
+2023-12-27 16:50:22,304 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-192.168.11.135_8848-a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6][NacosRestTemplate.java:476] - HTTP method: POST, url: http://192.168.11.135:8848/nacos/v1/cs/configs/listener, body: {Listening-Configs=blog-mybatisplus.yamldev2a14630a91b4c3880acc0833417c3825a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6mynote-blog-dev.yamldeva01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6log4j-dev.yamldeve64d783bcfca30643e99618f46333797a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6, tenant=a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6}
+2023-12-27 16:50:22,304 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-192.168.11.135_8848-a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6][NacosRestTemplate.java:494] - Execute via interceptors :[com.alibaba.nacos.client.config.impl.ConfigHttpClientManager$LimiterHttpClientRequestInterceptor@9be55a2]
+2023-12-27 16:50:22,304 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-192.168.11.135_8848-a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6][NacosRestTemplate.java:494] - Execute via interceptors :[com.alibaba.nacos.client.config.impl.ConfigHttpClientManager$LimiterHttpClientRequestInterceptor@9be55a2]
+2023-12-27 16:50:22,305 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-192.168.11.135_8848-a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6][NacosRestTemplate.java:476] - HTTP method: POST, url: http://192.168.11.135:8848/nacos/v1/cs/configs/listener, body: {Listening-Configs=blog-mybatisplus.yamldev2a14630a91b4c3880acc0833417c3825a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6mynote-blog-dev.yamldeva01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6log4j-dev.yamldeve64d783bcfca30643e99618f46333797a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6, tenant=a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6}
+2023-12-27 16:50:22,305 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-192.168.11.135_8848-a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6][NacosRestTemplate.java:476] - HTTP method: POST, url: http://192.168.11.135:8848/nacos/v1/cs/configs/listener, body: {Listening-Configs=blog-mybatisplus.yamldev2a14630a91b4c3880acc0833417c3825a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6mynote-blog-dev.yamldeva01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6log4j-dev.yamldeve64d783bcfca30643e99618f46333797a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6, tenant=a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6}
+2023-12-27 16:50:22,305 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-192.168.11.135_8848-a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6][NacosRestTemplate.java:494] - Execute via interceptors :[com.alibaba.nacos.client.config.impl.ConfigHttpClientManager$LimiterHttpClientRequestInterceptor@9be55a2]
+2023-12-27 16:50:22,305 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-192.168.11.135_8848-a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6][NacosRestTemplate.java:494] - Execute via interceptors :[com.alibaba.nacos.client.config.impl.ConfigHttpClientManager$LimiterHttpClientRequestInterceptor@9be55a2]
+2023-12-27 16:50:22,307 INFO [main][ClientWorker.java:169] - [fixed-192.168.11.135_8848-a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6] [subscribe] blog-other.yaml+dev+a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6
+2023-12-27 16:50:22,307 INFO [main][ClientWorker.java:169] - [fixed-192.168.11.135_8848-a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6] [subscribe] blog-other.yaml+dev+a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6
+2023-12-27 16:50:22,307 INFO [main][CacheData.java:92] - [fixed-192.168.11.135_8848-a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6] [add-listener] ok, tenant=a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6, dataId=blog-other.yaml, group=dev, cnt=1
+2023-12-27 16:50:22,307 INFO [main][CacheData.java:92] - [fixed-192.168.11.135_8848-a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6] [add-listener] ok, tenant=a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6, dataId=blog-other.yaml, group=dev, cnt=1
+2023-12-27 16:50:22,307 INFO [main][NacosContextRefresher.java:105] - listening config: dataId=blog-other.yaml, group=dev
+2023-12-27 16:50:22,307 INFO [main][NacosContextRefresher.java:105] - listening config: dataId=blog-other.yaml, group=dev
+2023-12-27 16:50:22,307 INFO [main][ClientWorker.java:169] - [fixed-192.168.11.135_8848-a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6] [subscribe] mynote-blog.yaml+dev+a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6
+2023-12-27 16:50:22,307 INFO [main][ClientWorker.java:169] - [fixed-192.168.11.135_8848-a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6] [subscribe] mynote-blog.yaml+dev+a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6
+2023-12-27 16:50:22,307 INFO [main][CacheData.java:92] - [fixed-192.168.11.135_8848-a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6] [add-listener] ok, tenant=a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6, dataId=mynote-blog.yaml, group=dev, cnt=1
+2023-12-27 16:50:22,307 INFO [main][CacheData.java:92] - [fixed-192.168.11.135_8848-a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6] [add-listener] ok, tenant=a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6, dataId=mynote-blog.yaml, group=dev, cnt=1
+2023-12-27 16:50:22,307 INFO [main][NacosContextRefresher.java:105] - listening config: dataId=mynote-blog.yaml, group=dev
+2023-12-27 16:50:22,307 INFO [main][NacosContextRefresher.java:105] - listening config: dataId=mynote-blog.yaml, group=dev
+2023-12-27 16:50:22,310 INFO [main][ClientWorker.java:169] - [fixed-192.168.11.135_8848-a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6] [subscribe] blog-datasource.yaml+dev+a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6
+2023-12-27 16:50:22,310 INFO [main][ClientWorker.java:169] - [fixed-192.168.11.135_8848-a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6] [subscribe] blog-datasource.yaml+dev+a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6
+2023-12-27 16:50:22,310 INFO [main][CacheData.java:92] - [fixed-192.168.11.135_8848-a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6] [add-listener] ok, tenant=a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6, dataId=blog-datasource.yaml, group=dev, cnt=1
+2023-12-27 16:50:22,311 INFO [main][NacosContextRefresher.java:105] - listening config: dataId=blog-datasource.yaml, group=dev
+2023-12-27 16:50:22,310 INFO [main][CacheData.java:92] - [fixed-192.168.11.135_8848-a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6] [add-listener] ok, tenant=a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6, dataId=blog-datasource.yaml, group=dev, cnt=1
+2023-12-27 16:50:22,311 INFO [main][NacosContextRefresher.java:105] - listening config: dataId=blog-datasource.yaml, group=dev
+2023-12-27 16:50:22,311 INFO [main][ClientWorker.java:169] - [fixed-192.168.11.135_8848-a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6] [subscribe] mynote-blog+dev+a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6
+2023-12-27 16:50:22,311 INFO [main][CacheData.java:92] - [fixed-192.168.11.135_8848-a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6] [add-listener] ok, tenant=a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6, dataId=mynote-blog, group=dev, cnt=1
+2023-12-27 16:50:22,311 INFO [main][ClientWorker.java:169] - [fixed-192.168.11.135_8848-a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6] [subscribe] mynote-blog+dev+a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6
+2023-12-27 16:50:22,311 INFO [main][NacosContextRefresher.java:105] - listening config: dataId=mynote-blog, group=dev
+2023-12-27 16:50:22,311 INFO [main][CacheData.java:92] - [fixed-192.168.11.135_8848-a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6] [add-listener] ok, tenant=a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6, dataId=mynote-blog, group=dev, cnt=1
+2023-12-27 16:50:22,311 INFO [main][NacosContextRefresher.java:105] - listening config: dataId=mynote-blog, group=dev
+2023-12-27 16:50:22,313 INFO [main][BlogApplication.java:41] - 
+----------------------------------------------------------
+	Application MyNote-blog is running! Access URLs:
+	local: 	http://localhost:10001/doc.html
+	Swagger文档: 	http://192.168.0.118:10001/doc.html
+----------------------------------------------------------
+2023-12-27 16:50:22,313 INFO [main][BlogApplication.java:41] - 
+----------------------------------------------------------
+	Application MyNote-blog is running! Access URLs:
+	local: 	http://localhost:10001/doc.html
+	Swagger文档: 	http://192.168.0.118:10001/doc.html
+----------------------------------------------------------
+2023-12-27 16:50:23,084 DEBUG [com.alibaba.nacos.naming.failover][FailoverReactor.java:147] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
+2023-12-27 16:50:23,084 DEBUG [com.alibaba.nacos.naming.failover][FailoverReactor.java:147] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
+2023-12-27 16:50:23,178 DEBUG [com.alibaba.nacos.naming.beat.sender][NamingProxy.java:421] - [BEAT] a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6 sending beat to server: BeatInfo{port=8001, ip='192.168.75.1', weight=1.0, serviceName='dev@@mynote-system', cluster='DEFAULT', metadata={preserved.register.source=SPRING_CLOUD}, scheduled=false, period=5000, stopped=false}
+2023-12-27 16:50:23,178 DEBUG [com.alibaba.nacos.naming.beat.sender][NamingProxy.java:421] - [BEAT] a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6 sending beat to server: BeatInfo{port=8001, ip='192.168.75.1', weight=1.0, serviceName='dev@@mynote-system', cluster='DEFAULT', metadata={preserved.register.source=SPRING_CLOUD}, scheduled=false, period=5000, stopped=false}
+2023-12-27 16:50:23,179 DEBUG [com.alibaba.nacos.naming.beat.sender][NacosRestTemplate.java:476] - HTTP method: PUT, url: http://192.168.11.135:8848/nacos/v1/ns/instance/beat?app=unknown&serviceName=dev%40%40mynote-system&namespaceId=a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6&port=8001&clusterName=DEFAULT&ip=192.168.75.1, body: {}
+2023-12-27 16:50:23,179 DEBUG [com.alibaba.nacos.naming.beat.sender][NacosRestTemplate.java:476] - HTTP method: PUT, url: http://192.168.11.135:8848/nacos/v1/ns/instance/beat?app=unknown&serviceName=dev%40%40mynote-system&namespaceId=a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6&port=8001&clusterName=DEFAULT&ip=192.168.75.1, body: {}
+2023-12-27 16:50:24,648 DEBUG [com.alibaba.nacos.naming.failover][FailoverReactor.java:147] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
+2023-12-27 16:50:24,648 DEBUG [com.alibaba.nacos.naming.failover][FailoverReactor.java:147] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
+2023-12-27 16:50:24,726 DEBUG [com.alibaba.nacos.naming.beat.sender][NamingProxy.java:421] - [BEAT] a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6 sending beat to server: BeatInfo{port=9001, ip='192.168.75.1', weight=1.0, serviceName='dev@@mynote-note', cluster='DEFAULT', metadata={preserved.register.source=SPRING_CLOUD}, scheduled=false, period=5000, stopped=false}
+2023-12-27 16:50:24,726 DEBUG [com.alibaba.nacos.naming.beat.sender][NamingProxy.java:421] - [BEAT] a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6 sending beat to server: BeatInfo{port=9001, ip='192.168.75.1', weight=1.0, serviceName='dev@@mynote-note', cluster='DEFAULT', metadata={preserved.register.source=SPRING_CLOUD}, scheduled=false, period=5000, stopped=false}
+2023-12-27 16:50:24,728 DEBUG [com.alibaba.nacos.naming.beat.sender][NacosRestTemplate.java:476] - HTTP method: PUT, url: http://192.168.11.135:8848/nacos/v1/ns/instance/beat?app=unknown&serviceName=dev%40%40mynote-note&namespaceId=a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6&port=9001&clusterName=DEFAULT&ip=192.168.75.1, body: {}
+2023-12-27 16:50:24,728 DEBUG [com.alibaba.nacos.naming.beat.sender][NacosRestTemplate.java:476] - HTTP method: PUT, url: http://192.168.11.135:8848/nacos/v1/ns/instance/beat?app=unknown&serviceName=dev%40%40mynote-note&namespaceId=a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6&port=9001&clusterName=DEFAULT&ip=192.168.75.1, body: {}
+2023-12-27 16:50:25,707 DEBUG [com.alibaba.nacos.client.naming.updater][NacosRestTemplate.java:476] - HTTP method: GET, url: http://192.168.11.135:8848/nacos/v1/ns/instance/list?app=unknown&healthyOnly=false&namespaceId=a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6&clientIP=192.168.0.118&serviceName=dev%40%40mynote-note&udpPort=61998&clusters=DEFAULT, body: {}
+2023-12-27 16:50:25,707 DEBUG [com.alibaba.nacos.client.naming.updater][NacosRestTemplate.java:476] - HTTP method: GET, url: http://192.168.11.135:8848/nacos/v1/ns/instance/list?app=unknown&healthyOnly=false&namespaceId=a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6&clientIP=192.168.0.118&serviceName=dev%40%40mynote-note&udpPort=61998&clusters=DEFAULT, body: {}
+2023-12-27 16:50:25,990 DEBUG [com.alibaba.nacos.naming.failover][FailoverReactor.java:147] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
+2023-12-27 16:50:25,990 DEBUG [com.alibaba.nacos.naming.failover][FailoverReactor.java:147] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
+2023-12-27 16:50:26,055 DEBUG [com.alibaba.nacos.naming.beat.sender][NamingProxy.java:421] - [BEAT] a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6 sending beat to server: BeatInfo{port=10001, ip='192.168.75.1', weight=1.0, serviceName='dev@@mynote-blog', cluster='DEFAULT', metadata={preserved.register.source=SPRING_CLOUD}, scheduled=false, period=5000, stopped=false}
+2023-12-27 16:50:26,055 DEBUG [com.alibaba.nacos.naming.beat.sender][NamingProxy.java:421] - [BEAT] a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6 sending beat to server: BeatInfo{port=10001, ip='192.168.75.1', weight=1.0, serviceName='dev@@mynote-blog', cluster='DEFAULT', metadata={preserved.register.source=SPRING_CLOUD}, scheduled=false, period=5000, stopped=false}
+2023-12-27 16:50:26,057 DEBUG [com.alibaba.nacos.naming.beat.sender][NacosRestTemplate.java:476] - HTTP method: PUT, url: http://192.168.11.135:8848/nacos/v1/ns/instance/beat?app=unknown&serviceName=dev%40%40mynote-blog&namespaceId=a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6&port=10001&clusterName=DEFAULT&ip=192.168.75.1, body: {beat={"port":10001,"ip":"192.168.75.1","weight":1.0,"serviceName":"dev@@mynote-blog","cluster":"DEFAULT","metadata":{"preserved.register.source":"SPRING_CLOUD"},"scheduled":false,"period":5000,"stopped":false}}
+2023-12-27 16:50:26,057 DEBUG [com.alibaba.nacos.naming.beat.sender][NacosRestTemplate.java:476] - HTTP method: PUT, url: http://192.168.11.135:8848/nacos/v1/ns/instance/beat?app=unknown&serviceName=dev%40%40mynote-blog&namespaceId=a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6&port=10001&clusterName=DEFAULT&ip=192.168.75.1, body: {beat={"port":10001,"ip":"192.168.75.1","weight":1.0,"serviceName":"dev@@mynote-blog","cluster":"DEFAULT","metadata":{"preserved.register.source":"SPRING_CLOUD"},"scheduled":false,"period":5000,"stopped":false}}
+2023-12-27 16:50:28,047 WARN [Thread-12][NotifyCenter.java:145] - [NotifyCenter] Start destroying Publisher
+2023-12-27 16:50:28,047 WARN [Thread-1][HttpClientBeanHolder.java:108] - [HttpClientBeanHolder] Start destroying common HttpClient
+2023-12-27 16:50:28,047 WARN [Thread-12][NotifyCenter.java:145] - [NotifyCenter] Start destroying Publisher
+2023-12-27 16:50:28,047 WARN [Thread-1][HttpClientBeanHolder.java:108] - [HttpClientBeanHolder] Start destroying common HttpClient
+2023-12-27 16:50:28,047 WARN [Thread-12][NotifyCenter.java:162] - [NotifyCenter] Destruction of the end
+2023-12-27 16:50:28,047 WARN [Thread-12][NotifyCenter.java:162] - [NotifyCenter] Destruction of the end
+2023-12-27 16:50:28,047 WARN [Thread-1][HttpClientBeanHolder.java:114] - [HttpClientBeanHolder] Destruction of the end
+2023-12-27 16:50:28,047 WARN [Thread-1][HttpClientBeanHolder.java:114] - [HttpClientBeanHolder] Destruction of the end
+2023-12-27 16:50:28,073 WARN [Thread-12][NotifyCenter.java:145] - [NotifyCenter] Start destroying Publisher
+2023-12-27 16:50:28,073 WARN [Thread-12][NotifyCenter.java:145] - [NotifyCenter] Start destroying Publisher
+2023-12-27 16:50:28,073 WARN [Thread-12][NotifyCenter.java:162] - [NotifyCenter] Destruction of the end
+2023-12-27 16:50:28,073 WARN [Thread-12][NotifyCenter.java:162] - [NotifyCenter] Destruction of the end
+2023-12-27 16:50:28,073 WARN [Thread-1][HttpClientBeanHolder.java:108] - [HttpClientBeanHolder] Start destroying common HttpClient
+2023-12-27 16:50:28,073 WARN [Thread-1][HttpClientBeanHolder.java:108] - [HttpClientBeanHolder] Start destroying common HttpClient
+2023-12-27 16:50:28,074 WARN [Thread-1][HttpClientBeanHolder.java:114] - [HttpClientBeanHolder] Destruction of the end
+2023-12-27 16:50:28,074 WARN [Thread-1][HttpClientBeanHolder.java:114] - [HttpClientBeanHolder] Destruction of the end
+2023-12-27 16:50:28,096 DEBUG [com.alibaba.nacos.naming.failover][FailoverReactor.java:147] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
+2023-12-27 16:50:28,096 DEBUG [com.alibaba.nacos.naming.failover][FailoverReactor.java:147] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
+2023-12-27 16:50:28,101 WARN [Thread-12][NotifyCenter.java:145] - [NotifyCenter] Start destroying Publisher
+2023-12-27 16:50:28,101 WARN [Thread-12][NotifyCenter.java:145] - [NotifyCenter] Start destroying Publisher
+2023-12-27 16:50:28,101 WARN [Thread-1][HttpClientBeanHolder.java:108] - [HttpClientBeanHolder] Start destroying common HttpClient
+2023-12-27 16:50:28,101 WARN [Thread-12][NotifyCenter.java:162] - [NotifyCenter] Destruction of the end
+2023-12-27 16:50:28,101 WARN [Thread-12][NotifyCenter.java:162] - [NotifyCenter] Destruction of the end
+2023-12-27 16:50:28,101 WARN [Thread-1][HttpClientBeanHolder.java:108] - [HttpClientBeanHolder] Start destroying common HttpClient
+2023-12-27 16:50:28,101 WARN [Thread-1][HttpClientBeanHolder.java:114] - [HttpClientBeanHolder] Destruction of the end
+2023-12-27 16:50:28,101 WARN [Thread-1][HttpClientBeanHolder.java:114] - [HttpClientBeanHolder] Destruction of the end
+2023-12-27 16:50:28,163 INFO [SpringApplicationShutdownHook][NacosServiceRegistry.java:94] - De-registering from Nacos Server now...
+2023-12-27 16:50:28,163 INFO [SpringApplicationShutdownHook][NacosServiceRegistry.java:94] - De-registering from Nacos Server now...
+2023-12-27 16:50:28,163 INFO [SpringApplicationShutdownHook][BeatReactor.java:101] - [BEAT] removing beat: dev@@mynote-blog:192.168.75.1:10001 from beat map.
+2023-12-27 16:50:28,163 INFO [SpringApplicationShutdownHook][BeatReactor.java:101] - [BEAT] removing beat: dev@@mynote-blog:192.168.75.1:10001 from beat map.
+2023-12-27 16:50:28,163 INFO [SpringApplicationShutdownHook][NamingProxy.java:260] - [DEREGISTER-SERVICE] a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6 deregistering service dev@@mynote-blog with instance: Instance{instanceId='null', ip='192.168.75.1', port=10001, weight=1.0, healthy=true, enabled=true, ephemeral=true, clusterName='DEFAULT', serviceName='null', metadata={}}
+2023-12-27 16:50:28,163 INFO [SpringApplicationShutdownHook][NamingProxy.java:260] - [DEREGISTER-SERVICE] a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6 deregistering service dev@@mynote-blog with instance: Instance{instanceId='null', ip='192.168.75.1', port=10001, weight=1.0, healthy=true, enabled=true, ephemeral=true, clusterName='DEFAULT', serviceName='null', metadata={}}
+2023-12-27 16:50:28,163 DEBUG [SpringApplicationShutdownHook][NacosRestTemplate.java:476] - HTTP method: DELETE, url: http://192.168.11.135:8848/nacos/v1/ns/instance?app=unknown&namespaceId=a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6&port=10001&clusterName=DEFAULT&ip=192.168.75.1&ephemeral=true&serviceName=dev%40%40mynote-blog, body: {}
+2023-12-27 16:50:28,163 DEBUG [SpringApplicationShutdownHook][NacosRestTemplate.java:476] - HTTP method: DELETE, url: http://192.168.11.135:8848/nacos/v1/ns/instance?app=unknown&namespaceId=a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6&port=10001&clusterName=DEFAULT&ip=192.168.75.1&ephemeral=true&serviceName=dev%40%40mynote-blog, body: {}
+2023-12-27 16:50:28,166 INFO [SpringApplicationShutdownHook][NacosServiceRegistry.java:114] - De-registration finished.
+2023-12-27 16:50:28,166 INFO [SpringApplicationShutdownHook][NacosServiceRegistry.java:114] - De-registration finished.
+2023-12-27 16:50:28,166 INFO [SpringApplicationShutdownHook][BeatReactor.java:147] - com.alibaba.nacos.client.naming.beat.BeatReactor do shutdown begin
+2023-12-27 16:50:28,166 INFO [SpringApplicationShutdownHook][BeatReactor.java:147] - com.alibaba.nacos.client.naming.beat.BeatReactor do shutdown begin
+2023-12-27 16:50:28,190 DEBUG [com.alibaba.nacos.naming.beat.sender][NamingProxy.java:421] - [BEAT] a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6 sending beat to server: BeatInfo{port=8001, ip='192.168.75.1', weight=1.0, serviceName='dev@@mynote-system', cluster='DEFAULT', metadata={preserved.register.source=SPRING_CLOUD}, scheduled=false, period=5000, stopped=false}
+2023-12-27 16:50:28,190 DEBUG [com.alibaba.nacos.naming.beat.sender][NamingProxy.java:421] - [BEAT] a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6 sending beat to server: BeatInfo{port=8001, ip='192.168.75.1', weight=1.0, serviceName='dev@@mynote-system', cluster='DEFAULT', metadata={preserved.register.source=SPRING_CLOUD}, scheduled=false, period=5000, stopped=false}
+2023-12-27 16:50:28,190 DEBUG [com.alibaba.nacos.naming.beat.sender][NacosRestTemplate.java:476] - HTTP method: PUT, url: http://192.168.11.135:8848/nacos/v1/ns/instance/beat?app=unknown&serviceName=dev%40%40mynote-system&namespaceId=a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6&port=8001&clusterName=DEFAULT&ip=192.168.75.1, body: {}
+2023-12-27 16:50:28,190 DEBUG [com.alibaba.nacos.naming.beat.sender][NacosRestTemplate.java:476] - HTTP method: PUT, url: http://192.168.11.135:8848/nacos/v1/ns/instance/beat?app=unknown&serviceName=dev%40%40mynote-system&namespaceId=a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6&port=8001&clusterName=DEFAULT&ip=192.168.75.1, body: {}
+2023-12-27 16:50:28,199 INFO [SpringApplicationShutdownHook][NacosServiceRegistry.java:94] - De-registering from Nacos Server now...
+2023-12-27 16:50:28,199 INFO [SpringApplicationShutdownHook][NacosServiceRegistry.java:94] - De-registering from Nacos Server now...
+2023-12-27 16:50:28,199 INFO [SpringApplicationShutdownHook][BeatReactor.java:101] - [BEAT] removing beat: dev@@mynote-note:192.168.75.1:9001 from beat map.
+2023-12-27 16:50:28,199 INFO [SpringApplicationShutdownHook][BeatReactor.java:101] - [BEAT] removing beat: dev@@mynote-note:192.168.75.1:9001 from beat map.
+2023-12-27 16:50:28,199 INFO [SpringApplicationShutdownHook][NamingProxy.java:260] - [DEREGISTER-SERVICE] a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6 deregistering service dev@@mynote-note with instance: Instance{instanceId='null', ip='192.168.75.1', port=9001, weight=1.0, healthy=true, enabled=true, ephemeral=true, clusterName='DEFAULT', serviceName='null', metadata={}}
+2023-12-27 16:50:28,199 INFO [SpringApplicationShutdownHook][NamingProxy.java:260] - [DEREGISTER-SERVICE] a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6 deregistering service dev@@mynote-note with instance: Instance{instanceId='null', ip='192.168.75.1', port=9001, weight=1.0, healthy=true, enabled=true, ephemeral=true, clusterName='DEFAULT', serviceName='null', metadata={}}
+2023-12-27 16:50:28,199 DEBUG [SpringApplicationShutdownHook][NacosRestTemplate.java:476] - HTTP method: DELETE, url: http://192.168.11.135:8848/nacos/v1/ns/instance?app=unknown&namespaceId=a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6&port=9001&clusterName=DEFAULT&ip=192.168.75.1&ephemeral=true&serviceName=dev%40%40mynote-note, body: {}
+2023-12-27 16:50:28,199 DEBUG [SpringApplicationShutdownHook][NacosRestTemplate.java:476] - HTTP method: DELETE, url: http://192.168.11.135:8848/nacos/v1/ns/instance?app=unknown&namespaceId=a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6&port=9001&clusterName=DEFAULT&ip=192.168.75.1&ephemeral=true&serviceName=dev%40%40mynote-note, body: {}
+2023-12-27 16:50:28,201 INFO [SpringApplicationShutdownHook][NacosServiceRegistry.java:114] - De-registration finished.
+2023-12-27 16:50:28,201 INFO [SpringApplicationShutdownHook][NacosServiceRegistry.java:114] - De-registration finished.
+2023-12-27 16:50:28,201 INFO [SpringApplicationShutdownHook][BeatReactor.java:147] - com.alibaba.nacos.client.naming.beat.BeatReactor do shutdown begin
+2023-12-27 16:50:28,201 INFO [SpringApplicationShutdownHook][BeatReactor.java:147] - com.alibaba.nacos.client.naming.beat.BeatReactor do shutdown begin
+2023-12-27 16:50:28,218 INFO [SpringApplicationShutdownHook][NacosServiceRegistry.java:94] - De-registering from Nacos Server now...
+2023-12-27 16:50:28,218 INFO [SpringApplicationShutdownHook][NacosServiceRegistry.java:94] - De-registering from Nacos Server now...
+2023-12-27 16:50:28,218 INFO [SpringApplicationShutdownHook][BeatReactor.java:101] - [BEAT] removing beat: dev@@mynote-system:192.168.75.1:8001 from beat map.
+2023-12-27 16:50:28,218 INFO [SpringApplicationShutdownHook][BeatReactor.java:101] - [BEAT] removing beat: dev@@mynote-system:192.168.75.1:8001 from beat map.
+2023-12-27 16:50:28,218 INFO [SpringApplicationShutdownHook][NamingProxy.java:260] - [DEREGISTER-SERVICE] a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6 deregistering service dev@@mynote-system with instance: Instance{instanceId='null', ip='192.168.75.1', port=8001, weight=1.0, healthy=true, enabled=true, ephemeral=true, clusterName='DEFAULT', serviceName='null', metadata={}}
+2023-12-27 16:50:28,218 INFO [SpringApplicationShutdownHook][NamingProxy.java:260] - [DEREGISTER-SERVICE] a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6 deregistering service dev@@mynote-system with instance: Instance{instanceId='null', ip='192.168.75.1', port=8001, weight=1.0, healthy=true, enabled=true, ephemeral=true, clusterName='DEFAULT', serviceName='null', metadata={}}
+2023-12-27 16:50:28,219 DEBUG [SpringApplicationShutdownHook][NacosRestTemplate.java:476] - HTTP method: DELETE, url: http://192.168.11.135:8848/nacos/v1/ns/instance?app=unknown&namespaceId=a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6&port=8001&clusterName=DEFAULT&ip=192.168.75.1&ephemeral=true&serviceName=dev%40%40mynote-system, body: {}
+2023-12-27 16:50:28,219 DEBUG [SpringApplicationShutdownHook][NacosRestTemplate.java:476] - HTTP method: DELETE, url: http://192.168.11.135:8848/nacos/v1/ns/instance?app=unknown&namespaceId=a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6&port=8001&clusterName=DEFAULT&ip=192.168.75.1&ephemeral=true&serviceName=dev%40%40mynote-system, body: {}
+2023-12-27 16:50:28,220 INFO [SpringApplicationShutdownHook][NacosServiceRegistry.java:114] - De-registration finished.
+2023-12-27 16:50:28,220 INFO [SpringApplicationShutdownHook][NacosServiceRegistry.java:114] - De-registration finished.
+2023-12-27 16:50:28,220 INFO [SpringApplicationShutdownHook][BeatReactor.java:147] - com.alibaba.nacos.client.naming.beat.BeatReactor do shutdown begin
+2023-12-27 16:50:28,220 INFO [SpringApplicationShutdownHook][BeatReactor.java:147] - com.alibaba.nacos.client.naming.beat.BeatReactor do shutdown begin
+2023-12-27 16:50:28,716 INFO [com.alibaba.nacos.naming.push.receiver][PushReceiver.java:97] - received push data: {"type":"dom","data":"{\"name\":\"dev@@mynote-blog\",\"clusters\":\"DEFAULT\",\"cacheMillis\":10000,\"hosts\":[],\"lastRefTime\":1703667029639,\"checksum\":\"\",\"allIPs\":false,\"reachProtectionThreshold\":false,\"valid\":true}","lastRefTime":24987586999980} from /192.168.0.118
+2023-12-27 16:50:28,717 INFO [com.alibaba.nacos.naming.push.receiver][HostReactor.java:238] - removed ips(1) service: dev@@mynote-blog@@DEFAULT -> [{"instanceId":"192.168.75.1#10001#DEFAULT#dev@@mynote-blog","ip":"192.168.75.1","port":10001,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"dev@@mynote-blog","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatTimeOut":15000,"instanceHeartBeatInterval":5000}]
+2023-12-27 16:50:28,716 INFO [com.alibaba.nacos.naming.push.receiver][PushReceiver.java:97] - received push data: {"type":"dom","data":"{\"name\":\"dev@@mynote-blog\",\"clusters\":\"DEFAULT\",\"cacheMillis\":10000,\"hosts\":[],\"lastRefTime\":1703667029639,\"checksum\":\"\",\"allIPs\":false,\"reachProtectionThreshold\":false,\"valid\":true}","lastRefTime":24987586999980} from /192.168.0.118
+2023-12-27 16:50:28,717 INFO [com.alibaba.nacos.naming.push.receiver][HostReactor.java:238] - removed ips(1) service: dev@@mynote-blog@@DEFAULT -> [{"instanceId":"192.168.75.1#10001#DEFAULT#dev@@mynote-blog","ip":"192.168.75.1","port":10001,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"dev@@mynote-blog","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatTimeOut":15000,"instanceHeartBeatInterval":5000}]
+2023-12-27 16:50:28,718 DEBUG [nacos.publisher-com.alibaba.nacos.client.naming.event.InstancesChangeEvent][DefaultPublisher.java:193] - [NotifyCenter] the com.alibaba.nacos.client.naming.event.InstancesChangeEvent@3153e39f will received by com.alibaba.nacos.client.naming.event.InstancesChangeNotifier@5b827796
+2023-12-27 16:50:28,718 DEBUG [nacos.publisher-com.alibaba.nacos.client.naming.event.InstancesChangeEvent][DefaultPublisher.java:193] - [NotifyCenter] the com.alibaba.nacos.client.naming.event.InstancesChangeEvent@3153e39f will received by com.alibaba.nacos.client.naming.event.InstancesChangeNotifier@5b827796
+2023-12-27 16:50:28,719 INFO [com.alibaba.nacos.naming.push.receiver][PushReceiver.java:97] - received push data: {"type":"dom","data":"{\"name\":\"dev@@mynote-note\",\"clusters\":\"DEFAULT\",\"cacheMillis\":10000,\"hosts\":[],\"lastRefTime\":1703667029641,\"checksum\":\"\",\"allIPs\":false,\"reachProtectionThreshold\":false,\"valid\":true}","lastRefTime":24987587849420} from /192.168.0.118
+2023-12-27 16:50:28,719 INFO [com.alibaba.nacos.naming.push.receiver][PushReceiver.java:97] - received push data: {"type":"dom","data":"{\"name\":\"dev@@mynote-note\",\"clusters\":\"DEFAULT\",\"cacheMillis\":10000,\"hosts\":[],\"lastRefTime\":1703667029641,\"checksum\":\"\",\"allIPs\":false,\"reachProtectionThreshold\":false,\"valid\":true}","lastRefTime":24987587849420} from /192.168.0.118
+2023-12-27 16:50:28,720 INFO [com.alibaba.nacos.naming.push.receiver][HostReactor.java:238] - removed ips(1) service: dev@@mynote-note@@DEFAULT -> [{"instanceId":"192.168.75.1#9001#DEFAULT#dev@@mynote-note","ip":"192.168.75.1","port":9001,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"dev@@mynote-note","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatTimeOut":15000,"instanceHeartBeatInterval":5000}]
+2023-12-27 16:50:28,720 INFO [com.alibaba.nacos.naming.push.receiver][HostReactor.java:238] - removed ips(1) service: dev@@mynote-note@@DEFAULT -> [{"instanceId":"192.168.75.1#9001#DEFAULT#dev@@mynote-note","ip":"192.168.75.1","port":9001,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"dev@@mynote-note","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatTimeOut":15000,"instanceHeartBeatInterval":5000}]
+2023-12-27 16:50:28,720 DEBUG [nacos.publisher-com.alibaba.nacos.client.naming.event.InstancesChangeEvent][DefaultPublisher.java:193] - [NotifyCenter] the com.alibaba.nacos.client.naming.event.InstancesChangeEvent@274ffb97 will received by com.alibaba.nacos.client.naming.event.InstancesChangeNotifier@78805df3
+2023-12-27 16:50:28,720 DEBUG [nacos.publisher-com.alibaba.nacos.client.naming.event.InstancesChangeEvent][DefaultPublisher.java:193] - [NotifyCenter] the com.alibaba.nacos.client.naming.event.InstancesChangeEvent@274ffb97 will received by com.alibaba.nacos.client.naming.event.InstancesChangeNotifier@78805df3
+2023-12-27 16:50:28,723 INFO [com.alibaba.nacos.naming.push.receiver][HostReactor.java:271] - current ips:(0) service: dev@@mynote-blog@@DEFAULT -> []
+2023-12-27 16:50:28,723 INFO [com.alibaba.nacos.naming.push.receiver][HostReactor.java:271] - current ips:(0) service: dev@@mynote-blog@@DEFAULT -> []
+2023-12-27 16:50:28,726 INFO [com.alibaba.nacos.naming.push.receiver][HostReactor.java:271] - current ips:(0) service: dev@@mynote-note@@DEFAULT -> []
+2023-12-27 16:50:28,726 INFO [com.alibaba.nacos.naming.push.receiver][HostReactor.java:271] - current ips:(0) service: dev@@mynote-note@@DEFAULT -> []
+2023-12-27 16:50:28,824 INFO [com.alibaba.nacos.naming.push.receiver][PushReceiver.java:97] - received push data: {"type":"dom","data":"{\"name\":\"dev@@mynote-system\",\"clusters\":\"DEFAULT\",\"cacheMillis\":10000,\"hosts\":[],\"lastRefTime\":1703667029749,\"checksum\":\"\",\"allIPs\":false,\"reachProtectionThreshold\":false,\"valid\":true}","lastRefTime":24987696696941} from /192.168.0.118
+2023-12-27 16:50:28,824 INFO [com.alibaba.nacos.naming.push.receiver][PushReceiver.java:97] - received push data: {"type":"dom","data":"{\"name\":\"dev@@mynote-system\",\"clusters\":\"DEFAULT\",\"cacheMillis\":10000,\"hosts\":[],\"lastRefTime\":1703667029749,\"checksum\":\"\",\"allIPs\":false,\"reachProtectionThreshold\":false,\"valid\":true}","lastRefTime":24987696696941} from /192.168.0.118
+2023-12-27 16:50:28,825 INFO [com.alibaba.nacos.naming.push.receiver][HostReactor.java:238] - removed ips(1) service: dev@@mynote-system@@DEFAULT -> [{"instanceId":"192.168.75.1#8001#DEFAULT#dev@@mynote-system","ip":"192.168.75.1","port":8001,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"dev@@mynote-system","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatTimeOut":15000,"instanceHeartBeatInterval":5000}]
+2023-12-27 16:50:28,825 INFO [com.alibaba.nacos.naming.push.receiver][HostReactor.java:238] - removed ips(1) service: dev@@mynote-system@@DEFAULT -> [{"instanceId":"192.168.75.1#8001#DEFAULT#dev@@mynote-system","ip":"192.168.75.1","port":8001,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"dev@@mynote-system","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatTimeOut":15000,"instanceHeartBeatInterval":5000}]
+2023-12-27 16:50:28,825 DEBUG [nacos.publisher-com.alibaba.nacos.client.naming.event.InstancesChangeEvent][DefaultPublisher.java:193] - [NotifyCenter] the com.alibaba.nacos.client.naming.event.InstancesChangeEvent@11318cf5 will received by com.alibaba.nacos.client.naming.event.InstancesChangeNotifier@1f235a0a
+2023-12-27 16:50:28,825 DEBUG [nacos.publisher-com.alibaba.nacos.client.naming.event.InstancesChangeEvent][DefaultPublisher.java:193] - [NotifyCenter] the com.alibaba.nacos.client.naming.event.InstancesChangeEvent@11318cf5 will received by com.alibaba.nacos.client.naming.event.InstancesChangeNotifier@1f235a0a
+2023-12-27 16:50:28,829 INFO [com.alibaba.nacos.naming.push.receiver][HostReactor.java:271] - current ips:(0) service: dev@@mynote-system@@DEFAULT -> []
+2023-12-27 16:50:28,829 INFO [com.alibaba.nacos.naming.push.receiver][HostReactor.java:271] - current ips:(0) service: dev@@mynote-system@@DEFAULT -> []
+2023-12-27 16:50:29,155 DEBUG [com.alibaba.nacos.client.naming.updater][NacosRestTemplate.java:476] - HTTP method: GET, url: http://192.168.11.135:8848/nacos/v1/ns/instance/list?app=unknown&healthyOnly=false&namespaceId=a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6&clientIP=192.168.0.118&serviceName=dev%40%40mynote-system&udpPort=52087&clusters=DEFAULT, body: {}
+2023-12-27 16:50:29,155 DEBUG [com.alibaba.nacos.client.naming.updater][NacosRestTemplate.java:476] - HTTP method: GET, url: http://192.168.11.135:8848/nacos/v1/ns/instance/list?app=unknown&healthyOnly=false&namespaceId=a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6&clientIP=192.168.0.118&serviceName=dev%40%40mynote-system&udpPort=52087&clusters=DEFAULT, body: {}
+2023-12-27 16:50:29,659 DEBUG [com.alibaba.nacos.naming.failover][FailoverReactor.java:147] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
+2023-12-27 16:50:29,659 DEBUG [com.alibaba.nacos.naming.failover][FailoverReactor.java:147] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
+2023-12-27 16:50:29,738 INFO [SpringApplicationShutdownHook][BeatReactor.java:149] - com.alibaba.nacos.client.naming.beat.BeatReactor do shutdown stop
+2023-12-27 16:50:29,738 INFO [SpringApplicationShutdownHook][BeatReactor.java:149] - com.alibaba.nacos.client.naming.beat.BeatReactor do shutdown stop
+2023-12-27 16:50:29,738 INFO [SpringApplicationShutdownHook][HostReactor.java:413] - com.alibaba.nacos.client.naming.core.HostReactor do shutdown begin
+2023-12-27 16:50:29,738 INFO [SpringApplicationShutdownHook][HostReactor.java:413] - com.alibaba.nacos.client.naming.core.HostReactor do shutdown begin
+2023-12-27 16:50:30,998 DEBUG [com.alibaba.nacos.naming.failover][FailoverReactor.java:147] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
+2023-12-27 16:50:30,998 DEBUG [com.alibaba.nacos.naming.failover][FailoverReactor.java:147] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
+2023-12-27 16:50:31,077 INFO [SpringApplicationShutdownHook][BeatReactor.java:149] - com.alibaba.nacos.client.naming.beat.BeatReactor do shutdown stop
+2023-12-27 16:50:31,077 INFO [SpringApplicationShutdownHook][BeatReactor.java:149] - com.alibaba.nacos.client.naming.beat.BeatReactor do shutdown stop
+2023-12-27 16:50:31,077 INFO [SpringApplicationShutdownHook][HostReactor.java:413] - com.alibaba.nacos.client.naming.core.HostReactor do shutdown begin
+2023-12-27 16:50:31,077 INFO [SpringApplicationShutdownHook][HostReactor.java:413] - com.alibaba.nacos.client.naming.core.HostReactor do shutdown begin
+2023-12-27 16:50:31,171 DEBUG [com.alibaba.nacos.client.naming.updater][NacosRestTemplate.java:476] - HTTP method: GET, url: http://192.168.11.135:8848/nacos/v1/ns/instance/list?app=unknown&healthyOnly=false&namespaceId=a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6&clientIP=192.168.0.118&serviceName=dev%40%40mynote-system&udpPort=52087&clusters=DEFAULT, body: {}
+2023-12-27 16:50:31,171 DEBUG [com.alibaba.nacos.client.naming.updater][NacosRestTemplate.java:476] - HTTP method: GET, url: http://192.168.11.135:8848/nacos/v1/ns/instance/list?app=unknown&healthyOnly=false&namespaceId=a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6&clientIP=192.168.0.118&serviceName=dev%40%40mynote-system&udpPort=52087&clusters=DEFAULT, body: {}
+2023-12-27 16:50:31,251 INFO [SpringApplicationShutdownHook][BeatReactor.java:149] - com.alibaba.nacos.client.naming.beat.BeatReactor do shutdown stop
+2023-12-27 16:50:31,251 INFO [SpringApplicationShutdownHook][BeatReactor.java:149] - com.alibaba.nacos.client.naming.beat.BeatReactor do shutdown stop
+2023-12-27 16:50:31,252 INFO [SpringApplicationShutdownHook][HostReactor.java:413] - com.alibaba.nacos.client.naming.core.HostReactor do shutdown begin
+2023-12-27 16:50:31,252 INFO [SpringApplicationShutdownHook][HostReactor.java:413] - com.alibaba.nacos.client.naming.core.HostReactor do shutdown begin
+2023-12-27 16:50:32,057 DEBUG [com.alibaba.nacos.client.naming.updater][NacosRestTemplate.java:476] - HTTP method: GET, url: http://192.168.11.135:8848/nacos/v1/ns/instance/list?app=unknown&healthyOnly=false&namespaceId=a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6&clientIP=192.168.0.118&serviceName=dev%40%40mynote-blog&udpPort=53247&clusters=DEFAULT, body: {}
+2023-12-27 16:50:32,057 DEBUG [com.alibaba.nacos.client.naming.updater][NacosRestTemplate.java:476] - HTTP method: GET, url: http://192.168.11.135:8848/nacos/v1/ns/instance/list?app=unknown&healthyOnly=false&namespaceId=a01229f6-fcfb-4dfd-ae9f-ca293ddcbbf6&clientIP=192.168.0.118&serviceName=dev%40%40mynote-blog&udpPort=53247&clusters=DEFAULT, body: {}
+2023-12-27 16:50:32,061 INFO [SpringApplicationShutdownHook][PushReceiver.java:132] - com.alibaba.nacos.client.naming.core.PushReceiver do shutdown begin
+2023-12-27 16:50:32,061 INFO [SpringApplicationShutdownHook][PushReceiver.java:132] - com.alibaba.nacos.client.naming.core.PushReceiver do shutdown begin
+2023-12-27 16:50:32,762 INFO [SpringApplicationShutdownHook][PushReceiver.java:132] - com.alibaba.nacos.client.naming.core.PushReceiver do shutdown begin
+2023-12-27 16:50:32,762 INFO [SpringApplicationShutdownHook][PushReceiver.java:132] - com.alibaba.nacos.client.naming.core.PushReceiver do shutdown begin
+2023-12-27 16:50:33,108 DEBUG [com.alibaba.nacos.naming.failover][FailoverReactor.java:147] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
+2023-12-27 16:50:33,108 DEBUG [com.alibaba.nacos.naming.failover][FailoverReactor.java:147] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
+2023-12-27 16:50:34,279 INFO [SpringApplicationShutdownHook][PushReceiver.java:132] - com.alibaba.nacos.client.naming.core.PushReceiver do shutdown begin
+2023-12-27 16:50:34,279 INFO [SpringApplicationShutdownHook][PushReceiver.java:132] - com.alibaba.nacos.client.naming.core.PushReceiver do shutdown begin
+2023-12-27 16:50:34,670 DEBUG [com.alibaba.nacos.naming.failover][FailoverReactor.java:147] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
+2023-12-27 16:50:34,670 DEBUG [com.alibaba.nacos.naming.failover][FailoverReactor.java:147] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
+2023-12-27 16:50:35,092 INFO [SpringApplicationShutdownHook][PushReceiver.java:136] - com.alibaba.nacos.client.naming.core.PushReceiver do shutdown stop
+2023-12-27 16:50:35,092 INFO [SpringApplicationShutdownHook][PushReceiver.java:136] - com.alibaba.nacos.client.naming.core.PushReceiver do shutdown stop
+2023-12-27 16:50:35,092 INFO [SpringApplicationShutdownHook][FailoverReactor.java:132] - com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown begin
+2023-12-27 16:50:35,092 INFO [SpringApplicationShutdownHook][FailoverReactor.java:132] - com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown begin
+2023-12-27 16:50:35,092 INFO [SpringApplicationShutdownHook][FailoverReactor.java:134] - com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown stop
+2023-12-27 16:50:35,092 INFO [SpringApplicationShutdownHook][FailoverReactor.java:134] - com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown stop
+2023-12-27 16:50:35,092 INFO [SpringApplicationShutdownHook][HostReactor.java:418] - com.alibaba.nacos.client.naming.core.HostReactor do shutdown stop
+2023-12-27 16:50:35,092 INFO [SpringApplicationShutdownHook][HostReactor.java:418] - com.alibaba.nacos.client.naming.core.HostReactor do shutdown stop
+2023-12-27 16:50:35,093 INFO [SpringApplicationShutdownHook][NamingProxy.java:719] - com.alibaba.nacos.client.naming.net.NamingProxy do shutdown begin
+2023-12-27 16:50:35,093 INFO [SpringApplicationShutdownHook][NamingProxy.java:719] - com.alibaba.nacos.client.naming.net.NamingProxy do shutdown begin
+2023-12-27 16:50:35,093 WARN [SpringApplicationShutdownHook][NamingHttpClientManager.java:72] - [NamingHttpClientManager] Start destroying NacosRestTemplate
+2023-12-27 16:50:35,093 WARN [SpringApplicationShutdownHook][NamingHttpClientManager.java:72] - [NamingHttpClientManager] Start destroying NacosRestTemplate
+2023-12-27 16:50:35,093 WARN [SpringApplicationShutdownHook][NamingHttpClientManager.java:79] - [NamingHttpClientManager] Destruction of the end
+2023-12-27 16:50:35,093 WARN [SpringApplicationShutdownHook][NamingHttpClientManager.java:79] - [NamingHttpClientManager] Destruction of the end
+2023-12-27 16:50:35,093 INFO [SpringApplicationShutdownHook][CredentialWatcher.java:105] - [null] CredentialWatcher is stopped
+2023-12-27 16:50:35,093 INFO [SpringApplicationShutdownHook][CredentialWatcher.java:105] - [null] CredentialWatcher is stopped
+2023-12-27 16:50:35,093 INFO [SpringApplicationShutdownHook][CredentialService.java:98] - [null] CredentialService is freed
+2023-12-27 16:50:35,093 INFO [SpringApplicationShutdownHook][CredentialService.java:98] - [null] CredentialService is freed
+2023-12-27 16:50:35,093 INFO [SpringApplicationShutdownHook][NamingProxy.java:723] - com.alibaba.nacos.client.naming.net.NamingProxy do shutdown stop
+2023-12-27 16:50:35,093 INFO [SpringApplicationShutdownHook][NamingProxy.java:723] - com.alibaba.nacos.client.naming.net.NamingProxy do shutdown stop
+2023-12-27 16:50:35,096 DEBUG [SpringApplicationShutdownHook][AbstractRedisClient.java:539] - Initiate shutdown (100, 100, MILLISECONDS)
+2023-12-27 16:50:35,096 DEBUG [SpringApplicationShutdownHook][AbstractRedisClient.java:539] - Initiate shutdown (100, 100, MILLISECONDS)
+2023-12-27 16:50:35,099 DEBUG [SpringApplicationShutdownHook][DefaultClientResources.java:735] - Initiate shutdown (0, 2, SECONDS)
+2023-12-27 16:50:35,099 DEBUG [SpringApplicationShutdownHook][DefaultClientResources.java:735] - Initiate shutdown (0, 2, SECONDS)
+2023-12-27 16:50:35,100 DEBUG [SpringApplicationShutdownHook][DefaultEventLoopGroupProvider.java:317] - Initiate shutdown (0, 2, SECONDS)
+2023-12-27 16:50:35,100 DEBUG [SpringApplicationShutdownHook][DefaultEventLoopGroupProvider.java:317] - Initiate shutdown (0, 2, SECONDS)
+2023-12-27 16:50:35,784 INFO [SpringApplicationShutdownHook][PushReceiver.java:136] - com.alibaba.nacos.client.naming.core.PushReceiver do shutdown stop
+2023-12-27 16:50:35,784 INFO [SpringApplicationShutdownHook][PushReceiver.java:136] - com.alibaba.nacos.client.naming.core.PushReceiver do shutdown stop
+2023-12-27 16:50:35,784 INFO [SpringApplicationShutdownHook][FailoverReactor.java:132] - com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown begin
+2023-12-27 16:50:35,784 INFO [SpringApplicationShutdownHook][FailoverReactor.java:132] - com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown begin
+2023-12-27 16:50:35,785 INFO [SpringApplicationShutdownHook][FailoverReactor.java:134] - com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown stop
+2023-12-27 16:50:35,785 INFO [SpringApplicationShutdownHook][FailoverReactor.java:134] - com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown stop
+2023-12-27 16:50:35,785 INFO [SpringApplicationShutdownHook][HostReactor.java:418] - com.alibaba.nacos.client.naming.core.HostReactor do shutdown stop
+2023-12-27 16:50:35,785 INFO [SpringApplicationShutdownHook][HostReactor.java:418] - com.alibaba.nacos.client.naming.core.HostReactor do shutdown stop
+2023-12-27 16:50:35,785 INFO [SpringApplicationShutdownHook][NamingProxy.java:719] - com.alibaba.nacos.client.naming.net.NamingProxy do shutdown begin
+2023-12-27 16:50:35,785 INFO [SpringApplicationShutdownHook][NamingProxy.java:719] - com.alibaba.nacos.client.naming.net.NamingProxy do shutdown begin
+2023-12-27 16:50:35,785 WARN [SpringApplicationShutdownHook][NamingHttpClientManager.java:72] - [NamingHttpClientManager] Start destroying NacosRestTemplate
+2023-12-27 16:50:35,785 WARN [SpringApplicationShutdownHook][NamingHttpClientManager.java:79] - [NamingHttpClientManager] Destruction of the end
+2023-12-27 16:50:35,785 WARN [SpringApplicationShutdownHook][NamingHttpClientManager.java:72] - [NamingHttpClientManager] Start destroying NacosRestTemplate
+2023-12-27 16:50:35,785 INFO [SpringApplicationShutdownHook][CredentialWatcher.java:105] - [null] CredentialWatcher is stopped
+2023-12-27 16:50:35,785 WARN [SpringApplicationShutdownHook][NamingHttpClientManager.java:79] - [NamingHttpClientManager] Destruction of the end
+2023-12-27 16:50:35,785 INFO [SpringApplicationShutdownHook][CredentialService.java:98] - [null] CredentialService is freed
+2023-12-27 16:50:35,785 INFO [SpringApplicationShutdownHook][CredentialWatcher.java:105] - [null] CredentialWatcher is stopped
+2023-12-27 16:50:35,785 INFO [SpringApplicationShutdownHook][CredentialService.java:98] - [null] CredentialService is freed
+2023-12-27 16:50:35,785 INFO [SpringApplicationShutdownHook][NamingProxy.java:723] - com.alibaba.nacos.client.naming.net.NamingProxy do shutdown stop
+2023-12-27 16:50:35,785 INFO [SpringApplicationShutdownHook][NamingProxy.java:723] - com.alibaba.nacos.client.naming.net.NamingProxy do shutdown stop
+2023-12-27 16:50:35,788 DEBUG [SpringApplicationShutdownHook][AbstractRedisClient.java:539] - Initiate shutdown (100, 100, MILLISECONDS)
+2023-12-27 16:50:35,788 DEBUG [SpringApplicationShutdownHook][AbstractRedisClient.java:539] - Initiate shutdown (100, 100, MILLISECONDS)
+2023-12-27 16:50:35,793 DEBUG [SpringApplicationShutdownHook][DefaultClientResources.java:735] - Initiate shutdown (0, 2, SECONDS)
+2023-12-27 16:50:35,793 DEBUG [SpringApplicationShutdownHook][DefaultClientResources.java:735] - Initiate shutdown (0, 2, SECONDS)
+2023-12-27 16:50:35,794 DEBUG [SpringApplicationShutdownHook][DefaultEventLoopGroupProvider.java:317] - Initiate shutdown (0, 2, SECONDS)
+2023-12-27 16:50:35,794 DEBUG [SpringApplicationShutdownHook][DefaultEventLoopGroupProvider.java:317] - Initiate shutdown (0, 2, SECONDS)
+2023-12-27 16:50:37,298 INFO [SpringApplicationShutdownHook][PushReceiver.java:136] - com.alibaba.nacos.client.naming.core.PushReceiver do shutdown stop
+2023-12-27 16:50:37,298 INFO [SpringApplicationShutdownHook][PushReceiver.java:136] - com.alibaba.nacos.client.naming.core.PushReceiver do shutdown stop
+2023-12-27 16:50:37,299 INFO [SpringApplicationShutdownHook][FailoverReactor.java:132] - com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown begin
+2023-12-27 16:50:37,299 INFO [SpringApplicationShutdownHook][FailoverReactor.java:132] - com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown begin
+2023-12-27 16:50:37,300 INFO [SpringApplicationShutdownHook][FailoverReactor.java:134] - com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown stop
+2023-12-27 16:50:37,300 INFO [SpringApplicationShutdownHook][FailoverReactor.java:134] - com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown stop
+2023-12-27 16:50:37,300 INFO [SpringApplicationShutdownHook][HostReactor.java:418] - com.alibaba.nacos.client.naming.core.HostReactor do shutdown stop
+2023-12-27 16:50:37,300 INFO [SpringApplicationShutdownHook][HostReactor.java:418] - com.alibaba.nacos.client.naming.core.HostReactor do shutdown stop
+2023-12-27 16:50:37,300 INFO [SpringApplicationShutdownHook][NamingProxy.java:719] - com.alibaba.nacos.client.naming.net.NamingProxy do shutdown begin
+2023-12-27 16:50:37,300 INFO [SpringApplicationShutdownHook][NamingProxy.java:719] - com.alibaba.nacos.client.naming.net.NamingProxy do shutdown begin
+2023-12-27 16:50:37,301 WARN [SpringApplicationShutdownHook][NamingHttpClientManager.java:72] - [NamingHttpClientManager] Start destroying NacosRestTemplate
+2023-12-27 16:50:37,301 WARN [SpringApplicationShutdownHook][NamingHttpClientManager.java:72] - [NamingHttpClientManager] Start destroying NacosRestTemplate
+2023-12-27 16:50:37,301 WARN [SpringApplicationShutdownHook][NamingHttpClientManager.java:79] - [NamingHttpClientManager] Destruction of the end
+2023-12-27 16:50:37,301 WARN [SpringApplicationShutdownHook][NamingHttpClientManager.java:79] - [NamingHttpClientManager] Destruction of the end
+2023-12-27 16:50:37,301 INFO [SpringApplicationShutdownHook][CredentialWatcher.java:105] - [null] CredentialWatcher is stopped
+2023-12-27 16:50:37,301 INFO [SpringApplicationShutdownHook][CredentialWatcher.java:105] - [null] CredentialWatcher is stopped
+2023-12-27 16:50:37,301 INFO [SpringApplicationShutdownHook][CredentialService.java:98] - [null] CredentialService is freed
+2023-12-27 16:50:37,301 INFO [SpringApplicationShutdownHook][CredentialService.java:98] - [null] CredentialService is freed
+2023-12-27 16:50:37,302 INFO [SpringApplicationShutdownHook][NamingProxy.java:723] - com.alibaba.nacos.client.naming.net.NamingProxy do shutdown stop
+2023-12-27 16:50:37,302 INFO [SpringApplicationShutdownHook][NamingProxy.java:723] - com.alibaba.nacos.client.naming.net.NamingProxy do shutdown stop
+2023-12-27 16:50:37,307 DEBUG [SpringApplicationShutdownHook][AbstractRedisClient.java:539] - Initiate shutdown (100, 100, MILLISECONDS)
+2023-12-27 16:50:37,307 DEBUG [SpringApplicationShutdownHook][AbstractRedisClient.java:539] - Initiate shutdown (100, 100, MILLISECONDS)
+2023-12-27 16:50:37,313 DEBUG [SpringApplicationShutdownHook][DefaultClientResources.java:735] - Initiate shutdown (0, 2, SECONDS)
+2023-12-27 16:50:37,313 DEBUG [SpringApplicationShutdownHook][DefaultClientResources.java:735] - Initiate shutdown (0, 2, SECONDS)
+2023-12-27 16:50:37,314 DEBUG [SpringApplicationShutdownHook][DefaultEventLoopGroupProvider.java:317] - Initiate shutdown (0, 2, SECONDS)
+2023-12-27 16:50:37,314 DEBUG [SpringApplicationShutdownHook][DefaultEventLoopGroupProvider.java:317] - Initiate shutdown (0, 2, SECONDS)
